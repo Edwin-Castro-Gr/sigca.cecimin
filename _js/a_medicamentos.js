@@ -284,7 +284,7 @@ $(function () {
 
 	    if (datos[0] == "btnverpfd"){
 	    	var idreg = dato.substr(10);
-	    	var pdfUrl = "https://ceciminsigca.com/"+idreg+"";
+	    	var pdfUrl = "https://sigca.cecimin.com.co/"+idreg+"";
 	    	// alert(idreg);
 	    	if(idreg !=""){
 	    		$('#pdfIframe').attr('src', pdfUrl);

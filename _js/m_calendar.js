@@ -126,7 +126,7 @@ $(function () {
         }
       },
 
-      events: 'https://ceciminsigca.com/m_calendario/cargar_mantenimientos',
+      events: 'https://sigca.cecimin.com.co/m_calendario/cargar_mantenimientos',
 
       select: function (date) {
         let texto = "";

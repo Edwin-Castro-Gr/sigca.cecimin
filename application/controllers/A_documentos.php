@@ -1308,7 +1308,7 @@ class A_documentos extends CI_Controller {
 								$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
 								$cuerpo .= "<br>\r\n";
 								$cuerpo .= "<br>\r\n";
-								$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">CECIMINSIGCA.COM</a></font></div>\r\n";									
+								$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">sigca.cecimin.com.co</a></font></div>\r\n";									
 							    $cuerpo .= "<br>\r\n";		
 							    $cuerpo .= "<br>\r\n";
 							    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
@@ -1319,7 +1319,7 @@ class A_documentos extends CI_Controller {
 							    $cuerpo .= "<br>\r\n";
 							    $cuerpo .= "<div><font size='3'>".$usuario."</font></div>\r\n";
 							    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-							    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";				
+							    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
 								$cuerpo .= "<br>\r\n";
 								$cuerpo .= "<br>\r\n";		
 							    $cuerpo .= "<br>\r\n";
@@ -1400,7 +1400,7 @@ class A_documentos extends CI_Controller {
 								$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
 								$cuerpo .= "<br>\r\n";
 								$cuerpo .= "<br>\r\n";
-								$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">CECIMINSIGCA.COM</a></font></div>\r\n";									
+								$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">sigca.cecimin.com.co</a></font></div>\r\n";									
 							    $cuerpo .= "<br>\r\n";		
 							    $cuerpo .= "<br>\r\n";
 							    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
@@ -1411,7 +1411,7 @@ class A_documentos extends CI_Controller {
 							    $cuerpo .= "<br>\r\n";
 							    $cuerpo .= "<div><font size='3'>SAMANTA RODRIGUEZ PACHECO</font></div>\r\n";
 							    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-							    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";		
+							    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";		
 							    $cuerpo .= "<br>\r\n";
 								$cuerpo .= "<br>\r\n";		
 							    $cuerpo .= "<br>\r\n";
@@ -1926,7 +1926,7 @@ class A_documentos extends CI_Controller {
 									$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
 									$cuerpo .= "<br>\r\n";
 									$cuerpo .= "<br>\r\n";
-									$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">CECIMINSIGCA.COM</a></font></div>\r\n";									
+									$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">sigca.cecimin.com.co</a></font></div>\r\n";									
 								    $cuerpo .= "<br>\r\n";		
 								    $cuerpo .= "<br>\r\n";
 								    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
@@ -1937,7 +1937,7 @@ class A_documentos extends CI_Controller {
 								    $cuerpo .= "<br>\r\n";
 								    $cuerpo .= "<div><font size='3'>".$usuario."</font></div>\r\n";
 								    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-								    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";				
+								    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
 									$cuerpo .= "<br>\r\n";
 									$cuerpo .= "<br>\r\n";		
 								    $cuerpo .= "<br>\r\n";
@@ -2032,7 +2032,7 @@ class A_documentos extends CI_Controller {
 									$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
 									$cuerpo .= "<br>\r\n";
 									$cuerpo .= "<br>\r\n";
-									$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">CECIMINSIGCA.COM</a></font></div>\r\n";									
+									$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar la publicación oficial del documento ".$nombre_documento.", desde el ".$fecha." el cual podrá visualizar a través de la plataforma SIGCA ingresando al siguiente link: <a <a href=".base_url('home/index').">sigca.cecimin.com.co</a></font></div>\r\n";									
 								    $cuerpo .= "<br>\r\n";		
 								    $cuerpo .= "<br>\r\n";
 								    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
@@ -2043,7 +2043,7 @@ class A_documentos extends CI_Controller {
 								    $cuerpo .= "<br>\r\n";
 								    $cuerpo .= "<div><font size='3'>SAMANTA RODRIGUEZ PACHECO</font></div>\r\n";
 								    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-								    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";		
+								    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";		
 								    $cuerpo .= "<br>\r\n";
 									$cuerpo .= "<br>\r\n";		
 								    $cuerpo .= "<br>\r\n";

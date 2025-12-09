@@ -240,7 +240,7 @@ class Contactenos extends CI_Controller {
 				$qradicado = $radicado.$query;
 				
 				$correo_remitente ='Contactenos';
-	            $correo_usuario = 'contactenos@ceciminsigca.com';
+	            $correo_usuario = 'contactenos@sigca.cecimin.com.co';
 	            $correo_cc = 'infocecimin@colsanitas.com';
 				
 				$asunto ="'".$textmotivo.' de '.$contacto.' - fecha: '.$fecha."'";
@@ -268,7 +268,7 @@ class Contactenos extends CI_Controller {
 			    $mensaje .= "<br>\r\n";
 			    $mensaje .= "<br>\r\n";		    
 			    $mensaje .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 				$mensaje .= "<br>\r\n";
 					
 				// Archivos a adjuntar
@@ -294,7 +294,7 @@ class Contactenos extends CI_Controller {
 						
 						$correo_remitente ='Contactenos';
 			            $correo_usuario = $email;
-			            $correo_cc = 'contactenos@ceciminsigca.com';				
+			            $correo_cc = 'contactenos@sigca.cecimin.com.co';				
 						
 						$asunto ="Radicado No".$radicado." de ".$textmotivo." - fecha: ".$fecha."";
 
@@ -314,7 +314,7 @@ class Contactenos extends CI_Controller {
 					    $mensaje .= "<div><font size='3'>Coordinadora de Mercadeo y atención al Usuario</font></div>\r\n";
 					    $mensaje .= "<div><font size='3'>Avenida Carrera 45 N°104-73 Piso 7</font></div>\r\n";
 					    $mensaje .= "<div><font size='2'>(601) 6002555 ext.1172 </font></div>\r\n";
-					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 						$mensaje .= "<br>\r\n";
 					
 						// Archivos a adjuntar

@@ -2984,7 +2984,7 @@ DEBUG - 2025-07-09 07:38:21 --> Total execution time: 0.1833
 DEBUG - 2025-07-09 12:38:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 12:38:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 12:38:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 07:38:24 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 07:38:24 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 07:38:24 --> Total execution time: 0.0099
 DEBUG - 2025-07-09 12:38:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 12:38:24 --> Global POST, GET and COOKIE data sanitized
@@ -5428,7 +5428,7 @@ DEBUG - 2025-07-09 08:49:53 --> Total execution time: 0.1622
 DEBUG - 2025-07-09 13:49:56 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 13:49:56 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 13:49:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 08:49:56 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 08:49:56 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 08:49:56 --> Total execution time: 0.0064
 DEBUG - 2025-07-09 13:49:57 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 13:49:57 --> Global POST, GET and COOKIE data sanitized
@@ -6773,7 +6773,7 @@ DEBUG - 2025-07-09 09:28:11 --> Total execution time: 0.0041
 DEBUG - 2025-07-09 14:28:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:28:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 14:28:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 09:28:17 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 09:28:17 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 09:28:17 --> Total execution time: 0.0161
 DEBUG - 2025-07-09 14:28:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:28:18 --> Global POST, GET and COOKIE data sanitized
@@ -7017,7 +7017,7 @@ DEBUG - 2025-07-09 09:34:45 --> Total execution time: 0.0135
 DEBUG - 2025-07-09 14:34:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:34:46 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 14:34:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 09:34:46 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 09:34:46 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 09:34:46 --> Total execution time: 0.0094
 DEBUG - 2025-07-09 14:34:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:34:47 --> Global POST, GET and COOKIE data sanitized
@@ -7603,7 +7603,7 @@ DEBUG - 2025-07-09 09:52:55 --> Total execution time: 0.0101
 DEBUG - 2025-07-09 14:52:58 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:52:58 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 14:52:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 09:52:58 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 09:52:58 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 09:52:58 --> Total execution time: 0.0097
 DEBUG - 2025-07-09 14:52:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 14:52:59 --> Global POST, GET and COOKIE data sanitized
@@ -8624,17 +8624,17 @@ ERROR - 2025-07-09 10:24:30 --> 220 ESMTP smtp.hostinger.com
 </pre><pre>to: 250 2.1.5 Ok
 </pre><pre>to: 250 2.1.5 Ok
 </pre><pre>data: </pre>The following SMTP error was encountered: <br /><pre>quit: </pre>The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Wed, 9 Jul 2025 10:24:19 -0500
-From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@ceciminsigca.com&gt;
-Return-Path: &lt;citasmedicamentos@ceciminsigca.com&gt;
-Cc: citasmedicamentos@ceciminsigca.com
+From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Return-Path: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Cc: citasmedicamentos@sigca.cecimin.com.co
 To: citasmedicamentos@saludinteligente.com
 Subject: =?UTF-8?Q?Solicitud=20Administraci=C3=B3n=20Medicamentos=20-=2017178903?=
-Reply-To: &lt;citasmedicamentos@ceciminsigca.com&gt;
+Reply-To: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
 User-Agent: CodeIgniter
-X-Sender: citasmedicamentos@ceciminsigca.com
+X-Sender: citasmedicamentos@sigca.cecimin.com.co
 X-Mailer: CodeIgniter
 X-Priority: 3 (Normal)
-Message-ID: &lt;686e89a344fee@ceciminsigca.com&gt;
+Message-ID: &lt;686e89a344fee@sigca.cecimin.com.co&gt;
 Mime-Version: 1.0
 
 
@@ -8705,7 +8705,7 @@ t=3E=3C/div=3E
 =3Cdiv=3E=3Cfont size=3D'2'=3ECorreo enviado desde https://cecimin.com.co=
 =3C/font=3E=3C/div=3E
 =3Cdiv=3E=3Cimg style=3D'display:flex=3Bmargin-left:5=3B width:180px' src=
-=3D'https://ceciminsigca.com/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
+=3D'https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
 
 --B_ALT_686e89a34500f--
 
@@ -12619,7 +12619,7 @@ DEBUG - 2025-07-09 10:48:45 --> Total execution time: 0.0104
 DEBUG - 2025-07-09 15:48:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 15:48:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 15:48:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 10:48:49 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 10:48:49 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 10:48:49 --> Total execution time: 0.0091
 DEBUG - 2025-07-09 15:48:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 15:48:49 --> Global POST, GET and COOKIE data sanitized
@@ -15062,7 +15062,7 @@ DEBUG - 2025-07-09 11:28:21 --> Total execution time: 0.0153
 DEBUG - 2025-07-09 16:28:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 16:28:22 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 16:28:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 11:28:22 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 11:28:22 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 11:28:22 --> Total execution time: 0.0109
 DEBUG - 2025-07-09 16:28:23 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 16:28:23 --> Global POST, GET and COOKIE data sanitized
@@ -17018,7 +17018,7 @@ DEBUG - 2025-07-09 12:02:02 --> Total execution time: 0.0165
 DEBUG - 2025-07-09 17:02:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 17:02:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-09 17:02:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-09 12:02:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-09 12:02:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-09 12:02:07 --> Total execution time: 0.0194
 DEBUG - 2025-07-09 17:02:08 --> UTF-8 Support Enabled
 DEBUG - 2025-07-09 17:02:08 --> Global POST, GET and COOKIE data sanitized
@@ -25420,80 +25420,80 @@ DEBUG - 2025-07-09 21:29:40 --> Total execution time: 0.0110
 DEBUG - 2025-07-09 21:29:44 --> Total execution time: 0.0640
 DEBUG - 2025-07-09 21:29:45 --> Total execution time: 0.0086
 DEBUG - 2025-07-09 21:29:45 --> Total execution time: 0.0138
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:48 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:29:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:51 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:29:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:53 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:29:53 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:55 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:29:55 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:48 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:48 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:29:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:51 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:51 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:29:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:53 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:53 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:29:53 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:55 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:55 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:29:55 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-07-09 21:29:55 --> Total execution time: 0.0082
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:29:57 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:29:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:00 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:30:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:02 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:30:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:03 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:30:03 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:29:57 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:29:57 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:29:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:00 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:00 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:30:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:02 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:02 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:30:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:03 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:03 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:30:03 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-07-09 21:30:05 --> Total execution time: 0.0089
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 882
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 883
-ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 884
-ERROR - 2025-07-09 21:30:06 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-09 21:30:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Asistente /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 882
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Cargo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 883
+ERROR - 2025-07-09 21:30:06 --> Severity: Notice --> Undefined property: stdClass::$Fecha_Firma /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 884
+ERROR - 2025-07-09 21:30:06 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-09 21:30:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-07-09 21:30:15 --> Total execution time: 0.0128
 DEBUG - 2025-07-09 21:30:25 --> Total execution time: 0.0113
 DEBUG - 2025-07-09 21:30:35 --> Total execution time: 0.0128
@@ -25529,18 +25529,18 @@ DEBUG - 2025-07-09 21:40:19 --> Email class already loaded. Second attempt ignor
 DEBUG - 2025-07-09 21:40:22 --> Total execution time: 5.3727
 DEBUG - 2025-07-09 21:40:29 --> Total execution time: 0.0130
 DEBUG - 2025-07-09 21:40:39 --> Total execution time: 0.0060
-ERROR - 2025-07-09 21:40:47 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
-ERROR - 2025-07-09 21:40:50 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
-ERROR - 2025-07-09 21:40:52 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:40:47 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:40:50 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:40:52 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
 DEBUG - 2025-07-09 21:40:54 --> Total execution time: 0.0114
 DEBUG - 2025-07-09 21:41:03 --> Total execution time: 0.0108
 DEBUG - 2025-07-09 21:41:13 --> Total execution time: 0.0084
 DEBUG - 2025-07-09 21:41:20 --> Total execution time: 0.0104
 DEBUG - 2025-07-09 21:41:21 --> Total execution time: 0.0088
 DEBUG - 2025-07-09 21:41:21 --> Total execution time: 0.0104
-ERROR - 2025-07-09 21:41:23 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
-ERROR - 2025-07-09 21:41:26 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
-ERROR - 2025-07-09 21:41:28 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:41:23 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:41:26 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
+ERROR - 2025-07-09 21:41:28 --> Severity: error --> Exception: syntax error, unexpected ''â€¢'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 45
 DEBUG - 2025-07-09 21:41:32 --> Total execution time: 0.0096
 DEBUG - 2025-07-09 21:41:42 --> Total execution time: 0.0105
 DEBUG - 2025-07-09 21:41:49 --> Total execution time: 0.0408

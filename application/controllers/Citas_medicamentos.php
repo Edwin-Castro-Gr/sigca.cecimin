@@ -537,7 +537,7 @@ class Citas_medicamentos extends CI_Controller {
 
 	    $correo_remitente = 'Citas Medicamentos';
 	    $correo_usuario = 'citasmedicamentos@saludinteligente.com';
-	    $correo_cc = 'citasmedicamentos@ceciminsigca.com';
+	    $correo_cc = 'citasmedicamentos@sigca.cecimin.com.co';
 	    $adjuntos = [FCPATH . $data['ruta'] . $this->upload->data()['file_name']];	
 	
 	    $responseCorreo = enviar_correo($correo_usuario, $asunto, $mensaje, 'citas', $correo_remitente, $adjuntos, $correo_cc);
@@ -571,7 +571,7 @@ class Citas_medicamentos extends CI_Controller {
 	    $mensaje .= "<br>\r\n";
 	    $mensaje .= "<br>\r\n";
 	    $mensaje .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-	    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+	    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 	    $mensaje .= "<br>\r\n";
 
 	    return $mensaje;
@@ -596,12 +596,12 @@ class Citas_medicamentos extends CI_Controller {
 	    $mensaje .= "<div><font size='3'>Avenida Carrera 45 No. 104-76 piso 3</font></div>\r\n";
 	    $mensaje .= "<div><font size='3'> (601) 6002555 Ext.1236 </font></div>\r\n";
 	    $mensaje .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-	    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+	    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 	    $mensaje .= "<br>\r\n";
 
 	    $correo_remitente = 'Citas Medicamentos';
 	    $correo_usuario = $data['email'];
-	    $correo_cc = 'citasmedicamentos@ceciminsigca.com';
+	    $correo_cc = 'citasmedicamentos@sigca.cecimin.com.co';
 
 	    $responseCorreo = enviar_correo($correo_usuario, $asunto, $mensaje, 'citas', $correo_remitente, null, $correo_cc);
 
@@ -760,7 +760,7 @@ class Citas_medicamentos extends CI_Controller {
 
 				$correo_remitente ='Citas Medicamentos';
             	
-			    $correo_cc  ='citasmedicamentos@ceciminsigca.com';
+			    $correo_cc  ='citasmedicamentos@sigca.cecimin.com.co';
 				$correo_usuario =$email; //destinatario
 				
 				$asunto ="Respuesta a Solicitud Administración Medicamentos - ".$cedula."";
@@ -809,7 +809,7 @@ class Citas_medicamentos extends CI_Controller {
 			    $mensaje .= "<div><font size='3'> (601) 6002555 Ext.1236 </font></div>\r\n";
 
 			    $mensaje .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 				$mensaje .= "<br>\r\n";
 
 				// Archivos a adjuntar

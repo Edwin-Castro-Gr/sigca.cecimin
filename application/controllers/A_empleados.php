@@ -122,7 +122,7 @@ class A_empleados extends CI_Controller {
 					$mensaje .= "<div><font size='3'>Reciba un cordial saludo,</font></div>\r\n";
 					$mensaje .= "<br>\r\n";
 					$mensaje .= "<br>\r\n";
-					$mensaje .= "<div><font size='3'> Este mensaje tiene como  objetivo informarle que SIGCA es el sistema de Gestión documental de Cecimin en el cual encuentra protocolos, procedimientos, formatos, manuales y demás documentación que se maneja en la institución, puede ser consultada a través de la página web de CECIMIN S.A.S. o en el siguiente enlace: <a href='https://ceciminsigca.com/' title='Sigca'>SIGCA</a></font></div>\r\n";										
+					$mensaje .= "<div><font size='3'> Este mensaje tiene como  objetivo informarle que SIGCA es el sistema de Gestión documental de Cecimin en el cual encuentra protocolos, procedimientos, formatos, manuales y demás documentación que se maneja en la institución, puede ser consultada a través de la página web de CECIMIN S.A.S. o en el siguiente enlace: <a href='https://sigca.cecimin.com.co/' title='Sigca'>SIGCA</a></font></div>\r\n";										
 				    $mensaje .= "<br>\r\n";	
 				    $mensaje .= "<div><font size='3'> Para acceder a SIGCA compartimos su usuario y contraseña inicial es su número de documento de identidad.</font></div>\r\n";	
 				    $mensaje .= "<br>\r\n";
@@ -133,7 +133,7 @@ class A_empleados extends CI_Controller {
 				    $mensaje .= "<br>\r\n";		
 				    $mensaje .= "<br>\r\n";				   
 				    $mensaje .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";				
+				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
 					$mensaje .= "<br>\r\n";
 					$mensaje .= "<br>\r\n";		
 				    $mensaje .= "<br>\r\n";
@@ -378,7 +378,7 @@ class A_empleados extends CI_Controller {
 						$mensaje .= "<div><font size='3'>Reciba un cordial saludo,</font></div>\r\n";
 						$mensaje .= "<br>\r\n";
 						$mensaje .= "<br>\r\n";
-						$mensaje .= "<div><font size='3'>Este mensaje tiene como  objetivo informarle que SIGCA es el sistema de Gestión documental de Cecimin en el cual encuentra protocolos, procedimientos, formatos, manuales y demás documentación que se maneja en la institución, puede ser consultada  a través de la página web de CECIMIN S.A.S. o en el siguiente enlace: <a href='https://ceciminsigca.com' title='Sigca'>SIGCA</a></font></div>\r\n";									
+						$mensaje .= "<div><font size='3'>Este mensaje tiene como  objetivo informarle que SIGCA es el sistema de Gestión documental de Cecimin en el cual encuentra protocolos, procedimientos, formatos, manuales y demás documentación que se maneja en la institución, puede ser consultada  a través de la página web de CECIMIN S.A.S. o en el siguiente enlace: <a href='https://sigca.cecimin.com.co' title='Sigca'>SIGCA</a></font></div>\r\n";									
 					    $mensaje .= "<br>\r\n";	
 					    $mensaje .= "<div><font size='3'>Para acceder a SIGCA compartimos su usuario y contraseña inicial es su número de documento de identidad.</font></div>\r\n";	
 					    $mensaje .= "<br>\r\n";
@@ -389,7 +389,7 @@ class A_empleados extends CI_Controller {
 					    $mensaje .= "<br>\r\n";		
 					    $mensaje .= "<br>\r\n";				   
 					    $mensaje .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";				
+					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
 						$mensaje .= "<br>\r\n";
 						$mensaje .= "<br>\r\n";		
 					    $mensaje .= "<br>\r\n";

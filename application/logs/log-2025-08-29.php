@@ -2623,7 +2623,7 @@ DEBUG - 2025-08-29 07:04:30 --> Total execution time: 0.1828
 DEBUG - 2025-08-29 12:04:33 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 12:04:33 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 12:04:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 07:04:33 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 07:04:33 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 07:04:33 --> Total execution time: 0.0084
 DEBUG - 2025-08-29 12:04:34 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 12:04:34 --> Global POST, GET and COOKIE data sanitized
@@ -2764,7 +2764,7 @@ DEBUG - 2025-08-29 07:09:06 --> Total execution time: 0.2292
 DEBUG - 2025-08-29 12:09:08 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 12:09:08 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 12:09:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 07:09:08 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 07:09:08 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 07:09:08 --> Total execution time: 0.0070
 DEBUG - 2025-08-29 12:09:08 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 12:09:08 --> Global POST, GET and COOKIE data sanitized
@@ -5168,7 +5168,7 @@ DEBUG - 2025-08-29 08:22:19 --> Total execution time: 0.0116
 DEBUG - 2025-08-29 13:22:23 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 13:22:23 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 13:22:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 08:22:23 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 08:22:23 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 08:22:23 --> Total execution time: 0.0111
 DEBUG - 2025-08-29 13:22:23 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 13:22:23 --> Global POST, GET and COOKIE data sanitized
@@ -7468,7 +7468,7 @@ DEBUG - 2025-08-29 09:20:49 --> Total execution time: 0.0054
 DEBUG - 2025-08-29 14:20:49 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:20:49 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:20:49 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:20:49 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7480,7 +7480,7 @@ DEBUG - 2025-08-29 09:20:50 --> Total execution time: 0.0046
 DEBUG - 2025-08-29 14:20:50 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:20:50 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:20:50 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:20:53 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7488,11 +7488,11 @@ DEBUG - 2025-08-29 09:20:53 --> Total execution time: 0.0103
 DEBUG - 2025-08-29 14:20:55 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:20:55 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:20:55 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:20:58 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:58 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:20:58 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:20:58 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:20:59 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:20:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:20:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7512,7 +7512,7 @@ DEBUG - 2025-08-29 09:21:00 --> Total execution time: 0.0125
 DEBUG - 2025-08-29 14:21:02 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:21:02 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:21:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:21:02 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:21:02 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:21:03 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:21:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:21:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7520,7 +7520,7 @@ DEBUG - 2025-08-29 09:21:03 --> Total execution time: 0.0094
 DEBUG - 2025-08-29 14:21:04 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:21:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:21:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:21:04 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:21:04 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:21:11 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:21:11 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:21:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7674,11 +7674,11 @@ DEBUG - 2025-08-29 14:22:53 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-08-29 14:22:53 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:22:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:22:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:22:53 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:22:53 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:22:54 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:22:54 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:22:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:22:54 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:22:54 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 09:22:55 --> Total execution time: 2.0149
 DEBUG - 2025-08-29 09:22:55 --> Total execution time: 1.6304
 DEBUG - 2025-08-29 14:22:56 --> UTF-8 Support Enabled
@@ -7696,7 +7696,7 @@ DEBUG - 2025-08-29 09:22:57 --> Total execution time: 0.2830
 DEBUG - 2025-08-29 14:23:00 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:23:00 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:23:00 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:23:02 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:02 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7745,7 +7745,7 @@ DEBUG - 2025-08-29 09:23:15 --> Total execution time: 0.0111
 DEBUG - 2025-08-29 14:23:16 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:16 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:23:16 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:23:16 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:23:17 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7753,7 +7753,7 @@ DEBUG - 2025-08-29 09:23:17 --> Total execution time: 0.0089
 DEBUG - 2025-08-29 14:23:18 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:18 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:23:18 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:23:18 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:23:26 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:23:26 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:23:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7829,7 +7829,7 @@ DEBUG - 2025-08-29 09:24:33 --> Total execution time: 0.0039
 DEBUG - 2025-08-29 14:24:36 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:36 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:24:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:24:36 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 09:24:36 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 09:24:36 --> Total execution time: 0.0101
 DEBUG - 2025-08-29 14:24:36 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:36 --> Global POST, GET and COOKIE data sanitized
@@ -7858,11 +7858,11 @@ DEBUG - 2025-08-29 09:24:46 --> Total execution time: 0.0118
 DEBUG - 2025-08-29 14:24:51 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:24:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:24:51 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:24:51 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:24:53 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:24:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:24:53 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:24:53 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:24:56 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:56 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:24:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -7874,7 +7874,7 @@ DEBUG - 2025-08-29 09:24:56 --> Total execution time: 0.0108
 DEBUG - 2025-08-29 14:24:58 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:24:58 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:24:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:24:58 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:24:58 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:25:02 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:25:02 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-08-29 14:25:02 --> 404 Page Not Found: 18779809/index
@@ -8209,11 +8209,11 @@ DEBUG - 2025-08-29 09:29:36 --> Total execution time: 0.0086
 DEBUG - 2025-08-29 14:29:38 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:29:38 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:29:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:29:38 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:29:38 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:29:39 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:29:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:29:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:29:39 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:29:39 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:29:40 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:29:40 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-08-29 14:29:40 --> 404 Page Not Found: 186174946/index
@@ -8371,11 +8371,11 @@ DEBUG - 2025-08-29 09:31:46 --> Total execution time: 0.0079
 DEBUG - 2025-08-29 14:31:50 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:31:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:31:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:31:50 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:31:50 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:31:51 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:31:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:31:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:31:51 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:31:51 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:31:54 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:31:54 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:31:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -8383,7 +8383,7 @@ DEBUG - 2025-08-29 09:31:54 --> Total execution time: 0.0084
 DEBUG - 2025-08-29 14:31:57 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:31:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:31:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:31:57 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:31:57 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:32:04 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -8391,11 +8391,11 @@ DEBUG - 2025-08-29 09:32:04 --> Total execution time: 0.0125
 DEBUG - 2025-08-29 14:32:08 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:08 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:32:08 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:32:08 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:32:10 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:32:10 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:32:10 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:32:14 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:14 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -8403,7 +8403,7 @@ DEBUG - 2025-08-29 09:32:14 --> Total execution time: 0.0088
 DEBUG - 2025-08-29 14:32:15 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:15 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:32:15 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:32:15 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:32:24 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:32:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:32:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -8451,7 +8451,7 @@ DEBUG - 2025-08-29 09:33:24 --> Total execution time: 0.0153
 DEBUG - 2025-08-29 14:33:32 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:33:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:33:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:33:32 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:33:32 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:33:33 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:33:33 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:33:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -8478,17 +8478,17 @@ ERROR - 2025-08-29 09:33:35 --> 220 ESMTP smtp.hostinger.com
 </pre><pre>to: 250 2.1.5 Ok
 </pre><pre>to: 250 2.1.5 Ok
 </pre><pre>data: </pre>The following SMTP error was encountered: <br /><pre>quit: </pre>The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Fri, 29 Aug 2025 09:33:23 -0500
-From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@ceciminsigca.com&gt;
-Return-Path: &lt;citasmedicamentos@ceciminsigca.com&gt;
-Cc: citasmedicamentos@ceciminsigca.com
+From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Return-Path: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Cc: citasmedicamentos@sigca.cecimin.com.co
 To: citasmedicamentos@saludinteligente.com
 Subject: =?UTF-8?Q?Solicitud=20Administraci=C3=B3n=20Medicamentos=20-=2039613626?=
-Reply-To: &lt;citasmedicamentos@ceciminsigca.com&gt;
+Reply-To: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
 User-Agent: CodeIgniter
-X-Sender: citasmedicamentos@ceciminsigca.com
+X-Sender: citasmedicamentos@sigca.cecimin.com.co
 X-Mailer: CodeIgniter
 X-Priority: 3 (Normal)
-Message-ID: &lt;68b1ba33c8027@ceciminsigca.com&gt;
+Message-ID: &lt;68b1ba33c8027@sigca.cecimin.com.co&gt;
 Mime-Version: 1.0
 
 
@@ -8559,7 +8559,7 @@ t=3E=3C/div=3E
 =3Cdiv=3E=3Cfont size=3D'2'=3ECorreo enviado desde https://cecimin.com.co=
 =3C/font=3E=3C/div=3E
 =3Cdiv=3E=3Cimg style=3D'display:flex=3Bmargin-left:5=3B width:180px' src=
-=3D'https://ceciminsigca.com/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
+=3D'https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
 
 --B_ALT_68b1ba33c8044--
 
@@ -13056,7 +13056,7 @@ CwlsAgo4Kv40AAAAAElFTkSuQmCC
 DEBUG - 2025-08-29 14:33:37 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:33:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:33:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:33:37 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 09:33:37 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 09:33:37 --> Total execution time: 0.0083
 DEBUG - 2025-08-29 14:33:37 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:33:37 --> Global POST, GET and COOKIE data sanitized
@@ -13209,7 +13209,7 @@ DEBUG - 2025-08-29 09:36:17 --> Total execution time: 0.0150
 DEBUG - 2025-08-29 14:36:23 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:23 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:36:23 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:36:23 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:36:27 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:27 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -13266,7 +13266,7 @@ DEBUG - 2025-08-29 09:36:45 --> Total execution time: 0.0117
 DEBUG - 2025-08-29 14:36:47 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:36:47 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:36:47 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:36:47 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -13274,7 +13274,7 @@ DEBUG - 2025-08-29 09:36:47 --> Total execution time: 0.0116
 DEBUG - 2025-08-29 14:36:48 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:48 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:36:48 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 2626
+ERROR - 2025-08-29 09:36:48 --> Severity: error --> Exception: Too few arguments to function listar_actas_tabla(), 1 passed in /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php on line 850 and exactly 2 expected /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 2626
 DEBUG - 2025-08-29 14:36:57 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:36:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:36:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -13347,7 +13347,7 @@ DEBUG - 2025-08-29 14:37:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:37:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-08-29 14:37:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-08-29 09:37:37 --> Total execution time: 0.0117
-ERROR - 2025-08-29 09:37:37 --> Severity: error --> Exception: Call to undefined function listar_actas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 276
+ERROR - 2025-08-29 09:37:37 --> Severity: error --> Exception: Call to undefined function listar_actas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 276
 DEBUG - 2025-08-29 14:37:42 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:37:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:37:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -13499,7 +13499,7 @@ DEBUG - 2025-08-29 09:39:51 --> Total execution time: 0.0110
 DEBUG - 2025-08-29 14:39:53 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:39:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 14:39:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 09:39:53 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 09:39:53 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 09:39:53 --> Total execution time: 0.0079
 DEBUG - 2025-08-29 14:39:54 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 14:39:54 --> Global POST, GET and COOKIE data sanitized
@@ -15660,24 +15660,24 @@ DEBUG - 2025-08-29 10:19:45 --> Total execution time: 0.0133
 DEBUG - 2025-08-29 15:19:47 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:19:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:19:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/D_doc_institucionales.php 348
-ERROR - 2025-08-29 10:19:48 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-08-29 10:19:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: Notice --> Undefined property: stdClass::$Area /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/D_doc_institucionales.php 348
+ERROR - 2025-08-29 10:19:48 --> Severity: error --> Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-08-29 10:19:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 15:19:50 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:19:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:19:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -16098,7 +16098,7 @@ DEBUG - 2025-08-29 10:25:03 --> Total execution time: 0.0130
 DEBUG - 2025-08-29 15:25:04 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:25:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:25:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:25:04 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-08-29 10:25:04 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-08-29 10:25:04 --> Total execution time: 0.0100
 DEBUG - 2025-08-29 15:25:04 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:25:04 --> Global POST, GET and COOKIE data sanitized
@@ -17556,9 +17556,9 @@ DEBUG - 2025-08-29 10:50:15 --> Total execution time: 0.0089
 DEBUG - 2025-08-29 15:50:15 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:15 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:50:15 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 10:50:15 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 10:50:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 10:50:15 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 10:50:15 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 10:50:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 15:50:17 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17566,9 +17566,9 @@ DEBUG - 2025-08-29 10:50:17 --> Total execution time: 0.0087
 DEBUG - 2025-08-29 15:50:19 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:50:19 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 10:50:19 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 10:50:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 10:50:19 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 10:50:19 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 10:50:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 15:50:20 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17576,9 +17576,9 @@ DEBUG - 2025-08-29 10:50:20 --> Total execution time: 0.0093
 DEBUG - 2025-08-29 15:50:22 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:22 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:50:22 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 10:50:22 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 10:50:22 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 10:50:22 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 10:50:22 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 10:50:22 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 15:50:25 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:50:25 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17912,9 +17912,9 @@ DEBUG - 2025-08-29 10:59:31 --> Total execution time: 0.0157
 DEBUG - 2025-08-29 15:59:37 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:59:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:59:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 10:59:37 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 10:59:37 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 10:59:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 10:59:37 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 10:59:37 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 10:59:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 15:59:41 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 15:59:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 15:59:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17993,9 +17993,9 @@ DEBUG - 2025-08-29 11:01:58 --> Total execution time: 0.0311
 DEBUG - 2025-08-29 16:02:13 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 16:02:13 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 16:02:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 11:02:13 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 11:02:13 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 11:02:13 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 11:02:13 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 11:02:13 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 11:02:13 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 16:02:14 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 16:02:14 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 16:02:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -18227,15 +18227,15 @@ DEBUG - 2025-08-29 11:07:26 --> Total execution time: 0.0266
 DEBUG - 2025-08-29 16:07:31 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 16:07:31 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 16:07:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 11:07:31 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 11:07:31 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 11:07:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 11:07:31 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 11:07:31 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 11:07:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 16:07:34 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 16:07:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 16:07:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-08-29 11:07:34 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Model.php 74
-ERROR - 2025-08-29 11:07:34 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/ceciminsigca.com/public_html/application/models/General_model.php 106
-ERROR - 2025-08-29 11:07:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-08-29 11:07:34 --> Severity: Notice --> Undefined property: Rep_suceso_seguridad::$db /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Model.php 74
+ERROR - 2025-08-29 11:07:34 --> Severity: error --> Exception: Call to a member function query() on null /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/models/General_model.php 106
+ERROR - 2025-08-29 11:07:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-08-29 16:07:35 --> UTF-8 Support Enabled
 DEBUG - 2025-08-29 16:07:35 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-29 16:07:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.

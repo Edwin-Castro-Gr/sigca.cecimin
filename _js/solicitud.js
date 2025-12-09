@@ -652,7 +652,7 @@ $(function () {
             });
 
             $.post("/d_solicitud/cargar_documentos",{iddoc: ""+id_doc+""}, function(data_doc){
-                $('#PDF').html('<a href="https://ceciminsigca.com/'+data_doc['documento'].Pdf+'"><i class="fa fa-file-word"></i></a>'); 
+                $('#PDF').html('<a href="https://sigca.cecimin.com.co/'+data_doc['documento'].Pdf+'"><i class="fa fa-file-word"></i></a>'); 
                 var doc = (data_doc['documento'].Doc_relacionado);
                 
                 if((data_doc['documento'].Doc_relacionado !=null) || (data_doc['documento'].Doc_relacionado !="")){

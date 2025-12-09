@@ -263,7 +263,7 @@ class Home extends CI_Controller {
 
 						}
 
-						$listado .= '<a href="https://ceciminsigca.com/d_solicitud/" class="mb-0 border-0 list-group-item list-group-item-action btn-h-lighter-secondary">
+						$listado .= '<a href="https://sigca.cecimin.com.co/d_solicitud/" class="mb-0 border-0 list-group-item list-group-item-action btn-h-lighter-secondary">
                           '.$i.'
                           <span class="text-muted">'.$row['observacion'].'</span>
                           <span class="float-right badge badge-info radius-round text-80">'.$row['fecha_registro'].'</span>

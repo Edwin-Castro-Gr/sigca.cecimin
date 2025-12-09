@@ -377,7 +377,7 @@ class C_ingresop extends CI_Controller {
 				$usuario =$this->input->post('nombre_empleado');
 				$correo = $this->input->post('correo_empleado');
 				$id_jefe = $this->input->post('coordinador_jefeinm');
-				$correo_remitente = 'admin@ceciminsigca.com'; 
+				$correo_remitente = 'admin@sigca.cecimin.com.co'; 
 				
 				$registro=array(
 
@@ -443,7 +443,7 @@ class C_ingresop extends CI_Controller {
 				    $mensaje .= "<br>\r\n";		
 				    $mensaje .= "<br>\r\n";
 				    $mensaje .= "<div><font size='3'></font></div>\r\n";
-				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 					$mensaje .= "<br>\r\n";
 					
 		            // Archivos a adjuntar
@@ -543,7 +543,7 @@ class C_ingresop extends CI_Controller {
 					    $mensaje .= "<br>\r\n";		
 					    $mensaje .= "<br>\r\n";
 					    $mensaje .= "<div><font size='3'>Dirección de Recursos Humanos</font></div>\r\n";
-					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+					    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 						$mensaje .= "<br>\r\n";
 						
 			            // Archivos a adjuntar

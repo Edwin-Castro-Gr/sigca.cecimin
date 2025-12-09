@@ -931,7 +931,7 @@ $(function () {
             
             // Realiza la solicitud a la API de CodeIgniter
             $.ajax({
-                url: 'https://ceciminsigca.com/c_agendaqx/cargar_agendaQx',  // Ruta a tu controlador de CodeIgniter
+                url: 'https://sigca.cecimin.com.co/c_agendaqx/cargar_agendaQx',  // Ruta a tu controlador de CodeIgniter
                 type: 'POST',
                 data: {
                     //start: fetchInfo.startStr, // Fecha de inicio que FullCalendar envía
@@ -949,7 +949,7 @@ $(function () {
             });
         }, 
 
-        // 'https://ceciminsigca.com/c_agendaqx/cargar_agendaQx', 
+        // 'https://sigca.cecimin.com.co/c_agendaqx/cargar_agendaQx', 
 
           // [{ id: '1', resourceId: '1', start: '2024-09-06', end: '2024-09-08', title: 'event 1' },
           // { id: '2', resourceId: '2', start: '2024-09-19T09:00:00', end: '2024-09-19T14:00:00', title: 'event 2' },

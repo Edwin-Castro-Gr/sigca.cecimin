@@ -4723,7 +4723,7 @@ DEBUG - 2025-07-14 07:08:48 --> Total execution time: 0.1572
 DEBUG - 2025-07-14 12:08:51 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:08:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:08:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:08:51 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:08:51 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:08:51 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 12:08:51 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:08:51 --> Global POST, GET and COOKIE data sanitized
@@ -4869,7 +4869,7 @@ DEBUG - 2025-07-14 07:11:37 --> Total execution time: 0.1657
 DEBUG - 2025-07-14 12:11:38 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:11:38 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:11:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:11:38 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:11:38 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:11:38 --> Total execution time: 0.0071
 DEBUG - 2025-07-14 12:11:38 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:11:38 --> Global POST, GET and COOKIE data sanitized
@@ -4979,7 +4979,7 @@ DEBUG - 2025-07-14 07:13:35 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 12:13:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:13:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:13:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:13:39 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:13:39 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:13:39 --> Total execution time: 0.0079
 DEBUG - 2025-07-14 12:13:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:13:39 --> Global POST, GET and COOKIE data sanitized
@@ -5083,7 +5083,7 @@ DEBUG - 2025-07-14 07:15:29 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 12:15:34 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:15:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:15:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:15:34 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:15:34 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:15:34 --> Total execution time: 0.0069
 DEBUG - 2025-07-14 12:15:34 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:15:34 --> Global POST, GET and COOKIE data sanitized
@@ -5425,7 +5425,7 @@ DEBUG - 2025-07-14 07:21:46 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 12:21:51 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:21:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:21:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:21:51 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:21:51 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:21:51 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 12:21:52 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:21:52 --> Global POST, GET and COOKIE data sanitized
@@ -5534,7 +5534,7 @@ DEBUG - 2025-07-14 07:23:57 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 12:24:01 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:24:01 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:24:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:24:01 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:24:01 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:24:01 --> Total execution time: 0.0102
 DEBUG - 2025-07-14 12:24:02 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:24:02 --> Global POST, GET and COOKIE data sanitized
@@ -6448,9 +6448,9 @@ DEBUG - 2025-07-14 12:45:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 12:45:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 07:45:04 --> Total execution time: 0.0063
-ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:04 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:04 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 12:45:12 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:12 --> Global POST, GET and COOKIE data sanitized
@@ -6467,9 +6467,9 @@ DEBUG - 2025-07-14 12:45:14 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-14 12:45:14 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 07:45:14 --> Total execution time: 0.1532
-ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:14 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:14 --> Total execution time: 0.1616
 DEBUG - 2025-07-14 12:45:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:22 --> Global POST, GET and COOKIE data sanitized
@@ -6478,9 +6478,9 @@ DEBUG - 2025-07-14 07:45:22 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 12:45:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:24 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:24 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 12:45:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:28 --> Global POST, GET and COOKIE data sanitized
@@ -6501,9 +6501,9 @@ DEBUG - 2025-07-14 07:45:32 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 12:45:34 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:34 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:34 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 12:45:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:42 --> Global POST, GET and COOKIE data sanitized
@@ -6518,9 +6518,9 @@ DEBUG - 2025-07-14 12:45:43 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 12:45:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:43 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:43 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 12:45:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 07:45:43 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 07:45:43 --> Total execution time: 0.1113
@@ -6531,9 +6531,9 @@ DEBUG - 2025-07-14 07:45:52 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 12:45:53 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:53 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:53 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 12:45:54 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:54 --> Global POST, GET and COOKIE data sanitized
@@ -6542,9 +6542,9 @@ DEBUG - 2025-07-14 07:45:54 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 12:45:55 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:45:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:45:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:45:55 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:45:55 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 12:46:02 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:02 --> Global POST, GET and COOKIE data sanitized
@@ -6553,9 +6553,9 @@ DEBUG - 2025-07-14 07:46:02 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 12:46:05 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:05 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:05 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:05 --> Total execution time: 0.0156
 DEBUG - 2025-07-14 12:46:12 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:12 --> Global POST, GET and COOKIE data sanitized
@@ -6564,9 +6564,9 @@ DEBUG - 2025-07-14 07:46:12 --> Total execution time: 0.0147
 DEBUG - 2025-07-14 12:46:15 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:15 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:15 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:15 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 12:46:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:22 --> Global POST, GET and COOKIE data sanitized
@@ -6575,9 +6575,9 @@ DEBUG - 2025-07-14 07:46:22 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 12:46:25 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:25 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:25 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:25 --> Total execution time: 0.0092
 DEBUG - 2025-07-14 12:46:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:26 --> Global POST, GET and COOKIE data sanitized
@@ -6601,9 +6601,9 @@ DEBUG - 2025-07-14 07:46:32 --> Total execution time: 0.0099
 DEBUG - 2025-07-14 12:46:35 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:35 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:35 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:35 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 12:46:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:42 --> Global POST, GET and COOKIE data sanitized
@@ -6612,9 +6612,9 @@ DEBUG - 2025-07-14 07:46:42 --> Total execution time: 0.0102
 DEBUG - 2025-07-14 12:46:45 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:45 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:45 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:45 --> Total execution time: 0.0135
 DEBUG - 2025-07-14 12:46:52 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:52 --> Global POST, GET and COOKIE data sanitized
@@ -6627,9 +6627,9 @@ DEBUG - 2025-07-14 07:46:54 --> Total execution time: 0.0415
 DEBUG - 2025-07-14 12:46:55 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:55 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:46:55 --> Total execution time: 0.0135
 DEBUG - 2025-07-14 12:46:56 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:56 --> Global POST, GET and COOKIE data sanitized
@@ -6640,9 +6640,9 @@ DEBUG - 2025-07-14 12:46:56 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:46:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 12:46:56 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:46:56 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:46:56 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 12:46:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 07:46:56 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 07:46:57 --> Total execution time: 0.1488
@@ -6653,9 +6653,9 @@ DEBUG - 2025-07-14 07:47:02 --> Total execution time: 0.0207
 DEBUG - 2025-07-14 12:47:06 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:06 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:07 --> Total execution time: 0.0090
 DEBUG - 2025-07-14 12:47:12 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:12 --> Global POST, GET and COOKIE data sanitized
@@ -6664,9 +6664,9 @@ DEBUG - 2025-07-14 07:47:12 --> Total execution time: 0.0096
 DEBUG - 2025-07-14 12:47:16 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:16 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:16 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:16 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 12:47:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:22 --> Global POST, GET and COOKIE data sanitized
@@ -6675,9 +6675,9 @@ DEBUG - 2025-07-14 07:47:22 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 12:47:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:27 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:27 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:27 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 12:47:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:27 --> Global POST, GET and COOKIE data sanitized
@@ -6704,9 +6704,9 @@ DEBUG - 2025-07-14 07:47:32 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 12:47:37 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:37 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:37 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 12:47:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:42 --> Global POST, GET and COOKIE data sanitized
@@ -6715,9 +6715,9 @@ DEBUG - 2025-07-14 07:47:42 --> Total execution time: 0.0079
 DEBUG - 2025-07-14 12:47:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:46 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:47 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:47 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 12:47:52 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:52 --> Global POST, GET and COOKIE data sanitized
@@ -6726,9 +6726,9 @@ DEBUG - 2025-07-14 07:47:52 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 12:47:56 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:47:56 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:47:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:47:57 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:47:57 --> Total execution time: 0.0084
 DEBUG - 2025-07-14 12:48:02 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:02 --> Global POST, GET and COOKIE data sanitized
@@ -6740,9 +6740,9 @@ ERROR - 2025-07-14 12:48:04 --> 404 Page Not Found: Product/edit
 DEBUG - 2025-07-14 12:48:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:48:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:48:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:48:07 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 12:48:12 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:12 --> Global POST, GET and COOKIE data sanitized
@@ -6751,9 +6751,9 @@ DEBUG - 2025-07-14 07:48:12 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 12:48:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:48:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:48:17 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:48:17 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 12:48:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:22 --> Global POST, GET and COOKIE data sanitized
@@ -6778,9 +6778,9 @@ DEBUG - 2025-07-14 07:48:32 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 12:48:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:48:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:48:42 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 12:48:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:48:42 --> Global POST, GET and COOKIE data sanitized
@@ -6833,9 +6833,9 @@ DEBUG - 2025-07-14 07:49:42 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 12:49:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:49:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:49:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:49:42 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 12:49:52 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:49:52 --> Global POST, GET and COOKIE data sanitized
@@ -6883,9 +6883,9 @@ DEBUG - 2025-07-14 07:50:42 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 12:50:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:50:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:50:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:50:42 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 12:50:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:50:43 --> Global POST, GET and COOKIE data sanitized
@@ -6941,9 +6941,9 @@ ERROR - 2025-07-14 12:51:40 --> 404 Page Not Found: 59645769/index
 DEBUG - 2025-07-14 12:51:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:51:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:51:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:51:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:51:42 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 12:51:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:51:42 --> Global POST, GET and COOKIE data sanitized
@@ -7085,9 +7085,9 @@ DEBUG - 2025-07-14 07:52:42 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 12:52:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:52:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:52:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:52:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:52:42 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 12:52:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:52:50 --> Global POST, GET and COOKIE data sanitized
@@ -7150,9 +7150,9 @@ DEBUG - 2025-07-14 07:53:32 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 12:53:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:53:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:53:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:53:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:53:42 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 12:53:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:53:42 --> Global POST, GET and COOKIE data sanitized
@@ -7200,9 +7200,9 @@ DEBUG - 2025-07-14 07:54:32 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 12:54:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:54:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:54:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:54:42 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 12:54:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:54:42 --> Global POST, GET and COOKIE data sanitized
@@ -7250,9 +7250,9 @@ DEBUG - 2025-07-14 07:55:32 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 12:55:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:55:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:55:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:55:42 --> Total execution time: 0.0142
 DEBUG - 2025-07-14 12:55:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:55:42 --> Global POST, GET and COOKIE data sanitized
@@ -7300,9 +7300,9 @@ ERROR - 2025-07-14 12:56:35 --> 404 Page Not Found: 65282085/index
 DEBUG - 2025-07-14 12:56:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:56:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:56:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:56:42 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 12:56:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:56:42 --> Global POST, GET and COOKIE data sanitized
@@ -7347,9 +7347,9 @@ DEBUG - 2025-07-14 07:57:32 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 12:57:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:57:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:57:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:57:42 --> Total execution time: 0.0089
 DEBUG - 2025-07-14 12:57:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:57:42 --> Global POST, GET and COOKIE data sanitized
@@ -7393,9 +7393,9 @@ DEBUG - 2025-07-14 07:58:32 --> Total execution time: 0.0092
 DEBUG - 2025-07-14 12:58:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:58:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:58:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:58:42 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 12:58:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:58:42 --> Global POST, GET and COOKIE data sanitized
@@ -7415,7 +7415,7 @@ ERROR - 2025-07-14 12:59:03 --> 404 Page Not Found: 101269317/index
 DEBUG - 2025-07-14 12:59:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:59:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:59:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:59:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 07:59:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 07:59:09 --> Total execution time: 0.0090
 DEBUG - 2025-07-14 12:59:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:59:10 --> Global POST, GET and COOKIE data sanitized
@@ -7456,9 +7456,9 @@ DEBUG - 2025-07-14 07:59:40 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 12:59:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:59:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 12:59:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 07:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 07:59:42 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 12:59:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 12:59:43 --> Global POST, GET and COOKIE data sanitized
@@ -7501,9 +7501,9 @@ DEBUG - 2025-07-14 08:00:30 --> Total execution time: 0.0174
 DEBUG - 2025-07-14 13:00:35 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:35 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:00:35 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:00:35 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 13:00:36 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:36 --> UTF-8 Support Enabled
@@ -7511,17 +7511,17 @@ DEBUG - 2025-07-14 13:00:36 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:36 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 13:00:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:00:36 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:00:36 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 08:00:36 --> Total execution time: 0.0264
 DEBUG - 2025-07-14 13:00:37 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:00:37 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:00:37 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 13:00:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:40 --> Global POST, GET and COOKIE data sanitized
@@ -7530,9 +7530,9 @@ DEBUG - 2025-07-14 08:00:40 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 13:00:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:00:47 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:00:47 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 13:00:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:50 --> Global POST, GET and COOKIE data sanitized
@@ -7541,9 +7541,9 @@ DEBUG - 2025-07-14 08:00:50 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 13:00:57 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:00:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:00:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:00:57 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:00:57 --> Total execution time: 0.0135
 DEBUG - 2025-07-14 13:01:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:00 --> Global POST, GET and COOKIE data sanitized
@@ -7556,9 +7556,9 @@ DEBUG - 2025-07-14 08:01:05 --> Total execution time: 0.0419
 DEBUG - 2025-07-14 13:01:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:07 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:07 --> Total execution time: 0.0095
 DEBUG - 2025-07-14 13:01:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:07 --> Global POST, GET and COOKIE data sanitized
@@ -7570,9 +7570,9 @@ DEBUG - 2025-07-14 13:01:08 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 13:01:08 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:08 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:08 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 08:01:08 --> Total execution time: 0.0988
 DEBUG - 2025-07-14 13:01:10 --> UTF-8 Support Enabled
@@ -7590,9 +7590,9 @@ DEBUG - 2025-07-14 08:01:18 --> Total execution time: 0.0076
 DEBUG - 2025-07-14 13:01:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:18 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:19 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 13:01:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:20 --> Global POST, GET and COOKIE data sanitized
@@ -7609,9 +7609,9 @@ DEBUG - 2025-07-14 08:01:20 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 13:01:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:28 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:28 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:28 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 13:01:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:29 --> Global POST, GET and COOKIE data sanitized
@@ -7631,9 +7631,9 @@ DEBUG - 2025-07-14 08:01:30 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 13:01:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:39 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 13:01:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:40 --> Global POST, GET and COOKIE data sanitized
@@ -7646,9 +7646,9 @@ DEBUG - 2025-07-14 08:01:41 --> Total execution time: 0.0134
 DEBUG - 2025-07-14 13:01:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:49 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 13:01:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:50 --> Global POST, GET and COOKIE data sanitized
@@ -7661,9 +7661,9 @@ DEBUG - 2025-07-14 08:01:51 --> Total execution time: 0.0154
 DEBUG - 2025-07-14 13:01:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:01:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:01:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:01:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:01:59 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 13:02:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:00 --> Global POST, GET and COOKIE data sanitized
@@ -7676,9 +7676,9 @@ DEBUG - 2025-07-14 08:02:01 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 13:02:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:02:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:02:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:02:09 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 13:02:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:10 --> Global POST, GET and COOKIE data sanitized
@@ -7691,9 +7691,9 @@ DEBUG - 2025-07-14 08:02:11 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 13:02:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:02:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:02:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:02:19 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 13:02:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:20 --> Global POST, GET and COOKIE data sanitized
@@ -7706,9 +7706,9 @@ DEBUG - 2025-07-14 08:02:21 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 13:02:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:02:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:02:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:02:29 --> Total execution time: 0.0099
 DEBUG - 2025-07-14 13:02:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:29 --> Global POST, GET and COOKIE data sanitized
@@ -7737,9 +7737,9 @@ DEBUG - 2025-07-14 08:02:40 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 13:02:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:02:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:02:42 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 13:02:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:02:44 --> Global POST, GET and COOKIE data sanitized
@@ -7787,9 +7787,9 @@ DEBUG - 2025-07-14 08:03:40 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 13:03:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:03:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:03:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:03:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:03:42 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 13:03:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:03:50 --> Global POST, GET and COOKIE data sanitized
@@ -7805,16 +7805,16 @@ DEBUG - 2025-07-14 08:04:00 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 13:04:03 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:03 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:03 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 13:04:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:09 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 13:04:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:10 --> Global POST, GET and COOKIE data sanitized
@@ -7823,9 +7823,9 @@ DEBUG - 2025-07-14 08:04:10 --> Total execution time: 0.0096
 DEBUG - 2025-07-14 13:04:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:19 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 13:04:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:20 --> Global POST, GET and COOKIE data sanitized
@@ -7846,9 +7846,9 @@ DEBUG - 2025-07-14 08:04:28 --> Total execution time: 0.0032
 DEBUG - 2025-07-14 13:04:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:29 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 13:04:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:29 --> Global POST, GET and COOKIE data sanitized
@@ -7861,9 +7861,9 @@ DEBUG - 2025-07-14 08:04:30 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 13:04:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:39 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 13:04:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:40 --> Global POST, GET and COOKIE data sanitized
@@ -7872,9 +7872,9 @@ DEBUG - 2025-07-14 08:04:40 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 13:04:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:48 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:49 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 13:04:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:50 --> Global POST, GET and COOKIE data sanitized
@@ -7883,9 +7883,9 @@ DEBUG - 2025-07-14 08:04:50 --> Total execution time: 0.0107
 DEBUG - 2025-07-14 13:04:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:04:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:04:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:04:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:04:59 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 13:05:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:05:00 --> Global POST, GET and COOKIE data sanitized
@@ -7929,9 +7929,9 @@ DEBUG - 2025-07-14 08:05:40 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 13:05:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:05:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:05:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:05:42 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 13:05:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:05:44 --> Global POST, GET and COOKIE data sanitized
@@ -8015,9 +8015,9 @@ DEBUG - 2025-07-14 08:06:42 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 13:06:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:06:43 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:06:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:06:43 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:06:43 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 13:06:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:06:44 --> No URI present. Default controller set.
@@ -8162,9 +8162,9 @@ DEBUG - 2025-07-14 13:07:42 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-14 13:07:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:07:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:07:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:07:42 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 08:07:42 --> Total execution time: 0.0095
 DEBUG - 2025-07-14 13:07:47 --> UTF-8 Support Enabled
@@ -8282,9 +8282,9 @@ DEBUG - 2025-07-14 08:08:41 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 13:08:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:08:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:08:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:08:42 --> Total execution time: 0.0141
 DEBUG - 2025-07-14 13:08:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:08:48 --> Global POST, GET and COOKIE data sanitized
@@ -8360,9 +8360,9 @@ DEBUG - 2025-07-14 08:09:40 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 13:09:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:09:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:09:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:09:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:09:42 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 13:09:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:09:42 --> Global POST, GET and COOKIE data sanitized
@@ -8461,9 +8461,9 @@ DEBUG - 2025-07-14 08:10:40 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 13:10:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:10:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:10:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:10:42 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 13:10:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:10:42 --> Global POST, GET and COOKIE data sanitized
@@ -8648,9 +8648,9 @@ ERROR - 2025-07-14 13:11:40 --> 404 Page Not Found: 45149937/index
 DEBUG - 2025-07-14 13:11:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:11:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:11:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:11:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 13:11:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:11:42 --> Global POST, GET and COOKIE data sanitized
@@ -8796,9 +8796,9 @@ DEBUG - 2025-07-14 08:12:40 --> Total execution time: 0.0195
 DEBUG - 2025-07-14 13:12:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:12:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:12:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:12:42 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 13:12:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:12:48 --> Global POST, GET and COOKIE data sanitized
@@ -8879,9 +8879,9 @@ DEBUG - 2025-07-14 08:13:41 --> Total execution time: 0.0156
 DEBUG - 2025-07-14 13:13:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:13:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:13:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:13:42 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 13:13:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:13:43 --> Global POST, GET and COOKIE data sanitized
@@ -9076,9 +9076,9 @@ DEBUG - 2025-07-14 13:14:42 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-14 13:14:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:14:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:14:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:14:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:14:42 --> Total execution time: 0.0232
 DEBUG - 2025-07-14 08:14:42 --> Total execution time: 0.0223
 DEBUG - 2025-07-14 13:14:42 --> UTF-8 Support Enabled
@@ -9184,9 +9184,9 @@ DEBUG - 2025-07-14 08:15:40 --> Total execution time: 0.0763
 DEBUG - 2025-07-14 13:15:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:15:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:15:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:15:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:15:42 --> Total execution time: 0.0286
 DEBUG - 2025-07-14 13:15:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:15:44 --> Global POST, GET and COOKIE data sanitized
@@ -9274,9 +9274,9 @@ DEBUG - 2025-07-14 08:16:41 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 13:16:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:16:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:16:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:16:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:16:42 --> Total execution time: 0.0141
 DEBUG - 2025-07-14 13:16:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:16:50 --> Global POST, GET and COOKIE data sanitized
@@ -9408,9 +9408,9 @@ DEBUG - 2025-07-14 08:17:40 --> Total execution time: 0.0230
 DEBUG - 2025-07-14 13:17:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:17:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:17:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:17:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:17:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 13:17:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:17:42 --> Global POST, GET and COOKIE data sanitized
@@ -9491,7 +9491,7 @@ DEBUG - 2025-07-14 08:18:25 --> Total execution time: 0.1687
 DEBUG - 2025-07-14 13:18:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:18:26 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:18:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:18:26 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 08:18:26 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 08:18:26 --> Total execution time: 0.0078
 DEBUG - 2025-07-14 13:18:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:18:27 --> Global POST, GET and COOKIE data sanitized
@@ -9544,9 +9544,9 @@ DEBUG - 2025-07-14 08:18:40 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 13:18:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:18:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:18:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:18:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:18:42 --> Total execution time: 0.0160
 DEBUG - 2025-07-14 13:18:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:18:44 --> Global POST, GET and COOKIE data sanitized
@@ -9614,7 +9614,7 @@ DEBUG - 2025-07-14 08:19:08 --> Total execution time: 0.2075
 DEBUG - 2025-07-14 13:19:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:19:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:19:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:19:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 08:19:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 08:19:09 --> Total execution time: 0.0060
 DEBUG - 2025-07-14 13:19:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:19:09 --> Global POST, GET and COOKIE data sanitized
@@ -9663,9 +9663,9 @@ DEBUG - 2025-07-14 08:19:39 --> Total execution time: 0.0078
 DEBUG - 2025-07-14 13:19:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:19:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:19:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:19:42 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 13:19:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:19:48 --> Global POST, GET and COOKIE data sanitized
@@ -9745,9 +9745,9 @@ DEBUG - 2025-07-14 08:20:39 --> Total execution time: 0.0135
 DEBUG - 2025-07-14 13:20:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:20:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:20:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:20:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:20:42 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 13:20:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:20:48 --> Global POST, GET and COOKIE data sanitized
@@ -9831,9 +9831,9 @@ DEBUG - 2025-07-14 08:21:39 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 13:21:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:21:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:21:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:21:42 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 13:21:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:21:47 --> No URI present. Default controller set.
@@ -9931,9 +9931,9 @@ DEBUG - 2025-07-14 08:22:39 --> Total execution time: 0.0096
 DEBUG - 2025-07-14 13:22:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:22:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:22:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:22:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:22:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 13:22:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:22:47 --> Global POST, GET and COOKIE data sanitized
@@ -10022,9 +10022,9 @@ DEBUG - 2025-07-14 08:23:39 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 13:23:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:23:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:23:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:23:42 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 13:23:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:23:46 --> Global POST, GET and COOKIE data sanitized
@@ -10092,9 +10092,9 @@ DEBUG - 2025-07-14 08:24:39 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 13:24:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:24:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:24:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:24:42 --> Total execution time: 0.0163
 DEBUG - 2025-07-14 13:24:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:24:49 --> Global POST, GET and COOKIE data sanitized
@@ -10138,9 +10138,9 @@ DEBUG - 2025-07-14 08:25:39 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 13:25:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:25:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:25:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:25:42 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 13:25:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:25:48 --> Global POST, GET and COOKIE data sanitized
@@ -10192,9 +10192,9 @@ DEBUG - 2025-07-14 08:26:39 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 13:26:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:26:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:26:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:26:42 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 13:26:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:26:48 --> Global POST, GET and COOKIE data sanitized
@@ -10279,9 +10279,9 @@ DEBUG - 2025-07-14 08:27:40 --> Total execution time: 0.0082
 DEBUG - 2025-07-14 13:27:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:27:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:27:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:27:42 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 13:27:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:27:46 --> Global POST, GET and COOKIE data sanitized
@@ -10358,9 +10358,9 @@ DEBUG - 2025-07-14 08:28:41 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 13:28:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:28:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:28:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:28:42 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 13:28:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:28:48 --> Global POST, GET and COOKIE data sanitized
@@ -10436,9 +10436,9 @@ DEBUG - 2025-07-14 08:29:40 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 13:29:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:29:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:29:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:29:42 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 13:29:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:29:47 --> Global POST, GET and COOKIE data sanitized
@@ -10518,9 +10518,9 @@ DEBUG - 2025-07-14 08:30:41 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 13:30:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:30:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:30:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:30:42 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 13:30:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:30:48 --> Global POST, GET and COOKIE data sanitized
@@ -10592,9 +10592,9 @@ DEBUG - 2025-07-14 08:31:41 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 13:31:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:31:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:31:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:31:42 --> Total execution time: 0.0209
 DEBUG - 2025-07-14 13:31:48 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:31:48 --> Global POST, GET and COOKIE data sanitized
@@ -10658,7 +10658,7 @@ ERROR - 2025-07-14 13:32:37 --> 404 Page Not Found: 33515205/index
 DEBUG - 2025-07-14 13:32:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:32:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:32:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:32:40 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 08:32:40 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 08:32:40 --> Total execution time: 0.0079
 DEBUG - 2025-07-14 13:32:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:32:40 --> Global POST, GET and COOKIE data sanitized
@@ -10671,9 +10671,9 @@ DEBUG - 2025-07-14 08:32:41 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 13:32:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:32:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:32:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:32:42 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 13:32:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:32:46 --> Global POST, GET and COOKIE data sanitized
@@ -10757,9 +10757,9 @@ DEBUG - 2025-07-14 08:33:40 --> Total execution time: 0.0090
 DEBUG - 2025-07-14 13:33:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:33:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:33:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:33:42 --> Total execution time: 0.0137
 DEBUG - 2025-07-14 13:33:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:33:42 --> Global POST, GET and COOKIE data sanitized
@@ -10836,9 +10836,9 @@ DEBUG - 2025-07-14 08:34:40 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 13:34:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:34:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:34:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:34:42 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 13:34:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:34:42 --> Global POST, GET and COOKIE data sanitized
@@ -10883,9 +10883,9 @@ DEBUG - 2025-07-14 08:35:22 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 13:35:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:35:22 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:35:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 08:35:22 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 08:35:22 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 13:35:25 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:35:25 --> Global POST, GET and COOKIE data sanitized
@@ -12289,7 +12289,7 @@ DEBUG - 2025-07-14 08:53:42 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 13:53:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:53:46 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 13:53:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 08:53:46 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 08:53:46 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 08:53:46 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 13:53:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 13:53:47 --> Global POST, GET and COOKIE data sanitized
@@ -14161,7 +14161,7 @@ DEBUG - 2025-07-14 14:11:18 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-14 09:11:18 --> Total execution time: 0.0099
 DEBUG - 2025-07-14 14:11:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:11:20 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-07-14 14:11:20 --> Severity: error --> Exception: syntax error, unexpected '$registro' (T_VARIABLE) /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 396
+ERROR - 2025-07-14 14:11:20 --> Severity: error --> Exception: syntax error, unexpected '$registro' (T_VARIABLE) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 396
 DEBUG - 2025-07-14 14:11:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:11:27 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 14:11:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -14188,7 +14188,7 @@ DEBUG - 2025-07-14 14:11:37 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-14 09:11:37 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 14:11:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:11:39 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-07-14 14:11:39 --> Severity: error --> Exception: syntax error, unexpected '$registro' (T_VARIABLE) /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 396
+ERROR - 2025-07-14 14:11:39 --> Severity: error --> Exception: syntax error, unexpected '$registro' (T_VARIABLE) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 396
 DEBUG - 2025-07-14 14:11:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:11:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 14:11:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -14316,7 +14316,7 @@ DEBUG - 2025-07-14 09:12:57 --> Total execution time: 0.0292
 DEBUG - 2025-07-14 14:13:01 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:13:01 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 14:13:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 09:13:01 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-14 09:13:01 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-14 09:13:01 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 14:13:01 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:13:01 --> Global POST, GET and COOKIE data sanitized
@@ -15786,7 +15786,7 @@ DEBUG - 2025-07-14 09:33:18 --> Total execution time: 0.0041
 DEBUG - 2025-07-14 14:33:21 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:33:21 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 14:33:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 09:33:21 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 09:33:21 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 09:33:21 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 14:33:22 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:33:22 --> Global POST, GET and COOKIE data sanitized
@@ -17178,7 +17178,7 @@ DEBUG - 2025-07-14 09:55:48 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 14:55:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:55:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 14:55:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 09:55:50 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 09:55:50 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 09:55:50 --> Total execution time: 0.0101
 DEBUG - 2025-07-14 14:55:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 14:55:50 --> Global POST, GET and COOKIE data sanitized
@@ -18425,7 +18425,7 @@ DEBUG - 2025-07-14 10:21:36 --> Total execution time: 0.0154
 DEBUG - 2025-07-14 15:21:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:21:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 15:21:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 10:21:39 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-14 10:21:39 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-14 10:21:39 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 15:21:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:21:39 --> Global POST, GET and COOKIE data sanitized
@@ -18606,7 +18606,7 @@ DEBUG - 2025-07-14 10:24:40 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 15:24:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:24:44 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 15:24:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 10:24:44 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-14 10:24:44 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-14 10:24:44 --> Total execution time: 0.0454
 DEBUG - 2025-07-14 15:24:45 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:24:45 --> Global POST, GET and COOKIE data sanitized
@@ -20139,7 +20139,7 @@ DEBUG - 2025-07-14 10:53:04 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 15:53:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:53:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 15:53:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 10:53:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 10:53:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 10:53:09 --> Total execution time: 0.0078
 DEBUG - 2025-07-14 15:53:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 15:53:09 --> Global POST, GET and COOKIE data sanitized
@@ -20661,7 +20661,7 @@ DEBUG - 2025-07-14 11:02:47 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 16:02:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 16:02:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 16:02:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 11:02:50 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 11:02:50 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 11:02:50 --> Total execution time: 0.0070
 DEBUG - 2025-07-14 16:02:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 16:02:50 --> Global POST, GET and COOKIE data sanitized
@@ -22985,7 +22985,7 @@ DEBUG - 2025-07-14 11:39:12 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 16:39:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 16:39:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 16:39:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 11:39:19 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 11:39:19 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 11:39:19 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 16:39:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 16:39:19 --> Global POST, GET and COOKIE data sanitized
@@ -25226,7 +25226,7 @@ DEBUG - 2025-07-14 12:19:24 --> Total execution time: 0.0212
 DEBUG - 2025-07-14 17:19:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:19:26 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 17:19:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 12:19:26 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 12:19:26 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 12:19:26 --> Total execution time: 0.0283
 DEBUG - 2025-07-14 17:19:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:19:27 --> Global POST, GET and COOKIE data sanitized
@@ -25733,7 +25733,7 @@ DEBUG - 2025-07-14 12:26:30 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 17:26:32 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:26:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 17:26:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 12:26:32 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 12:26:32 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 12:26:32 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 17:26:32 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:26:32 --> Global POST, GET and COOKIE data sanitized
@@ -26395,7 +26395,7 @@ DEBUG - 2025-07-14 12:36:18 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 17:36:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:36:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 17:36:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 12:36:19 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-14 12:36:19 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-14 12:36:19 --> Total execution time: 0.0216
 DEBUG - 2025-07-14 17:36:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 17:36:19 --> Global POST, GET and COOKIE data sanitized
@@ -29715,9 +29715,9 @@ DEBUG - 2025-07-14 19:54:05 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:05 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 14:54:05 --> Total execution time: 0.0118
-ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:05 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:05 --> Total execution time: 0.0189
 DEBUG - 2025-07-14 19:54:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:09 --> Global POST, GET and COOKIE data sanitized
@@ -29730,16 +29730,16 @@ DEBUG - 2025-07-14 19:54:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-07-14 14:54:09 --> Total execution time: 0.1514
-ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:09 --> Total execution time: 0.1481
 DEBUG - 2025-07-14 19:54:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:20 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 19:54:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:28 --> Global POST, GET and COOKIE data sanitized
@@ -29752,16 +29752,16 @@ DEBUG - 2025-07-14 14:54:28 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 19:54:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:30 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 19:54:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:39 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 19:54:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:47 --> Global POST, GET and COOKIE data sanitized
@@ -29770,30 +29770,30 @@ DEBUG - 2025-07-14 14:54:47 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 19:54:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:54:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:54:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:54:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:54:50 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 19:55:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:55:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:55:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:55:00 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 19:55:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:55:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:55:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:55:10 --> Total execution time: 0.0177
 DEBUG - 2025-07-14 19:55:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:55:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:55:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:55:20 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 19:55:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:28 --> Global POST, GET and COOKIE data sanitized
@@ -29806,16 +29806,16 @@ DEBUG - 2025-07-14 14:55:28 --> Total execution time: 0.0033
 DEBUG - 2025-07-14 19:55:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:55:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:55:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:55:30 --> Total execution time: 0.0168
 DEBUG - 2025-07-14 19:55:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:55:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:55:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:55:40 --> Total execution time: 0.0163
 DEBUG - 2025-07-14 19:55:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:55:47 --> Global POST, GET and COOKIE data sanitized
@@ -29832,9 +29832,9 @@ DEBUG - 2025-07-14 14:56:28 --> Total execution time: 0.0039
 DEBUG - 2025-07-14 19:56:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:56:41 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:56:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:56:41 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:56:41 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 19:56:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:56:47 --> Global POST, GET and COOKIE data sanitized
@@ -29851,9 +29851,9 @@ DEBUG - 2025-07-14 14:57:28 --> Total execution time: 0.0033
 DEBUG - 2025-07-14 19:57:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:57:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:57:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:57:42 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 19:57:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:57:47 --> Global POST, GET and COOKIE data sanitized
@@ -29870,9 +29870,9 @@ DEBUG - 2025-07-14 14:58:28 --> Total execution time: 0.0028
 DEBUG - 2025-07-14 19:58:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:58:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:58:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:58:42 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 19:58:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:58:47 --> Global POST, GET and COOKIE data sanitized
@@ -29889,9 +29889,9 @@ DEBUG - 2025-07-14 14:59:28 --> Total execution time: 0.0034
 DEBUG - 2025-07-14 19:59:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:59:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 19:59:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 14:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 14:59:42 --> Total execution time: 0.0194
 DEBUG - 2025-07-14 19:59:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 19:59:47 --> Global POST, GET and COOKIE data sanitized
@@ -29908,9 +29908,9 @@ DEBUG - 2025-07-14 15:00:28 --> Total execution time: 0.0200
 DEBUG - 2025-07-14 20:00:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:00:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:00:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:00:42 --> Total execution time: 0.0177
 DEBUG - 2025-07-14 20:00:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:00:47 --> Global POST, GET and COOKIE data sanitized
@@ -29927,9 +29927,9 @@ DEBUG - 2025-07-14 15:01:28 --> Total execution time: 0.0027
 DEBUG - 2025-07-14 20:01:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:01:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:01:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:01:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:01:42 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 20:01:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:01:47 --> Global POST, GET and COOKIE data sanitized
@@ -29946,9 +29946,9 @@ DEBUG - 2025-07-14 15:02:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:02:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:02:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:02:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:02:42 --> Total execution time: 0.0142
 DEBUG - 2025-07-14 20:02:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:02:47 --> Global POST, GET and COOKIE data sanitized
@@ -29962,9 +29962,9 @@ DEBUG - 2025-07-14 15:02:56 --> Total execution time: 0.0050
 DEBUG - 2025-07-14 20:03:23 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:23 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:03:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:03:23 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:03:23 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 20:03:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:28 --> Global POST, GET and COOKIE data sanitized
@@ -29977,9 +29977,9 @@ DEBUG - 2025-07-14 15:03:28 --> Total execution time: 0.0042
 DEBUG - 2025-07-14 20:03:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:03:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:03:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 20:03:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:03:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -29988,9 +29988,9 @@ DEBUG - 2025-07-14 15:03:29 --> Total execution time: 0.1756
 DEBUG - 2025-07-14 20:03:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:03:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:03:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:03:39 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 20:03:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:40 --> Global POST, GET and COOKIE data sanitized
@@ -30003,9 +30003,9 @@ DEBUG - 2025-07-14 15:03:47 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 20:03:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:03:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:03:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:03:49 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 20:03:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:03:49 --> Global POST, GET and COOKIE data sanitized
@@ -30030,9 +30030,9 @@ DEBUG - 2025-07-14 15:03:57 --> Total execution time: 0.0077
 DEBUG - 2025-07-14 20:04:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:00 --> Total execution time: 0.0158
 DEBUG - 2025-07-14 20:04:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:00 --> Global POST, GET and COOKIE data sanitized
@@ -30045,9 +30045,9 @@ DEBUG - 2025-07-14 15:04:01 --> Total execution time: 0.0505
 DEBUG - 2025-07-14 20:04:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:10 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 20:04:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:10 --> Global POST, GET and COOKIE data sanitized
@@ -30056,9 +30056,9 @@ DEBUG - 2025-07-14 15:04:10 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 20:04:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:20 --> Total execution time: 0.0123
 DEBUG - 2025-07-14 20:04:21 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:21 --> Global POST, GET and COOKIE data sanitized
@@ -30075,9 +30075,9 @@ DEBUG - 2025-07-14 15:04:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:04:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:30 --> Total execution time: 0.0147
 DEBUG - 2025-07-14 20:04:31 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:31 --> Global POST, GET and COOKIE data sanitized
@@ -30086,9 +30086,9 @@ DEBUG - 2025-07-14 15:04:31 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 20:04:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:40 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 20:04:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:41 --> Global POST, GET and COOKIE data sanitized
@@ -30101,9 +30101,9 @@ DEBUG - 2025-07-14 15:04:47 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 20:04:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:04:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:04:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:04:50 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 20:04:51 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:04:51 --> Global POST, GET and COOKIE data sanitized
@@ -30124,9 +30124,9 @@ DEBUG - 2025-07-14 15:05:28 --> Total execution time: 0.0040
 DEBUG - 2025-07-14 20:05:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:05:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:05:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:05:42 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 20:05:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:05:47 --> Global POST, GET and COOKIE data sanitized
@@ -30151,9 +30151,9 @@ DEBUG - 2025-07-14 15:06:37 --> Total execution time: 0.0048
 DEBUG - 2025-07-14 20:06:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:06:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:06:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:06:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:06:42 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 20:06:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:06:47 --> Global POST, GET and COOKIE data sanitized
@@ -30174,9 +30174,9 @@ DEBUG - 2025-07-14 15:07:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:07:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:07:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:07:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:07:42 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 20:07:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:07:47 --> Global POST, GET and COOKIE data sanitized
@@ -30197,9 +30197,9 @@ DEBUG - 2025-07-14 15:08:28 --> Total execution time: 0.0028
 DEBUG - 2025-07-14 20:08:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:08:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:08:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:08:42 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 20:08:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:08:47 --> Global POST, GET and COOKIE data sanitized
@@ -30226,9 +30226,9 @@ DEBUG - 2025-07-14 15:09:28 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 20:09:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:09:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:09:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:09:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:09:42 --> Total execution time: 0.0159
 DEBUG - 2025-07-14 20:09:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:09:47 --> Global POST, GET and COOKIE data sanitized
@@ -30249,9 +30249,9 @@ DEBUG - 2025-07-14 15:10:28 --> Total execution time: 0.0042
 DEBUG - 2025-07-14 20:10:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:10:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:10:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:10:42 --> Total execution time: 0.0169
 DEBUG - 2025-07-14 20:10:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:10:47 --> Global POST, GET and COOKIE data sanitized
@@ -30272,9 +30272,9 @@ DEBUG - 2025-07-14 15:11:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:11:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:11:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:11:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:11:42 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 20:11:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:11:47 --> Global POST, GET and COOKIE data sanitized
@@ -30295,9 +30295,9 @@ DEBUG - 2025-07-14 15:12:28 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 20:12:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:12:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:12:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:12:42 --> Total execution time: 0.0161
 DEBUG - 2025-07-14 20:12:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:12:47 --> Global POST, GET and COOKIE data sanitized
@@ -30318,9 +30318,9 @@ DEBUG - 2025-07-14 15:13:29 --> Total execution time: 0.0040
 DEBUG - 2025-07-14 20:13:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:13:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:13:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:13:42 --> Total execution time: 0.0157
 DEBUG - 2025-07-14 20:13:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:13:47 --> Global POST, GET and COOKIE data sanitized
@@ -30333,9 +30333,9 @@ DEBUG - 2025-07-14 15:13:47 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 20:14:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:26 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:14:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:14:26 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:14:26 --> Total execution time: 0.0141
 DEBUG - 2025-07-14 20:14:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:28 --> Global POST, GET and COOKIE data sanitized
@@ -30348,16 +30348,16 @@ DEBUG - 2025-07-14 15:14:28 --> Total execution time: 0.0034
 DEBUG - 2025-07-14 20:14:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:14:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:14:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:14:29 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 20:14:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:14:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:14:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:14:39 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 20:14:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:47 --> Global POST, GET and COOKIE data sanitized
@@ -30370,30 +30370,30 @@ DEBUG - 2025-07-14 15:14:47 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 20:14:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:14:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:14:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:14:49 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 20:14:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:14:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:14:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:14:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:14:59 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:15:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:15:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:15:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:15:10 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 20:15:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:15:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:15:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:15:20 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 20:15:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:28 --> Global POST, GET and COOKIE data sanitized
@@ -30406,16 +30406,16 @@ DEBUG - 2025-07-14 15:15:28 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 20:15:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:15:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:15:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:15:30 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 20:15:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:15:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:15:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:15:40 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 20:15:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:47 --> Global POST, GET and COOKIE data sanitized
@@ -30428,23 +30428,23 @@ DEBUG - 2025-07-14 15:15:47 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 20:15:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:15:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:15:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:15:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:15:50 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 20:16:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:00 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 20:16:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:10 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 20:16:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:17 --> Global POST, GET and COOKIE data sanitized
@@ -30453,9 +30453,9 @@ DEBUG - 2025-07-14 15:16:17 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 20:16:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:20 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 20:16:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:26 --> Global POST, GET and COOKIE data sanitized
@@ -30472,9 +30472,9 @@ DEBUG - 2025-07-14 15:16:28 --> Total execution time: 0.0031
 DEBUG - 2025-07-14 20:16:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:30 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 20:16:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:30 --> Global POST, GET and COOKIE data sanitized
@@ -30483,9 +30483,9 @@ DEBUG - 2025-07-14 15:16:30 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 20:16:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:40 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 20:16:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:40 --> Global POST, GET and COOKIE data sanitized
@@ -30498,9 +30498,9 @@ DEBUG - 2025-07-14 15:16:47 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 20:16:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:16:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:16:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:16:49 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 20:16:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:16:50 --> Global POST, GET and COOKIE data sanitized
@@ -30509,9 +30509,9 @@ DEBUG - 2025-07-14 15:16:50 --> Total execution time: 0.0096
 DEBUG - 2025-07-14 20:17:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:00 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 20:17:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:00 --> Global POST, GET and COOKIE data sanitized
@@ -30520,9 +30520,9 @@ DEBUG - 2025-07-14 15:17:00 --> Total execution time: 0.0088
 DEBUG - 2025-07-14 20:17:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:10 --> Total execution time: 0.0155
 DEBUG - 2025-07-14 20:17:11 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:11 --> Global POST, GET and COOKIE data sanitized
@@ -30535,9 +30535,9 @@ DEBUG - 2025-07-14 15:17:17 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 20:17:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:19 --> Total execution time: 0.0099
 DEBUG - 2025-07-14 20:17:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:20 --> Global POST, GET and COOKIE data sanitized
@@ -30554,9 +30554,9 @@ DEBUG - 2025-07-14 15:17:28 --> Total execution time: 0.0042
 DEBUG - 2025-07-14 20:17:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:29 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 20:17:31 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:31 --> Global POST, GET and COOKIE data sanitized
@@ -30565,9 +30565,9 @@ DEBUG - 2025-07-14 15:17:31 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 20:17:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:39 --> Total execution time: 0.0167
 DEBUG - 2025-07-14 20:17:41 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:41 --> Global POST, GET and COOKIE data sanitized
@@ -30580,9 +30580,9 @@ DEBUG - 2025-07-14 15:17:47 --> Total execution time: 0.0095
 DEBUG - 2025-07-14 20:17:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:17:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:17:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:17:50 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 20:17:51 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:17:51 --> Global POST, GET and COOKIE data sanitized
@@ -30591,9 +30591,9 @@ DEBUG - 2025-07-14 15:17:51 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 20:18:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:00 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 20:18:01 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:01 --> Global POST, GET and COOKIE data sanitized
@@ -30602,9 +30602,9 @@ DEBUG - 2025-07-14 15:18:01 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 20:18:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:10 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 20:18:11 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:11 --> Global POST, GET and COOKIE data sanitized
@@ -30617,9 +30617,9 @@ DEBUG - 2025-07-14 15:18:17 --> Total execution time: 0.0084
 DEBUG - 2025-07-14 20:18:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:20 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 20:18:21 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:21 --> Global POST, GET and COOKIE data sanitized
@@ -30636,16 +30636,16 @@ DEBUG - 2025-07-14 15:18:28 --> Total execution time: 0.0029
 DEBUG - 2025-07-14 20:18:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:30 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 20:18:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:40 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 20:18:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:47 --> Global POST, GET and COOKIE data sanitized
@@ -30661,9 +30661,9 @@ ERROR - 2025-07-14 20:18:48 --> 404 Page Not Found: 185223273/index
 DEBUG - 2025-07-14 20:18:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:18:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:18:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:18:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:18:50 --> Total execution time: 0.0134
 DEBUG - 2025-07-14 20:19:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:19:17 --> Global POST, GET and COOKIE data sanitized
@@ -30680,9 +30680,9 @@ DEBUG - 2025-07-14 15:19:28 --> Total execution time: 0.0038
 DEBUG - 2025-07-14 20:19:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:19:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:19:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:19:42 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 20:19:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:19:47 --> Global POST, GET and COOKIE data sanitized
@@ -30707,9 +30707,9 @@ DEBUG - 2025-07-14 15:20:28 --> Total execution time: 0.0029
 DEBUG - 2025-07-14 20:20:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:20:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:20:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:20:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:20:42 --> Total execution time: 0.0158
 DEBUG - 2025-07-14 20:20:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:20:47 --> Global POST, GET and COOKIE data sanitized
@@ -30734,9 +30734,9 @@ DEBUG - 2025-07-14 15:21:28 --> Total execution time: 0.0037
 DEBUG - 2025-07-14 20:21:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:21:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:21:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:21:42 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 20:21:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:21:47 --> Global POST, GET and COOKIE data sanitized
@@ -30761,9 +30761,9 @@ DEBUG - 2025-07-14 15:22:28 --> Total execution time: 0.0031
 DEBUG - 2025-07-14 20:22:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:22:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:22:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:22:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:22:42 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 20:22:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:22:47 --> Global POST, GET and COOKIE data sanitized
@@ -30788,9 +30788,9 @@ DEBUG - 2025-07-14 15:23:28 --> Total execution time: 0.0028
 DEBUG - 2025-07-14 20:23:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:23:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:23:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:23:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:23:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:23:47 --> Global POST, GET and COOKIE data sanitized
@@ -30811,9 +30811,9 @@ DEBUG - 2025-07-14 15:24:28 --> Total execution time: 0.0036
 DEBUG - 2025-07-14 20:24:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:24:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:24:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:24:42 --> Total execution time: 0.0170
 DEBUG - 2025-07-14 20:24:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:24:47 --> Global POST, GET and COOKIE data sanitized
@@ -30834,9 +30834,9 @@ DEBUG - 2025-07-14 15:25:28 --> Total execution time: 0.0042
 DEBUG - 2025-07-14 20:25:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:25:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:25:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:25:42 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 20:25:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:25:47 --> Global POST, GET and COOKIE data sanitized
@@ -30863,9 +30863,9 @@ DEBUG - 2025-07-14 15:26:28 --> Total execution time: 0.0033
 DEBUG - 2025-07-14 20:26:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:26:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:26:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:26:42 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 20:26:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:26:47 --> Global POST, GET and COOKIE data sanitized
@@ -30886,9 +30886,9 @@ DEBUG - 2025-07-14 15:27:28 --> Total execution time: 0.0035
 DEBUG - 2025-07-14 20:27:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:27:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:27:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:27:42 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 20:27:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:27:47 --> Global POST, GET and COOKIE data sanitized
@@ -30909,9 +30909,9 @@ DEBUG - 2025-07-14 15:28:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:28:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:28:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:28:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:28:42 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 20:28:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:28:47 --> Global POST, GET and COOKIE data sanitized
@@ -30932,9 +30932,9 @@ DEBUG - 2025-07-14 15:29:28 --> Total execution time: 0.0031
 DEBUG - 2025-07-14 20:29:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:29:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:29:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:29:42 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 20:29:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:29:47 --> Global POST, GET and COOKIE data sanitized
@@ -30966,9 +30966,9 @@ ERROR - 2025-07-14 20:30:34 --> 404 Page Not Found: 114427113/index
 DEBUG - 2025-07-14 20:30:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:30:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:30:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:30:42 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 20:30:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:30:47 --> Global POST, GET and COOKIE data sanitized
@@ -30989,9 +30989,9 @@ DEBUG - 2025-07-14 15:31:28 --> Total execution time: 0.0031
 DEBUG - 2025-07-14 20:31:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:31:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:31:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:31:42 --> Total execution time: 0.0134
 DEBUG - 2025-07-14 20:31:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:31:47 --> Global POST, GET and COOKIE data sanitized
@@ -31012,9 +31012,9 @@ DEBUG - 2025-07-14 15:32:28 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:32:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:32:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:32:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:32:42 --> Total execution time: 0.0146
 DEBUG - 2025-07-14 20:32:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:32:47 --> Global POST, GET and COOKIE data sanitized
@@ -31035,9 +31035,9 @@ DEBUG - 2025-07-14 15:33:28 --> Total execution time: 0.0032
 DEBUG - 2025-07-14 20:33:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:33:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:33:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:33:42 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 20:33:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:33:47 --> Global POST, GET and COOKIE data sanitized
@@ -31069,9 +31069,9 @@ DEBUG - 2025-07-14 15:34:28 --> Total execution time: 0.0032
 DEBUG - 2025-07-14 20:34:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:34:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:34:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:34:42 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 20:34:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:34:47 --> Global POST, GET and COOKIE data sanitized
@@ -31092,9 +31092,9 @@ DEBUG - 2025-07-14 15:35:28 --> Total execution time: 0.0039
 DEBUG - 2025-07-14 20:35:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:35:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:35:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:35:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:35:42 --> Total execution time: 0.0168
 DEBUG - 2025-07-14 20:35:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:35:47 --> Global POST, GET and COOKIE data sanitized
@@ -31118,9 +31118,9 @@ ERROR - 2025-07-14 20:36:29 --> 404 Page Not Found: 124512669/index
 DEBUG - 2025-07-14 20:36:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:36:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:36:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:36:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:36:42 --> Total execution time: 0.0157
 DEBUG - 2025-07-14 20:36:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:36:47 --> Global POST, GET and COOKIE data sanitized
@@ -31144,9 +31144,9 @@ ERROR - 2025-07-14 20:37:30 --> 404 Page Not Found: 112005554/index
 DEBUG - 2025-07-14 20:37:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:37:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:37:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:37:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:37:42 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 20:37:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:37:47 --> Global POST, GET and COOKIE data sanitized
@@ -31167,9 +31167,9 @@ DEBUG - 2025-07-14 15:38:28 --> Total execution time: 0.0031
 DEBUG - 2025-07-14 20:38:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:38:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:38:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:38:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:38:42 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 20:38:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:38:47 --> Global POST, GET and COOKIE data sanitized
@@ -31190,9 +31190,9 @@ DEBUG - 2025-07-14 15:39:28 --> Total execution time: 0.0040
 DEBUG - 2025-07-14 20:39:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:39:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:39:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:39:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:39:42 --> Total execution time: 0.0164
 DEBUG - 2025-07-14 20:39:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:39:47 --> Global POST, GET and COOKIE data sanitized
@@ -31217,9 +31217,9 @@ DEBUG - 2025-07-14 15:40:36 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 20:40:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:40:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:40:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:40:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:40:42 --> Total execution time: 0.0095
 DEBUG - 2025-07-14 20:40:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:40:47 --> Global POST, GET and COOKIE data sanitized
@@ -31244,9 +31244,9 @@ DEBUG - 2025-07-14 15:41:28 --> Total execution time: 0.0034
 DEBUG - 2025-07-14 20:41:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:41:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:41:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:41:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:41:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:41:47 --> Global POST, GET and COOKIE data sanitized
@@ -31271,9 +31271,9 @@ DEBUG - 2025-07-14 15:42:28 --> Total execution time: 0.0037
 DEBUG - 2025-07-14 20:42:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:42:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:42:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:42:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:42:42 --> Total execution time: 0.0166
 DEBUG - 2025-07-14 20:42:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:42:47 --> Global POST, GET and COOKIE data sanitized
@@ -31298,9 +31298,9 @@ DEBUG - 2025-07-14 15:43:29 --> Total execution time: 0.0042
 DEBUG - 2025-07-14 20:43:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:43:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:43:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:43:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:43:42 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 20:43:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:43:47 --> Global POST, GET and COOKIE data sanitized
@@ -31325,9 +31325,9 @@ DEBUG - 2025-07-14 15:44:28 --> Total execution time: 0.0040
 DEBUG - 2025-07-14 20:44:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:44:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:44:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:44:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:44:42 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 20:44:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:44:47 --> Global POST, GET and COOKIE data sanitized
@@ -31352,9 +31352,9 @@ DEBUG - 2025-07-14 15:45:28 --> Total execution time: 0.0033
 DEBUG - 2025-07-14 20:45:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:45:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:45:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:45:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:45:42 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 20:45:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:45:47 --> Global POST, GET and COOKIE data sanitized
@@ -31379,9 +31379,9 @@ DEBUG - 2025-07-14 15:46:28 --> Total execution time: 0.0036
 DEBUG - 2025-07-14 20:46:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:46:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:46:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:46:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:46:42 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 20:46:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:46:47 --> Global POST, GET and COOKIE data sanitized
@@ -31406,9 +31406,9 @@ DEBUG - 2025-07-14 15:47:28 --> Total execution time: 0.0039
 DEBUG - 2025-07-14 20:47:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:47:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:47:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:47:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:47:42 --> Total execution time: 0.0142
 DEBUG - 2025-07-14 20:47:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:47:47 --> Global POST, GET and COOKIE data sanitized
@@ -31438,9 +31438,9 @@ DEBUG - 2025-07-14 15:48:28 --> Total execution time: 0.0037
 DEBUG - 2025-07-14 20:48:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:48:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:48:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:48:42 --> Total execution time: 0.0250
 DEBUG - 2025-07-14 20:48:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:48:47 --> Global POST, GET and COOKIE data sanitized
@@ -31465,9 +31465,9 @@ DEBUG - 2025-07-14 15:49:28 --> Total execution time: 0.0046
 DEBUG - 2025-07-14 20:49:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:49:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:49:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:49:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:49:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:49:47 --> Global POST, GET and COOKIE data sanitized
@@ -31492,9 +31492,9 @@ DEBUG - 2025-07-14 15:50:28 --> Total execution time: 0.0039
 DEBUG - 2025-07-14 20:50:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:50:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:50:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:50:42 --> Total execution time: 0.0156
 DEBUG - 2025-07-14 20:50:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:50:47 --> Global POST, GET and COOKIE data sanitized
@@ -31507,23 +31507,23 @@ DEBUG - 2025-07-14 15:50:47 --> Total execution time: 0.0153
 DEBUG - 2025-07-14 20:50:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:50:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:50:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:50:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:50:50 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 20:50:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:50:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:50:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:50:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:50:59 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 20:51:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:09 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 20:51:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:17 --> Global POST, GET and COOKIE data sanitized
@@ -31532,9 +31532,9 @@ DEBUG - 2025-07-14 15:51:17 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 20:51:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:19 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 20:51:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:28 --> Global POST, GET and COOKIE data sanitized
@@ -31547,16 +31547,16 @@ DEBUG - 2025-07-14 15:51:28 --> Total execution time: 0.0028
 DEBUG - 2025-07-14 20:51:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:29 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 20:51:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:39 --> Total execution time: 0.0107
 DEBUG - 2025-07-14 20:51:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:47 --> Global POST, GET and COOKIE data sanitized
@@ -31569,23 +31569,23 @@ DEBUG - 2025-07-14 15:51:47 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 20:51:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:49 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 20:51:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:51:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:51:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:51:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:51:59 --> Total execution time: 0.0092
 DEBUG - 2025-07-14 20:52:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:09 --> Total execution time: 0.0168
 DEBUG - 2025-07-14 20:52:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:17 --> Global POST, GET and COOKIE data sanitized
@@ -31594,23 +31594,23 @@ DEBUG - 2025-07-14 15:52:17 --> Total execution time: 0.0102
 DEBUG - 2025-07-14 20:52:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:19 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 20:52:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:29 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:29 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 20:52:39 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:39 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:39 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:39 --> Total execution time: 0.0092
 DEBUG - 2025-07-14 20:52:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:47 --> Global POST, GET and COOKIE data sanitized
@@ -31623,23 +31623,23 @@ DEBUG - 2025-07-14 15:52:47 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 20:52:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:49 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 20:52:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:52:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:52:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:52:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:52:59 --> Total execution time: 0.0107
 DEBUG - 2025-07-14 20:53:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:53:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:53:09 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:53:09 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 20:53:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:18 --> Global POST, GET and COOKIE data sanitized
@@ -31648,9 +31648,9 @@ DEBUG - 2025-07-14 15:53:18 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 20:53:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:19 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:53:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:53:19 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:53:19 --> Total execution time: 0.0105
 DEBUG - 2025-07-14 20:53:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:29 --> Global POST, GET and COOKIE data sanitized
@@ -31663,16 +31663,16 @@ DEBUG - 2025-07-14 15:53:29 --> Total execution time: 0.0030
 DEBUG - 2025-07-14 20:53:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:53:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:53:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:53:30 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 20:53:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:53:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:53:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:53:40 --> Total execution time: 0.0246
 DEBUG - 2025-07-14 20:53:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:47 --> Global POST, GET and COOKIE data sanitized
@@ -31685,23 +31685,23 @@ DEBUG - 2025-07-14 15:53:47 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 20:53:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:53:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:53:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:53:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:53:50 --> Total execution time: 0.0275
 DEBUG - 2025-07-14 20:54:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:54:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:54:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:54:00 --> Total execution time: 0.0150
 DEBUG - 2025-07-14 20:54:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:54:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:54:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:54:10 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 20:54:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:17 --> Global POST, GET and COOKIE data sanitized
@@ -31710,9 +31710,9 @@ DEBUG - 2025-07-14 15:54:17 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 20:54:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:54:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:54:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:54:20 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 20:54:27 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:27 --> Global POST, GET and COOKIE data sanitized
@@ -31725,16 +31725,16 @@ DEBUG - 2025-07-14 15:54:28 --> Total execution time: 0.0048
 DEBUG - 2025-07-14 20:54:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:54:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:54:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:54:30 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:54:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:54:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:54:42 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 20:54:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:54:47 --> Global POST, GET and COOKIE data sanitized
@@ -31759,9 +31759,9 @@ DEBUG - 2025-07-14 15:55:28 --> Total execution time: 0.0037
 DEBUG - 2025-07-14 20:55:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:55:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:55:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:55:42 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 20:55:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:55:47 --> Global POST, GET and COOKIE data sanitized
@@ -31786,9 +31786,9 @@ DEBUG - 2025-07-14 15:56:27 --> Total execution time: 0.0028
 DEBUG - 2025-07-14 20:56:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:56:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:56:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:56:42 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 20:56:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:56:47 --> Global POST, GET and COOKIE data sanitized
@@ -31813,9 +31813,9 @@ DEBUG - 2025-07-14 15:57:27 --> Total execution time: 0.0033
 DEBUG - 2025-07-14 20:57:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:57:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:57:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:57:42 --> Total execution time: 0.0169
 DEBUG - 2025-07-14 20:57:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:57:47 --> Global POST, GET and COOKIE data sanitized
@@ -31845,9 +31845,9 @@ DEBUG - 2025-07-14 15:58:27 --> Total execution time: 0.0032
 DEBUG - 2025-07-14 20:58:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:58:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:58:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:58:42 --> Total execution time: 0.0177
 DEBUG - 2025-07-14 20:58:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:58:47 --> Global POST, GET and COOKIE data sanitized
@@ -31864,9 +31864,9 @@ DEBUG - 2025-07-14 15:59:17 --> Total execution time: 0.0167
 DEBUG - 2025-07-14 20:59:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:59:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 20:59:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 15:59:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 15:59:42 --> Total execution time: 0.0153
 DEBUG - 2025-07-14 20:59:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 20:59:47 --> Global POST, GET and COOKIE data sanitized
@@ -31883,9 +31883,9 @@ DEBUG - 2025-07-14 16:00:17 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 21:00:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:00:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:00:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:00:42 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 21:00:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:00:47 --> Global POST, GET and COOKIE data sanitized
@@ -31902,9 +31902,9 @@ DEBUG - 2025-07-14 16:01:17 --> Total execution time: 0.0155
 DEBUG - 2025-07-14 21:01:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:01:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:01:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:01:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:01:42 --> Total execution time: 0.0152
 DEBUG - 2025-07-14 21:01:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:01:47 --> Global POST, GET and COOKIE data sanitized
@@ -31921,9 +31921,9 @@ DEBUG - 2025-07-14 16:02:17 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 21:02:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:02:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:02:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:02:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:02:42 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 21:02:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:02:47 --> Global POST, GET and COOKIE data sanitized
@@ -31940,9 +31940,9 @@ DEBUG - 2025-07-14 16:03:17 --> Total execution time: 0.0191
 DEBUG - 2025-07-14 21:03:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:03:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:03:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:03:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:03:42 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 21:03:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:03:47 --> Global POST, GET and COOKIE data sanitized
@@ -31959,9 +31959,9 @@ DEBUG - 2025-07-14 16:04:17 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 21:04:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:04:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:04:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:04:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:04:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 21:04:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:04:47 --> Global POST, GET and COOKIE data sanitized
@@ -31984,9 +31984,9 @@ DEBUG - 2025-07-14 16:05:30 --> Total execution time: 5.5348
 DEBUG - 2025-07-14 21:05:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:05:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:05:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:05:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:05:42 --> Total execution time: 0.0176
 DEBUG - 2025-07-14 21:05:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:05:47 --> Global POST, GET and COOKIE data sanitized
@@ -32003,9 +32003,9 @@ DEBUG - 2025-07-14 16:06:17 --> Total execution time: 0.0163
 DEBUG - 2025-07-14 21:06:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:06:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:06:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:06:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:06:42 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 21:06:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:06:47 --> Global POST, GET and COOKIE data sanitized
@@ -32022,9 +32022,9 @@ DEBUG - 2025-07-14 16:07:17 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 21:07:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:07:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:07:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:07:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:07:42 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 21:07:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:07:47 --> Global POST, GET and COOKIE data sanitized
@@ -32041,9 +32041,9 @@ DEBUG - 2025-07-14 16:08:17 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 21:08:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:08:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:08:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:08:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:08:42 --> Total execution time: 0.0157
 DEBUG - 2025-07-14 21:08:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:08:47 --> Global POST, GET and COOKIE data sanitized
@@ -32060,23 +32060,23 @@ DEBUG - 2025-07-14 16:09:17 --> Total execution time: 0.0142
 DEBUG - 2025-07-14 21:09:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:09:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:09:24 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:09:24 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 21:09:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:09:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:09:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:09:30 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:09:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:09:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:09:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:09:40 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 21:09:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:47 --> Global POST, GET and COOKIE data sanitized
@@ -32089,9 +32089,9 @@ DEBUG - 2025-07-14 16:09:47 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 21:09:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:09:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:09:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:09:50 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 21:09:55 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:09:55 --> Global POST, GET and COOKIE data sanitized
@@ -32100,16 +32100,16 @@ DEBUG - 2025-07-14 16:09:55 --> Total execution time: 0.0208
 DEBUG - 2025-07-14 21:10:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:10:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:10:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:10:00 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 21:10:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:10:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:10:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:10:10 --> Total execution time: 0.0166
 DEBUG - 2025-07-14 21:10:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:17 --> Global POST, GET and COOKIE data sanitized
@@ -32118,16 +32118,16 @@ DEBUG - 2025-07-14 16:10:17 --> Total execution time: 0.0146
 DEBUG - 2025-07-14 21:10:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:10:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:10:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:10:20 --> Total execution time: 0.0147
 DEBUG - 2025-07-14 21:10:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:10:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:10:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:10:42 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 21:10:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:10:47 --> Global POST, GET and COOKIE data sanitized
@@ -32153,9 +32153,9 @@ DEBUG - 2025-07-14 16:11:27 --> Total execution time: 5.4384
 DEBUG - 2025-07-14 21:11:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:11:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:11:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:11:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:11:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 21:11:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:11:47 --> Global POST, GET and COOKIE data sanitized
@@ -32176,9 +32176,9 @@ DEBUG - 2025-07-14 16:12:32 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 21:12:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:12:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:12:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:12:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:12:42 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 21:12:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:12:47 --> Global POST, GET and COOKIE data sanitized
@@ -32191,9 +32191,9 @@ DEBUG - 2025-07-14 16:13:17 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 21:13:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:13:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:13:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:13:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:13:42 --> Total execution time: 0.0147
 DEBUG - 2025-07-14 21:13:45 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:13:45 --> Global POST, GET and COOKIE data sanitized
@@ -32209,9 +32209,9 @@ DEBUG - 2025-07-14 16:14:17 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 21:14:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:14:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:14:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:14:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:14:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 21:14:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:14:47 --> Global POST, GET and COOKIE data sanitized
@@ -32220,23 +32220,23 @@ DEBUG - 2025-07-14 16:14:47 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 21:14:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:14:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:14:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:14:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:14:49 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:15:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:00 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:15:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:10 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 21:15:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:17 --> Global POST, GET and COOKIE data sanitized
@@ -32245,23 +32245,23 @@ DEBUG - 2025-07-14 16:15:17 --> Total execution time: 0.0109
 DEBUG - 2025-07-14 21:15:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:20 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 21:15:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:30 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:15:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:40 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 21:15:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:47 --> Global POST, GET and COOKIE data sanitized
@@ -32270,9 +32270,9 @@ DEBUG - 2025-07-14 16:15:47 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:15:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:15:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:15:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:15:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:15:50 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 21:16:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:16:17 --> Global POST, GET and COOKIE data sanitized
@@ -32281,9 +32281,9 @@ DEBUG - 2025-07-14 16:16:17 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:16:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:16:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:16:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:16:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:16:42 --> Total execution time: 0.0137
 DEBUG - 2025-07-14 21:16:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:16:47 --> Global POST, GET and COOKIE data sanitized
@@ -32296,9 +32296,9 @@ DEBUG - 2025-07-14 16:17:17 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 21:17:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:17:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:17:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:17:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:17:42 --> Total execution time: 0.0150
 DEBUG - 2025-07-14 21:17:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:17:47 --> Global POST, GET and COOKIE data sanitized
@@ -32311,9 +32311,9 @@ DEBUG - 2025-07-14 16:18:17 --> Total execution time: 0.0154
 DEBUG - 2025-07-14 21:18:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:18:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:18:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:18:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:18:42 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 21:18:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:18:47 --> Global POST, GET and COOKIE data sanitized
@@ -32326,9 +32326,9 @@ DEBUG - 2025-07-14 16:19:17 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 21:19:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:19:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:19:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:19:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:19:42 --> Total execution time: 0.0154
 DEBUG - 2025-07-14 21:19:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:19:47 --> Global POST, GET and COOKIE data sanitized
@@ -32337,23 +32337,23 @@ DEBUG - 2025-07-14 16:19:47 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 21:19:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:19:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:19:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:19:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:19:50 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 21:20:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:00 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 21:20:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:10 --> Total execution time: 0.0177
 DEBUG - 2025-07-14 21:20:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:17 --> Global POST, GET and COOKIE data sanitized
@@ -32362,23 +32362,23 @@ DEBUG - 2025-07-14 16:20:17 --> Total execution time: 0.1339
 DEBUG - 2025-07-14 21:20:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:20 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 21:20:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:30 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 21:20:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:40 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 21:20:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:47 --> Global POST, GET and COOKIE data sanitized
@@ -32387,9 +32387,9 @@ DEBUG - 2025-07-14 16:20:47 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 21:20:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:20:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:20:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:20:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:20:50 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 21:21:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:21:17 --> Global POST, GET and COOKIE data sanitized
@@ -32401,9 +32401,9 @@ ERROR - 2025-07-14 21:21:29 --> 404 Page Not Found: 209187969/index
 DEBUG - 2025-07-14 21:21:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:21:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:21:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:21:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:21:42 --> Total execution time: 0.0136
 DEBUG - 2025-07-14 21:21:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:21:47 --> Global POST, GET and COOKIE data sanitized
@@ -32412,44 +32412,44 @@ DEBUG - 2025-07-14 16:21:47 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 21:21:54 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:21:54 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:21:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:21:54 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:21:54 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 21:21:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:21:59 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:21:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:21:59 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:21:59 --> Total execution time: 0.0132
 DEBUG - 2025-07-14 21:22:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:22:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:22:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:22:10 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 21:22:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:22:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:22:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:22:20 --> Total execution time: 0.0111
 DEBUG - 2025-07-14 21:22:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:22:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:22:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:22:30 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:22:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:22:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:22:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:22:40 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 21:22:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:47 --> Global POST, GET and COOKIE data sanitized
@@ -32458,23 +32458,23 @@ DEBUG - 2025-07-14 16:22:47 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 21:22:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:22:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:22:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:22:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:22:50 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:23:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:23:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:23:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:23:00 --> Total execution time: 0.0163
 DEBUG - 2025-07-14 21:23:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:23:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:23:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:23:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:23:42 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:23:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:23:47 --> Global POST, GET and COOKIE data sanitized
@@ -32483,9 +32483,9 @@ DEBUG - 2025-07-14 16:23:47 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 21:24:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:24:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:24:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:24:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:24:42 --> Total execution time: 0.0137
 DEBUG - 2025-07-14 21:24:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:24:47 --> Global POST, GET and COOKIE data sanitized
@@ -32502,9 +32502,9 @@ DEBUG - 2025-07-14 16:25:18 --> Total execution time: 0.0094
 DEBUG - 2025-07-14 21:25:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:25:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:25:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:25:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:25:42 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:25:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:25:47 --> Global POST, GET and COOKIE data sanitized
@@ -32517,9 +32517,9 @@ DEBUG - 2025-07-14 16:26:17 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 21:26:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:26:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:26:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:26:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:26:42 --> Total execution time: 0.0147
 DEBUG - 2025-07-14 21:26:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:26:47 --> Global POST, GET and COOKIE data sanitized
@@ -32532,9 +32532,9 @@ DEBUG - 2025-07-14 16:27:17 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:27:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:27:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:27:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:27:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:27:42 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 21:27:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:27:47 --> Global POST, GET and COOKIE data sanitized
@@ -32547,9 +32547,9 @@ DEBUG - 2025-07-14 16:28:17 --> Total execution time: 0.0125
 DEBUG - 2025-07-14 21:28:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:28:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:28:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:28:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:28:42 --> Total execution time: 0.0120
 DEBUG - 2025-07-14 21:28:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:28:47 --> Global POST, GET and COOKIE data sanitized
@@ -32562,9 +32562,9 @@ DEBUG - 2025-07-14 16:29:17 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:29:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:29:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:29:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:29:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:29:42 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 21:29:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:29:47 --> Global POST, GET and COOKIE data sanitized
@@ -32577,9 +32577,9 @@ DEBUG - 2025-07-14 16:30:17 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 21:30:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:30:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:30:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:30:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:30:42 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 21:30:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:30:47 --> Global POST, GET and COOKIE data sanitized
@@ -32595,9 +32595,9 @@ DEBUG - 2025-07-14 16:31:17 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 21:31:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:31:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:31:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:31:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:31:42 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 21:31:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:31:47 --> Global POST, GET and COOKIE data sanitized
@@ -32610,9 +32610,9 @@ DEBUG - 2025-07-14 16:32:17 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 21:32:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:32:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:32:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:32:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:32:42 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 21:32:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:32:47 --> Global POST, GET and COOKIE data sanitized
@@ -32625,9 +32625,9 @@ DEBUG - 2025-07-14 16:33:17 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:33:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:33:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:33:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:33:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:33:42 --> Total execution time: 0.0167
 DEBUG - 2025-07-14 21:33:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:33:47 --> Global POST, GET and COOKIE data sanitized
@@ -32640,9 +32640,9 @@ DEBUG - 2025-07-14 16:34:17 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 21:34:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:34:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:34:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:34:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:34:42 --> Total execution time: 0.0135
 DEBUG - 2025-07-14 21:34:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:34:47 --> Global POST, GET and COOKIE data sanitized
@@ -32655,9 +32655,9 @@ DEBUG - 2025-07-14 16:35:17 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 21:35:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:35:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:35:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:35:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:35:42 --> Total execution time: 0.0207
 DEBUG - 2025-07-14 21:35:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:35:47 --> Global POST, GET and COOKIE data sanitized
@@ -32670,9 +32670,9 @@ DEBUG - 2025-07-14 16:36:17 --> Total execution time: 0.0149
 DEBUG - 2025-07-14 21:36:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:36:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:36:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:36:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:36:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 21:36:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:36:44 --> Global POST, GET and COOKIE data sanitized
@@ -32688,9 +32688,9 @@ DEBUG - 2025-07-14 16:37:17 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 21:37:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:37:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:37:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:37:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:37:42 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 21:37:45 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:37:45 --> Global POST, GET and COOKIE data sanitized
@@ -32706,9 +32706,9 @@ DEBUG - 2025-07-14 16:38:17 --> Total execution time: 0.0153
 DEBUG - 2025-07-14 21:38:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:38:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:38:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:38:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:38:42 --> Total execution time: 0.0144
 DEBUG - 2025-07-14 21:38:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:38:47 --> Global POST, GET and COOKIE data sanitized
@@ -32724,9 +32724,9 @@ DEBUG - 2025-07-14 16:39:17 --> Total execution time: 0.0130
 DEBUG - 2025-07-14 21:39:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:39:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:39:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:39:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:39:42 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 21:39:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:39:47 --> Global POST, GET and COOKIE data sanitized
@@ -32739,9 +32739,9 @@ DEBUG - 2025-07-14 16:40:17 --> Total execution time: 0.0195
 DEBUG - 2025-07-14 21:40:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:40:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:40:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:40:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:40:42 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 21:40:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:40:47 --> Global POST, GET and COOKIE data sanitized
@@ -32754,9 +32754,9 @@ DEBUG - 2025-07-14 16:41:17 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 21:41:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:41:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:41:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:41:42 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 21:41:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:41:47 --> Global POST, GET and COOKIE data sanitized
@@ -32772,9 +32772,9 @@ DEBUG - 2025-07-14 16:42:17 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 21:42:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:42:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:42:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:42:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:42:42 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:42:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:42:47 --> Global POST, GET and COOKIE data sanitized
@@ -32787,9 +32787,9 @@ DEBUG - 2025-07-14 16:43:17 --> Total execution time: 0.0473
 DEBUG - 2025-07-14 21:43:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:43:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:43:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:43:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:43:42 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 21:43:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:43:47 --> Global POST, GET and COOKIE data sanitized
@@ -32802,9 +32802,9 @@ DEBUG - 2025-07-14 16:44:17 --> Total execution time: 0.0137
 DEBUG - 2025-07-14 21:44:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:44:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:44:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:44:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:44:42 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 21:44:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:44:47 --> Global POST, GET and COOKIE data sanitized
@@ -32817,9 +32817,9 @@ DEBUG - 2025-07-14 16:45:17 --> Total execution time: 0.0190
 DEBUG - 2025-07-14 21:45:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:45:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:45:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:45:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:45:42 --> Total execution time: 0.0112
 DEBUG - 2025-07-14 21:45:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:45:47 --> Global POST, GET and COOKIE data sanitized
@@ -32832,9 +32832,9 @@ DEBUG - 2025-07-14 16:46:17 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 21:46:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:46:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:46:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:46:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:46:42 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:46:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:46:47 --> Global POST, GET and COOKIE data sanitized
@@ -32855,9 +32855,9 @@ DEBUG - 2025-07-14 16:47:37 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 21:47:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:47:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:47:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:47:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:47:42 --> Total execution time: 0.0146
 DEBUG - 2025-07-14 21:47:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:47:47 --> Global POST, GET and COOKIE data sanitized
@@ -32882,9 +32882,9 @@ DEBUG - 2025-07-14 16:48:17 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 21:48:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:48:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:48:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:48:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:48:42 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 21:48:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:48:47 --> Global POST, GET and COOKIE data sanitized
@@ -32897,9 +32897,9 @@ DEBUG - 2025-07-14 16:49:17 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 21:49:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:49:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:49:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:49:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:49:42 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 21:49:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:49:47 --> Global POST, GET and COOKIE data sanitized
@@ -32912,9 +32912,9 @@ DEBUG - 2025-07-14 16:50:17 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 21:50:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:50:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:50:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:50:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:50:42 --> Total execution time: 0.0123
 DEBUG - 2025-07-14 21:50:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:50:47 --> Global POST, GET and COOKIE data sanitized
@@ -32927,9 +32927,9 @@ DEBUG - 2025-07-14 16:51:17 --> Total execution time: 0.0107
 DEBUG - 2025-07-14 21:51:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:51:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:51:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:51:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:51:42 --> Total execution time: 0.0137
 DEBUG - 2025-07-14 21:51:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:51:47 --> Global POST, GET and COOKIE data sanitized
@@ -32942,9 +32942,9 @@ DEBUG - 2025-07-14 16:52:17 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 21:52:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:52:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:52:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:52:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:52:42 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:52:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:52:47 --> Global POST, GET and COOKIE data sanitized
@@ -32961,9 +32961,9 @@ DEBUG - 2025-07-14 16:53:37 --> Total execution time: 0.0057
 DEBUG - 2025-07-14 21:53:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:53:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:53:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:53:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:53:42 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 21:53:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:53:47 --> Global POST, GET and COOKIE data sanitized
@@ -32976,9 +32976,9 @@ DEBUG - 2025-07-14 16:54:17 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 21:54:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:54:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:54:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:54:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:54:42 --> Total execution time: 0.0201
 DEBUG - 2025-07-14 21:54:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:54:47 --> Global POST, GET and COOKIE data sanitized
@@ -32991,9 +32991,9 @@ DEBUG - 2025-07-14 16:55:17 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 21:55:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:55:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:55:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:55:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:55:42 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 21:55:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:55:47 --> Global POST, GET and COOKIE data sanitized
@@ -33048,9 +33048,9 @@ DEBUG - 2025-07-14 16:56:40 --> Total execution time: 0.0740
 DEBUG - 2025-07-14 21:56:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:56:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:56:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:56:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:56:42 --> Total execution time: 0.0099
 DEBUG - 2025-07-14 21:56:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:56:47 --> Global POST, GET and COOKIE data sanitized
@@ -33087,9 +33087,9 @@ DEBUG - 2025-07-14 16:57:40 --> Total execution time: 0.0134
 DEBUG - 2025-07-14 21:57:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:57:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:57:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:57:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:57:42 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 21:57:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:57:47 --> Global POST, GET and COOKIE data sanitized
@@ -33106,9 +33106,9 @@ DEBUG - 2025-07-14 16:58:17 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 21:58:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:58:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:58:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:58:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:58:42 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 21:58:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:58:47 --> Global POST, GET and COOKIE data sanitized
@@ -33125,23 +33125,23 @@ DEBUG - 2025-07-14 16:59:17 --> Total execution time: 0.0162
 DEBUG - 2025-07-14 21:59:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:59:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:59:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:59:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:59:20 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 21:59:30 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:59:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:59:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:59:30 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:59:30 --> Total execution time: 0.0096
 DEBUG - 2025-07-14 21:59:40 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:59:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:59:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:59:40 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:59:40 --> Total execution time: 0.0151
 DEBUG - 2025-07-14 21:59:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:59:47 --> Global POST, GET and COOKIE data sanitized
@@ -33154,23 +33154,23 @@ DEBUG - 2025-07-14 16:59:47 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 21:59:50 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 21:59:50 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 21:59:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 16:59:50 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 16:59:50 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 22:00:00 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 22:00:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 17:00:00 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 17:00:00 --> Total execution time: 0.0157
 DEBUG - 2025-07-14 22:00:10 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 22:00:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 17:00:10 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 17:00:10 --> Total execution time: 0.0163
 DEBUG - 2025-07-14 22:00:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:17 --> Global POST, GET and COOKIE data sanitized
@@ -33179,16 +33179,16 @@ DEBUG - 2025-07-14 17:00:17 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 22:00:20 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:20 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 22:00:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 17:00:20 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 17:00:20 --> Total execution time: 0.0145
 DEBUG - 2025-07-14 22:00:42 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:42 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 22:00:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 17:00:42 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 17:00:42 --> Total execution time: 0.0131
 DEBUG - 2025-07-14 22:00:47 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:47 --> Global POST, GET and COOKIE data sanitized
@@ -33201,9 +33201,9 @@ DEBUG - 2025-07-14 17:00:47 --> Total execution time: 0.0091
 DEBUG - 2025-07-14 22:00:49 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:00:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-14 22:00:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 381
-ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 382
-ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/Home.php 383
+ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: href /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 381
+ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: i /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 382
+ERROR - 2025-07-14 17:00:49 --> Severity: Notice --> Undefined variable: tipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/Home.php 383
 DEBUG - 2025-07-14 17:00:49 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 22:01:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-14 22:01:17 --> Global POST, GET and COOKIE data sanitized
@@ -33775,8 +33775,8 @@ ERROR - 2025-07-14 21:02:56 --> Query error: Unknown column 'temas_tratados' in 
 FROM `actas`
 WHERE `id_acta` = '13'
 DEBUG - 2025-07-14 21:02:56 --> DB Transaction Failure
-ERROR - 2025-07-14 21:03:09 --> Severity: Notice --> Undefined variable: c_temas_tratados /home/u610593899/domains/ceciminsigca.com/public_html/application/views/actas/modificar.php 192
-ERROR - 2025-07-14 21:03:09 --> Severity: Notice --> Undefined variable: c_decisiones /home/u610593899/domains/ceciminsigca.com/public_html/application/views/actas/modificar.php 203
+ERROR - 2025-07-14 21:03:09 --> Severity: Notice --> Undefined variable: c_temas_tratados /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/actas/modificar.php 192
+ERROR - 2025-07-14 21:03:09 --> Severity: Notice --> Undefined variable: c_decisiones /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/actas/modificar.php 203
 DEBUG - 2025-07-14 21:03:09 --> Total execution time: 0.0233
 DEBUG - 2025-07-14 21:03:11 --> Total execution time: 0.0088
 DEBUG - 2025-07-14 21:03:11 --> Total execution time: 0.0314
@@ -34008,7 +34008,7 @@ DEBUG - 2025-07-14 21:37:22 --> Total execution time: 0.0070
 DEBUG - 2025-07-14 21:37:22 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 21:37:22 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 21:37:32 --> Total execution time: 0.0138
-ERROR - 2025-07-14 21:37:33 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 432
+ERROR - 2025-07-14 21:37:33 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 432
 DEBUG - 2025-07-14 21:37:42 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 21:37:52 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 21:38:03 --> Total execution time: 0.0155
@@ -34227,30 +34227,30 @@ DEBUG - 2025-07-14 22:30:20 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 22:31:20 --> Total execution time: 0.0127
 DEBUG - 2025-07-14 22:32:20 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 22:33:20 --> Total execution time: 0.0121
-ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:21 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:25 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:28 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:21 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-14 22:33:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:25 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-14 22:33:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:28 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-14 22:33:28 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-07-14 22:33:32 --> Total execution time: 0.0139
 DEBUG - 2025-07-14 22:33:35 --> Total execution time: 0.0069
 DEBUG - 2025-07-14 22:33:37 --> Total execution time: 0.0110
 DEBUG - 2025-07-14 22:33:37 --> Total execution time: 0.0123
-ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 1143
-ERROR - 2025-07-14 22:33:40 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/ceciminsigca.com/public_html/application/third_party/fpdf/fpdf.php 271
-ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
+ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf): failed to open stream: No such file or directory /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> include(): Failed opening '/home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/font/DejaVuSansCondensed.ttf' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 1143
+ERROR - 2025-07-14 22:33:40 --> Severity: error --> Exception: FPDF error: Could not include font definition file /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/third_party/fpdf/fpdf.php 271
+ERROR - 2025-07-14 22:33:40 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Exceptions.php:272) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
 DEBUG - 2025-07-14 22:33:48 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 22:33:58 --> Total execution time: 0.0140
 DEBUG - 2025-07-14 22:34:07 --> Total execution time: 0.0103
@@ -34258,7 +34258,7 @@ DEBUG - 2025-07-14 22:34:18 --> Total execution time: 0.0143
 DEBUG - 2025-07-14 22:34:28 --> Total execution time: 0.0128
 DEBUG - 2025-07-14 22:34:38 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 22:35:20 --> Total execution time: 0.0121
-ERROR - 2025-07-14 22:35:55 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 61
+ERROR - 2025-07-14 22:35:55 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 61
 DEBUG - 2025-07-14 22:35:59 --> Total execution time: 0.0093
 DEBUG - 2025-07-14 22:36:08 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 22:36:18 --> Total execution time: 0.0118
@@ -34271,7 +34271,7 @@ DEBUG - 2025-07-14 22:37:18 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 22:37:28 --> Total execution time: 0.0108
 DEBUG - 2025-07-14 22:38:20 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 22:39:19 --> Total execution time: 0.0105
-ERROR - 2025-07-14 22:39:24 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 61
+ERROR - 2025-07-14 22:39:24 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 61
 DEBUG - 2025-07-14 22:39:28 --> Total execution time: 0.0094
 DEBUG - 2025-07-14 22:39:37 --> Total execution time: 0.0124
 DEBUG - 2025-07-14 22:39:47 --> Total execution time: 0.0127
@@ -34285,7 +34285,7 @@ DEBUG - 2025-07-14 22:40:58 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 22:41:06 --> Total execution time: 0.0053
 DEBUG - 2025-07-14 22:41:08 --> Total execution time: 0.0059
 DEBUG - 2025-07-14 22:41:08 --> Total execution time: 0.0140
-ERROR - 2025-07-14 22:41:11 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 61
+ERROR - 2025-07-14 22:41:11 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 61
 DEBUG - 2025-07-14 22:41:19 --> Total execution time: 0.0460
 DEBUG - 2025-07-14 22:41:29 --> Total execution time: 0.0089
 DEBUG - 2025-07-14 22:41:39 --> Total execution time: 0.0092
@@ -34293,7 +34293,7 @@ DEBUG - 2025-07-14 22:41:49 --> Total execution time: 0.0095
 DEBUG - 2025-07-14 22:41:59 --> Total execution time: 0.0082
 DEBUG - 2025-07-14 22:42:09 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 22:42:20 --> Total execution time: 0.0083
-ERROR - 2025-07-14 22:43:09 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 61
+ERROR - 2025-07-14 22:43:09 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::preprocesarListas() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 61
 DEBUG - 2025-07-14 22:43:15 --> Total execution time: 0.0185
 DEBUG - 2025-07-14 22:43:18 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 22:43:28 --> Total execution time: 0.0082
@@ -34324,9 +34324,9 @@ DEBUG - 2025-07-14 22:47:29 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 22:47:31 --> Total execution time: 0.0055
 DEBUG - 2025-07-14 22:47:32 --> Total execution time: 0.0058
 DEBUG - 2025-07-14 22:47:32 --> Total execution time: 0.0088
-ERROR - 2025-07-14 22:47:35 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
-ERROR - 2025-07-14 22:47:38 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
-ERROR - 2025-07-14 22:47:41 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:47:35 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:47:38 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:47:41 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
 DEBUG - 2025-07-14 22:47:43 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 22:47:53 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 22:48:03 --> Total execution time: 0.0099
@@ -34334,9 +34334,9 @@ DEBUG - 2025-07-14 22:48:13 --> Total execution time: 0.0089
 DEBUG - 2025-07-14 22:48:23 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 22:48:33 --> Total execution time: 0.0080
 DEBUG - 2025-07-14 22:49:20 --> Total execution time: 0.0139
-ERROR - 2025-07-14 22:49:43 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
-ERROR - 2025-07-14 22:49:45 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
-ERROR - 2025-07-14 22:49:48 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:49:43 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:49:45 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:49:48 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
 DEBUG - 2025-07-14 22:49:51 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 22:49:52 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 22:50:02 --> Total execution time: 0.0370
@@ -34357,9 +34357,9 @@ DEBUG - 2025-07-14 22:52:22 --> Total execution time: 0.0103
 DEBUG - 2025-07-14 22:52:32 --> Total execution time: 0.0117
 DEBUG - 2025-07-14 22:52:42 --> Total execution time: 0.0081
 DEBUG - 2025-07-14 22:52:52 --> Total execution time: 0.0080
-ERROR - 2025-07-14 22:53:01 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:53:01 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
 DEBUG - 2025-07-14 22:53:03 --> Total execution time: 0.0122
-ERROR - 2025-07-14 22:53:04 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 174
+ERROR - 2025-07-14 22:53:04 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::procesarTextoSimple() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 174
 DEBUG - 2025-07-14 22:53:13 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 22:53:23 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 22:53:33 --> Total execution time: 0.0115
@@ -34368,7 +34368,7 @@ DEBUG - 2025-07-14 22:53:52 --> Total execution time: 0.0083
 DEBUG - 2025-07-14 22:53:54 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 22:53:56 --> Total execution time: 0.0073
 DEBUG - 2025-07-14 22:53:56 --> Total execution time: 0.0106
-ERROR - 2025-07-14 22:54:02 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 247
+ERROR - 2025-07-14 22:54:02 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 247
 DEBUG - 2025-07-14 22:54:07 --> Total execution time: 0.0084
 DEBUG - 2025-07-14 22:54:17 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 22:54:27 --> Total execution time: 0.0082
@@ -34376,7 +34376,7 @@ DEBUG - 2025-07-14 22:54:37 --> Total execution time: 0.0089
 DEBUG - 2025-07-14 22:54:47 --> Total execution time: 0.0121
 DEBUG - 2025-07-14 22:54:57 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 22:55:20 --> Total execution time: 0.0102
-ERROR - 2025-07-14 22:55:21 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 247
+ERROR - 2025-07-14 22:55:21 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 247
 DEBUG - 2025-07-14 22:55:26 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 22:55:37 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 22:55:47 --> Total execution time: 0.0103
@@ -34410,8 +34410,8 @@ DEBUG - 2025-07-14 23:07:20 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 23:08:20 --> Total execution time: 0.0118
 DEBUG - 2025-07-14 23:09:20 --> Total execution time: 0.0138
 DEBUG - 2025-07-14 23:10:20 --> Total execution time: 0.0102
-ERROR - 2025-07-14 23:10:36 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 231
-ERROR - 2025-07-14 23:10:39 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 231
+ERROR - 2025-07-14 23:10:36 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 231
+ERROR - 2025-07-14 23:10:39 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 231
 DEBUG - 2025-07-14 23:10:40 --> Total execution time: 0.0092
 DEBUG - 2025-07-14 23:10:42 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 23:10:52 --> Total execution time: 0.0087
@@ -34429,7 +34429,7 @@ DEBUG - 2025-07-14 23:12:43 --> Total execution time: 0.0106
 DEBUG - 2025-07-14 23:12:53 --> Total execution time: 0.0126
 DEBUG - 2025-07-14 23:13:03 --> Total execution time: 0.0122
 DEBUG - 2025-07-14 23:13:12 --> Total execution time: 0.0095
-ERROR - 2025-07-14 23:13:14 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 231
+ERROR - 2025-07-14 23:13:14 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 231
 DEBUG - 2025-07-14 23:13:23 --> Total execution time: 0.0098
 DEBUG - 2025-07-14 23:13:33 --> Total execution time: 0.0114
 DEBUG - 2025-07-14 23:13:43 --> Total execution time: 0.0119
@@ -34438,8 +34438,8 @@ DEBUG - 2025-07-14 23:14:03 --> Total execution time: 0.0115
 DEBUG - 2025-07-14 23:14:13 --> Total execution time: 0.0129
 DEBUG - 2025-07-14 23:15:20 --> Total execution time: 0.0104
 DEBUG - 2025-07-14 23:16:20 --> Total execution time: 0.0133
-ERROR - 2025-07-14 23:16:29 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 232
-ERROR - 2025-07-14 23:16:33 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 232
+ERROR - 2025-07-14 23:16:29 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 232
+ERROR - 2025-07-14 23:16:33 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 232
 DEBUG - 2025-07-14 23:16:35 --> Total execution time: 0.0084
 DEBUG - 2025-07-14 23:16:42 --> Total execution time: 0.0087
 DEBUG - 2025-07-14 23:16:52 --> Total execution time: 0.0117
@@ -34515,14 +34515,14 @@ DEBUG - 2025-07-14 23:27:52 --> Total execution time: 0.0102
 DEBUG - 2025-07-14 23:27:57 --> Total execution time: 0.0065
 DEBUG - 2025-07-14 23:27:59 --> Total execution time: 0.0056
 DEBUG - 2025-07-14 23:27:59 --> Total execution time: 0.0087
-ERROR - 2025-07-14 23:28:02 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 239
+ERROR - 2025-07-14 23:28:02 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 239
 DEBUG - 2025-07-14 23:28:10 --> Total execution time: 0.0088
-ERROR - 2025-07-14 23:28:16 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 239
+ERROR - 2025-07-14 23:28:16 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 239
 DEBUG - 2025-07-14 23:28:20 --> Total execution time: 0.0119
 DEBUG - 2025-07-14 23:28:30 --> Total execution time: 0.0113
 DEBUG - 2025-07-14 23:28:40 --> Total execution time: 0.0116
 DEBUG - 2025-07-14 23:28:50 --> Total execution time: 0.0097
-ERROR - 2025-07-14 23:28:53 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 239
+ERROR - 2025-07-14 23:28:53 --> Severity: error --> Exception: syntax error, unexpected '/' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 239
 DEBUG - 2025-07-14 23:29:00 --> Total execution time: 0.0123
 DEBUG - 2025-07-14 23:29:20 --> Total execution time: 0.0102
 DEBUG - 2025-07-14 23:30:20 --> Total execution time: 0.0122
@@ -34563,12 +34563,12 @@ DEBUG - 2025-07-14 23:41:20 --> Total execution time: 0.0134
 DEBUG - 2025-07-14 23:42:20 --> Total execution time: 0.0100
 DEBUG - 2025-07-14 23:43:20 --> Total execution time: 0.0097
 DEBUG - 2025-07-14 23:43:31 --> HTML recibido: <p>Se realizan prueba en el modulo, surguiendo las siguientes observaciones o requerimientos:&nbsp;</p><ul><li>Agregar un campo que registre el funcionario que proyecto el acta, este dado deber visualizarse tanto en la interfaz grafica como en el pdf que se genera de dicha acta.</li><li>Modificar el algoritmo con el fin de que permita agregar tareas despues de crear el acta en el sistema, esta funcionalidad de agregar tareas despues de guardada el acta al igual que cualquier actualización, solo
-ERROR - 2025-07-14 23:43:31 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 191
+ERROR - 2025-07-14 23:43:31 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 191
 DEBUG - 2025-07-14 23:43:34 --> HTML recibido: <p>Se realizan prueba en el modulo, surguiendo las siguientes observaciones o requerimientos:&nbsp;</p><ul><li>Agregar un campo que registre el funcionario que proyecto el acta, este dado deber visualizarse tanto en la interfaz grafica como en el pdf que se genera de dicha acta.</li><li>Modificar el algoritmo con el fin de que permita agregar tareas despues de crear el acta en el sistema, esta funcionalidad de agregar tareas despues de guardada el acta al igual que cualquier actualización, solo
-ERROR - 2025-07-14 23:43:34 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 191
+ERROR - 2025-07-14 23:43:34 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 191
 DEBUG - 2025-07-14 23:44:20 --> Total execution time: 0.0133
 DEBUG - 2025-07-14 23:44:51 --> HTML recibido: <p>Se realizan prueba en el modulo, surguiendo las siguientes observaciones o requerimientos:&nbsp;</p><ul><li>Agregar un campo que registre el funcionario que proyecto el acta, este dado deber visualizarse tanto en la interfaz grafica como en el pdf que se genera de dicha acta.</li><li>Modificar el algoritmo con el fin de que permita agregar tareas despues de crear el acta en el sistema, esta funcionalidad de agregar tareas despues de guardada el acta al igual que cualquier actualización, solo
-ERROR - 2025-07-14 23:44:51 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 191
+ERROR - 2025-07-14 23:44:51 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::limpiarTextoSummernote() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 191
 DEBUG - 2025-07-14 23:44:55 --> Total execution time: 0.0086
 DEBUG - 2025-07-14 23:44:57 --> Total execution time: 0.0085
 DEBUG - 2025-07-14 23:45:08 --> Total execution time: 0.0098

@@ -11160,7 +11160,7 @@ DEBUG - 2025-06-27 07:09:05 --> Total execution time: 0.1686
 DEBUG - 2025-06-27 12:09:07 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 12:09:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 12:09:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 07:09:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-06-27 07:09:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-06-27 07:09:07 --> Total execution time: 0.0126
 DEBUG - 2025-06-27 12:09:07 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 12:09:07 --> Global POST, GET and COOKIE data sanitized
@@ -15580,7 +15580,7 @@ DEBUG - 2025-06-27 08:26:47 --> Total execution time: 0.0145
 DEBUG - 2025-06-27 13:26:55 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 13:26:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 13:26:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 08:26:55 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-06-27 08:26:55 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-06-27 08:26:55 --> Total execution time: 0.0105
 DEBUG - 2025-06-27 13:26:56 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 13:26:56 --> Global POST, GET and COOKIE data sanitized
@@ -17487,7 +17487,7 @@ DEBUG - 2025-06-27 09:00:24 --> Total execution time: 0.1712
 DEBUG - 2025-06-27 14:00:29 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:00:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:00:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:00:29 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-06-27 09:00:29 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-06-27 09:00:29 --> Total execution time: 0.0079
 DEBUG - 2025-06-27 14:00:29 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:00:29 --> Global POST, GET and COOKIE data sanitized
@@ -17863,7 +17863,7 @@ DEBUG - 2025-06-27 09:06:36 --> Total execution time: 0.0129
 DEBUG - 2025-06-27 14:06:40 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:06:40 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:06:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:06:40 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:06:40 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:06:48 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:06:48 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:06:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17925,7 +17925,7 @@ DEBUG - 2025-06-27 09:07:07 --> Total execution time: 0.1206
 DEBUG - 2025-06-27 14:07:09 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:07:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:07:09 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:07:09 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:07:16 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:16 --> No URI present. Default controller set.
 DEBUG - 2025-06-27 14:07:16 --> Global POST, GET and COOKIE data sanitized
@@ -17962,7 +17962,7 @@ DEBUG - 2025-06-27 09:07:23 --> Total execution time: 0.1409
 DEBUG - 2025-06-27 14:07:25 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:25 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:07:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:07:25 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:07:25 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:07:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:07:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -17989,7 +17989,7 @@ DEBUG - 2025-06-27 09:07:54 --> Total execution time: 0.1332
 DEBUG - 2025-06-27 14:07:57 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:07:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:07:57 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:07:57 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:07:57 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:07:57 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 14:07:57 --> 404 Page Not Found: 188930497/index
@@ -18073,7 +18073,7 @@ DEBUG - 2025-06-27 09:08:32 --> Total execution time: 0.1597
 DEBUG - 2025-06-27 14:08:34 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:08:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:08:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:08:34 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:08:34 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:08:36 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:08:36 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:08:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -18114,7 +18114,7 @@ DEBUG - 2025-06-27 09:08:45 --> Total execution time: 0.1412
 DEBUG - 2025-06-27 14:08:48 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:08:48 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:08:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:08:48 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:08:48 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:08:50 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:08:50 --> No URI present. Default controller set.
 DEBUG - 2025-06-27 14:08:50 --> Global POST, GET and COOKIE data sanitized
@@ -18457,7 +18457,7 @@ DEBUG - 2025-06-27 09:18:29 --> Total execution time: 0.1478
 DEBUG - 2025-06-27 14:18:31 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:18:31 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:18:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 09:18:31 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 09:18:31 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 14:18:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 14:18:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 14:18:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -20205,7 +20205,7 @@ DEBUG - 2025-06-27 10:05:50 --> Total execution time: 0.0128
 DEBUG - 2025-06-27 15:05:51 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 15:05:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 15:05:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 10:05:51 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 10:05:51 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 15:06:03 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 15:06:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 15:06:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -20945,7 +20945,7 @@ DEBUG - 2025-06-27 10:26:50 --> Total execution time: 0.1391
 DEBUG - 2025-06-27 15:26:53 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 15:26:53 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 15:26:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 10:26:53 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 10:26:53 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 15:27:03 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 15:27:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 15:27:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -22546,7 +22546,7 @@ DEBUG - 2025-06-27 11:09:43 --> Total execution time: 0.2132
 DEBUG - 2025-06-27 16:09:45 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 16:09:45 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 16:09:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 11:09:45 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 11:09:45 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 16:09:50 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 16:09:50 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 16:09:50 --> Global POST, GET and COOKIE data sanitized
@@ -24075,7 +24075,7 @@ DEBUG - 2025-06-27 11:50:07 --> Total execution time: 0.1835
 DEBUG - 2025-06-27 16:50:09 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 16:50:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 16:50:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 11:50:09 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 36
+ERROR - 2025-06-27 11:50:09 --> Severity: error --> Exception: Call to undefined function select_examenes_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 36
 DEBUG - 2025-06-27 16:50:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 16:50:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 16:50:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -25264,11 +25264,11 @@ DEBUG - 2025-06-27 12:22:26 --> Total execution time: 0.0090
 DEBUG - 2025-06-27 17:22:28 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:22:28 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:22:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:22:28 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/consultas/index.php 57
+ERROR - 2025-06-27 12:22:28 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/consultas/index.php 57
 DEBUG - 2025-06-27 17:22:31 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:22:31 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:22:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:22:31 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/consultas/index.php 57
+ERROR - 2025-06-27 12:22:31 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/consultas/index.php 57
 DEBUG - 2025-06-27 17:22:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:22:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:22:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -25276,7 +25276,7 @@ DEBUG - 2025-06-27 12:22:32 --> Total execution time: 0.0087
 DEBUG - 2025-06-27 17:22:34 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:22:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:22:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:22:34 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/consultas/index.php 57
+ERROR - 2025-06-27 12:22:34 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/consultas/index.php 57
 DEBUG - 2025-06-27 17:22:49 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:22:49 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 17:22:49 --> 404 Page Not Found: 199751813/index
@@ -25323,7 +25323,7 @@ ERROR - 2025-06-27 17:23:08 --> 404 Page Not Found: 75171597/index
 DEBUG - 2025-06-27 17:23:10 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:23:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:23:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:23:10 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/consultas/index.php 57
+ERROR - 2025-06-27 12:23:10 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/consultas/index.php 57
 DEBUG - 2025-06-27 17:23:27 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:23:27 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 17:23:27 --> 404 Page Not Found: 51646113/index
@@ -25349,7 +25349,7 @@ DEBUG - 2025-06-27 12:23:53 --> Total execution time: 0.0187
 DEBUG - 2025-06-27 17:23:56 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:23:56 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:23:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:23:56 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/consultas/index.php 57
+ERROR - 2025-06-27 12:23:56 --> Severity: error --> Exception: Call to undefined function select_procesos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/consultas/index.php 57
 DEBUG - 2025-06-27 17:24:01 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:24:01 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:24:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -26298,15 +26298,15 @@ DEBUG - 2025-06-27 12:54:44 --> Total execution time: 0.0124
 DEBUG - 2025-06-27 17:54:47 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:54:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:54:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:54:47 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/terceros/index.php 130
+ERROR - 2025-06-27 12:54:47 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/terceros/index.php 130
 DEBUG - 2025-06-27 17:54:51 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:54:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:54:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:54:51 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/empleados/index.php 139
+ERROR - 2025-06-27 12:54:51 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/empleados/index.php 139
 DEBUG - 2025-06-27 17:54:55 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:54:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:54:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:54:55 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/empleados/index.php 139
+ERROR - 2025-06-27 12:54:55 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/empleados/index.php 139
 DEBUG - 2025-06-27 17:54:57 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:54:57 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 17:54:57 --> 404 Page Not Found: 93129377/index
@@ -26364,7 +26364,7 @@ ERROR - 2025-06-27 17:55:16 --> 404 Page Not Found: 73083929/index
 DEBUG - 2025-06-27 17:55:18 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:55:18 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:55:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:55:18 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/empleados/index.php 139
+ERROR - 2025-06-27 12:55:18 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/empleados/index.php 139
 DEBUG - 2025-06-27 17:55:22 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:55:22 --> No URI present. Default controller set.
 DEBUG - 2025-06-27 17:55:22 --> Global POST, GET and COOKIE data sanitized
@@ -26436,7 +26436,7 @@ DEBUG - 2025-06-27 12:56:04 --> Total execution time: 0.0120
 DEBUG - 2025-06-27 17:56:12 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:56:12 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:56:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 12:56:12 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/empleados/index.php 139
+ERROR - 2025-06-27 12:56:12 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/empleados/index.php 139
 DEBUG - 2025-06-27 17:56:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 17:56:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 17:56:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -29043,7 +29043,7 @@ ERROR - 2025-06-27 19:33:58 --> 404 Page Not Found: 125911701/index
 DEBUG - 2025-06-27 19:34:03 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 19:34:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 19:34:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 14:34:03 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/empleados/index.php 139
+ERROR - 2025-06-27 14:34:03 --> Severity: error --> Exception: Call to undefined function select_Tipo_docidentidad_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/empleados/index.php 139
 DEBUG - 2025-06-27 19:34:05 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 19:34:05 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 19:34:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31105,7 +31105,7 @@ DEBUG - 2025-06-27 15:49:23 --> Total execution time: 0.0134
 DEBUG - 2025-06-27 20:49:30 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:30 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:49:30 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/nuevo.php 83
+ERROR - 2025-06-27 15:49:30 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/nuevo.php 83
 DEBUG - 2025-06-27 20:49:32 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:32 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31131,7 +31131,7 @@ ERROR - 2025-06-27 20:49:45 --> 404 Page Not Found: 196526777/index
 DEBUG - 2025-06-27 20:49:47 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:49:47 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/nuevo.php 83
+ERROR - 2025-06-27 15:49:47 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/nuevo.php 83
 DEBUG - 2025-06-27 20:49:49 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:49 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31147,7 +31147,7 @@ DEBUG - 2025-06-27 15:49:50 --> Total execution time: 0.0194
 DEBUG - 2025-06-27 20:49:55 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:55 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:49:55 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/modificar.php 35
+ERROR - 2025-06-27 15:49:55 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/modificar.php 35
 DEBUG - 2025-06-27 20:49:57 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:49:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:49:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31238,7 +31238,7 @@ DEBUG - 2025-06-27 15:51:00 --> Total execution time: 0.0034
 DEBUG - 2025-06-27 20:51:02 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:51:02 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:51:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:51:02 --> Severity: error --> Exception: Call to undefined function select_lineacostosM_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratost/nuevo.php 103
+ERROR - 2025-06-27 15:51:02 --> Severity: error --> Exception: Call to undefined function select_lineacostosM_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratost/nuevo.php 103
 DEBUG - 2025-06-27 20:51:03 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:51:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:51:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31332,7 +31332,7 @@ DEBUG - 2025-06-27 15:52:32 --> Total execution time: 0.0110
 DEBUG - 2025-06-27 20:52:36 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:52:36 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:52:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:52:36 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/modificar.php 35
+ERROR - 2025-06-27 15:52:36 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/modificar.php 35
 DEBUG - 2025-06-27 20:52:46 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:52:46 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:52:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31440,7 +31440,7 @@ DEBUG - 2025-06-27 15:54:46 --> Total execution time: 0.0120
 DEBUG - 2025-06-27 20:54:52 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:54:52 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:54:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:54:52 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/nuevo.php 83
+ERROR - 2025-06-27 15:54:52 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/nuevo.php 83
 DEBUG - 2025-06-27 20:55:00 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:55:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:55:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -31460,7 +31460,7 @@ DEBUG - 2025-06-27 15:55:04 --> Total execution time: 0.0038
 DEBUG - 2025-06-27 20:55:10 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:55:10 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 20:55:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 15:55:10 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/contratos/nuevo.php 83
+ERROR - 2025-06-27 15:55:10 --> Severity: error --> Exception: Call to undefined function select_ingresosp_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/contratos/nuevo.php 83
 DEBUG - 2025-06-27 20:55:28 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 20:55:28 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 20:55:28 --> 404 Page Not Found: 17047218/index
@@ -31925,7 +31925,7 @@ DEBUG - 2025-06-27 16:08:23 --> Total execution time: 0.0993
 DEBUG - 2025-06-27 21:08:27 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:08:27 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:08:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 16:08:27 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/c_checklist/index.php 101
+ERROR - 2025-06-27 16:08:27 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/c_checklist/index.php 101
 DEBUG - 2025-06-27 21:08:28 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:08:28 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 21:08:28 --> 404 Page Not Found: 162338826/index
@@ -32002,7 +32002,7 @@ ERROR - 2025-06-27 21:09:23 --> 404 Page Not Found: 84693637/index
 DEBUG - 2025-06-27 21:09:24 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:09:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:09:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 16:09:24 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/ingresosp/nuevo.php 73
+ERROR - 2025-06-27 16:09:24 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/ingresosp/nuevo.php 73
 DEBUG - 2025-06-27 21:09:24 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:09:24 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 21:09:24 --> 404 Page Not Found: 11868221/index
@@ -32147,7 +32147,7 @@ DEBUG - 2025-06-27 16:13:15 --> Total execution time: 0.0339
 DEBUG - 2025-06-27 21:13:17 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:13:17 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:13:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 16:13:17 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/ingresosp/nuevo.php 73
+ERROR - 2025-06-27 16:13:17 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/ingresosp/nuevo.php 73
 DEBUG - 2025-06-27 21:13:29 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:13:29 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-06-27 21:13:29 --> 404 Page Not Found: 18961777/index
@@ -32365,7 +32365,7 @@ DEBUG - 2025-06-27 16:22:50 --> Total execution time: 0.0114
 DEBUG - 2025-06-27 21:22:54 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:22:54 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:22:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 16:22:54 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/ingresosp/nuevo.php 73
+ERROR - 2025-06-27 16:22:54 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/ingresosp/nuevo.php 73
 DEBUG - 2025-06-27 21:23:00 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:23:00 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:23:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -32392,7 +32392,7 @@ DEBUG - 2025-06-27 16:23:05 --> Total execution time: 0.0145
 DEBUG - 2025-06-27 21:23:09 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:23:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:23:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 16:23:09 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/ingresosp/modificar.php 37
+ERROR - 2025-06-27 16:23:09 --> Severity: error --> Exception: Call to undefined function select_tiposcontratos_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/ingresosp/modificar.php 37
 DEBUG - 2025-06-27 21:23:12 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 21:23:12 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 21:23:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -33866,7 +33866,7 @@ DEBUG - 2025-06-27 17:31:02 --> Total execution time: 0.0119
 DEBUG - 2025-06-27 22:31:03 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 22:31:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 22:31:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 17:31:03 --> Severity: error --> Exception: Call to undefined function select_rondas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/rondas/informes.php 171
+ERROR - 2025-06-27 17:31:03 --> Severity: error --> Exception: Call to undefined function select_rondas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/rondas/informes.php 171
 DEBUG - 2025-06-27 22:31:11 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 22:31:11 --> No URI present. Default controller set.
 DEBUG - 2025-06-27 22:31:11 --> Global POST, GET and COOKIE data sanitized
@@ -33898,7 +33898,7 @@ ERROR - 2025-06-27 22:31:52 --> 404 Page Not Found: 239281890/index
 DEBUG - 2025-06-27 22:31:54 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 22:31:54 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-06-27 22:31:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-06-27 17:31:54 --> Severity: error --> Exception: Call to undefined function select_rondas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/views/rondas/informes.php 171
+ERROR - 2025-06-27 17:31:54 --> Severity: error --> Exception: Call to undefined function select_rondas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/rondas/informes.php 171
 DEBUG - 2025-06-27 22:32:04 --> UTF-8 Support Enabled
 DEBUG - 2025-06-27 22:32:04 --> No URI present. Default controller set.
 DEBUG - 2025-06-27 22:32:04 --> Global POST, GET and COOKIE data sanitized
@@ -35935,7 +35935,7 @@ DEBUG - 2025-06-27 22:24:51 --> Total execution time: 0.0183
 DEBUG - 2025-06-27 22:24:54 --> Total execution time: 0.0267
 DEBUG - 2025-06-27 22:24:57 --> Total execution time: 0.0078
 DEBUG - 2025-06-27 22:24:57 --> Total execution time: 0.0075
-ERROR - 2025-06-27 22:24:57 --> Severity: Notice --> Undefined variable: campos1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1129
+ERROR - 2025-06-27 22:24:57 --> Severity: Notice --> Undefined variable: campos1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1129
 ERROR - 2025-06-27 22:24:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM actas_observaciones act INNER JOIN empleados em ON act.responsable = em....' at line 1 - Invalid query: SELECT  FROM actas_observaciones act INNER JOIN empleados em ON act.responsable = em.id_empleado  WHERE act.id_acta = "9" 
 DEBUG - 2025-06-27 22:24:57 --> Total execution time: 0.0092
 DEBUG - 2025-06-27 22:25:07 --> Total execution time: 0.0106
@@ -35954,7 +35954,7 @@ DEBUG - 2025-06-27 22:25:38 --> Total execution time: 0.0080
 DEBUG - 2025-06-27 22:25:38 --> Total execution time: 0.0153
 DEBUG - 2025-06-27 22:25:43 --> Total execution time: 0.0149
 DEBUG - 2025-06-27 22:25:44 --> Total execution time: 0.0045
-ERROR - 2025-06-27 22:25:44 --> Severity: Notice --> Undefined variable: campos1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1129
+ERROR - 2025-06-27 22:25:44 --> Severity: Notice --> Undefined variable: campos1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1129
 ERROR - 2025-06-27 22:25:44 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM actas_observaciones act INNER JOIN empleados em ON act.responsable = em....' at line 1 - Invalid query: SELECT  FROM actas_observaciones act INNER JOIN empleados em ON act.responsable = em.id_empleado  WHERE act.id_acta = "9" 
 DEBUG - 2025-06-27 22:25:44 --> Total execution time: 0.0070
 DEBUG - 2025-06-27 22:25:44 --> Total execution time: 0.0079
@@ -35963,12 +35963,12 @@ DEBUG - 2025-06-27 22:26:05 --> Total execution time: 0.0126
 DEBUG - 2025-06-27 22:26:13 --> Total execution time: 0.0140
 DEBUG - 2025-06-27 22:26:16 --> Total execution time: 0.0103
 DEBUG - 2025-06-27 22:26:16 --> Total execution time: 0.0066
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1138
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1138
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1142
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1142
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1143
-ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 1143
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1138
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1138
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1142
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1142
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1143
+ERROR - 2025-06-27 22:26:16 --> Severity: Notice --> Undefined variable: row1 /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 1143
 DEBUG - 2025-06-27 22:26:16 --> Total execution time: 0.0105
 DEBUG - 2025-06-27 22:26:16 --> Total execution time: 0.0124
 DEBUG - 2025-06-27 22:26:27 --> Total execution time: 0.0113
