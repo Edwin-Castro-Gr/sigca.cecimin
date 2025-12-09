@@ -536,5 +536,5 @@ $config['proxy_ips'] = '';
 |--------------------------------------------------------------------------
 |
 */
-$config['recaptcha_site_key'] = '6LdIOdkqAAAAAEvKW0rIsIlskw_dvq_Kb0Vv8t8v'; // Reemplaza con tu Site Key
-$config['recaptcha_secret_key'] = '6LdIOdkqAAAAAKdfWoHaUwfS8YIQc4q6I0lkaoZG'; // Reemplaza con tu Secret Key
+$config['recaptcha_site_key'] = '6Ldez9YqAAAAAKrr19yN6mhLE9uGpb3biKhCpmOB'; // Reemplaza con tu Site Key
+$config['recaptcha_secret_key'] = '6Ldez9YqAAAAABnouNyB_AnIWc_tuNSJfmsp1L7p'; // Reemplaza con tu Secret Key
