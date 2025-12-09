@@ -288,7 +288,7 @@ class Login extends CI_Controller {
 
       	$this->load->library('email', $config);
       	$this->email->set_newline("\r\n");
-      	$this->email->from('admin@ceciminsigca.com','Administrador del Sistema');
+      	$this->email->from('admin@sigca.cecimin.com.co','Administrador del Sistema');
       	$this->email->to($email);
       	$this->email->subject($subject);
      	$this->email->message($message);

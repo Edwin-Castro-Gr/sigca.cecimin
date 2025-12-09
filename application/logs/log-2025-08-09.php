@@ -1094,7 +1094,7 @@ DEBUG - 2025-08-09 01:57:47 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 01:57:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-08-09 01:57:51 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 01:57:51 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-08-09 01:57:51 --> Severity: error --> Exception: syntax error, unexpected '', ci.apellidos), '' (T_CONSTANT_ENCAPSED_STRING) /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 670
+ERROR - 2025-08-09 01:57:51 --> Severity: error --> Exception: syntax error, unexpected '', ci.apellidos), '' (T_CONSTANT_ENCAPSED_STRING) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 670
 DEBUG - 2025-08-09 01:58:22 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 01:58:22 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 01:58:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -1103,7 +1103,7 @@ DEBUG - 2025-08-09 01:58:23 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 01:58:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-08-09 01:59:20 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 01:59:20 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-08-09 01:59:20 --> Severity: error --> Exception: syntax error, unexpected '6' (T_LNUMBER), expecting ',' or ')' /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 686
+ERROR - 2025-08-09 01:59:20 --> Severity: error --> Exception: syntax error, unexpected '6' (T_LNUMBER), expecting ',' or ')' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 686
 DEBUG - 2025-08-09 01:59:22 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 01:59:22 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 01:59:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -2342,7 +2342,7 @@ DEBUG - 2025-08-09 03:39:23 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 03:39:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
 DEBUG - 2025-08-09 03:39:36 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 03:39:36 --> Global POST, GET and COOKIE data sanitized
-ERROR - 2025-08-09 03:39:36 --> Severity: error --> Exception: syntax error, unexpected ''C'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 746
+ERROR - 2025-08-09 03:39:36 --> Severity: error --> Exception: syntax error, unexpected ''C'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 746
 DEBUG - 2025-08-09 03:39:51 --> UTF-8 Support Enabled
 DEBUG - 2025-08-09 03:39:51 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-08-09 03:39:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.

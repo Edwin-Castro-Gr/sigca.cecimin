@@ -99,7 +99,7 @@ class Notificar extends CI_Controller {
 		    $mensaje .= "<br>\r\n";		
 		    $mensaje .= "<br>\r\n";				   
 		    $mensaje .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-		    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";				
+		    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
 			$mensaje .= "<br>\r\n";
 			$mensaje .= "<br>\r\n";		
 		    $mensaje .= "<br>\r\n";

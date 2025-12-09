@@ -652,7 +652,7 @@ class R_gestion extends CI_Controller
 
 				// 	$de="Calidad CECIMIN <calidad.cecimin@saludinteligente.com>, ";
 				    
-				// 	$Para ="cirugia@ceciminsigca.com,secirugia@colsanitas.com";
+				// 	$Para ="cirugia@sigca.cecimin.com.co,secirugia@colsanitas.com";
 				// 	//$Para ="germanparra2022@gmail.com,castonino17@gmail.com";
 				// 	$Asunto ="Solicitud Agendamiento Dr(a).".$cirujano.", Paciente: '".$paciente."'";
 
@@ -681,7 +681,7 @@ class R_gestion extends CI_Controller
 				//     $cuerpo .= "<div><font size='3'><b>Solicita:</b> ".$usuario."</font></div>\r\n";
 				//     $cuerpo .= "<div><font size='3'>Por favor Gestionar solicitud</font></div>\r\n";
 				//     $cuerpo .= "<div><font size='3'>Gracias por su colaboración y gestión</font></div>\r\n";
-				//     $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+				//     $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 				// 	$cuerpo .= "<br>\r\n";
 					
 				// 	$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);

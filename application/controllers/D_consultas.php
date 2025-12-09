@@ -173,7 +173,7 @@ class D_consultas extends CI_Controller {
 					$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
 					$cuerpo .= "<br>\r\n";
 					$cuerpo .= "<br>\r\n";
-					$cuerpo .= "<div><font size='3'>Te damos la bienvenida a nuestro nuevo sistema de Gestión de Calidad SIGCA, al cual podrás ingresar a través de la página web de <a href='https://cecimin.com.co'>CECIMIN S.A.S.</a> o en el siguiente enlace: <a href='https://ceciminsigca.com'>SIGCA</a></font></div>\r\n";		
+					$cuerpo .= "<div><font size='3'>Te damos la bienvenida a nuestro nuevo sistema de Gestión de Calidad SIGCA, al cual podrás ingresar a través de la página web de <a href='https://cecimin.com.co'>CECIMIN S.A.S.</a> o en el siguiente enlace: <a href='https://sigca.cecimin.com.co'>SIGCA</a></font></div>\r\n";		
 				   
 				    $cuerpo .= "<div><font size='3'>Tu usuario y clave de acceso es tu número de documento de identidad.</font></div>\r\n";
 				    $cuerpo .= "<br>\r\n";
@@ -189,7 +189,7 @@ class D_consultas extends CI_Controller {
 				    $cuerpo .= "<div><font size='4'><b>Samanta Rodriguez</b></font></div>\r\n";
 				    $cuerpo .= "<div><font size='3'>Coordinación de Calidad,</font></div>\r\n";
 				    $cuerpo .= "<div><font size='2'>(601) 6002255 ext. 172,</font></div>\r\n";					    
-				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 					$cuerpo .= "<br>\r\n";
 					
 					$msg = $this->sendEmail($Para, $Asunto, $cuerpo, $Cabeceras);

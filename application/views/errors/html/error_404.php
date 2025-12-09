@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 <meta charset="utf-8">
 <title>404 Page Not Found</title>
-<link rel="icon" type="image/png" href="https://ceciminsigca.com/assets/favicon.png')" />
+<link rel="icon" type="image/png" href="https://sigca.cecimin.com.co/assets/favicon.png')" />
 <style type="text/css">
 
 ::selection { background-color: #E13300; color: white; }
@@ -68,8 +68,8 @@ p {
 		<!-- <h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?> -->
 		<div id="backg" class="d-flex flex-column align-items-center justify-content-center" >
-			<img src="https://ceciminsigca.com/assets/image/SIGCA.png" alt="SIGCA" class="dark-logo col-12" height="180"  />
-			<h2 class="text-primary-d1"><img src="https://ceciminsigca.com/assets/image/Pagina_construcción.jpg" alt="construcion" class="col-12" /> <img src="https://ceciminsigca.com/assets/image/logo-cecimin.png" alt="SIGCA" class="dark-logo col-6" height="180"  />
+			<img src="https://sigca.cecimin.com.co/assets/image/SIGCA.png" alt="SIGCA" class="dark-logo col-12" height="180"  />
+			<h2 class="text-primary-d1"><img src="https://sigca.cecimin.com.co/assets/image/Pagina_construcción.jpg" alt="construcion" class="col-12" /> <img src="https://sigca.cecimin.com.co/assets/image/logo-cecimin.png" alt="SIGCA" class="dark-logo col-6" height="180"  />
 			
 		</div>
 	</div>

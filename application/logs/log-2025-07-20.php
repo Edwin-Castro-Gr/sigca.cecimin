@@ -1500,7 +1500,7 @@ DEBUG - 2025-07-20 20:24:25 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2025-07-20 20:24:25 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:24:25 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 20:24:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-20 15:24:25 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_tarifas.php 281
+ERROR - 2025-07-20 15:24:25 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_tarifas.php 281
 DEBUG - 2025-07-20 15:24:25 --> Total execution time: 0.0208
 DEBUG - 2025-07-20 20:24:36 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:24:36 --> Global POST, GET and COOKIE data sanitized
@@ -1550,7 +1550,7 @@ DEBUG - 2025-07-20 15:27:26 --> Total execution time: 0.0064
 DEBUG - 2025-07-20 20:27:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:27:28 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 20:27:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-20 15:27:28 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_tarifas.php 281
+ERROR - 2025-07-20 15:27:28 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_tarifas.php 281
 DEBUG - 2025-07-20 20:27:28 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:27:28 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 20:27:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -1594,7 +1594,7 @@ DEBUG - 2025-07-20 15:28:10 --> Total execution time: 0.0060
 DEBUG - 2025-07-20 20:28:13 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:28:13 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 20:28:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-20 15:28:13 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_tarifas.php 281
+ERROR - 2025-07-20 15:28:13 --> Severity: error --> Exception: Call to undefined function listar_tarifas_tabla() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_tarifas.php 281
 DEBUG - 2025-07-20 20:28:13 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 20:28:13 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 20:28:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
@@ -1996,10 +1996,10 @@ DEBUG - 2025-07-20 16:35:54 --> Total execution time: 0.0095
 DEBUG - 2025-07-20 21:35:57 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 21:35:57 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-20 21:35:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_id_ingreso /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/modificar.php 25
-ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_cedula /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/modificar.php 42
-ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_nombre_funcionario /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/modificar.php 57
-ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_id_linea_costos /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/modificar.php 72
+ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_id_ingreso /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/modificar.php 25
+ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_cedula /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/modificar.php 42
+ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_nombre_funcionario /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/modificar.php 57
+ERROR - 2025-07-20 16:35:57 --> Severity: Notice --> Undefined variable: c_id_linea_costos /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/modificar.php 72
 DEBUG - 2025-07-20 16:35:57 --> Total execution time: 0.0279
 DEBUG - 2025-07-20 21:35:59 --> UTF-8 Support Enabled
 DEBUG - 2025-07-20 21:35:59 --> Global POST, GET and COOKIE data sanitized
@@ -3886,7 +3886,7 @@ DEBUG - 2025-07-20 20:13:43 --> Total execution time: 0.0129
 DEBUG - 2025-07-20 20:13:44 --> Total execution time: 0.0078
 DEBUG - 2025-07-20 20:13:45 --> Total execution time: 0.0050
 DEBUG - 2025-07-20 20:13:45 --> Total execution time: 0.0121
-ERROR - 2025-07-20 20:13:47 --> Severity: Notice --> Undefined variable: c_entidad /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/nuevo.php 48
+ERROR - 2025-07-20 20:13:47 --> Severity: Notice --> Undefined variable: c_entidad /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/nuevo.php 48
 DEBUG - 2025-07-20 20:13:47 --> Total execution time: 0.0064
 DEBUG - 2025-07-20 20:13:49 --> Total execution time: 0.0083
 DEBUG - 2025-07-20 20:14:00 --> Total execution time: 0.0089
@@ -4014,7 +4014,7 @@ DEBUG - 2025-07-20 20:33:12 --> Total execution time: 0.0087
 DEBUG - 2025-07-20 20:33:22 --> Total execution time: 0.0092
 DEBUG - 2025-07-20 20:33:32 --> Total execution time: 0.0090
 DEBUG - 2025-07-20 20:33:42 --> Total execution time: 0.0124
-ERROR - 2025-07-20 20:33:45 --> Severity: Notice --> Undefined variable: c_estado /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/nuevo.php 85
+ERROR - 2025-07-20 20:33:45 --> Severity: Notice --> Undefined variable: c_estado /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/nuevo.php 85
 DEBUG - 2025-07-20 20:33:45 --> Total execution time: 0.0084
 DEBUG - 2025-07-20 20:33:47 --> Total execution time: 0.0097
 DEBUG - 2025-07-20 20:33:58 --> Total execution time: 0.0118
@@ -4128,7 +4128,7 @@ DEBUG - 2025-07-20 21:09:23 --> Total execution time: 0.0131
 DEBUG - 2025-07-20 21:10:23 --> Total execution time: 0.0212
 DEBUG - 2025-07-20 21:11:23 --> Total execution time: 0.0151
 DEBUG - 2025-07-20 21:11:49 --> Total execution time: 0.0096
-ERROR - 2025-07-20 21:11:51 --> Severity: Notice --> Undefined variable: opcredondeo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/tarifas/modificar.php 80
+ERROR - 2025-07-20 21:11:51 --> Severity: Notice --> Undefined variable: opcredondeo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/tarifas/modificar.php 80
 DEBUG - 2025-07-20 21:11:51 --> Total execution time: 0.0087
 DEBUG - 2025-07-20 21:11:52 --> Total execution time: 0.0116
 DEBUG - 2025-07-20 21:12:03 --> Total execution time: 0.0134

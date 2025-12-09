@@ -437,7 +437,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'>Departamento de Espirometría CECIMIN S.A.S.</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 4</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						}elseif($areas == "1"){
 							$correo_cc = 'archivocecimin@colsanitas.com';
 							$mensaje .= "<div><font size='3'> Dando respuesta a su solicitud, adjunto las gráficas y el reporte del Electrocardiograma realizada en nuestra institución.</font></div>\r\n";
@@ -449,7 +449,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'><b>Gestor de Historia Clínica - CECIMIN S.A.S.</b> </font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76 </font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";
 						}else{
 							$correo_cc = 'archivocecimin@colsanitas.com';
 							$mensaje .= "<div><font size='3'> Dando respuesta a su solicitud, adjunto las gráficas y el reporte Electrodiagnóstico realizado en nuestra institución.</font></div>\r\n";
@@ -461,7 +461,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'><b>Gestor de Historia Clínica- CECIMIN S.A.S.</b> </font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";
 						}
 						
 						$mensaje .= "\r\n";
@@ -640,7 +640,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'>Departamento de Espirometría CECIMIN S.A.S.</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 4</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						}elseif($areas == "1"){
 							$correo_cc = 'syesoscec@colsanitas.com';
 							$mensaje .= "<div><font size='3'> Dando respuesta a su solicitud, adjunto las gráficas y el reporte del Electrocardiograma realizada en nuestra institución.</font></div>\r\n";
@@ -652,7 +652,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'><b>Gestor de Historia Clínica - CECIMIN S.A.S.</b> </font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";
 						}else{
 							$correo_cc = 'archivocecimin@colsanitas.com';
 							$mensaje .= "<div><font size='3'> Dando respuesta a su solicitud, adjunto las gráficas y el reporte Electrodiagnóstico realizado en nuestra institución.</font></div>\r\n";
@@ -664,7 +664,7 @@ class R_resultadosDx extends CI_Controller {
 						    $mensaje .= "<div><font size='3'><b>Gestor de Historia Clínica- CECIMIN S.A.S.</b> </font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 						    $mensaje .= "<div><font size='3'>Tel.: (601)3759333 /(601)6002555</font></div>\r\n";
-						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";
+						    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";
 						}
 						
 						$mensaje .= "\r\n";

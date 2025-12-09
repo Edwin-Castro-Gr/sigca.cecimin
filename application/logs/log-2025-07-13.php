@@ -5841,7 +5841,7 @@ DEBUG - 2025-07-13 21:29:47 --> Total execution time: 0.0114
 DEBUG - 2025-07-13 21:29:57 --> Total execution time: 0.0089
 DEBUG - 2025-07-13 21:30:07 --> Total execution time: 0.0106
 DEBUG - 2025-07-13 21:30:17 --> Total execution time: 0.0115
-ERROR - 2025-07-13 21:30:21 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 769
+ERROR - 2025-07-13 21:30:21 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 769
 DEBUG - 2025-07-13 21:30:21 --> Total execution time: 0.0161
 DEBUG - 2025-07-13 21:30:24 --> Total execution time: 0.0114
 DEBUG - 2025-07-13 21:30:34 --> Total execution time: 0.0111
@@ -5872,19 +5872,19 @@ DEBUG - 2025-07-13 21:34:35 --> Total execution time: 0.0115
 DEBUG - 2025-07-13 21:34:45 --> Total execution time: 0.0133
 DEBUG - 2025-07-13 21:34:55 --> Total execution time: 0.0098
 DEBUG - 2025-07-13 21:35:05 --> Total execution time: 0.0100
-ERROR - 2025-07-13 21:35:10 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 787
+ERROR - 2025-07-13 21:35:10 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 787
 DEBUG - 2025-07-13 21:35:10 --> Total execution time: 0.0213
 DEBUG - 2025-07-13 21:35:11 --> Total execution time: 0.0093
 DEBUG - 2025-07-13 21:35:22 --> Total execution time: 0.0119
 DEBUG - 2025-07-13 21:35:32 --> Total execution time: 0.0086
-ERROR - 2025-07-13 21:35:37 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 787
+ERROR - 2025-07-13 21:35:37 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 787
 DEBUG - 2025-07-13 21:35:37 --> Total execution time: 0.0184
 DEBUG - 2025-07-13 21:35:39 --> Total execution time: 0.0102
 DEBUG - 2025-07-13 21:35:49 --> Total execution time: 0.0083
 DEBUG - 2025-07-13 21:35:59 --> Total execution time: 0.0108
 DEBUG - 2025-07-13 21:36:09 --> Total execution time: 0.0115
 DEBUG - 2025-07-13 21:36:19 --> Total execution time: 0.0086
-ERROR - 2025-07-13 21:36:25 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 787
+ERROR - 2025-07-13 21:36:25 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 787
 DEBUG - 2025-07-13 21:36:25 --> Total execution time: 0.0148
 DEBUG - 2025-07-13 21:36:26 --> Total execution time: 0.0079
 DEBUG - 2025-07-13 21:36:36 --> Total execution time: 0.0081
@@ -5894,7 +5894,7 @@ DEBUG - 2025-07-13 21:37:06 --> Total execution time: 0.0106
 DEBUG - 2025-07-13 21:37:16 --> Total execution time: 0.0102
 DEBUG - 2025-07-13 21:37:26 --> Total execution time: 0.0140
 DEBUG - 2025-07-13 21:37:36 --> Total execution time: 0.0116
-ERROR - 2025-07-13 21:37:43 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 785
+ERROR - 2025-07-13 21:37:43 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 785
 DEBUG - 2025-07-13 21:37:43 --> Total execution time: 0.0149
 DEBUG - 2025-07-13 21:37:44 --> Total execution time: 0.0104
 DEBUG - 2025-07-13 21:37:55 --> Total execution time: 0.0128
@@ -5956,7 +5956,7 @@ DEBUG - 2025-07-13 21:46:23 --> Total execution time: 0.0086
 DEBUG - 2025-07-13 21:46:31 --> Total execution time: 0.0058
 DEBUG - 2025-07-13 21:46:32 --> Total execution time: 0.0065
 DEBUG - 2025-07-13 21:46:32 --> Total execution time: 0.0140
-ERROR - 2025-07-13 21:46:34 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 785
+ERROR - 2025-07-13 21:46:34 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 785
 DEBUG - 2025-07-13 21:46:34 --> Total execution time: 0.0204
 DEBUG - 2025-07-13 21:46:36 --> Total execution time: 0.0129
 DEBUG - 2025-07-13 21:46:46 --> Total execution time: 0.0126
@@ -5978,7 +5978,7 @@ DEBUG - 2025-07-13 21:49:44 --> Total execution time: 0.0135
 DEBUG - 2025-07-13 21:50:44 --> Total execution time: 0.0149
 DEBUG - 2025-07-13 21:51:28 --> Total execution time: 0.0114
 DEBUG - 2025-07-13 21:51:36 --> Total execution time: 0.0098
-ERROR - 2025-07-13 21:51:42 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 785
+ERROR - 2025-07-13 21:51:42 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 785
 DEBUG - 2025-07-13 21:51:42 --> Total execution time: 0.0205
 DEBUG - 2025-07-13 21:51:44 --> Total execution time: 0.0105
 DEBUG - 2025-07-13 21:51:54 --> Total execution time: 0.0112
@@ -5992,10 +5992,10 @@ DEBUG - 2025-07-13 21:53:04 --> Total execution time: 0.0085
 DEBUG - 2025-07-13 21:53:14 --> Total execution time: 0.0080
 DEBUG - 2025-07-13 21:53:24 --> Total execution time: 0.0117
 DEBUG - 2025-07-13 21:53:34 --> Total execution time: 0.0082
-ERROR - 2025-07-13 21:53:39 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 785
+ERROR - 2025-07-13 21:53:39 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 785
 DEBUG - 2025-07-13 21:53:39 --> Total execution time: 0.0137
 DEBUG - 2025-07-13 21:53:40 --> Total execution time: 0.0083
-ERROR - 2025-07-13 21:53:49 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 787
+ERROR - 2025-07-13 21:53:49 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 787
 DEBUG - 2025-07-13 21:53:49 --> Total execution time: 0.0176
 DEBUG - 2025-07-13 21:53:50 --> Total execution time: 0.0081
 DEBUG - 2025-07-13 21:54:00 --> Total execution time: 0.0093
@@ -6090,13 +6090,13 @@ DEBUG - 2025-07-13 22:12:21 --> Total execution time: 0.0092
 DEBUG - 2025-07-13 22:12:31 --> Total execution time: 0.0088
 DEBUG - 2025-07-13 22:12:41 --> Total execution time: 0.0149
 DEBUG - 2025-07-13 22:12:51 --> Total execution time: 0.0087
-ERROR - 2025-07-13 22:13:00 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-13 22:13:00 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-13 22:13:00 --> Total execution time: 0.0198
 DEBUG - 2025-07-13 22:13:01 --> Total execution time: 0.0102
 DEBUG - 2025-07-13 22:13:04 --> Total execution time: 0.0095
 DEBUG - 2025-07-13 22:13:14 --> Total execution time: 0.0125
 DEBUG - 2025-07-13 22:13:24 --> Total execution time: 0.0086
-ERROR - 2025-07-13 22:13:25 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-13 22:13:25 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-13 22:13:25 --> Total execution time: 0.0119
 DEBUG - 2025-07-13 22:13:27 --> Total execution time: 0.0088
 DEBUG - 2025-07-13 22:13:37 --> Total execution time: 0.0092
@@ -6108,11 +6108,11 @@ DEBUG - 2025-07-13 22:14:27 --> Total execution time: 0.0081
 DEBUG - 2025-07-13 22:14:37 --> Total execution time: 0.0102
 DEBUG - 2025-07-13 22:14:47 --> Total execution time: 0.0091
 DEBUG - 2025-07-13 22:14:57 --> Total execution time: 0.0100
-ERROR - 2025-07-13 22:14:58 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-13 22:14:58 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-13 22:14:58 --> Total execution time: 0.0115
 DEBUG - 2025-07-13 22:15:00 --> Total execution time: 0.0134
 DEBUG - 2025-07-13 22:15:10 --> Total execution time: 0.0126
-ERROR - 2025-07-13 22:15:19 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/ceciminsigca.com/public_html/application/views/suceso_seguridad/gestion.php 788
+ERROR - 2025-07-13 22:15:19 --> Severity: Notice --> Undefined variable: opctipo /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/suceso_seguridad/gestion.php 788
 DEBUG - 2025-07-13 22:15:19 --> Total execution time: 0.0153
 DEBUG - 2025-07-13 22:15:20 --> Total execution time: 0.0101
 DEBUG - 2025-07-13 22:15:30 --> Total execution time: 0.0107

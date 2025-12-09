@@ -1253,17 +1253,17 @@ ERROR - 2025-08-16 07:26:21 --> 220 ESMTP smtp.hostinger.com
 </pre><br /><pre>quit: 250 2.0.0 Ok: queued as 4c3yrP452pz31Q0
 </pre>The following SMTP error was encountered: 250 2.0.0 Ok: queued as 4c3yrP452pz31Q0
 <br />The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 16 Aug 2025 07:26:12 -0500
-From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@ceciminsigca.com&gt;
-Return-Path: &lt;citasmedicamentos@ceciminsigca.com&gt;
-Cc: citasmedicamentos@ceciminsigca.com
+From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Return-Path: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Cc: citasmedicamentos@sigca.cecimin.com.co
 To: aacevedoq@hotmail.com
 Subject: =?UTF-8?Q?Recibido=20Solicitud=20Administraci=C3=B3n=20Medicamentos=20-?= =?UTF-8?Q?=2091261140?=
-Reply-To: &lt;citasmedicamentos@ceciminsigca.com&gt;
+Reply-To: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
 User-Agent: CodeIgniter
-X-Sender: citasmedicamentos@ceciminsigca.com
+X-Sender: citasmedicamentos@sigca.cecimin.com.co
 X-Mailer: CodeIgniter
 X-Priority: 3 (Normal)
-Message-ID: &lt;68a078e461800@ceciminsigca.com&gt;
+Message-ID: &lt;68a078e461800@sigca.cecimin.com.co&gt;
 Mime-Version: 1.0
 
 
@@ -1323,7 +1323,7 @@ os sus datos y archivos adjuntos, recibir=C3=A1 dentro de los (3) d=C3=ADas=
 =3Cdiv=3E=3Cfont size=3D'2'=3ECorreo enviado desde https://cecimin.com.co=
 =3C/font=3E=3C/div=3E
 =3Cdiv=3E=3Cimg style=3D'display:flex=3Bmargin-left:5=3B width:180px' src=
-=3D'https://ceciminsigca.com/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
+=3D'https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
 
 --B_ALT_68a078e461816--
 
@@ -22900,17 +22900,17 @@ ERROR - 2025-08-16 09:33:41 --> 220 ESMTP smtp.hostinger.com
 </pre><br /><pre>quit: 250 2.0.0 Ok: queued as 4c41gL1Vvvz31G9
 </pre>The following SMTP error was encountered: 250 2.0.0 Ok: queued as 4c41gL1Vvvz31G9
 <br />The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 16 Aug 2025 09:33:32 -0500
-From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@ceciminsigca.com&gt;
-Return-Path: &lt;citasmedicamentos@ceciminsigca.com&gt;
-Cc: citasmedicamentos@ceciminsigca.com
+From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Return-Path: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Cc: citasmedicamentos@sigca.cecimin.com.co
 To: sruizceballos@gmail.com
 Subject: =?UTF-8?Q?Recibido=20Solicitud=20Administraci=C3=B3n=20Medicamentos=20-?= =?UTF-8?Q?=2019143250?=
-Reply-To: &lt;citasmedicamentos@ceciminsigca.com&gt;
+Reply-To: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
 User-Agent: CodeIgniter
-X-Sender: citasmedicamentos@ceciminsigca.com
+X-Sender: citasmedicamentos@sigca.cecimin.com.co
 X-Mailer: CodeIgniter
 X-Priority: 3 (Normal)
-Message-ID: &lt;68a096bceefaa@ceciminsigca.com&gt;
+Message-ID: &lt;68a096bceefaa@sigca.cecimin.com.co&gt;
 Mime-Version: 1.0
 
 
@@ -22969,7 +22969,7 @@ os sus datos y archivos adjuntos, recibir=C3=A1 dentro de los (3) d=C3=ADas=
 =3Cdiv=3E=3Cfont size=3D'2'=3ECorreo enviado desde https://cecimin.com.co=
 =3C/font=3E=3C/div=3E
 =3Cdiv=3E=3Cimg style=3D'display:flex=3Bmargin-left:5=3B width:180px' src=
-=3D'https://ceciminsigca.com/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
+=3D'https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
 
 --B_ALT_68a096bceefc1--
 
@@ -24781,17 +24781,17 @@ ERROR - 2025-08-16 14:18:32 --> 220 ESMTP smtp.hostinger.com
 </pre><br /><pre>quit: 250 2.0.0 Ok: queued as 4c48005vKVz14K0
 </pre>The following SMTP error was encountered: 250 2.0.0 Ok: queued as 4c48005vKVz14K0
 <br />The following SMTP error was encountered: <br />Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.<br /><pre>Date: Sat, 16 Aug 2025 14:18:23 -0500
-From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@ceciminsigca.com&gt;
-Return-Path: &lt;citasmedicamentos@ceciminsigca.com&gt;
-Cc: citasmedicamentos@ceciminsigca.com
+From: &quot;Citas Medicamentos&quot; &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Return-Path: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
+Cc: citasmedicamentos@sigca.cecimin.com.co
 To: ceciliamariafernandez@gmail.com
 Subject: =?UTF-8?Q?Recibido=20Solicitud=20Administraci=C3=B3n=20Medicamentos=20-?= =?UTF-8?Q?=2033282844?=
-Reply-To: &lt;citasmedicamentos@ceciminsigca.com&gt;
+Reply-To: &lt;citasmedicamentos@sigca.cecimin.com.co&gt;
 User-Agent: CodeIgniter
-X-Sender: citasmedicamentos@ceciminsigca.com
+X-Sender: citasmedicamentos@sigca.cecimin.com.co
 X-Mailer: CodeIgniter
 X-Priority: 3 (Normal)
-Message-ID: &lt;68a0d97f8b93a@ceciminsigca.com&gt;
+Message-ID: &lt;68a0d97f8b93a@sigca.cecimin.com.co&gt;
 Mime-Version: 1.0
 
 
@@ -24851,7 +24851,7 @@ os sus datos y archivos adjuntos, recibir=C3=A1 dentro de los (3) d=C3=ADas=
 =3Cdiv=3E=3Cfont size=3D'2'=3ECorreo enviado desde https://cecimin.com.co=
 =3C/font=3E=3C/div=3E
 =3Cdiv=3E=3Cimg style=3D'display:flex=3Bmargin-left:5=3B width:180px' src=
-=3D'https://ceciminsigca.com/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
+=3D'https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/=3E=3Cbr=3E
 
 --B_ALT_68a0d97f8b94c--
 

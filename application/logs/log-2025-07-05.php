@@ -7395,7 +7395,7 @@ DEBUG - 2025-07-05 07:20:21 --> Total execution time: 0.1867
 DEBUG - 2025-07-05 12:20:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 12:20:24 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 12:20:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 07:20:24 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 07:20:24 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 07:20:24 --> Total execution time: 0.0119
 DEBUG - 2025-07-05 12:20:24 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 12:20:24 --> Global POST, GET and COOKIE data sanitized
@@ -9582,7 +9582,7 @@ DEBUG - 2025-07-05 08:23:08 --> Total execution time: 0.0127
 DEBUG - 2025-07-05 13:23:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 13:23:09 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 13:23:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 08:23:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 08:23:09 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 08:23:09 --> Total execution time: 0.0165
 DEBUG - 2025-07-05 13:23:09 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 13:23:09 --> Global POST, GET and COOKIE data sanitized
@@ -11193,7 +11193,7 @@ DEBUG - 2025-07-05 09:05:29 --> Total execution time: 0.0115
 DEBUG - 2025-07-05 14:05:37 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:05:37 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 14:05:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 09:05:37 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 09:05:37 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 09:05:37 --> Total execution time: 0.0118
 DEBUG - 2025-07-05 14:05:37 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:05:37 --> Global POST, GET and COOKIE data sanitized
@@ -11954,7 +11954,7 @@ DEBUG - 2025-07-05 09:25:08 --> Total execution time: 0.0106
 DEBUG - 2025-07-05 14:25:08 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:25:08 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 14:25:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 09:25:08 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 09:25:08 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 09:25:08 --> Total execution time: 0.0130
 DEBUG - 2025-07-05 14:25:08 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:25:08 --> Global POST, GET and COOKIE data sanitized
@@ -12264,7 +12264,7 @@ DEBUG - 2025-07-05 09:32:16 --> Total execution time: 0.0084
 DEBUG - 2025-07-05 14:32:16 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:32:16 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 14:32:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 09:32:16 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 09:32:16 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 09:32:16 --> Total execution time: 0.0113
 DEBUG - 2025-07-05 14:32:17 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:32:17 --> Global POST, GET and COOKIE data sanitized
@@ -12427,7 +12427,7 @@ ERROR - 2025-07-05 14:35:27 --> 404 Page Not Found: Product/edit
 DEBUG - 2025-07-05 14:35:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:35:29 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 14:35:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 09:35:29 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 09:35:29 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 09:35:29 --> Total execution time: 0.0420
 DEBUG - 2025-07-05 14:35:29 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:35:29 --> Global POST, GET and COOKIE data sanitized
@@ -13328,7 +13328,7 @@ DEBUG - 2025-07-05 09:58:38 --> Total execution time: 0.0105
 DEBUG - 2025-07-05 14:58:43 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:58:43 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 14:58:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 09:58:43 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 09:58:43 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 09:58:43 --> Total execution time: 0.0141
 DEBUG - 2025-07-05 14:58:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 14:58:44 --> Global POST, GET and COOKIE data sanitized
@@ -15403,7 +15403,7 @@ DEBUG - 2025-07-05 10:49:18 --> Total execution time: 0.0086
 DEBUG - 2025-07-05 15:49:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 15:49:18 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 15:49:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 10:49:18 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 10:49:18 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 10:49:18 --> Total execution time: 0.0146
 DEBUG - 2025-07-05 15:49:19 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 15:49:19 --> Global POST, GET and COOKIE data sanitized
@@ -16929,7 +16929,7 @@ DEBUG - 2025-07-05 11:21:37 --> Total execution time: 0.0084
 DEBUG - 2025-07-05 16:21:45 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:21:45 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 16:21:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 11:21:45 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 11:21:45 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 11:21:45 --> Total execution time: 0.0111
 DEBUG - 2025-07-05 16:21:46 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:21:46 --> Global POST, GET and COOKIE data sanitized
@@ -18501,7 +18501,7 @@ DEBUG - 2025-07-05 11:55:02 --> Total execution time: 0.0042
 DEBUG - 2025-07-05 16:55:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:55:07 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 16:55:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 11:55:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/modificar.php 89
+ERROR - 2025-07-05 11:55:07 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/modificar.php 89
 DEBUG - 2025-07-05 11:55:07 --> Total execution time: 0.0130
 DEBUG - 2025-07-05 16:55:07 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:55:07 --> Global POST, GET and COOKIE data sanitized
@@ -18529,7 +18529,7 @@ DEBUG - 2025-07-05 11:55:16 --> Total execution time: 0.1571
 DEBUG - 2025-07-05 16:55:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:55:18 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-05 16:55:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-05 11:55:18 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/ceciminsigca.com/public_html/application/views/resultadosDx/nuevo.php 85
+ERROR - 2025-07-05 11:55:18 --> Severity: Notice --> Undefined variable: opcsndocrela /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/views/resultadosDx/nuevo.php 85
 DEBUG - 2025-07-05 11:55:18 --> Total execution time: 0.0075
 DEBUG - 2025-07-05 16:55:18 --> UTF-8 Support Enabled
 DEBUG - 2025-07-05 16:55:18 --> Global POST, GET and COOKIE data sanitized

@@ -465,7 +465,7 @@ class Rep_suceso_seguridad extends CI_Controller
 				// }
 
 				// Datos del correo
-				$correo_remitente ='admin@ceciminsigca.com';
+				$correo_remitente ='admin@sigca.cecimin.com.co';
 	            // $correo_usuario = 'calidad.cecimin@saludinteligente.com';
 
 	            $correo_usuario = 'calidad.cecimin@saludinteligente.com';
@@ -488,7 +488,7 @@ class Rep_suceso_seguridad extends CI_Controller
 			    $mensaje .= "<br>\r\n";		
 			    $mensaje .= "<br>\r\n";
 			    $mensaje .= "<div><font size='3'></font></div>\r\n";
-			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+			    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 				$mensaje .= "<br>\r\n";
 				
 	            // Archivos a adjuntar
@@ -1169,7 +1169,7 @@ class Rep_suceso_seguridad extends CI_Controller
 				    $mensaje .= "<br>\r\n";		
 				    $mensaje .= "<br>\r\n";
 				    $mensaje .= "<div><font size='3'></font></div>\r\n";
-				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+				    $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 					$mensaje .= "<br>\r\n";
 					
 		            // Archivos a adjuntar

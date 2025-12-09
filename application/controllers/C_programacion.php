@@ -600,7 +600,7 @@ class C_programacion extends CI_Controller {
 
 					$de=$cirujano."<".$correo_cirujano.">";
 				    
-					$Para ="cirugia@ceciminsigca.com,secirugia@colsanitas.com";
+					$Para ="cirugia@sigca.cecimin.com.co,secirugia@colsanitas.com";
 					//$Para ="germanparra2022@gmail.com,castonino17@gmail.com";
 					$Asunto ="Solicitud Agendamiento Dr(a).".$cirujano.", Paciente: '".$paciente."'";
 
@@ -629,7 +629,7 @@ class C_programacion extends CI_Controller {
 				    $cuerpo .= "<div><font size='3'><b>Solicita:</b> ".$usuario."</font></div>\r\n";
 				    $cuerpo .= "<div><font size='3'>Por favor Gestionar solicitud</font></div>\r\n";
 				    $cuerpo .= "<div><font size='3'>Gracias por su colaboración y gestión</font></div>\r\n";
-				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 					$cuerpo .= "<br>\r\n";
 					
 					$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -852,7 +852,7 @@ class C_programacion extends CI_Controller {
 						    $cuerpo .= "<div><font size='3'>(601) 6196253</font></div>\r\n";						    
 						    $cuerpo .= "<div><font size='3'>(601) 6002555 ext. 109-158</font></div>\r\n";
 						    $cuerpo .= "<div><font size='3'>3153931960</font></div>\r\n";		
-							$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>\r\n";		
+							$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>\r\n";		
 							$cuerpo .= "\r\n";
 							
 							$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -905,7 +905,7 @@ class C_programacion extends CI_Controller {
 						    $cuerpo .= "<div><font size='3'>(601) 6196253</font></div>\r\n";						    
 						    $cuerpo .= "<div><font size='3'>(601) 6002555 ext. 109-158</font></div>\r\n";
 						    $cuerpo .= "<div><font size='3'>3153931960</font></div>\r\n";		
-							$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>\r\n";		
+							$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>\r\n";		
 							$cuerpo .= "\r\n";
 							
 							$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -1141,7 +1141,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Salas de Cirugia</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Tel.: 6196253/ 6002555 EXT 158/109</font></div>\r\n";
-					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";				
+					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";				
 						
 						$cuerpo .= "\r\n";
 						
@@ -1201,7 +1201,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Salas de Cirugia</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";					    
 					    $cuerpo .= "<div><font size='3'>Tel.: 6196253/ 6002555 EXT 158/109</font></div>\r\n";			
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						$cuerpo .= "\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -1260,7 +1260,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Salas de Cirugia</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Tel.: 6196253/ 6002555 EXT 158/109</font></div>\r\n";			
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						$cuerpo .= "\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -1320,7 +1320,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Salas de Cirugia</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Tel.: 6196253/ 6002555 EXT 158/109</font></div>\r\n";			
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						$cuerpo .= "\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -1374,7 +1374,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>(601) 6196253</font></div>\r\n";						    
 					    $cuerpo .= "<div><font size='3'>(601) 6002555 ext. 109-158</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>3153931960</font></div>\r\n";		
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/><div>\r\n";		
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/><div>\r\n";		
 						$cuerpo .= "\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -1444,7 +1444,7 @@ class C_programacion extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Salas de Cirugia</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 #104-76 piso 3</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Tel.: 6196253/ 6002555 EXT 158/109</font></div>\r\n";
-					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/></div>\r\n";	
+					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/></div>\r\n";	
 						$cuerpo .= "\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);

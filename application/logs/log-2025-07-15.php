@@ -3174,8 +3174,8 @@ DEBUG - 2025-07-15 00:24:20 --> Total execution time: 0.0107
 DEBUG - 2025-07-15 05:24:44 --> UTF-8 Support Enabled
 DEBUG - 2025-07-15 05:24:44 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-15 05:24:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-15 00:24:44 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php:152) /home/u610593899/domains/ceciminsigca.com/public_html/system/core/Common.php 571
-ERROR - 2025-07-15 00:24:44 --> Severity: Compile Error --> Cannot redeclare AdvancedHtmlToPdf::corregirCaracteres() /home/u610593899/domains/ceciminsigca.com/public_html/application/libraries/AdvancedHtmlToPdf.php 152
+ERROR - 2025-07-15 00:24:44 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php:152) /home/u610593899/domains/sigca.cecimin.com.co/public_html/system/core/Common.php 571
+ERROR - 2025-07-15 00:24:44 --> Severity: Compile Error --> Cannot redeclare AdvancedHtmlToPdf::corregirCaracteres() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/libraries/AdvancedHtmlToPdf.php 152
 DEBUG - 2025-07-15 05:25:01 --> UTF-8 Support Enabled
 DEBUG - 2025-07-15 05:25:01 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2025-07-15 05:25:01 --> 404 Page Not Found: Search/index
@@ -3193,4 +3193,4 @@ DEBUG - 2025-07-15 00:26:20 --> Total execution time: 0.0119
 DEBUG - 2025-07-15 05:26:26 --> UTF-8 Support Enabled
 DEBUG - 2025-07-15 05:26:26 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2025-07-15 05:26:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
-ERROR - 2025-07-15 00:26:26 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::NbLines() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/R_actas.php 664
+ERROR - 2025-07-15 00:26:26 --> Severity: error --> Exception: Call to undefined method AdvancedHtmlToPdf::NbLines() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/R_actas.php 664

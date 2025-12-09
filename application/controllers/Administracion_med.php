@@ -204,7 +204,7 @@ class Administracion_med extends CI_Controller {
 			    $cuerpo .= "<br>\r\n";
 			    $cuerpo .= "<br>\r\n";		    
 			    $cuerpo .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-			    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+			    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 				$cuerpo .= "<br>\r\n";
 				
 				$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);
@@ -242,7 +242,7 @@ class Administracion_med extends CI_Controller {
 					    $cuerpo .= "<div><font size='3'>Coordinadora de Mercadeo y atención al Usuario</font></div>\r\n";
 					    $cuerpo .= "<div><font size='3'>Avenida Carrera 45 N°104-73 Piso 7</font></div>\r\n";
 					    $cuerpo .= "<div><font size='2'>(601) 6002555 ext.172 </font></div>\r\n";
-					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px' src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";					
 						$cuerpo .= "<br>\r\n";
 						
 						$msg = $this->sendEmail2($Para, $Asunto, $cuerpo, $Cabeceras);

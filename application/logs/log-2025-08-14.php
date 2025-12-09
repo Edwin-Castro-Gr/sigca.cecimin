@@ -23744,7 +23744,7 @@ DEBUG - 2025-08-14 21:00:33 --> Total execution time: 0.0046
 DEBUG - 2025-08-14 21:00:42 --> Total execution time: 0.0149
 DEBUG - 2025-08-14 21:00:52 --> Total execution time: 0.0110
 DEBUG - 2025-08-14 21:01:02 --> Total execution time: 0.0180
-ERROR - 2025-08-14 21:01:13 --> Severity: Notice --> Undefined variable: cierre /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 486
+ERROR - 2025-08-14 21:01:13 --> Severity: Notice --> Undefined variable: cierre /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 486
 DEBUG - 2025-08-14 21:01:13 --> Total execution time: 0.0182
 DEBUG - 2025-08-14 21:01:13 --> Total execution time: 0.0211
 DEBUG - 2025-08-14 21:01:22 --> Total execution time: 0.0092
@@ -24031,7 +24031,7 @@ DEBUG - 2025-08-14 21:39:04 --> Total execution time: 0.0302
 DEBUG - 2025-08-14 21:39:04 --> Total execution time: 0.0316
 DEBUG - 2025-08-14 21:39:04 --> Total execution time: 0.0510
 DEBUG - 2025-08-14 21:39:11 --> Total execution time: 0.0155
-ERROR - 2025-08-14 21:39:11 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 538
+ERROR - 2025-08-14 21:39:11 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 538
 DEBUG - 2025-08-14 21:39:16 --> Total execution time: 0.0639
 DEBUG - 2025-08-14 21:39:18 --> Total execution time: 0.0129
 DEBUG - 2025-08-14 21:39:20 --> Total execution time: 0.0055
@@ -24043,7 +24043,7 @@ DEBUG - 2025-08-14 21:39:28 --> Total execution time: 0.0056
 DEBUG - 2025-08-14 21:39:28 --> Total execution time: 0.0072
 DEBUG - 2025-08-14 21:39:28 --> Total execution time: 0.0085
 DEBUG - 2025-08-14 21:39:30 --> Total execution time: 0.0055
-ERROR - 2025-08-14 21:39:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 538
+ERROR - 2025-08-14 21:39:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::_error_message() /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 538
 DEBUG - 2025-08-14 21:39:38 --> Total execution time: 0.0148
 DEBUG - 2025-08-14 21:39:48 --> Total execution time: 0.0138
 DEBUG - 2025-08-14 21:39:58 --> Total execution time: 0.0114
@@ -24112,12 +24112,12 @@ DEBUG - 2025-08-14 21:47:54 --> Total execution time: 0.0045
 DEBUG - 2025-08-14 21:47:55 --> Total execution time: 0.0053
 DEBUG - 2025-08-14 21:47:55 --> Total execution time: 0.0035
 DEBUG - 2025-08-14 21:47:56 --> Total execution time: 0.0286
-ERROR - 2025-08-14 21:47:56 --> Severity: error --> Exception: syntax error, unexpected 'else' (T_ELSE) /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 1762
+ERROR - 2025-08-14 21:47:56 --> Severity: error --> Exception: syntax error, unexpected 'else' (T_ELSE) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 1762
 DEBUG - 2025-08-14 21:47:57 --> Total execution time: 0.0042
 DEBUG - 2025-08-14 21:47:58 --> Total execution time: 0.0051
 DEBUG - 2025-08-14 21:48:06 --> Total execution time: 0.0175
 DEBUG - 2025-08-14 21:48:09 --> Total execution time: 0.0078
-ERROR - 2025-08-14 21:48:11 --> Severity: error --> Exception: syntax error, unexpected 'else' (T_ELSE) /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 1762
+ERROR - 2025-08-14 21:48:11 --> Severity: error --> Exception: syntax error, unexpected 'else' (T_ELSE) /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 1762
 DEBUG - 2025-08-14 21:48:11 --> Total execution time: 0.0159
 DEBUG - 2025-08-14 21:48:21 --> Total execution time: 0.0118
 DEBUG - 2025-08-14 21:48:30 --> Total execution time: 0.0049
@@ -24562,7 +24562,7 @@ DEBUG - 2025-08-14 22:41:21 --> Total execution time: 0.0117
 DEBUG - 2025-08-14 22:41:30 --> Total execution time: 0.0044
 DEBUG - 2025-08-14 22:41:31 --> Total execution time: 0.0119
 DEBUG - 2025-08-14 22:41:53 --> Total execution time: 0.0114
-ERROR - 2025-08-14 22:42:25 --> Severity: Notice --> Undefined property: stdClass::$informa /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 1003
+ERROR - 2025-08-14 22:42:25 --> Severity: Notice --> Undefined property: stdClass::$informa /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 1003
 DEBUG - 2025-08-14 22:42:30 --> Total execution time: 0.0043
 DEBUG - 2025-08-14 22:42:53 --> Total execution time: 0.0203
 DEBUG - 2025-08-14 22:43:19 --> Total execution time: 0.0321
@@ -24663,9 +24663,9 @@ DEBUG - 2025-08-14 23:16:53 --> Total execution time: 0.0117
 DEBUG - 2025-08-14 23:17:30 --> Total execution time: 0.0031
 DEBUG - 2025-08-14 23:17:53 --> Total execution time: 0.0122
 DEBUG - 2025-08-14 23:18:30 --> Total execution time: 0.0041
-ERROR - 2025-08-14 23:18:52 --> Severity: Notice --> Undefined variable: alturaFila /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 1062
+ERROR - 2025-08-14 23:18:52 --> Severity: Notice --> Undefined variable: alturaFila /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 1062
 DEBUG - 2025-08-14 23:18:53 --> Total execution time: 0.0096
-ERROR - 2025-08-14 23:19:00 --> Severity: Notice --> Undefined variable: alturaFila /home/u610593899/domains/ceciminsigca.com/public_html/application/controllers/C_seguimientocx.php 1062
+ERROR - 2025-08-14 23:19:00 --> Severity: Notice --> Undefined variable: alturaFila /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/controllers/C_seguimientocx.php 1062
 DEBUG - 2025-08-14 23:19:01 --> Total execution time: 0.0151
 DEBUG - 2025-08-14 23:19:11 --> Total execution time: 0.0102
 DEBUG - 2025-08-14 23:19:21 --> Total execution time: 0.0131

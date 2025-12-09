@@ -686,7 +686,7 @@ class M_solicitud extends CI_Controller
 					$mensaje .= "<br>\r\n";					
 					$mensaje .= "<br>\r\n";
 					$mensaje .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-					$mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+					$mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 					$mensaje .= "<br>\r\n";
 
 					// Archivos a adjuntar
@@ -849,7 +849,7 @@ class M_solicitud extends CI_Controller
 						$cuerpo .= "<br>\r\n";					
 						$cuerpo .= "<br>\r\n";
 						$cuerpo .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 						$cuerpo .= "<br>\r\n";
 
 						// Correo para el usuraio
@@ -923,7 +923,7 @@ class M_solicitud extends CI_Controller
 						$cuerpo .= "<br>\r\n";					
 						$cuerpo .= "<br>\r\n";
 						$cuerpo .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";
+						$cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";
 						$cuerpo .= "<br>\r\n";
 
 						// Correo para el usuraio

@@ -139,7 +139,7 @@ class Linea_etica extends CI_Controller {
 				    $cuerpo .= "<br>\r\n";		
 				    $cuerpo .= "<br>\r\n";		    
 				    $cuerpo .= "<div><font size='2'>Correo enviado desde https://cecimin.com.co</font></div>\r\n";
-				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";		
+				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";		
  		            $cuerpo .= "\r\n\r\n\r\n";
 
 		            $cuerpo .= "--".$boundary."\r\n";

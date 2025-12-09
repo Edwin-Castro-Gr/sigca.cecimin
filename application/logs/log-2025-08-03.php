@@ -5902,8 +5902,8 @@ DEBUG - 2025-08-03 23:19:20 --> Total execution time: 0.0107
 DEBUG - 2025-08-03 23:19:30 --> Total execution time: 0.0092
 DEBUG - 2025-08-03 23:19:40 --> Total execution time: 0.0101
 DEBUG - 2025-08-03 23:19:47 --> Total execution time: 0.0049
-ERROR - 2025-08-03 23:19:49 --> Severity: Notice --> Undefined index: Ubicación /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 1755
-ERROR - 2025-08-03 23:19:49 --> Severity: Notice --> Undefined index: Ubicación /home/u610593899/domains/ceciminsigca.com/public_html/application/helpers/funciones_tabla_helper.php 1755
+ERROR - 2025-08-03 23:19:49 --> Severity: Notice --> Undefined index: Ubicación /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 1755
+ERROR - 2025-08-03 23:19:49 --> Severity: Notice --> Undefined index: Ubicación /home/u610593899/domains/sigca.cecimin.com.co/public_html/application/helpers/funciones_tabla_helper.php 1755
 DEBUG - 2025-08-03 23:19:49 --> Total execution time: 0.0234
 DEBUG - 2025-08-03 23:19:49 --> Total execution time: 0.0078
 DEBUG - 2025-08-03 23:19:59 --> Total execution time: 0.0093
