@@ -1,0 +1,2 @@
+[04-May-2021 19:43:56 America/Bogota] PHP Fatal error:  Call to a member function sess_destroy() on null in /home/sigca/public_html/application/controllers/Login.php on line 14
+[04-May-2021 19:45:02 America/Bogota] PHP Fatal error:  Call to a member function sess_destroy() on null in /home/sigca/public_html/application/controllers/Login.php on line 14
