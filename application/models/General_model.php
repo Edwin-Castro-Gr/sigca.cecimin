@@ -1,4 +1,3 @@
-
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 class General_model extends CI_Model {
@@ -124,47 +123,128 @@ class General_model extends CI_Model {
         }
     }
 
-    function select_usuario($usuario) {
-		$query = $this->db->query("SELECT u.id_usuario, u.usuario, AES_DECRYPT(u.clave, '-Qsc.725943!') AS clave, CONCAT(u.nombre, ' ', u.apellido) AS nombre_usuario, u.nombre AS nom_usuario, u.apellido AS ape_usuario, u.estado, u.id_empleado, u.perfil, u.foto, u.cambio_clave, u.email,
-			COALESCE(u.two_factor_enabled, 0) AS two_factor_enabled,
-			u.two_factor_secret
-			FROM usuarios u WHERE u.usuario='" . $usuario . "' ");
-		return $query->result();
-	}
-	
-	// ... resto de tus funciones existentes se mantienen igual ...
-	
-	// NUEVO: Habilitar 2FA para un usuario
-	function enable_2fa($user_id) {
-		$data = array(
-			'two_factor_enabled' => 1,
-			'two_factor_secret' => $this->generate2FASecret(),
-			'updated_at' => date('Y-m-d H:i:s')
-		);
-		
-		$this->db->where('id_usuario', $user_id);
-		return $this->db->update('usuarios', $data);
-	}
-	
-	// NUEVO: Deshabilitar 2FA para un usuario
-	function disable_2fa($user_id) {
-		$data = array(
-			'two_factor_enabled' => 0,
-			'two_factor_secret' => NULL,
-			'updated_at' => date('Y-m-d H:i:s')
-		);
-		
-		$this->db->where('id_usuario', $user_id);
-		return $this->db->update('usuarios', $data);
-	}
-	
-	// NUEVO: Generar secreto para 2FA
-	private function generate2FASecret() {
-		$chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
-		$secret = '';
-		for ($i = 0; $i < 16; $i++) {
-			$secret .= $chars[rand(0, 31)];
-		}
-		return $secret;
-	}
+        function get_user_by_username($usuario) {
+        $query = $this->db->query("
+            SELECT 
+                u.id_usuario, 
+                u.usuario, 
+                AES_DECRYPT(u.clave, '-Qsc.725943!') AS clave, 
+                CONCAT(u.nombre, ' ', u.apellido) AS nombre_usuario, 
+                u.nombre AS nom_usuario, 
+                u.apellido AS ape_usuario, 
+                u.estado, 
+                u.id_empleado, 
+                u.perfil, 
+                u.foto, 
+                u.cambio_clave,
+                u.email,
+                u.two_factor_enabled,
+                u.two_factor_secret
+            FROM usuarios u 
+            WHERE u.usuario = ?
+        ", [$usuario]);
+        
+        return $query->result();
+    }
+    
+    function get_user_by_id($id_usuario) {
+        $query = $this->db->query("
+            SELECT 
+                u.id_usuario, 
+                u.usuario, 
+                CONCAT(u.nombre, ' ', u.apellido) AS nombre_usuario, 
+                u.nombre AS nom_usuario, 
+                u.apellido AS ape_usuario, 
+                u.estado, 
+                u.id_empleado, 
+                u.perfil, 
+                u.foto, 
+                u.email
+            FROM usuarios u 
+            WHERE u.id_usuario = ?
+        ", [$id_usuario]);
+        
+        return $query->result();
+    }
+    
+    function get_user_email($id_usuario) {
+        $query = $this->db->select('email')
+                         ->from('usuarios')
+                         ->where('id_usuario', $id_usuario)
+                         ->get();
+        
+        if ($query->num_rows() == 1) {
+            return $query->row()->email;
+        }
+        
+        return false;
+    }
+    
+    function verify_email($email) {
+        $query = $this->db->query("
+            SELECT * 
+            FROM usuarios 
+            WHERE estado <= '1' 
+            AND email = ?
+        ", [$email]);
+        
+        return ($query->num_rows() == 1) ? $query->row() : false;
+    }
+    
+    function get_hash_details($hash) {
+        $query = $this->db->select('*')
+                         ->from('usuarios')
+                         ->where('hash_key', $hash)
+                         ->get();
+        
+        return ($query->num_rows() == 1) ? $query->row() : false;
+    }
+    
+    function update_password_by_hash($hash, $password, $encryption_key) {
+        $clave_cod = "AES_ENCRYPT('" . $this->db->escape_str($password) . "', '" . $encryption_key . "')";
+        $sql_update = "UPDATE usuarios SET clave = " . $clave_cod . ", hash_key = NULL, hash_expiry = NULL WHERE hash_key = ?";
+        
+        return $this->db->query($sql_update, [$hash]);
+    }
+    
+    function update_user_password($usuario, $password, $encryption_key) {
+        $clave_cod = "AES_ENCRYPT('" . $this->db->escape_str($password) . "', '" . $encryption_key . "')";
+        $sql_update = "UPDATE usuarios SET clave = " . $clave_cod . ", cambio_clave = '1', politica_proteccion_datos = '1' WHERE usuario = ?";
+        
+        return $this->db->query($sql_update, [$usuario]);
+    }
+    
+    // NUEVO: Habilitar 2FA para usuario
+    function enable_2fa($user_id, $secret = null) {
+        $data = [
+            'two_factor_enabled' => 1,
+            'two_factor_secret' => $secret ?: $this->generate2FASecret(),
+            'updated_at' => date('Y-m-d H:i:s')
+        ];
+        
+        $this->db->where('id_usuario', $user_id);
+        return $this->db->update('usuarios', $data);
+    }
+    
+    // NUEVO: Deshabilitar 2FA para usuario
+    function disable_2fa($user_id) {
+        $data = [
+            'two_factor_enabled' => 0,
+            'two_factor_secret' => NULL,
+            'updated_at' => date('Y-m-d H:i:s')
+        ];
+        
+        $this->db->where('id_usuario', $user_id);
+        return $this->db->update('usuarios', $data);
+    }
+    
+    // NUEVO: Generar secreto para 2FA
+    private function generate2FASecret() {
+        $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
+        $secret = '';
+        for ($i = 0; $i < 16; $i++) {
+            $secret .= $chars[random_int(0, 31)];
+        }
+        return $secret;
+    }
 }
