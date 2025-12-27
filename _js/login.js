@@ -8,14 +8,14 @@ $(function () {
     const handleLoginResponse = (data_preg, usuario) => {
         const [status, message] = data_preg.split("=");
        
-    const alerts = {
-        '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
-        '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
-        '2': { icon: 'info',    title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
-        '3': { icon: 'info',    title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
-        '4': { icon: 'error',   title: '¡Oops...!',  text: 'Usuario no Existe' },
-        '5': { icon: 'warning', title: 'Oops...',    text: 'No supero la validación de seguridad' },
-        '6': { icon: 'info',    title: 'Verificación 2FA requerida', text: 'Ingresa el código de tu app de autenticación',
+        const alerts = {
+            '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
+            '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
+            '2': { icon: 'info',    title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
+            '3': { icon: 'info',    title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
+            '4': { icon: 'error',   title: '¡Oops...!',  text: 'Usuario no Existe' },
+            '5': { icon: 'warning', title: 'Oops...',    text: 'No supero la validación de seguridad' },
+            '6': { icon: 'info',    title: 'Verificación 2FA requerida', text: 'Ingresa el código de tu app de autenticación',
                 action: () => {
                 Swal.fire({
                     title: 'Código 2FA',
@@ -40,10 +40,10 @@ $(function () {
                     }
                 });
                 }
-        },
-        '7': { icon: 'error', title: 'Error', text: 'Código 2FA inválido' },
-        '8': { icon: 'error', title: 'Error', text: '2FA no configurado' }
-    };
+            },
+            '7': { icon: 'error', title: 'Error', text: 'Código 2FA inválido' },
+            '8': { icon: 'error', title: 'Error', text: '2FA no configurado' }
+        };
 
 
         const alertConfig = alerts[status] || alerts['default'];
