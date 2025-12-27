@@ -51,5 +51,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'login';
 $route['login_verificar'] = 'login/verificar';
+
+$route['twofa/setup']   = 'twofa/setup';
+$route['twofa/confirm'] = 'twofa/confirm';
+$route['twofa/success'] = 'twofa/success';
+
 $route['404_override'] = 'errors/html/error_404';
 $route['translate_uri_dashes'] = FALSE;
