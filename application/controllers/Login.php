@@ -136,7 +136,7 @@ class Login extends CI_Controller {
         $usuario = $this->input->post('usuario');
         $password = $this->input->post('contrasena');
         
-        $user_data = $this->general_model->get_user_by_username($usuario);
+        $user_data = $this->general_model->select_usuario($usuario);
         
         if (!$user_data) {
             echo "4=!";
