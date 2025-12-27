@@ -134,7 +134,7 @@ class General_model extends CI_Model {
     public function get_user_by_usuario($usuario) {
         return $this->db->select('id_usuario, usuario, AES_DECRYPT(clave, "-Qsc.725943!") AS clave,
                               CONCAT(nombre," ",apellido) AS nombre_usuario, nombre AS nom_usuario, apellido AS ape_usuario,
-                              estado, id_empleado, perfil, foto, cambio_clave,
+                              estado, id_empleado, perfil, foto, hash_key, hash_expiry, cambio_clave,
                               is_2fa_enabled, totp_secret, totp_backup_codes')
                     ->from('usuarios')
                     ->where('usuario', $usuario)
