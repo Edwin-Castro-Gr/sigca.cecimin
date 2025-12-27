@@ -2,303 +2,362 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
-	
-	//Constructor de la clase
-	function __construct() {
-		parent::__construct();
-		date_default_timezone_set('America/Bogota');
-
-		$this->load->helper('recaptcha'); // Carga el helper de reCAPTCHA
-		$ghash ="";
-	}
-	
-	public function index()	{
-
-		$this->session->sess_destroy();
-
-		// Datos de la cookie
-        $cookie_name = 'session_cookie'; // Nombre de la cookie
-        $cookie_value = bin2hex(random_bytes(16)); // Valor único para la cookie
-        $cookie_expire = time() + 3600; // Expira en 1 hora
-
-        // Establece la cookie manualmente con los atributos necesarios
-        header('Set-Cookie: ' . $cookie_name . '=' . $cookie_value . '; Expires=' . gmdate('D, d M Y H:i:s T', $cookie_expire) . '; Path=/; Secure; SameSite=None; Partitioned;');
-		$this->load->view('login/index');
-	}
-	
-	public function cambiar(){
-		$id = $this->input->get('idreg');
-		$data_usua['c_id_usuario'] = $id;	
-		$this->load->view('login/cambiar_password',$data_usua);
-	}
-
-	public function reset()	{
-		
-		switch( strtolower("sigca") ) {
-			case 'sigca': $datos_session2 = array('C_basedatos'=>'u610593899_sigca'); break;
-			
-			default: echo "ERROR=El Código no es valido...!"; exit(); break;
-		}
-		$this->session->set_userdata($datos_session2); 
-		$this->load->database();
-		$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
-		
-		if($this->input->get('hash')){
-			$hash =$this->input->get('hash');
-			
-			$data_usua['c_hash'] = $hash;
-			$getHashDetails = $this->general_model->select_hash("*","usuarios","hash_key ='".$hash."'");
-			if($getHashDetails!=false)
-			{
-				$hash_expiry = $getHashDetails->hash_expiry;
-				$currentDate = date('Y-m-d H:i');
-				if($currentDate < $hash_expiry)
-				{
-					
-					$this->load->view('login/reset_password',$data_usua);				
-				}else{
-					echo "2"; //Tocken Invalido
-				}
-			}
-		}	
-	}
-
-	public function guardar_nuevaClave(){
-		if(!$this->input->is_ajax_request()) {
-			redirect(base_url());
-		} else {
-			switch( strtolower("sigca") ) {
-				case 'sigca': $datos_session2 = array('C_basedatos'=>'u610593899_sigca'); break;
-				
-				default: echo "ERROR=El Código no es valido...!"; exit(); break;
-			}
-			$this->session->set_userdata($datos_session2); 
-			$this->load->database();
-			$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
-			$ghash = $this->input->post('hashrecov');
-			$clave_cod = "AES_ENCRYPT('".$this->input->post('password')."', '-Qsc.725943!')";
-
-			$sql_update="UPDATE usuarios SET clave =".$clave_cod.", hash_key='null', hash_expiry='null' WHERE hash_key ='".$ghash."'";
-			
-			$query = $this->general_model->consulta_select($sql_update); 
-			if($query)
-				echo '1';
-			else {
-				echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
-				switch($query) {
-					case "1062": echo "la identificacion ingresada, ya se encuentra registrado; Por favor verifique los datos!"; break;
-					default: echo "Error: ".$query." => ".$this->db->_error_message(); break;	
-				}
-				echo '</div>';
-			}
-		}
-	}
-
-	public function actualizar_clave(){
-		if(!$this->input->is_ajax_request()) {
-			redirect(base_url());
-		} else {
-		
-			$datos_session2 = array('C_basedatos'=>'u610593899_sigca'); 
-			
-			$this->session->set_userdata($datos_session2); 
-			$this->load->database();
-			$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
-			$usuario = $this->input->post('idreg');
-
-			$clave_cod = "AES_ENCRYPT('".$this->input->post('password')."', '-Qsc.725943!')";
-			
-			$sql_update="UPDATE usuarios SET clave =".$clave_cod.", cambio_clave='1', politica_proteccion_datos='1' WHERE usuario ='".$usuario."'";
-			$query = $this->general_model->consulta_select($sql_update);  
-			// $query = $this->general_model->update('usuarios', 'usuario', $usuario, $registro);
-			if($query)
-				echo '1';
-			else {
-				echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
-				switch($query) {
-					case "1062": echo "la identificacion ingresada, ya se encuentra registrado; Por favor verifique los datos!"; break;
-					default: echo "Error: ".$query." => ".$this->db->_error_message(); break;	
-				}
-				echo '</div>';
-			}
-		}
-	}
-
-	public function verificar() {
-		if(!$this->input->is_ajax_request()) {
-			redirect();
-		} else {
-			$this->load->helper('recaptcha'); // Cargar helper
-
-			$token = $this->input->post('recaptchaToken');
-            $secret_key = $this->config->item('recaptcha_secret_key');
-            //var_dump($token);
-
-            $recaptcha_response = validate_recaptcha($secret_key, $token);			
-			//var_dump($recaptcha_response);
-			// Validar reCAPTCHA
-            if ($recaptcha_response["success"] && $recaptcha_response["action"] == 'login' && $recaptcha_response["score"] > '0.6') {
-
-		        // Continuar con la lógica de autenticación
-				$datos_session2 = array('C_basedatos'=>'u610593899_sigca'); 			
-				$this->session->set_userdata($datos_session2); 
-				$this->load->database();
-				$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
-				
-				$resu = $this->general_model->select_usuario($this->input->post('usuario'));
-				$temp_usuario=0;
-				$datos = '';
-				$relacion = '';
-				$cambio_clave='';
-				foreach ($resu as $row ) {
-					$temp_usuario=1;
-					if($row->estado == "1") {
-						if($row->clave == $this->input->post('contrasena')) {
-							$cambio_clave = $row->cambio_clave;
-							if($cambio_clave == '1'){		
-								$id_usuario = $row->id_usuario;
-								$id_empleado = $row->id_empleado;	
-								define('CON_id_usuario', $id_usuario);
-								//$usuario = $row->usuario;
-								$nombre_usuario = $row->nombre_usuario;
-								$nom_usuario = $row->nom_usuario;
-								$ape_usuario = $row->ape_usuario;							
-								$foto = $row->foto;
-								
-								$perfil = $row->perfil;	
-								switch($perfil) {
-									case '0': $tipo = 'Administrador'; break;
-									case '1': $tipo = 'Gerencia'; break;							
-									case '2': $tipo = 'Coordinadores'; break;
-									case '3': $tipo = 'Cirujanos'; break;
-									case '4': $tipo = 'Costos/contratos'; break;
-									case '5': $tipo = 'Asistenciales'; break;
-									case '6': $tipo = 'Cirugia'; break;
-									case '7': $tipo = 'Auditoria'; break;
-									case '8': $tipo = 'Instrumentadoras'; break;
-								}
-								
-								$datos_session= array(
-									'C_id_usuario'=>$id_usuario, 
-									'C_id_empleado'=>$id_empleado, 
-									'C_nombre_usuario'=>$nombre_usuario, 
-									'C_nom_usuario'=>$nom_usuario, 
-									'C_perfil'=>$perfil, 
-									'C_tipo'=>$tipo, 
-									'C_foto'=>$foto, 
-									'C_origen'=>$this->session->userdata('C_basedatos'));
-								
-								$this->session->set_userdata($datos_session);
-								echo "0=".$nom_usuario." ".$ape_usuario;
-								
-							}else{
-								echo "1=Debe Cambiar su Contraseña"; // cambiar clave generica
-														
-							}
-						}else{
-							echo "2=!";	// usuario y/o contraseña incorrectos
-												
-						}
-					}else{				
-						echo "3=!";	// usuario inactivo	
-								
-					}
-					//echo "entro";
-				}
-				if($temp_usuario == 0){
-					echo "4=!"; // usuario no Existe 
-				}
-			} else {
-	            echo "5=!"; 
-	        }
-		}		
-	}
-	
-	public function recuperar_password() {
-		if(!$this->input->is_ajax_request()) {
-			redirect('404');
-		} else {
-			switch( strtolower("sigca") ) {
-				case 'sigca': $datos_session2 = array('C_basedatos'=>'u610593899_sigca'); break;
-				
-				default: echo "ERROR=El Código no es valido...!"; exit(); break;
-			}
-			$this->session->set_userdata($datos_session2); 
-			$this->load->database();
-			$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
-			if($_SERVER['REQUEST_METHOD']=='POST')
-				{
-				$this->form_validation->set_rules('email','Email','required');
-				if($this->form_validation->run()==TRUE)
-				{
-					$email = $this->input->post('email');
-					$resu = $this->general_model->select_verificarEmail($email);
-					if($resu!=false){
-						$row = $resu;
-						$usuario_id = $row->id_usuario;
-						$string = time().$usuario_id.$email;
-						$hash_string = hash('sha256',$string);
-						$currentDate = date('Y-m-d H:i');
-						$hash_expiry = date('Y-m-d H:i', strtotime("30 minutes"));
-						$data = array(
-							'hash_key'=> $hash_string,
-							'hash_expiry'=>$hash_expiry
-						);
-
-						$resetLink = base_url().'login/reset?hash='.$hash_string;
-						
-						$message = "Para recuperar la contraseña:\n <a href='".$resetLink."'>haga click aquí</a>" ;
-						$subject = "Recuperar contraseña";
-						$sentStatus = $this->sendEmail($email,$subject,$message);
-						
-						if($sentStatus==true){
-							$this->general_model->update('usuarios','email',$email,$data);							
-							echo '1';
-						}else{							
-							echo '2';
-						}
-
-					}else{						
-						echo '3';	
-					}
-
-				}else{
-					echo '4';	
-				}
-			}else{
-				echo '4';	
-			}
-		}
-	}
-
-	public function sendEmail($email,$subject,$message)
-    {
-    	
-    	/*CONFIGURACION DE SENMAIL SMTP*/
-	    $config = Array(
-	    	'protocol'=> 'sendmail',
-			'mailpath'=> '/usr/sbin/sendmail',
-			'charset'=> 'utf-8',
-			'mailtype'  => 'html',
-			'wordwrap'=> TRUE
-	    );
-
-	    $this->email->initialize($config);
-
-
-      	$this->load->library('email', $config);
-      	$this->email->set_newline("\r\n");
-      	$this->email->from('admin@ceciminsigca.com','Administrador del Sistema');
-      	$this->email->to($email);
-      	$this->email->subject($subject);
-     	$this->email->message($message);
-      
-      	if($this->email->send()){
-       		return true;
-	    }else{
-	     	return false;
-	    }
+    
+    private $db_name = 'u610593899_sigca';
+    private $encryption_key = '-Qsc.725943!';
+    
+    public function __construct() {
+        parent::__construct();
+        date_default_timezone_set('America/Bogota');
+        $this->load->helper(['recaptcha', 'security']);
+        $this->load->library('session');
+        $this->load->model('general_model');
     }
-
+    
+    public function index() {
+        $this->session->sess_destroy();
+        $this->setSecureSessionCookie();
+        $this->load->view('login/index');
+    }
+    
+    private function setSecureSessionCookie() {
+        $cookie_name = 'session_cookie';
+        $cookie_value = bin2hex(random_bytes(16));
+        $cookie_expire = time() + 3600;
+        
+        setcookie(
+            $cookie_name,
+            $cookie_value,
+            [
+                'expires' => $cookie_expire,
+                'path' => '/',
+                'secure' => true,
+                'httponly' => true,
+                'samesite' => 'None'
+            ]
+        );
+    }
+    
+    public function cambiar($id) {
+        $data_usua['c_id_usuario'] = $id;    
+        $this->load->view('login/cambiar_password', $data_usua);
+    }
+    
+    public function reset($hash) {
+        $this->initializeDatabase();
+        
+        $hash_details = $this->general_model->get_hash_details($hash);
+        
+        if (!$hash_details) {
+            $this->showError('Token inválido o expirado');
+            return;
+        }
+        
+        $current_date = date('Y-m-d H:i:s');
+        if ($current_date > $hash_details->hash_expiry) {
+            $this->showError('El token ha expirado');
+            return;
+        }
+        
+        $data_usua['c_hash'] = $hash;
+        $this->load->view('login/reset_password', $data_usua);
+    }
+    
+    public function guardar_nuevaClave() {
+        if (!$this->input->is_ajax_request()) {
+            redirect(base_url());
+            return;
+        }
+        
+        $this->initializeDatabase();
+        $hash = $this->input->post('hashrecov');
+        $password = $this->input->post('password');
+        
+        $result = $this->general_model->update_password_by_hash($hash, $password, $this->encryption_key);
+        
+        $this->sendJsonResponse($result);
+    }
+    
+    public function actualizar_clave() {
+        if (!$this->input->is_ajax_request()) {
+            redirect(base_url());
+            return;
+        }
+        
+        $this->initializeDatabase();
+        $usuario = $this->input->post('idreg');
+        $password = $this->input->post('password');
+        
+        $result = $this->general_model->update_user_password($usuario, $password, $this->encryption_key);
+        
+        $this->sendJsonResponse($result);
+    }
+    
+    public function verificar() {
+        if (!$this->input->is_ajax_request()) {
+            redirect();
+            return;
+        }
+        
+        // Validar reCAPTCHA
+        if (!$this->validateRecaptcha()) {
+            echo "5=!";
+            return;
+        }
+        
+        $this->initializeDatabase();
+        
+        $usuario = $this->input->post('usuario');
+        $password = $this->input->post('contrasena');
+        
+        $user_data = $this->general_model->get_user_by_username($usuario);
+        
+        if (!$user_data) {
+            echo "4=!";
+            return;
+        }
+        
+        $user = $user_data[0];
+        
+        if ($user->estado != "1") {
+            echo "3=!";
+            return;
+        }
+        
+        if ($user->clave != $password) {
+            echo "2=!";
+            return;
+        }
+        
+        if ($user->cambio_clave != '1') {
+            echo "1=Debe Cambiar su Contraseña";
+            return;
+        }
+        
+        // Verificar si 2FA está habilitado
+        if ($user->two_factor_enabled == 1) {
+            // Generar y enviar código 2FA
+            $verification_code = $this->generate2FACode();
+            $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
+            $this->session->set_tempdata('2fa_code', $verification_code, 300);
+            
+            // Enviar código por email
+            $this->send2FACode($user->email, $verification_code);
+            
+            echo "6=" . $user->id_usuario; // Código para redirigir a verificación 2FA
+            return;
+        }
+        
+        // Si no tiene 2FA, continuar con login normal
+        $this->createUserSession($user);
+        echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
+    }
+    
+    // NUEVO: Página para verificar código 2FA
+    public function verify_2fa($user_id = null) {
+        if ($user_id) {
+            $data['user_id'] = $user_id;
+            $this->load->view('login/verify_2fa', $data);
+        } else {
+            redirect('login');
+        }
+    }
+    
+    // NUEVO: Validar código 2FA
+    public function validate_2fa_code() {
+        if (!$this->input->is_ajax_request()) {
+            redirect('login');
+            return;
+        }
+        
+        $user_id = $this->input->post('user_id');
+        $code = $this->input->post('code');
+        
+        $stored_code = $this->session->tempdata('2fa_code');
+        $stored_user_id = $this->session->tempdata('2fa_user_id');
+        
+        if ($stored_user_id != $user_id || $stored_code != $code) {
+            echo json_encode(['success' => false, 'message' => 'Código inválido']);
+            return;
+        }
+        
+        // Código válido, obtener usuario y crear sesión
+        $this->initializeDatabase();
+        $user_data = $this->general_model->get_user_by_id($user_id);
+        
+        if ($user_data) {
+            $user = $user_data[0];
+            $this->createUserSession($user);
+            $this->session->unset_tempdata('2fa_code');
+            $this->session->unset_tempdata('2fa_user_id');
+            
+            echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
+        } else {
+            echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
+        }
+    }
+    
+    // NUEVO: Reenviar código 2FA
+    public function resend_2fa_code() {
+        if (!$this->input->is_ajax_request()) {
+            redirect('login');
+            return;
+        }
+        
+        $user_id = $this->input->post('user_id');
+        $verification_code = $this->generate2FACode();
+        
+        $this->session->set_tempdata('2fa_code', $verification_code, 300);
+        
+        // Obtener email del usuario
+        $this->initializeDatabase();
+        $user_email = $this->general_model->get_user_email($user_id);
+        
+        if ($user_email) {
+            $this->send2FACode($user_email, $verification_code);
+            echo json_encode(['success' => true, 'message' => 'Código reenviado']);
+        } else {
+            echo json_encode(['success' => false, 'message' => 'Error al reenviar código']);
+        }
+    }
+    
+    public function recuperar_password() {
+        if (!$this->input->is_ajax_request()) {
+            redirect('404');
+            return;
+        }
+        
+        $this->initializeDatabase();
+        
+        $email = $this->input->post('email');
+        
+        if (empty($email)) {
+            echo '4';
+            return;
+        }
+        
+        $user = $this->general_model->verify_email($email);
+        
+        if (!$user) {
+            echo '3';
+            return;
+        }
+        
+        $hash_string = hash('sha256', time() . $user->id_usuario . $email);
+        $hash_expiry = date('Y-m-d H:i:s', strtotime("30 minutes"));
+        
+        $data = [
+            'hash_key' => $hash_string,
+            'hash_expiry' => $hash_expiry
+        ];
+        
+        $reset_link = base_url() . 'login/reset?hash=' . $hash_string;
+        $message = "Para recuperar la contraseña:\n <a href='" . $reset_link . "'>haga click aquí</a>";
+        $subject = "Recuperar contraseña";
+        
+        if ($this->sendEmail($email, $subject, $message)) {
+            $this->general_model->update('usuarios', 'email', $email, $data);
+            echo '1';
+        } else {
+            echo '2';
+        }
+    }
+    
+    private function initializeDatabase() {
+        $datos_session2 = ['C_basedatos' => $this->db_name];
+        $this->session->set_userdata($datos_session2);
+        $this->load->database();
+        $this->db->query('USE ' . $this->session->userdata('C_basedatos') . ';');
+    }
+    
+    private function validateRecaptcha() {
+        $this->load->helper('recaptcha');
+        $token = $this->input->post('recaptchaToken');
+        $secret_key = $this->config->item('recaptcha_secret_key');
+        $recaptcha_response = validate_recaptcha($secret_key, $token);
+        
+        return $recaptcha_response["success"] && 
+               $recaptcha_response["action"] == 'login' && 
+               $recaptcha_response["score"] > '0.6';
+    }
+    
+    private function createUserSession($user) {
+        $perfil_names = [
+            '0' => 'Administrador',
+            '1' => 'Gerencia',
+            '2' => 'Coordinadores',
+            '3' => 'Cirujanos',
+            '4' => 'Costos/contratos',
+            '5' => 'Asistenciales',
+            '6' => 'Cirugia',
+            '7' => 'Auditoria',
+            '8' => 'Instrumentadoras'
+        ];
+        
+        $tipo = $perfil_names[$user->perfil] ?? 'Usuario';
+        
+        $datos_session = [
+            'C_id_usuario' => $user->id_usuario,
+            'C_id_empleado' => $user->id_empleado,
+            'C_nombre_usuario' => $user->nombre_usuario,
+            'C_nom_usuario' => $user->nom_usuario,
+            'C_perfil' => $user->perfil,
+            'C_tipo' => $tipo,
+            'C_foto' => $user->foto,
+            'C_origen' => $this->session->userdata('C_basedatos')
+        ];
+        
+        $this->session->set_userdata($datos_session);
+    }
+    
+    private function generate2FACode() {
+        return sprintf('%06d', random_int(0, 999999));
+    }
+    
+    private function send2FACode($email, $code) {
+        $subject = "Código de verificación de dos factores";
+        $message = "Su código de verificación es: <strong>$code</strong><br><br>";
+        $message .= "Este código expirará en 5 minutos.";
+        
+        return $this->sendEmail($email, $subject, $message);
+    }
+    
+    private function sendEmail($email, $subject, $message) {
+        $config = [
+            'protocol' => 'sendmail',
+            'mailpath' => '/usr/sbin/sendmail',
+            'charset' => 'utf-8',
+            'mailtype' => 'html',
+            'wordwrap' => TRUE
+        ];
+        
+        $this->load->library('email', $config);
+        $this->email->initialize($config);
+        $this->email->set_newline("\r\n");
+        $this->email->from('admin@ceciminsigca.com', 'Administrador del Sistema');
+        $this->email->to($email);
+        $this->email->subject($subject);
+        $this->email->message($message);
+        
+        return $this->email->send();
+    }
+    
+    private function showError($message) {
+        echo "<script>alert('$message'); window.location.href = '" . base_url() . "';</script>";
+    }
+    
+    private function sendJsonResponse($result) {
+        if ($result) {
+            echo '1';
+        } else {
+            $error = $this->db->error();
+            echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
+            if ($error['code'] == 1062) {
+                echo "la identificación ingresada, ya se encuentra registrada; Por favor verifique los datos!";
+            } else {
+                echo "Error: " . $error['code'] . " => " . $error['message'];
+            }
+            echo '</div>';
+        }
+    }
 }
-	

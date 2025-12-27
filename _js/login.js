@@ -6,49 +6,31 @@ $(function () {
     };
 
     const handleLoginResponse = (data_preg, usuario) => {
+        
         const [status, message] = data_preg.split("=");
-       
         const alerts = {
             '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
             '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
-            '2': { icon: 'info',    title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
-            '3': { icon: 'info',    title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
-            '4': { icon: 'error',   title: '¡Oops...!',  text: 'Usuario no Existe' },
-            '5': { icon: 'warning', title: 'Oops...',    text: 'No supero la validación de seguridad' },
-            '6': { icon: 'info',    title: 'Verificación 2FA requerida', text: 'Ingresa el código de tu app de autenticación',
-                action: () => {
-                Swal.fire({
-                    title: 'Código 2FA',
-                    input: 'text',
-                    inputAttributes: { maxlength: 6, autocapitalize: 'off', autocorrect: 'off' },
-                    inputPlaceholder: '123456',
-                    showCancelButton: true,
-                    confirmButtonText: 'Verificar',
-                    preConfirm: (code) => {
-                    return new Promise((resolve) => {
-                        $.post('/login/verificar_2fa', { code: code }, function (resp) {
-                        const [st, msg] = resp.split('=');
-                        if (st === '0') {
-                            Swal.fire('¡Bienvenido!', msg, 'success').then(() => window.open('/home/index', '_parent'));
-                            resolve();
-                        } else {
-                            Swal.fire('Error', msg || 'Código inválido', 'error');
-                            resolve();
-                        }
-                        });
-                    });
-                    }
-                });
-                }
+            '2': { icon: 'info', title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
+            '3': { icon: 'info', title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
+            '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },
+            '5': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' },
+            '6': { // NUEVO: Redirigir a verificación 2FA
+                icon: 'info', 
+                title: 'Verificación requerida', 
+                text: 'Se requiere autenticación en dos pasos',
+                action: () => window.open(`/login/verify_2fa?id=${message}`, '_parent')
             },
-            '7': { icon: 'error', title: 'Error', text: 'Código 2FA inválido' },
-            '8': { icon: 'error', title: 'Error', text: '2FA no configurado' }
+            '7': { // NUEVO: Error al enviar código 2FA
+                icon: 'error',
+                title: 'Error de verificación',
+                text: 'No se pudo enviar el código de verificación. Contacte al administrador.'
+            }
         };
-
 
         const alertConfig = alerts[status] || alerts['default'];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
-        if (status !== '0' && status !== '1') $('#usuario').focus();
+        if (status !== '0' && status !== '1' && status !== '6') $('#usuario').focus();
     };
 
     const handleRecoverPasswordResponse = (data_preg) => {
@@ -132,15 +114,31 @@ $(function () {
                     // Asignar token al campo oculto
                     recaptchaInput.value = token;
                     // alert(token);
+                    // Mostrar loading
+                    const originalText = $('#btn_ingresar').html();
+                    $('#btn_ingresar').prop('disabled', true).html('<i class="fas fa-spinner fa-spin mr-2"></i> Verificando...');
+                    
                     // Enviar el formulario después de obtener el token
-                     $.post('/login/verificar', {recaptchaToken: token, usuario: usuario, contrasena: $("#contrasena").val() }, function (data_preg) {
-                        
+                    $.post('/login/verificar', {
+                        recaptchaToken: token, 
+                        usuario: usuario, 
+                        contrasena: $("#contrasena").val() 
+                    }, function (data_preg) {
+                        $('#btn_ingresar').prop('disabled', false).html(originalText);
                         handleLoginResponse(data_preg, usuario);
+                    }).fail(function() {
+                        $('#btn_ingresar').prop('disabled', false).html(originalText);
+                        Swal.fire({
+                            title: 'Error de conexión',
+                            text: 'No se pudo conectar con el servidor',
+                            icon: 'error'
+                        });
                     });
                 });
                 
             } catch (error) {
-                Swal.fire("¡Error!", error, "error");                
+                $('#btn_ingresar').prop('disabled', false).html('Ingresar');
+                Swal.fire("¡Error!", "Error en la validación de seguridad", "error");                
             }           
         });
 
