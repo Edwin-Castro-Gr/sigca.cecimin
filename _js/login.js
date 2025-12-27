@@ -10,7 +10,7 @@ $(function () {
         const [status, message] = data_preg.split("=");
         const alerts = {
             '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
-            '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
+            '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent')},
             '2': { icon: 'info', title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
             '3': { icon: 'info', title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
             '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },
@@ -25,7 +25,8 @@ $(function () {
                 icon: 'error',
                 title: 'Error de verificación',
                 text: 'No se pudo enviar el código de verificación. Contacte al administrador.'
-            }
+            },
+            'default': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' }
         };
 
         const alertConfig = alerts[status] || alerts['default'];
@@ -102,7 +103,7 @@ $(function () {
             const recaptchaInput = document.getElementById('g-recaptcha-response');
             
             const usuario = $('#usuario').val();
-            
+            alert($("#contrasena").val());
             try {
                // Generar token de reCAPTCHA
                 await grecaptcha.ready(async () => {
