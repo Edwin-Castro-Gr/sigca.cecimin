@@ -414,7 +414,7 @@ $config['cookie_domain']	= '';
 $config['cookie_path']		= '/';
 $config['cookie_httponly'] 	= FALSE;
 $config['cookie_secure']    = TRUE; 
-$config['cookie_samesite']  = 'Lax';
+$config['cookie_samesite']  = 'None';
 /*
 |--------------------------------------------------------------------------
 | Standardize newlines
