@@ -14,6 +14,43 @@ class General_model extends CI_Model {
 		return $query->result();
 	}
 	
+	//<<<---NUEVO METODO 2FA --->>>
+	
+	public function get_user_by_usuario($usuario) {
+		return $this->db->select('id_usuario, usuario, AES_DECRYPT(clave, "-Qsc.725943!") AS clave,
+								CONCAT(nombre," ",apellido) AS nombre_usuario, nombre AS nom_usuario, apellido AS ape_usuario,
+								estado, id_empleado, perfil, foto, cambio_clave,
+								is_2fa_enabled, totp_secret, totp_backup_codes')
+						->from('usuarios')
+						->where('usuario', $usuario)
+						->get()
+						->result();
+	}
+
+	public function get_user_by_id($id) {
+		return $this->db->get_where('usuarios', ['id_usuario' => $id])->row();
+	}
+
+	public function enable_2fa($id_usuario, $secret, $backup_hashes_text) {
+		return $this->db->where('id_usuario', $id_usuario)
+						->update('usuarios', [
+							'totp_secret'        => $secret,
+							'is_2fa_enabled'     => 1,
+							'totp_backup_codes'  => $backup_hashes_text
+						]);
+	}
+
+	public function update_backup_codes($id_usuario, $backup_hashes_text) {
+		return $this->db->where('id_usuario', $id_usuario)
+						->update('usuarios', ['totp_backup_codes' => $backup_hashes_text]);
+	}
+
+	public function set_last_2fa($id_usuario) {
+		return $this->db->where('id_usuario', $id_usuario)
+						->update('usuarios', ['last_2fa_at' => date('Y-m-d H:i:s')]);
+	}
+
+	//<<<---END NUEVO METODO 2FA --->>>
 	
 	function select_recuperar($email) {
 		$query = $this->db->query('SELECT u.usuario, AES_DECRYPT(u.clave, "-Qsc.725943!") AS clave, e.origen FROM usuarios u INNER JOIN empresas e ON u.id_empresa = e.id_empresa WHERE u.estado<="1" AND u.email="'.$email.'" ');

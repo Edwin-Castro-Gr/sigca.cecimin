@@ -7,14 +7,44 @@ $(function () {
 
     const handleLoginResponse = (data_preg, usuario) => {
         const [status, message] = data_preg.split("=");
-        const alerts = {
-            '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
-            '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
-            '2': { icon: 'info', title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
-            '3': { icon: 'info', title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
-            '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },
-            'default': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' }
-        };
+       
+    const alerts = {
+        '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
+        '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent') },
+        '2': { icon: 'info',    title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
+        '3': { icon: 'info',    title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
+        '4': { icon: 'error',   title: '¡Oops...!',  text: 'Usuario no Existe' },
+        '5': { icon: 'warning', title: 'Oops...',    text: 'No supero la validación de seguridad' },
+        '6': { icon: 'info',    title: 'Verificación 2FA requerida', text: 'Ingresa el código de tu app de autenticación',
+                action: () => {
+                Swal.fire({
+                    title: 'Código 2FA',
+                    input: 'text',
+                    inputAttributes: { maxlength: 6, autocapitalize: 'off', autocorrect: 'off' },
+                    inputPlaceholder: '123456',
+                    showCancelButton: true,
+                    confirmButtonText: 'Verificar',
+                    preConfirm: (code) => {
+                    return new Promise((resolve) => {
+                        $.post('/login/verificar_2fa', { code: code }, function (resp) {
+                        const [st, msg] = resp.split('=');
+                        if (st === '0') {
+                            Swal.fire('¡Bienvenido!', msg, 'success').then(() => window.open('/home/index', '_parent'));
+                            resolve();
+                        } else {
+                            Swal.fire('Error', msg || 'Código inválido', 'error');
+                            resolve();
+                        }
+                        });
+                    });
+                    }
+                });
+                }
+        },
+        '7': { icon: 'error', title: 'Error', text: 'Código 2FA inválido' },
+        '8': { icon: 'error', title: 'Error', text: '2FA no configurado' }
+    };
+
 
         const alertConfig = alerts[status] || alerts['default'];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
