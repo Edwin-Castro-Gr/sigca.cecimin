@@ -30,7 +30,7 @@ $(function () {
 
         const alertConfig = alerts[status] || alerts['default'];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
-        if (status !== '0' && status !== '1' && status !== '6') $('#usuario').focus();
+        if (status !== '0' && status !== '1' && status !== '7') $('#usuario').focus();
     };
 
     const handleRecoverPasswordResponse = (data_preg) => {
