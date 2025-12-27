@@ -20,23 +20,49 @@ class Login extends CI_Controller {
         $this->load->view('login/index');
     }
     
-    private function setSecureSessionCookie() {
-        $cookie_name = 'session_cookie';
-        $cookie_value = bin2hex(random_bytes(16));
-        $cookie_expire = time() + 3600;
-        
-        setcookie(
-            $cookie_name,
-            $cookie_value,
-            [
-                'expires' => $cookie_expire,
-                'path' => '/',
-                'secure' => true,
-                'httponly' => true,
-                'samesite' => 'None'
-            ]
-        );
-    }
+   	private function setSecureSessionCookie() {
+		$cookie_name = 'session_cookie';
+		$cookie_value = bin2hex(random_bytes(16));
+		$cookie_expire = time() + 3600; // 1 hora
+		$path = '/';
+		$domain = $_SERVER['HTTP_HOST']; // O tu dominio específico
+		$secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
+		$httponly = true;
+		
+		// Forma tradicional compatible con PHP 5.x a 8.x
+		setcookie(
+			$cookie_name,
+			$cookie_value,
+			$cookie_expire,           // expires (int)
+			$path,                    // path
+			$domain,                  // domain
+			$secure,                  // secure
+			$httponly                 // httponly
+		);
+		
+		// Para SameSite=None (necesario para cross-site en navegadores modernos)
+		if (PHP_VERSION_ID >= 70300) {
+			// En PHP 7.3+ podemos usar el array de opciones
+			$options = [
+				'expires' => $cookie_expire,
+				'path' => $path,
+				'domain' => $domain,
+				'secure' => $secure,
+				'httponly' => $httponly,
+				'samesite' => 'None'
+			];
+			
+			setcookie($cookie_name, $cookie_value, $options);
+		} else {
+			// Para versiones anteriores de PHP
+			header('Set-Cookie: ' . rawurlencode($cookie_name) . '=' . rawurlencode($cookie_value) 
+				. '; expires=' . gmdate('D, d M Y H:i:s T', $cookie_expire)
+				. '; path=' . $path
+				. '; domain=' . $domain
+				. '; ' . ($secure ? 'secure; ' : '')
+				. 'httponly; SameSite=None');
+		}
+	}
     
     public function cambiar($id) {
         $data_usua['c_id_usuario'] = $id;    
