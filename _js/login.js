@@ -34,8 +34,7 @@ $(function () {
             default:
                  showAlert('Oops...', 'No se pudo enviar el código de verificación. Contacte al administrador.', 'warning', () => $('#usuario').focus());
                 break;               
-        };
-               
+        };               
     };
 
     const handleRecoverPasswordResponse = (data_preg) => {

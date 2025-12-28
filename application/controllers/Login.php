@@ -12,8 +12,9 @@ class Login extends CI_Controller {
         $this->load->helper(['recaptcha', 'security']);
         $this->load->library('session');
         $this->load->model('general_model');
+        $recaptcha_response = [];
     }
-    
+
     public function index() {
         $this->session->sess_destroy();
         $this->setSecureSessionCookie();
@@ -124,60 +125,50 @@ class Login extends CI_Controller {
             redirect();
             return;
         }
-        
+        if ($recaptcha_response["success"] && $recaptcha_response["action"] == 'login' && $recaptcha_response["score"] > '0.7') {
         // Validar reCAPTCHA
-        if (!$this->validateRecaptcha()) {
-            echo "6=¡No supero la validación de seguridad!";
-            return;
-        }
+            $this->initializeDatabase();
         
-        $this->initializeDatabase();
-        
-        $usuario = $this->input->post('usuario');
-        $password = $this->input->post('contrasena');
-		
-        
-        $user_data = $this->general_model->get_user_by_username($usuario);
-        
-        if (!$user_data) {
-            echo "4=¡Usuario no Existe!";
-            return;
-        }
-        
-        $user = $user_data[0];
-        
-        if ($user->estado != "1") {
-            echo "3=¡El Usuario se encuentra Suspendido!";
-            return;
-        }
-        
-        if ($user->clave != $password) {
-            echo "2=¡Usuario y/o Contraseña incorrectos!";
-            return;
-        }
-        
-        if ($user->cambio_clave != '1') {
-            echo "1=Debe Cambiar su Contraseña";
-            return;
-        }
-        
-        // Verificar si 2FA está habilitado
-        if ($user->two_factor_enabled == 1) {
-            // Generar y enviar código 2FA
-            $verification_code = $this->generate2FACode();
-            $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
-            $this->session->set_tempdata('2fa_code', $verification_code, 300);
+            $usuario = $this->input->post('usuario');
+            $password = $this->input->post('contrasena');	        
+            $user_data = $this->general_model->get_user_by_username($usuario);
             
-            // Enviar código por email
-            $this->send2FACode($user->email, $verification_code);
+            if (!$user_data) {
+                echo "4=¡Usuario no Existe!";
+                return;
+            }
+        
+            $user = $user_data[0];
             
-            echo "6=" . $user->id_usuario; // Código para redirigir a verificación 2FA
+            if ($user->estado != "1") {
+                echo "3=¡El Usuario se encuentra Suspendido!";
+                return;
+            }else if ($user->clave != $password) {
+                echo "2=¡Usuario y/o Contraseña incorrectos!";
+                return;
+            }else  if ($user->cambio_clave != '1') {
+                echo "1=Debe Cambiar su Contraseña";
+                return;
+            }elseif ($user->two_factor_enabled == 1) {
+                    // Generar y enviar código 2FA
+                    $verification_code = $this->generate2FACode();
+                    $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
+                    $this->session->set_tempdata('2fa_code', $verification_code, 300);
+                    
+                    // Enviar código por email
+                    $this->send2FACode($user->email, $verification_code);
+                    
+                    echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
+                    return;
+            }else{
+                // Si no tiene 2FA, continuar con login normal
+                $this->createUserSession($user);
+                echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
+            }
+        }else{
+            echo "6=No supero la validación de seguridad";
             return;
         }
-        
-        // Si no tiene 2FA, continuar con login normal
-        $this->createUserSession($user);
-        echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
     }
     
     // NUEVO: Página para verificar código 2FA
@@ -216,7 +207,7 @@ class Login extends CI_Controller {
 				$this->createUserSession($user);
 				$this->session->unset_tempdata('2fa_code');
 				$this->session->unset_tempdata('2fa_user_id');
-				
+				//echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
 				echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
 			} else {
 				echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
@@ -303,9 +294,7 @@ class Login extends CI_Controller {
         $secret_key = $this->config->item('recaptcha_secret_key');
         $recaptcha_response = validate_recaptcha($secret_key, $token);
         
-        return $recaptcha_response["success"] && 
-               $recaptcha_response["action"] == 'login' && 
-               $recaptcha_response["score"] > '0.6';
+        return $recaptcha_response;
     }
     
     private function createUserSession($user) {
