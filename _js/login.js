@@ -26,7 +26,7 @@ $(function () {
                 title: 'Error de verificación',
                 text: 'No se pudo enviar el código de verificación. Contacte al administrador.'
             },
-            'default': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' }
+            'default': { icon: 'warning', title: 'Oops...', text: 'Usuario no autorizado' }
         };
         alert(alerts[status]);
         const alertConfig = alerts[status] || alerts['default'];
@@ -126,7 +126,7 @@ $(function () {
                         contrasena: $("#contrasena").val() 
                     }, function (data_preg) {
                         $('#btn_ingresar').prop('disabled', false).html(originalText);
-                        alert(data_preg.split("="));
+                        
                         handleLoginResponse(data_preg, usuario);
                     }).fail(function() {
                         $('#btn_ingresar').prop('disabled', false).html(originalText);
