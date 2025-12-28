@@ -8,31 +8,34 @@ $(function () {
     const handleLoginResponse = (data_preg, usuario) => {
         
         const [status, message] = data_preg.split("=");
-               
-        const alerts = {
-            '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
-            '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent')},
-            '2': { icon: 'info', title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
-            '3': { icon: 'info', title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
-            '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },            
-            '5': { // NUEVO: Redirigir a verificación 2FA
-                icon: 'info', 
-                title: 'Verificación requerida', 
-                text: 'Se requiere autenticación en dos pasos',
-                action: () => window.open(`/login/verify_2fa?id=${message}`, '_parent')
-            },
-            '6': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' },
-            '7': { // NUEVO: Error al enviar código 2FA
-                icon: 'error',
-                title: 'Error de verificación',
-                text: 'No se pudo enviar el código de verificación. Contacte al administrador.'
-            }            
-        };
         
-        const alertConfig = alerts[status];
-        alert(alertConfig);
-        showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
-        if (status !== '0' && status !== '1' && status !== '5' && status !== '7') $('#usuario').focus();
+        switch (status) {
+            case '0':
+                showAlert('¡Bienvenido!', '', 'success', () => window.open('/home/index', '_parent'));
+                break;
+            case '1':
+                showAlert('¡Atención!', '', 'warning', () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent'));
+                break;
+            case '2':
+                showAlert('¡Atención!', 'Usuario y/o Contraseña incorrectos', 'info');
+                break;
+            case '3':
+                showAlert('¡Atención!', 'El Usuario se encuentra Suspendido', 'info');
+                break;
+            case '4':
+                showAlert('¡Oops...!', 'Usuario no Existe', 'error');
+                break;
+            case '5': // NUEVO: Redirigir a verificación 2FA
+                showAlert('Verificación requerida', 'Se requiere autenticación en dos pasos', 'info', () => window.open(`/login/verify_2fa?id=${message}`, '_parent'));
+                break;                
+            case '6': 
+                showAlert('Oops...', 'No supero la validación de seguridad', 'warning', () => $('#usuario').focus());
+                break; 
+            default:
+                 showAlert('Oops...', 'No se pudo enviar el código de verificación. Contacte al administrador.', 'warning', () => $('#usuario').focus());
+                break;               
+        };
+               
     };
 
     const handleRecoverPasswordResponse = (data_preg) => {
