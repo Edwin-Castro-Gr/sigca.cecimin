@@ -13,14 +13,14 @@ $(function () {
             '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent')},
             '2': { icon: 'info', title: '¡Atención!', text: 'Usuario y/o Contraseña incorrectos' },
             '3': { icon: 'info', title: '¡Atención!', text: 'El Usuario se encuentra Suspendido' },
-            '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },
-            '5': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' },
-            '6': { // NUEVO: Redirigir a verificación 2FA
+            '4': { icon: 'error', title: '¡Oops...!', text: 'Usuario no Existe' },            
+            '5': { // NUEVO: Redirigir a verificación 2FA
                 icon: 'info', 
                 title: 'Verificación requerida', 
                 text: 'Se requiere autenticación en dos pasos',
                 action: () => window.open(`/login/verify_2fa?id=${message}`, '_parent')
             },
+            '6': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' },
             '7': { // NUEVO: Error al enviar código 2FA
                 icon: 'error',
                 title: 'Error de verificación',
@@ -31,7 +31,7 @@ $(function () {
 
         const alertConfig = alerts[status] || alerts['default'];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
-        if (status !== '0' && status !== '1' && status !== '7') $('#usuario').focus();
+        if (status !== '0' && status !== '1' && status !== '5' && status !== '7') $('#usuario').focus();
     };
 
     const handleRecoverPasswordResponse = (data_preg) => {
@@ -103,7 +103,7 @@ $(function () {
             const recaptchaInput = document.getElementById('g-recaptcha-response');
             
             const usuario = $('#usuario').val();
-            alert($("#contrasena").val());
+            
             try {
                // Generar token de reCAPTCHA
                 await grecaptcha.ready(async () => {
@@ -126,6 +126,7 @@ $(function () {
                         contrasena: $("#contrasena").val() 
                     }, function (data_preg) {
                         $('#btn_ingresar').prop('disabled', false).html(originalText);
+                        alert(data_preg.split("="));
                         handleLoginResponse(data_preg, usuario);
                     }).fail(function() {
                         $('#btn_ingresar').prop('disabled', false).html(originalText);

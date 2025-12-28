@@ -127,7 +127,7 @@ class Login extends CI_Controller {
         
         // Validar reCAPTCHA
         if (!$this->validateRecaptcha()) {
-            echo "5=!";
+            echo "6=¡No supero la validación de seguridad!";
             return;
         }
         
@@ -135,23 +135,24 @@ class Login extends CI_Controller {
         
         $usuario = $this->input->post('usuario');
         $password = $this->input->post('contrasena');
+		
         
         $user_data = $this->general_model->get_user_by_username($usuario);
         
         if (!$user_data) {
-            echo "4=!";
+            echo "4=¡Usuario no Existe!";
             return;
         }
         
         $user = $user_data[0];
         
         if ($user->estado != "1") {
-            echo "3=!";
+            echo "3=¡El Usuario se encuentra Suspendido!";
             return;
         }
         
         if ($user->clave != $password) {
-            echo "2=!";
+            echo "2=¡Usuario y/o Contraseña incorrectos!";
             return;
         }
         
@@ -194,33 +195,33 @@ class Login extends CI_Controller {
         if (!$this->input->is_ajax_request()) {
             redirect('login');
             return;
-        }
-        
-        $user_id = $this->input->post('user_id');
-        $code = $this->input->post('code');
-        
-        $stored_code = $this->session->tempdata('2fa_code');
-        $stored_user_id = $this->session->tempdata('2fa_user_id');
-        
-        if ($stored_user_id != $user_id || $stored_code != $code) {
-            echo json_encode(['success' => false, 'message' => 'Código inválido']);
-            return;
-        }
-        
-        // Código válido, obtener usuario y crear sesión
-        $this->initializeDatabase();
-        $user_data = $this->general_model->get_user_by_id($user_id);
-        
-        if ($user_data) {
-            $user = $user_data[0];
-            $this->createUserSession($user);
-            $this->session->unset_tempdata('2fa_code');
-            $this->session->unset_tempdata('2fa_user_id');
-            
-            echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
-        } else {
-            echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
-        }
+        }else{
+			$user_id = $this->input->post('user_id');
+			$code = $this->input->post('code');
+			
+			$stored_code = $this->session->tempdata('2fa_code');
+			$stored_user_id = $this->session->tempdata('2fa_user_id');
+			
+			if ($stored_user_id != $user_id || $stored_code != $code) {
+				echo json_encode(['success' => false, 'message' => 'Código inválido']);
+				return;
+			}
+			
+			// Código válido, obtener usuario y crear sesión
+			$this->initializeDatabase();
+			$user_data = $this->general_model->get_user_by_id($user_id);
+			
+			if ($user_data) {
+				$user = $user_data[0];
+				$this->createUserSession($user);
+				$this->session->unset_tempdata('2fa_code');
+				$this->session->unset_tempdata('2fa_user_id');
+				
+				echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
+			} else {
+				echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
+			}
+		}
     }
     
     // NUEVO: Reenviar código 2FA
