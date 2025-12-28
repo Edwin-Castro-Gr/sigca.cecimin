@@ -8,6 +8,7 @@ $(function () {
     const handleLoginResponse = (data_preg, usuario) => {
         
         const [status, message] = data_preg.split("=");
+               
         const alerts = {
             '0': { icon: 'success', title: '¡Bienvenido!', action: () => window.open('/home/index', '_parent') },
             '1': { icon: 'warning', title: '¡Atención!', action: () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent')},
@@ -29,6 +30,7 @@ $(function () {
         };
         
         const alertConfig = alerts[status];
+        alert(alertConfig);
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
         if (status !== '0' && status !== '1' && status !== '5' && status !== '7') $('#usuario').focus();
     };
