@@ -25,11 +25,10 @@ $(function () {
                 icon: 'error',
                 title: 'Error de verificación',
                 text: 'No se pudo enviar el código de verificación. Contacte al administrador.'
-            },
-            'default': { icon: 'warning', title: 'Oops...', text: 'Usuario no autorizado' }
+            }            
         };
-        alert(status);
-        const alertConfig = alerts[status] || alerts['default'];
+        
+        const alertConfig = alerts[status];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
         if (status !== '0' && status !== '1' && status !== '5' && status !== '7') $('#usuario').focus();
     };
