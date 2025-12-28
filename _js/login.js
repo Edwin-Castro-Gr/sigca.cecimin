@@ -28,7 +28,7 @@ $(function () {
             },
             'default': { icon: 'warning', title: 'Oops...', text: 'No supero la validación de seguridad' }
         };
-
+        alert(alerts[status]);
         const alertConfig = alerts[status] || alerts['default'];
         showAlert(alertConfig.title, alertConfig.text || message, alertConfig.icon, alertConfig.action);
         if (status !== '0' && status !== '1' && status !== '5' && status !== '7') $('#usuario').focus();
