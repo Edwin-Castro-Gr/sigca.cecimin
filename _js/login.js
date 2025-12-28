@@ -8,7 +8,7 @@ $(function () {
     const handleLoginResponse = (data_preg, usuario) => {
         
         const [status, message] = data_preg.split("=");
-        
+        alert(status);
         switch (status) {
             case '0':
                 showAlert('¡Bienvenido!', '', 'success', () => window.open('/home/index', '_parent'));
