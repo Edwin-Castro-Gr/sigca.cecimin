@@ -11,8 +11,7 @@ class Login extends CI_Controller {
         date_default_timezone_set('America/Bogota');
         $this->load->helper(['recaptcha', 'security']);
         $this->load->library('session');
-        $this->load->model('general_model');
-        $recaptcha_response = [];
+        $this->load->model('general_model');        
     }
 
     public function index() {
@@ -125,6 +124,7 @@ class Login extends CI_Controller {
             redirect();
             return;
         }
+        $recaptcha_response = $this->validateRecaptcha();
         if ($recaptcha_response["success"] && $recaptcha_response["action"] == 'login' && $recaptcha_response["score"] > '0.7') {
         // Validar reCAPTCHA
             $this->initializeDatabase();
