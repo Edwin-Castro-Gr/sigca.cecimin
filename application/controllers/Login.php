@@ -125,8 +125,13 @@ class Login extends CI_Controller {
             return;
         }
         $recaptcha_response = $this->validateRecaptcha();
-        if ($recaptcha_response["success"] && $recaptcha_response["action"] == 'login' && $recaptcha_response["score"] > '0.7') {
+            
         // Validar reCAPTCHA
+        if (!$recaptcha_response["success"] || $recaptcha_response["score"] <= '0.6') {
+            echo "6=No supero la validación de seguridad";
+            return;
+        }else{
+
             $this->initializeDatabase();
         
             $usuario = $this->input->post('usuario');
@@ -150,24 +155,25 @@ class Login extends CI_Controller {
                 echo "1=Debe Cambiar su Contraseña";
                 return;
             }elseif ($user->two_factor_enabled == 1) {
-                    // Generar y enviar código 2FA
-                    $verification_code = $this->generate2FACode();
-                    $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
-                    $this->session->set_tempdata('2fa_code', $verification_code, 300);
+                // Generar y enviar código 2FA
+                $verification_code = $this->generate2FACode();
+                $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
+                $this->session->set_tempdata('2fa_code', $verification_code, 300);
+                
+                // Enviar código por email
+                $this->send2FACode($user->email, $verification_code);
                     
-                    // Enviar código por email
-                    $this->send2FACode($user->email, $verification_code);
-                    
+                if ($email_sent) {
                     echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
-                    return;
+                } else {
+                    echo "7=Error al enviar el código de verificación. Contacte al administrador.";
+                }
+                return;
             }else{
                 // Si no tiene 2FA, continuar con login normal
                 $this->createUserSession($user);
                 echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
-            }
-        }else{
-            echo "6=No supero la validación de seguridad";
-            return;
+            }        
         }
     }
     
@@ -182,37 +188,43 @@ class Login extends CI_Controller {
     }
     
     // NUEVO: Validar código 2FA
-    public function validate_2fa_code() {
+    // Validar código 2FA - CORREGIDO NOMBRE DEL MÉTODO
+    public function validate_2fa() {
         if (!$this->input->is_ajax_request()) {
             redirect('login');
             return;
-        }else{
-			$user_id = $this->input->post('user_id');
-			$code = $this->input->post('code');
-			
-			$stored_code = $this->session->tempdata('2fa_code');
-			$stored_user_id = $this->session->tempdata('2fa_user_id');
-			
-			if ($stored_user_id != $user_id || $stored_code != $code) {
-				echo json_encode(['success' => false, 'message' => 'Código inválido']);
-				return;
-			}
-			
-			// Código válido, obtener usuario y crear sesión
-			$this->initializeDatabase();
-			$user_data = $this->general_model->get_user_by_id($user_id);
-			
-			if ($user_data) {
-				$user = $user_data[0];
-				$this->createUserSession($user);
-				$this->session->unset_tempdata('2fa_code');
-				$this->session->unset_tempdata('2fa_user_id');
-				//echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
-				echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
-			} else {
-				echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
-			}
-		}
+        }
+        
+        $user_id = $this->input->post('user_id');
+        $code = $this->input->post('code');
+        
+        $stored_code = $this->session->tempdata('2fa_code');
+        $stored_user_id = $this->session->tempdata('2fa_user_id');
+        
+        // Validar que el código no haya expirado
+        if (!$stored_code || !$stored_user_id) {
+            echo json_encode(['success' => false, 'message' => 'El código ha expirado. Por favor inicie sesión nuevamente.']);
+            return;
+        }
+        
+        if ($stored_user_id != $user_id || $stored_code != $code) {
+            echo json_encode(['success' => false, 'message' => 'Código inválido']);
+            return;
+        }
+        
+        // Código válido, obtener usuario y crear sesión
+        $this->initializeDatabase();
+        $user_data = $this->general_model->get_user_by_id($user_id);
+        
+        if ($user_data) {
+            $user = $user_data[0];
+            $this->createUserSession($user);
+            $this->session->unset_tempdata('2fa_code');
+            $this->session->unset_tempdata('2fa_user_id');
+            echo json_encode(['success' => true, 'message' => 'Autenticación exitosa']);
+        } else {
+            echo json_encode(['success' => false, 'message' => 'Usuario no encontrado']);
+        }
     }
     
     // NUEVO: Reenviar código 2FA
@@ -331,9 +343,30 @@ class Login extends CI_Controller {
     }
     
     private function send2FACode($email, $code) {
-        $subject = "Código de verificación de dos factores";
-        $message = "Su código de verificación es: <strong>$code</strong><br><br>";
-        $message .= "Este código expirará en 5 minutos.";
+        $subject = "SIGCA - Código de verificación de dos factores";
+        $message = "<html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; }
+                .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                .code { font-size: 24px; font-weight: bold; color: #007bff; background-color: #f8f9fa; padding: 10px; border-radius: 5px; text-align: center; margin: 20px 0; }
+                .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px; }
+            </style>
+        </head>
+        <body>
+            <div class='container'>
+                <h2>Código de verificación de dos factores</h2>
+                <p>Su código de verificación para SIGCA es:</p>
+                <div class='code'>$code</div>
+                <p><strong>Este código expirará en 5 minutos.</strong></p>
+                <p>Si no solicitó este código, ignore este mensaje.</p>
+                <div class='footer'>
+                    <p>SIGCA - Sistema Integral de Gestión de Calidad</p>
+                    <p>Este es un mensaje automático, por favor no responda.</p>
+                </div>
+            </div>
+        </body>
+        </html>";
         
         return $this->sendEmail($email, $subject, $message);
     }

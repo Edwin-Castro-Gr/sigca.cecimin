@@ -6,36 +6,43 @@ $(function () {
     };
 
     const handleLoginResponse = (data_preg, usuario) => {
-        
-        const [status, message] = data_preg.split("=");
-        alert(status);
+        const parts = data_preg.split("=");
+        const status = parts[0];
+        const message = parts.length > 1 ? parts[1] : "";
+        //alert(status);
         switch (status) {
             case '0':
-                showAlert('¡Bienvenido!', '', 'success', () => window.open('/home/index', '_parent'));
+                showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
                 break;
             case '1':
-                showAlert('¡Atención!', '', 'warning', () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent'));
+                showAlert('¡Atención!', message, 'warning', () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent'));
                 break;
             case '2':
-                showAlert('¡Atención!', 'Usuario y/o Contraseña incorrectos', 'info');
+                showAlert('¡Atención!', message || 'Usuario y/o Contraseña incorrectos', 'info');
                 break;
             case '3':
-                showAlert('¡Atención!', 'El Usuario se encuentra Suspendido', 'info');
+                showAlert('¡Atención!', message || 'El Usuario se encuentra Suspendido', 'info');
                 break;
             case '4':
-                showAlert('¡Oops...!', 'Usuario no Existe', 'error');
+                showAlert('¡Oops...!', message || 'Usuario no Existe', 'error');
                 break;
-            case '5': // NUEVO: Redirigir a verificación 2FA
-                showAlert('Verificación requerida', 'Se requiere autenticación en dos pasos', 'info', () => window.open(`/login/verify_2fa?id=${message}`, '_parent'));
-                break;                
+            case '5': // Redirigir a verificación 2FA
+                const userId = message;
+                showAlert('Verificación requerida', 'Se requiere autenticación en dos pasos', 'info', () => {
+                    window.location.href = `/login/verify_2fa/${userId}`;
+                });
+                break;
             case '6': 
-                showAlert('Oops...', 'No supero la validación de seguridad', 'warning', () => $('#usuario').focus());
-                break; 
+                showAlert('Oops...', message || 'No supero la validación de seguridad', 'warning', () => $('#usuario').focus());
+                break;
+            case '7':
+                showAlert('Oops...', message || 'No se pudo enviar el código de verificación. Contacte al administrador.', 'warning', () => $('#usuario').focus());
+                break;
             default:
-                 showAlert('Oops...', 'No se pudo enviar el código de verificación. Contacte al administrador.', 'warning', () => $('#usuario').focus());
-                break;               
+                showAlert('Oops...', 'Respuesta inesperada del servidor: ' + data_preg, 'warning', () => $('#usuario').focus());
+                break;
         };               
-    };
+    }; 
 
     const handleRecoverPasswordResponse = (data_preg) => {
         const messages = {
