@@ -156,6 +156,7 @@ class Login extends CI_Controller {
                 return;
             }elseif ($user->two_factor_enabled == 1) {
                 // Generar y enviar código 2FA
+                var_dump($user->two_factor_enabled);
                 $verification_code = $this->generate2FACode();
                 $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
                 $this->session->set_tempdata('2fa_code', $verification_code, 300);
