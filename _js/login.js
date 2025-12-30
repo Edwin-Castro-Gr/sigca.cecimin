@@ -10,7 +10,7 @@ $(function () {
         const status = parts[0];
         const message = parts.length > 1 ? parts[1] : "";
 
-       var valstatus = if(status== 0) { true } else { false };
+       var valstatus = (status == 0) ? true : false;
        alert(valstatus);  
 
        // alert(status);
