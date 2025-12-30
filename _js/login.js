@@ -9,7 +9,11 @@ $(function () {
         const parts = data_preg.split("=");
         const status = parts[0];
         const message = parts.length > 1 ? parts[1] : "";
-        //alert(status);
+
+       var valstatus = if(status== 0) { true } else { false };
+       alert(valstatus);  
+
+       // alert(status);
         switch (status) {
             case '0':
                 showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
