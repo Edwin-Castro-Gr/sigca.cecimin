@@ -10,12 +10,12 @@ $(function () {
         const status = parts[0];
         const message = parts.length > 1 ? parts[1] : "";
 
-       var valstatus = (status == 0) ? true : false;
-       alert(valstatus);  
+       var valstatus = (status == '0') ? true : false;
+       alert(valstatus);
 
        // alert(status);
         switch (status) {
-            case 0 :
+            case '0':
                 showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
                 break;
             case '1':
@@ -36,17 +36,14 @@ $(function () {
                     window.location.href = `/login/verify_2fa/${userId}`;
                 });
                 break;
-            case '6': 
+            case '6':
                 showAlert('Oops...', message || 'No supero la validación de seguridad', 'warning', () => $('#usuario').focus());
                 break;
             case '7':
                 showAlert('Oops...', message || 'No se pudo enviar el código de verificación. Contacte al administrador.', 'warning', () => $('#usuario').focus());
                 break;
-            default:
-                showAlert('Oops...', 'Respuesta inesperada del servidor: ' + data_preg, 'warning', () => $('#usuario').focus());
-                break;
-        };               
-    }; 
+        };
+    };
 
     const handleRecoverPasswordResponse = (data_preg) => {
         const messages = {
