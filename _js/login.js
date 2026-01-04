@@ -10,10 +10,10 @@ $(function () {
         const status = parts[0];
         const message = parts.length > 1 ? parts[1] : "";
 
-       var valstatus = (status == '0') ? true : false;
-       alert(valstatus);
+       //var valstatus = (status == '0') ? true : false;
+       //alert(valstatus);
 
-       // alert(status);
+       alert(status);
         switch (status) {
             case '0':
                 showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
