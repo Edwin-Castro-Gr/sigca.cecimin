@@ -27,7 +27,7 @@ $(function () {
         
 
        //alert(status);
-        switch (status) {
+        switch (status.trim()) {
             case '0':
                 showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
                 break;
