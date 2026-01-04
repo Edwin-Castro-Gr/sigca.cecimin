@@ -126,7 +126,7 @@
                 </div>
                 
                 <div class="text-center text-white mt-4">
-                    <p class="mb-0">© 2020-<?= date('Y') ?> SIGCA - Sistema Integral de Gestión de Calidad</p>
+                    <p class="mb-0">© 2025-<?= date('Y') ?> SIGCA - Sistema Integral de Gestión de Calidad</p>
                     <small>Autenticación de dos factores</small>
                 </div>
             </div>

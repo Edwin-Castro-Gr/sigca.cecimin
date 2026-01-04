@@ -2,16 +2,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
-    
+
     private $db_name = 'u610593899_sigca';
     private $encryption_key = '-Qsc.725943!';
-    
+
     public function __construct() {
         parent::__construct();
         date_default_timezone_set('America/Bogota');
         $this->load->helper(['recaptcha', 'security']);
         $this->load->library('session');
-        $this->load->model('general_model');        
+        $this->load->model('general_model');
     }
 
     public function index() {
@@ -19,7 +19,7 @@ class Login extends CI_Controller {
         $this->setSecureSessionCookie();
         $this->load->view('login/index');
     }
-    
+
    	private function setSecureSessionCookie() {
 		$cookie_name = 'session_cookie';
 		$cookie_value = bin2hex(random_bytes(16));
@@ -28,7 +28,6 @@ class Login extends CI_Controller {
 		$domain = $_SERVER['HTTP_HOST']; // O tu dominio específico
 		$secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
 		$httponly = true;
-		
 		// Forma tradicional compatible con PHP 5.x a 8.x
 		setcookie(
 			$cookie_name,
@@ -51,7 +50,7 @@ class Login extends CI_Controller {
 				'httponly' => $httponly,
 				'samesite' => 'None'
 			];
-			
+
 			setcookie($cookie_name, $cookie_value, $options);
 		} else {
 			// Para versiones anteriores de PHP
@@ -139,24 +138,24 @@ class Login extends CI_Controller {
             $user_data = $this->general_model->get_user_by_username($usuario);
             
             if (!$user_data) {
-                echo "4=¡Usuario no Existe!";
+                echo '4=¡Usuario no Existe!';
                 return;
             }
-        
+
             $user = $user_data[0];
             
             if ($user->estado != "1") {
-                echo "3=¡El Usuario se encuentra Suspendido!";
+                echo '3=¡El Usuario se encuentra Suspendido!';
                 return;
             }else if ($user->clave != $password) {
-                echo "2=¡Usuario y/o Contraseña incorrectos!";
+                echo '2=¡Usuario y/o Contraseña incorrectos!';
                 return;
             }else  if ($user->cambio_clave != '1') {
-                echo "1=Debe Cambiar su Contraseña";
+                echo '1=Debe Cambiar su Contraseña';
                 return;
-            }elseif ($user->two_factor_enabled == 1) {
+            }else if ($user->two_factor_enabled == 1) {
                 // Generar y enviar código 2FA
-                var_dump($user->two_factor_enabled);
+                //var_dump($user->two_factor_enabled);
                 $verification_code = $this->generate2FACode();
                 $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
                 $this->session->set_tempdata('2fa_code', $verification_code, 300);
@@ -235,7 +234,7 @@ class Login extends CI_Controller {
             return;
         }
         
-        $user_id = $this->input->post('user_id');
+        $user_id = $this->input->post('usuario');
         $verification_code = $this->generate2FACode();
         
         $this->session->set_tempdata('2fa_code', $verification_code, 300);
