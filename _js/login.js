@@ -6,6 +6,7 @@ $(function () {
     };
 
     const handleLoginResponse = (data_preg, usuario) => {
+        const userId = usuario; // Asumiendo que 'usuario' es el ID del usuario
         console.log("data_preg completo:", data_preg);
         console.log("Tipo de data_preg:", typeof data_preg);
         
@@ -29,7 +30,7 @@ $(function () {
        //alert(status);
         switch (status.trim()) {
             case '0':
-                showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
+                showAlert('¡Bienvenido!', message, 'success', () => window.location.href = `/login/verify_2fa/${userId}`);
                 break;
             case '1':
                 showAlert('¡Atención!', message, 'warning', () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent'));
