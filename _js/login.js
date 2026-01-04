@@ -6,14 +6,27 @@ $(function () {
     };
 
     const handleLoginResponse = (data_preg, usuario) => {
+        console.log("data_preg completo:", data_preg);
+        console.log("Tipo de data_preg:", typeof data_preg);
+        
+        // También verifica si hay espacios o saltos de línea
+        console.log("data_preg con escapes:", JSON.stringify(data_preg));
+        
         const parts = data_preg.split("=");
+        console.log("Partes después del split:", parts);
+        console.log("Número de partes:", parts.length);
+        
         const status = parts[0];
         const message = parts.length > 1 ? parts[1] : "";
+        
+        console.log("Status crudo:", status);
+        console.log("Status trimmed:", status.trim());
+        
+        alert("Status: '" + status + "'");
+        alert("Status trimmed: '" + status.trim() + "'");
+        
 
-       //var valstatus = (status == '0') ? true : false;
-       //alert(valstatus);
-
-       alert(status);
+       //alert(status);
         switch (status) {
             case '0':
                 showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
