@@ -69,7 +69,7 @@
                 <div class="card">
                     <div class="card-body p-4">
                         <div class="text-center mb-4">
-                            <img src="<?= base_url('assets/image/SIGCA.png'); ?>" alt="SIGCA" class="logo">
+                            <img src="<?= base_url('./assets/image/SIGCA.png'); ?>" alt="SIGCA" class="logo">
                             <h4 class="mt-3 text-dark">Verificación en Dos Pasos</h4>
                             <p class="text-muted mb-0">Ingresa el código de 6 dígitos enviado a tu email</p>
                         </div>
