@@ -61,6 +61,7 @@
             display: none;
         }
     </style>
+    <link rel="icon" type="image/png" href="<?= base_url('./assets/favicon.png'); ?>" />
 </head>
 <body>
     <div class="container">
