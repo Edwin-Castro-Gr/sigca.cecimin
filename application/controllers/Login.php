@@ -153,24 +153,25 @@ class Login extends CI_Controller {
             }else  if ($user->cambio_clave != '1') {
                 echo '1=Debe Cambiar su Contraseña';
                 return;
-            }else if ($user->two_factor_enabled == 1) {
-                // Generar y enviar código 2FA
-                //var_dump($user->two_factor_enabled);
-                $verification_code = $this->generate2FACode();
-                $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
-                $this->session->set_tempdata('2fa_code', $verification_code, 300);
-                
-                // Enviar código por email
-                $this->send2FACode($user->email, $verification_code);
-                    
-                if ($email_sent) {
-                    echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
-                } else {
-                    echo "7=Error al enviar el código de verificación. Contacte al administrador.";
-                }
-                return;
             }else{
                 // Si no tiene 2FA, continuar con login normal
+                if ($user->two_factor_enabled == 1) {
+                // Generar y enviar código 2FA
+                //var_dump($user->two_factor_enabled);
+                    $verification_code = $this->generate2FACode();
+                    $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
+                    $this->session->set_tempdata('2fa_code', $verification_code, 300);
+                    
+                    // Enviar código por email
+                    $this->send2FACode($user->email, $verification_code);
+                        
+                    if ($email_sent) {
+                        echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
+                    } else {
+                        echo "7=Error al enviar el código de verificación. Contacte al administrador.";
+                    }
+                    return;
+                }
                 $this->createUserSession($user);
                 echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
             }        
