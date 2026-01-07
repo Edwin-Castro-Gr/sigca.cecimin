@@ -42,7 +42,7 @@ if (!function_exists('enviar_correo')) {
             'observaciones' => [
                 'smtp_user' => 'admin@sigca.cecimin.com.co',
                 'smtp_pass' => '4dm1n-C3c1m1n@2025',
-            ],            
+            ],
             'contactenos' => [
                 'smtp_user' => 'contactenos@sigca.cecimin.com.co',
                 'smtp_pass' => 'C3c1m1n@2025',
@@ -55,8 +55,11 @@ if (!function_exists('enviar_correo')) {
                 'smtp_user' => 'admin@sigca.cecimin.com.co',
                 'smtp_pass' => '4dm1n-C3c1m1n@2025',
             ],
-
             'notificacion' => [
+                'smtp_user' => 'admin@sigca.cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+            ],
+            'login' => [
                 'smtp_user' => 'admin@sigca.cecimin.com.co',
                 'smtp_pass' => '4dm1n-C3c1m1n@2025',
             ],
