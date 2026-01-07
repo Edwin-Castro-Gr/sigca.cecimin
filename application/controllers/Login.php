@@ -348,17 +348,16 @@ class Login extends CI_Controller {
         // Datos del correo
         $correo_remitente = 'administrador SIGCA';
         $correo_usuario = $correo;
-        $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
+        $asunto = 'SIGCA - Código de verificación de dos factores';
 
-        $mensaje = "<div><font size='3'>Señor(a),</font></div>\r\n";
-        $mensaje .= "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
+        $mensaje = "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
         $mensaje .= "<br>\r\n";
         $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<div class='code'>$code</div>";
+        $mensaje .= "<div class='code'>$code</div>\r\n";
         $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<p>Si no solicitó este código, ignore este mensaje.</p>";
+        $mensaje .= "<div><p>Si no solicitó este código, ignore este mensaje.</p></div>\r\n";
         $mensaje .= "<br>\r\n";
 
         $mensaje .= "<div><font size='3'>SIGCA - Sistema Integral de Gestión de Calidad</font></div>\r\n";

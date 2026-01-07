@@ -60,8 +60,8 @@ if (!function_exists('enviar_correo')) {
                 'smtp_pass' => '4dm1n-C3c1m1n@2025',
             ],
             'login' => [
-                'smtp_user' => 'admin@cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
         ];
 
