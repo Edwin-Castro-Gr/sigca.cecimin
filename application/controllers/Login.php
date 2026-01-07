@@ -155,61 +155,25 @@ class Login extends CI_Controller {
             }else  if ($user->cambio_clave != '1') {
                 echo '1=Debe Cambiar su Contraseña';
                 return;
-            }else{
-                // Si no tiene 2FA, continuar con login normal
-                if ($user->two_factor_enabled == 1) {
-                // Generar y enviar código 2FA
-                //var_dump($user->two_factor_enabled);
-                    $verification_code = $this->generate2FACode();
-                    $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
-                    $this->session->set_tempdata('2fa_code', $verification_code, 300);
-                    var_dump( $verification_code );
-                    // Enviar código por email
-                    if($verification_code !=''|| ($verification_code != null)) {
-                        $correo_cc = 'castonino17@gmail.com';
-                        
-                        // Datos del correo
-                        $correo_remitente ='';
-                        $correo_usuario = $correo;
-                        $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
-
-                        $mensaje = "<div><font size='3'>Señor(a),</font></div>\r\n";
-                        $mensaje .= "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
-                        $mensaje .= "<br>\r\n";
-                        $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
-                        $mensaje .= "<br>\r\n";
-                        $mensaje .= "<div class='code'>$verification_code</div>";
-                        $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
-                        $mensaje .= "<br>\r\n";
-                        $mensaje .= "<p>Si no solicitó este código, ignore este mensaje.</p>";
-                        $mensaje .= "<br>\r\n";
-
-                        $mensaje .= "<div><font size='3'>SIGCA - Sistema Integral de Gestión de Calidad</font></div>\r\n";
-                        $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
-                        $mensaje .= "<br>\r\n";
-                        $mensaje .= "<div><font size='2'>Este es un mensaje automático, por favor no responda a este correo.</font></div>\r\n";
-                        $mensaje .= "<br>\r\n";
-                        // Archivos a adjuntar
-                        $adjuntos = null;
-
-                        // Enviar el correo utilizando el buzón de citas
-                        if (enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos, $correo_cc)) {
-                            $this->createUserSession($user);
-                            echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
-                            return;
-                        } else {
-                            echo "7=Error al enviar el código de verificación. Contacte al administrador.";
-
-                            return;
-                        }
-
-                    }else {
-                        echo "7=Error al enviar el código de verificación. Contacte al administrador.";
-                    }
-                    return;
+            }else if ($user->two_factor_enabled == 1) {
+                $verification_code = $this->generate2FACode();
+                $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
+                $this->session->set_tempdata('2fa_code', $verification_code, 300);
+                
+                // Enviar código por email
+                $email_sent = $this->send2FACode($user->email, $verification_code);
+                
+                if ($email_sent) {
+                    echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
+                } else {
+                    echo "7=Error al enviar el código de verificación ".$email_sent.", Contacte al administrador.";
                 }
+                return;
+            } else {
+                // Si no tiene 2FA, continuar con login normal
+                $this->createUserSession($user);
+                echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
             }
-            return;
         }
     }
 
@@ -378,33 +342,36 @@ class Login extends CI_Controller {
         return sprintf('%06d', random_int(0, 999999));
     }
     
-    private function send2FACode($email, $code) {
-        $subject = "SIGCA - Código de verificación de dos factores";
-        $message = "<html>
-        <head>
-            <style>
-                body { font-family: Arial, sans-serif; }
-                .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                .code { font-size: 24px; font-weight: bold; color: #007bff; background-color: #f8f9fa; padding: 10px; border-radius: 5px; text-align: center; margin: 20px 0; }
-                .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 12px; }
-            </style>
-        </head>
-        <body>
-            <div class='container'>
-                <h2>Código de verificación de dos factores</h2>
-                <p>Su código de verificación para SIGCA es:</p>
-                <div class='code'>$code</div>
-                <p><strong>Este código expirará en 5 minutos.</strong></p>
-                <p>Si no solicitó este código, ignore este mensaje.</p>
-                <div class='footer'>
-                    <p>SIGCA - Sistema Integral de Gestión de Calidad</p>
-                    <p>Este es un mensaje automático, por favor no responda.</p>
-                </div>
-            </div>
-        </body>
-        </html>";
+    private function send2FACode($correo, $code) {
+        $correo_cc = 'castonino17@gmail.com';
         
-        return $this->sendEmail($email, $subject, $message);
+        // Datos del correo
+        $correo_remitente ='';
+        $correo_usuario = $correo;
+        $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
+
+        $mensaje = "<div><font size='3'>Señor(a),</font></div>\r\n";
+        $mensaje .= "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
+        $mensaje .= "<br>\r\n";
+        $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
+        $mensaje .= "<br>\r\n";
+        $mensaje .= "<div class='code'>$code</div>";
+        $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
+        $mensaje .= "<br>\r\n";
+        $mensaje .= "<p>Si no solicitó este código, ignore este mensaje.</p>";
+        $mensaje .= "<br>\r\n";
+
+        $mensaje .= "<div><font size='3'>SIGCA - Sistema Integral de Gestión de Calidad</font></div>\r\n";
+        $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+        $mensaje .= "<br>\r\n";
+        $mensaje .= "<div><font size='2'>Este es un mensaje automático, por favor no responda a este correo.</font></div>\r\n";
+        $mensaje .= "<br>\r\n";
+        // Archivos a adjuntar
+        $adjuntos = null;
+
+        // Enviar el correo utilizando el buzón de citas
+        
+        return correo_enviar($correo_remitente, $correo_usuario, $asunto, $mensaje, $adjuntos, $correo_cc);
     }
     
     private function sendEmail($email, $subject, $message) {
