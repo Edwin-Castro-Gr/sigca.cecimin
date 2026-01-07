@@ -163,7 +163,7 @@ class Login extends CI_Controller {
                     $verification_code = $this->generate2FACode();
                     $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
                     $this->session->set_tempdata('2fa_code', $verification_code, 300);
-                    var_dump(''. $verification_code .'>');
+                    var_dump( $verification_code );
                     // Enviar código por email
                     if($verification_code !=''|| ($verification_code != null)) {
                         $correo_cc = 'castonino17@gmail.com';
