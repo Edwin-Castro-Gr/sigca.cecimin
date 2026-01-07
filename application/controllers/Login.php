@@ -194,21 +194,21 @@ class Login extends CI_Controller {
 
                         // Enviar el correo utilizando el buzón de citas
                         if (enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos, $correo_cc)) {
-                            echo "1";
-                            $query = 1;
+                            $this->createUserSession($user);
+                            echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
+                            return;
                         } else {
-                            echo "0";
-                            $query =-999;
+                            echo "7=Error al enviar el código de verificación. Contacte al administrador.";
+
+                            return;
                         }
 
-                        $this->createUserSession($user);
-                        echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
                     }else {
                         echo "7=Error al enviar el código de verificación. Contacte al administrador.";
                     }
                     return;
                 }
-            } 
+            }
             return;
         }
     }
