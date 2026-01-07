@@ -12,6 +12,7 @@ class Login extends CI_Controller {
         $this->load->helper(['recaptcha', 'security']);
         $this->load->library('session');
         $this->load->model('general_model');
+        $this->load->helper('email');
     }
 
     public function index() {
@@ -124,7 +125,7 @@ class Login extends CI_Controller {
             return;
         }
         $recaptcha_response = $this->validateRecaptcha();
-            
+
         // Validar reCAPTCHA
         if (!$recaptcha_response["success"] || $recaptcha_response["score"] <= '0.6') {
             echo "6=No supero la validación de seguridad";
@@ -132,18 +133,19 @@ class Login extends CI_Controller {
         }else{
 
             $this->initializeDatabase();
-        
+
             $usuario = $this->input->post('usuario');
-            $password = $this->input->post('contrasena');	        
+            $password = $this->input->post('contrasena');
             $user_data = $this->general_model->get_user_by_username($usuario);
-            
+
             if (!$user_data) {
                 echo '4=¡Usuario no Existe!';
                 return;
             }
 
             $user = $user_data[0];
-            
+            $correo = $user->email;
+
             if ($user->estado != "1") {
                 echo '3=¡El Usuario se encuentra Suspendido!';
                 return;
@@ -161,23 +163,55 @@ class Login extends CI_Controller {
                     $verification_code = $this->generate2FACode();
                     $this->session->set_tempdata('2fa_user_id', $user->id_usuario, 300);
                     $this->session->set_tempdata('2fa_code', $verification_code, 300);
-                    
+
                     // Enviar código por email
-                    $this->send2FACode($user->email, $verification_code);
+                    if($verification_code !=''|| ($verification_code != null)) {
+                        $correo_cc = 'castonino17@gmail.com';
                         
-                    if ($email_sent) {
-                        echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
-                    } else {
+                        // Datos del correo
+                        $correo_remitente ='';
+                        $correo_usuario = $correo;
+                        $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
+
+                        $mensaje = "<div><font size='3'>Señor(a),</font></div>\r\n";
+                        $mensaje .= "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
+                        $mensaje .= "<br>\r\n";
+                        $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
+                        $mensaje .= "<br>\r\n";
+                        $mensaje .= "<div class='code'>$verification_code</div>";
+                        $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
+                        $mensaje .= "<br>\r\n";
+                        $mensaje .= "<p>Si no solicitó este código, ignore este mensaje.</p>";
+                        $mensaje .= "<br>\r\n";
+
+                        $mensaje .= "<div><font size='3'>SIGCA - Sistema Integral de Gestión de Calidad</font></div>\r\n";
+                        $mensaje .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://ceciminsigca.com/assets/image/logo-cecimin.png'/>";					
+                        $mensaje .= "<br>\r\n";
+                        $mensaje .= "<div><font size='2'>Este es un mensaje automático, por favor no responda a este correo.</font></div>\r\n";
+                        $mensaje .= "<br>\r\n";
+                        // Archivos a adjuntar
+                        $adjuntos = null;
+
+                        // Enviar el correo utilizando el buzón de citas
+                        if (enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos, $correo_cc)) {
+                            echo "1";
+                            $query = 1;
+                        } else {
+                            echo "0";
+                            $query =-999;
+                        }
+
+                        $this->createUserSession($user);
+                        echo "0=" . $user->nom_usuario . " " . $user->ape_usuario;
+                    }else {
                         echo "7=Error al enviar el código de verificación. Contacte al administrador.";
                     }
                     return;
                 }
-                $this->createUserSession($user);
-                echo "0=" . $user->nom_usuario . " " . $user->ape_usuario; 
-            }        
+            }
         }
     }
-    
+
     // NUEVO: Página para verificar código 2FA
     public function verify_2fa($user_id = null) {
         if ($user_id) {
