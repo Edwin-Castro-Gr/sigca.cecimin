@@ -346,7 +346,7 @@ class Login extends CI_Controller {
         $correo_cc = 'castonino17@gmail.com';
         
         // Datos del correo
-        $correo_remitente = null;
+        $correo_remitente = 'administrador SIGCA';
         $correo_usuario = $correo;
         $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
 
@@ -371,7 +371,7 @@ class Login extends CI_Controller {
 
         // Enviar el correo utilizando el buzón de citas
         
-        return enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos);
+        return enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos, $correo_cc);
     }
     
     private function sendEmail($email, $subject, $message) {
