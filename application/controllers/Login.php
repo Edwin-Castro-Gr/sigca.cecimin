@@ -166,7 +166,7 @@ class Login extends CI_Controller {
                 if ($email_sent) {
                     echo "5=" . $user->id_usuario; // Código para redirigir a verificación 2FA
                 } else {
-                    echo "7=Error al enviar el código de verificación ".$email_sent.", Contacte al administrador.";
+                    echo "7=Error al enviar el código de verificación por correo".$email_sent.", Contacte al administrador.";
                 }
                 return;
             } else {
@@ -346,7 +346,7 @@ class Login extends CI_Controller {
         $correo_cc = 'castonino17@gmail.com';
         
         // Datos del correo
-        $correo_remitente ='';
+        $correo_remitente = null;
         $correo_usuario = $correo;
         $asunto = 'Proceso de Ingreso a Cecimin S.A.S';
 
