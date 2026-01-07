@@ -30,7 +30,7 @@ $(function () {
        //alert(status);
         switch (status.trim()) {
             case '0':
-                showAlert('¡Bienvenido!', message, 'success', () => {window.location.href = `/login/verify_2fa/${usuario}`});
+                showAlert('¡Bienvenido!', message, 'success', () => window.open('/home/index', '_parent'));
                 break;
             case '1':
                 showAlert('¡Atención!', message, 'warning', () => window.open(`/login/cambiar?idreg=${usuario}`, '_parent'));

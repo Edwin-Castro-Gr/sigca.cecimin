@@ -371,7 +371,7 @@ class Login extends CI_Controller {
 
         // Enviar el correo utilizando el buzón de citas
         
-        return correo_enviar($correo_remitente, $correo_usuario, $asunto, $mensaje, $adjuntos, $correo_cc);
+        return enviar_correo($correo_remitente, $correo_usuario, $asunto, $mensaje, $adjuntos, $correo_cc);
     }
     
     private function sendEmail($email, $subject, $message) {
