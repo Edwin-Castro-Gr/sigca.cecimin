@@ -350,14 +350,15 @@ class Login extends CI_Controller {
         $correo_usuario = $correo;
         $asunto = 'SIGCA - Código de verificación de dos factores';
 
-        $mensaje = "<div><h2>Código de verificación de dos factores</h2></div>\r\n";
+        $mensaje = "<table><tr><td><div style='align: center;'><h2>Código de verificación de dos factores</h2></td></tr>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
+        $mensaje .= "<tr><td><div style='align: center;'><p>Su código de verificación para SIGCA es:</p></div></td></tr>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<div class='code' style='color: rgb(103, 61, 230) !important; direction: ltr; font-family: &quot;DM Sans&quot;, Arial, sans-serif, serif, EmojiFont; font-size: 32px; font-weight: 700; letter-spacing: 0px; line-height: 1.5; text-align: center;'><p style=\"margin:0\"><b>$code </b></p></div>\r\n";
-        $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
+        $mensaje .= "<tr><td><div class='code' style='color: rgb(103, 61, 230) !important; direction: ltr; font-family: &quot;DM Sans&quot;, Arial, sans-serif, serif, EmojiFont; font-size: 32px; font-weight: 700; letter-spacing: 0px; line-height: 1.5; text-align: center;'><p style=\"margin:0\"><b>$code </b></p></div></td></tr>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<div><p>Si no solicitó este código, ignore este mensaje.</p></div>\r\n";
+        $mensaje .= "<tr><td><div style='align: center;'><p><strong>Este código expirará en 5 minutos.</strong></p></div></td></tr></table>\r\n";
+        $mensaje .= "<br>\r\n";
+        $mensaje .= "<div style='align: center;'><p>Si no solicitó este código, ignore este mensaje.</p></div>\r\n";
         $mensaje .= "<br>\r\n";
 
         $mensaje .= "<div><font size='3'>SIGCA - Sistema Integral de Gestión de Calidad</font></div>\r\n";
