@@ -234,7 +234,7 @@ class Login extends CI_Controller {
             return;
         }
         
-        $user_id = $this->input->post('usuario');
+        $user_id = $this->input->post('user_id');
         $verification_code = $this->generate2FACode();
         
         $this->session->set_tempdata('2fa_code', $verification_code, 300);
