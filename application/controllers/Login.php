@@ -354,7 +354,7 @@ class Login extends CI_Controller {
         $mensaje .= "<br>\r\n";
         $mensaje .= "<div><p>Su código de verificación para SIGCA es:</p></div>\r\n";
         $mensaje .= "<br>\r\n";
-        $mensaje .= "<div class='code'>$code</div>\r\n";
+        $mensaje .= "<div class='code' style='color: rgb(103, 61, 230) !important; direction: ltr; font-family: &quot;DM Sans&quot;, Arial, sans-serif, serif, EmojiFont; font-size: 32px; font-weight: 700; letter-spacing: 0px; line-height: 1.5; text-align: center;'><p style=\"margin:0\"><b>$code </b></p></div>\r\n";
         $mensaje .= "<div><p><strong>Este código expirará en 5 minutos.</strong></p></div>\r\n";
         $mensaje .= "<br>\r\n";
         $mensaje .= "<div><p>Si no solicitó este código, ignore este mensaje.</p></div>\r\n";
@@ -372,27 +372,7 @@ class Login extends CI_Controller {
         
         return enviar_correo($correo_usuario, $asunto, $mensaje, 'login',  $correo_remitente, $adjuntos, $correo_cc);
     }
-    
-    private function sendEmail($email, $subject, $message) {
-        $config = [
-            'protocol' => 'sendmail',
-            'mailpath' => '/usr/sbin/sendmail',
-            'charset' => 'utf-8',
-            'mailtype' => 'html',
-            'wordwrap' => TRUE
-        ];
-        
-        $this->load->library('email', $config);
-        $this->email->initialize($config);
-        $this->email->set_newline("\r\n");
-        $this->email->from('admin@ceciminsigca.com', 'Administrador del Sistema');
-        $this->email->to($email);
-        $this->email->subject($subject);
-        $this->email->message($message);
-        
-        return $this->email->send();
-    }
-    
+
     private function showError($message) {
         echo "<script>alert('$message'); window.location.href = '" . base_url() . "';</script>";
     }
