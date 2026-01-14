@@ -233,7 +233,7 @@ $opctipo = array(
                                 <table id="causas-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:100%">
                                     <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                         <tr>
-                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm " width="25%" style="text-align: center;">#</th>
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm " width="15%" style="text-align: center;">#</th>
                                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" width="100%" style="text-align: center;">IDENTIFICACIÓN DE LAS CAUSAS</th> 
                                             
                                         </tr>
