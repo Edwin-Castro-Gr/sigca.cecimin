@@ -239,26 +239,26 @@ $opctipo = array(
                                         </tr>
                                     </thead>
                                     <tbody class="pos-causas">
-                                        <tr with="100%">
+                                        <tr>
                                             <td>PORQUE 1</td>
-                                             <td><?= form_input(array('type' => 'text', 'name' => 'porque1', 'id' => 'porque1', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?>
+                                             <td><?= form_input(array('type' => 'text', 'name' => 'porque1', 'id' => 'porque1', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?>
                                            </td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 2</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque2', 'id' => 'porque2', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque2', 'id' => 'porque2', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 3</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque3', 'id' => 'porque3', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque3', 'id' => 'porque3', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 4</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque4', 'id' => 'porque4', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque4', 'id' => 'porque4', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 5</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque5', 'id' => 'porque5', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque5', 'id' => 'porque5', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
