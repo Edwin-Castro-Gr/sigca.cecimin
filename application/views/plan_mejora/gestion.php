@@ -126,7 +126,7 @@ $opctipo = array(
                                                 <?= form_textarea(array('rows' => '4', 'name' => 'accionM', 'id' => 'accionM', 'class' => 'form-control col-sm-12 col-md-10 UpperCase', 'value' => $c_accion)); ?>
                                             </div>
                                         </div>
-                                    </div>                                
+                                    </div>
                                 </div>
                             </section>
                         <?php endif; ?>
@@ -201,11 +201,11 @@ $opctipo = array(
                                                 <?= form_textarea(array('rows' => '4', 'name' => 'accionM', 'id' => 'accionM', 'class' => 'form-control col-sm-12 col-md-10 UpperCase', 'value' => $c_accion)); ?>
                                             </div>
                                         </div>
-                                    </div>                                
+                                    </div>
                                 </div>
                             </section>
                         <?php endif; ?>
-                            
+
                         <!-- Secciones adicionales (vacías por ahora) -->
                         <?php if($c_idtipoF == '3'): ?>
                             <section id="sec_Por_Auditorias"></section>
@@ -221,12 +221,55 @@ $opctipo = array(
                         <?php if($c_idtipoF == '6'): ?>
                             <section id="sec_Accidente_de_Trabajo"></section>
                         <?php endif; ?>
+                        <!-- IDENTIFICACIÓN DE LAS CAUSAS ( No se aplica para acción de mejora) -->
+                        <div class="card dcard">
+                            <div class="card-header">
+                                <h3 class="card-title text-125 text-primary-d2">
+                                    <i class="far fa-edit text-dark-l3 mr-1"></i>
+                                    IDENTIFICACIÓN DE LAS CAUSAS ( No se aplica para acción de mejora)
+                                </h3>
+                            </div>
+                            <div class="card-body px-3 pb-1">
+                                <table id="causas-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:80%">
+                                    <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
+                                        <tr>
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">#</th>
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">IDENTIFICACIÓN DE LAS CAUSAS</th> 
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody class="pos-causas">
+                                        <tr>
+                                            <td>PORQUE 1</td>
+                                            <td><input type="text" name="porque1" id="porque1"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PORQUE 2</td>
+                                            <td><input type="text" name="porque2" id="porque2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PORQUE 3</td>
+                                            <td><input type="text" name="porque3" id="porque3"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PORQUE 4</td>
+                                            <td><input type="text" name="porque4" id="porque4"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>PORQUE 5</td>
+                                            <td><input type="text" name="porque5" id="porque5"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
                         <!-- Actividades a Realizar -->
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
                                     <i class="far fa-edit text-dark-l3 mr-1"></i>
-                                    Actividades a Realizar
+                                    PLAN DE ACCIÓN
                                 </h3>
                             </div>
                             <div class="card-body px-3 pb-1">
