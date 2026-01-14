@@ -230,11 +230,11 @@ $opctipo = array(
                                 </h3>
                             </div>
                             <div class="card-body px-3 pb-1">
-                                <table id="causas-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:80%">
+                                <table id="causas-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:100%">
                                     <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                         <tr>
-                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" with="25%">#</th>
-                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" with="100%">IDENTIFICACIÓN DE LAS CAUSAS</th> 
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" width="25%">#</th>
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" width="100%">IDENTIFICACIÓN DE LAS CAUSAS</th> 
                                             
                                         </tr>
                                     </thead>
