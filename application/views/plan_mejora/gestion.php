@@ -234,7 +234,7 @@ $opctipo = array(
                                     <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                         <tr>
                                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" with="25%">#</th>
-                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" with="75%">IDENTIFICACIÓN DE LAS CAUSAS</th> 
+                                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" with="100%">IDENTIFICACIÓN DE LAS CAUSAS</th> 
                                             
                                         </tr>
                                     </thead>
