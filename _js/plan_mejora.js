@@ -237,17 +237,17 @@ $(function () {
 
             if (!actividadTxt) {
                 texto = texto + "Por favor ingrese una actividad.!<br>";
-                ban = 1;              
+                ban = 1;
             }
 
             if (!responsableTxt) {
                 texto = texto + "Por favor seleccione un responsable.!<br>";
-                ban = 1;              
+                ban = 1;
             }
 
             if (!fechaTxt) {
                 texto = texto + "Por favor seleccione la fecha maxima a ejecutar la actividad.!<br>";
-                ban = 1;              
+                ban = 1;
             }
 
              if (ban == 1) {
@@ -285,7 +285,7 @@ $(function () {
             colResp.textContent = responsable;
 
             // Columna: fecha
-            const colFechaComp = document.createElement('td');           
+            const colFechaComp = document.createElement('td');
             colFechaComp.className = 'fecha';
             colFechaComp.textContent = fechaComp;
 
@@ -305,6 +305,7 @@ $(function () {
             fila.appendChild(colDesc);
             fila.appendChild(colResp);
             fila.appendChild(colFechaComp);
+            fila.appendChild(colAcciones);
 
             document.querySelector('#actividades-table tbody').appendChild(fila);
         }
