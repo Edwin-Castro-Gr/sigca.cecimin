@@ -239,7 +239,7 @@ $opctipo = array(
                                         </tr>
                                     </thead>
                                     <tbody class="pos-causas">
-                                        <tr>
+                                        <tr with="100%">
                                             <td>PORQUE 1</td>
                                              <td><?= form_input(array('type' => 'text', 'name' => 'porque1', 'id' => 'porque1', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?>
                                            </td>
