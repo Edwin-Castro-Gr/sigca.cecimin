@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
 
-    private $db_name = 'u610593899_sigca';
+    private $db_name = 'u610593899_sigcaprueba';
     private $encryption_key = '-Qsc.725943!';
 
     public function __construct() {

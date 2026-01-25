@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'u610593899_adminsigca',
-	'password' => 'CyziQKN$s=2',
-	'database' => 'u610593899_sigca',
+	'username' => 'u610593899_admin_prueba',
+	'password' => '9Mz5@a3Ir?',
+	'database' => 'u610593899_sigcaprueba',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

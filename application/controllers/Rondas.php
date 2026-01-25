@@ -622,7 +622,7 @@ class R_gestion extends CI_Controller
 					$query1 = $this->general_model->update('rondas_respuesta', 'id', $row['Id_respuesta'], $registro);
 				}
 
-				// if ($query1 == "OK") {	
+				//if ($query1 == "OK") {	
 					
 				// 	$fecha = date('Y-m-d H:i:s');
 				// 	$msg='';
@@ -746,6 +746,7 @@ class R_gestion extends CI_Controller
 					// }
 
 					echo '1';
+				}
 				else {
 					echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
 					switch ($query1) {

@@ -450,7 +450,7 @@ class Citas_medicamentos extends CI_Controller {
 	}
 
 	private function initializeSession() {
-	    $datos_session2 = array('C_basedatos' => 'u610593899_sigca');
+	    $datos_session2 = array('C_basedatos' => 'u610593899_sigcaprueba');
 	    $this->session->set_userdata($datos_session2);
 	}
 
