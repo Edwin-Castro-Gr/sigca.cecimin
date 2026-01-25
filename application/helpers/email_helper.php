@@ -28,36 +28,36 @@ if (!function_exists('enviar_correo')) {
         // Configuración de buzones para cada módulo
         $buzones = [
             'citas' => [
-                'smtp_user' => 'citasmedicamentos@sigca.cecimin.com.co',
-                'smtp_pass' => 'C1t4s-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'cirugias' => [
-                'smtp_user' => 'cirugia@sigca.cecimin.com.co',
-                'smtp_pass' => 'C1rug14s-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'usuarios' => [
-                'smtp_user' => 'admin@sigca.cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'observaciones' => [
-                'smtp_user' => 'admin@sigca.cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'contactenos' => [
-                'smtp_user' => 'contactenos@sigca.cecimin.com.co',
-                'smtp_pass' => 'C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'ingreso' => [
-                'smtp_user' => 'admin@sigca.cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'Resultados_Dx' => [
-                'smtp_user' => 'admin@sigca.cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'notificacion' => [
-                'smtp_user' => 'admin@sigca.cecimin.com.co',
-                'smtp_pass' => '4dm1n-C3c1m1n@2025',
+                'smtp_user' => 'administrador@cecimin.com.co',
+                'smtp_pass' => '4dm1n-C3c1m1n@2026',
             ],
             'login' => [
                 'smtp_user' => 'administrador@cecimin.com.co',

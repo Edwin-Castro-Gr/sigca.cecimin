@@ -36,7 +36,7 @@ class C_enviaringresop extends CI_Controller {
 	public function cargar_anexos() {	
 		
 		$cargo = $this->input->post('idcargo'); 
-		$datos_session2 = array('C_basedatos'=>'u610593899_sigca'); 
+		$datos_session2 = array('C_basedatos'=>'u610593899_sigcaprueba'); 
 		$this->session->set_userdata($datos_session2); 
 		$this->load->database();
 		$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
@@ -196,7 +196,7 @@ class C_enviaringresop extends CI_Controller {
 	}
 			
   private function inicializarSesion() {
-    $datos_session2 = array('C_basedatos' => 'u610593899_sigca'); 
+    $datos_session2 = array('C_basedatos' => 'u610593899_sigcaprueba'); 
     $this->session->set_userdata($datos_session2); 
 	}
 

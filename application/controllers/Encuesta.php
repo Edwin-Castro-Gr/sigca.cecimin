@@ -24,7 +24,7 @@ class Encuesta extends CI_Controller {
 
 			$fecha = date('Y-m-d H:i:s');
 
-			$datos_session2 = array('C_basedatos'=>'u610593899_sigca'); 
+			$datos_session2 = array('C_basedatos'=>'u610593899_sigcaprueba'); 
 				
 			$this->session->set_userdata($datos_session2); 
 			$this->load->database();

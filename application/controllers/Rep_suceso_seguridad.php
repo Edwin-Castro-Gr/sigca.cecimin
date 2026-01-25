@@ -400,7 +400,7 @@ class Rep_suceso_seguridad extends CI_Controller
 		if (!$this->input->is_ajax_request()) {
 			redirect();
 		} else {
-			$datos_session2 = array('C_basedatos' => 'u610593899_sigca');
+			$datos_session2 = array('C_basedatos' => 'u610593899_sigcaprueba');
 
 			$this->session->set_userdata($datos_session2);
 
