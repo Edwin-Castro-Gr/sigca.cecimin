@@ -242,15 +242,15 @@ if ( ! function_exists('cargar_menu_principal')){
         <b class="sub-arrow"></b>
       </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">
-          '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">
+      //     '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">
-          '.anchor(('e_eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">
+      //     '.anchor(('e_eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
       $salida .= '
         <li class="nav-item '.$men_pri[8].'">
@@ -378,13 +378,13 @@ if ( ! function_exists('cargar_menu_principal')){
         <b class="sub-arrow"></b>
       </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">'.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">'.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">'.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">'.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
         $salida .= '
         <li class="nav-item '.$men_pri[8].'">
@@ -554,15 +554,15 @@ if ( ! function_exists('cargar_menu_principal')){
           <b class="sub-arrow"></b>
         </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">
-          '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">
+      //     '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">
-          '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">
+      //     '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
     }
 
@@ -603,15 +603,15 @@ if ( ! function_exists('cargar_menu_principal')){
           <b class="sub-arrow"></b>
         </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">
-          '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">
+      //     '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">
-          '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">
+      //     '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
       $salida .= '
         <li class="nav-item '.$men_pri[8].'">
@@ -704,15 +704,15 @@ if ( ! function_exists('cargar_menu_principal')){
         <b class="sub-arrow"></b>
       </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">
-          '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">
+      //     '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">
-          '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">
+      //     '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
       $salida .= '
         <li class="nav-item '.$men_pri[8].'">
@@ -767,15 +767,15 @@ if ( ! function_exists('cargar_menu_principal')){
           <b class="sub-arrow"></b>
         </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[6].'">
-          '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[6].'">
+      //     '.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
-      $salida .= '
-        <li class="nav-item '.$men_pri[7].'">
-          '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-        </li>';
+      // $salida .= '
+      //   <li class="nav-item '.$men_pri[7].'">
+      //     '.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
+      //   </li>';
 
       $salida .= '
         <li class="nav-item '.$men_pri[8].'">
