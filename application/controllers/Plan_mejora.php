@@ -181,7 +181,7 @@ class Plan_mejora extends CI_Controller
 
                 $data_usua['c_idtipoF'] = $row['tipo_fuente'];
                 $data_usua['c_idtipoAccion'] = $row['tipo_mejora'];
-                $data_usua['c_IdFuente'] = $row['Id_fuente'];
+                $data_usua['c_IdFuente'] = $idfuente;
                 $data_usua['c_id_responsable'] = $row['Id_responsable'];
                 $data_usua['c_nom_responsable'] = $row['Responsable'];
                 $data_usua['c_accion'] = $row['Accion'];
