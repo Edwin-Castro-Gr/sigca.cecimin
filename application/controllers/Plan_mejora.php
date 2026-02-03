@@ -122,9 +122,9 @@ class Plan_mejora extends CI_Controller
             $idfuente = $this->input->get('idfuente');
 
             $data_usua['c_id_mejora'] = $id;
-            $data_usua['c_idtipoF'] = $idfuente;
+            $data_usua['c_idtipoF'] = '';
             $data_usua['c_idtipoAccion'] = '';
-            $data_usua['c_IdFuente'] = '';
+            $data_usua['c_IdFuente'] = $idfuente;
             $data_usua['c_suceso'] = '';
             $data_usua['c_id_responsable'] = '';
             $data_usua['c_id_ronda'] = '';
