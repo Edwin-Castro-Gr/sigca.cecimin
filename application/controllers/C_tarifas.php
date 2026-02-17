@@ -877,8 +877,8 @@ class C_tarifas extends CI_Controller {
     }
     
     // Cargar la librería PHPExcel
-    require_once "./third_party/PHPExcel/PHPExcel.php";
-    require_once "./third_party/PHPExcel/PHPExcel/IOFactory.php";
+    require_once APPPATH . "/third_party/PHPExcel/PHPExcel.php";
+    require_once APPPATH . "/third_party/PHPExcel/PHPExcel/IOFactory.php";
     
     $archivo = $_FILES['archivo_excel']['tmp_name'];
     $extension = pathinfo($_FILES['archivo_excel']['name'], PATHINFO_EXTENSION);
