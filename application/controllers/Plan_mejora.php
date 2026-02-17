@@ -178,7 +178,6 @@ class Plan_mejora extends CI_Controller
            
             foreach ($query->result_array() as $row) {
 
-
                 $data_usua['c_idtipoF'] = $row['tipo_fuente'];
                 $data_usua['c_idtipoAccion'] = $row['tipo_mejora'];
                 $data_usua['c_IdFuente'] = $idfuente;
@@ -205,7 +204,7 @@ class Plan_mejora extends CI_Controller
                         break;
                     case '2':
                         // code...
-                        $data_usua['c_idsuceso'] = $row['IdSuceso'];
+                        $data_usua['c_idsuceso'] = $row['Id_suceso'];
                         $data_usua['c_suceso'] = $row['Suceso'];
                         $data_usua['c_descrip'] = $row['Descripción'];
                         $data_usua['c_idServicio'] = $row['Id_Servicio'];

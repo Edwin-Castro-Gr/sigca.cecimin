@@ -46,7 +46,7 @@ $opctipo = array(
 
                     <div class="form-body" style="justify-content:flex-start;">
                         <?= form_input(array('type' => 'hidden', 'name' => 'idreg', 'id' => 'idreg', 'value' => $c_id_mejora)); ?>
-                        <?= form_input(array('type' => 'hidden', 'name' => 'idFuente', 'id' => 'idFuente', 'value' => $c_IdFuente)); ?>
+                        <?= form_input(array('type' => 'hidden', 'name' => 'idFuente', 'id' => 'idFuente', 'value' => $c_idFuente)); ?>
                         <?= form_input(array('type' => 'hidden', 'name' => 'tipoFuente', 'id' => 'tipoFuente', 'value' => $c_idtipoF)); ?>
                         <?= form_input(array('type' => 'hidden', 'name' => 'nomservicio', 'id' => 'nomservicio', 'value' => $c_nom_servicio)); ?>
                         <?= form_input(array('type' => 'hidden', 'name' => 'idresponsable', 'id' => 'idresponsable', 'value' => $c_id_responsable)); ?>

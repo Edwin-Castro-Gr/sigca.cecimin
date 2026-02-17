@@ -1,15 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+use CI_Controller;
+
 class C_tarifas extends CI_Controller {
-	
+
 	//Constructor de la clase
 	function __construct() {
 		parent::__construct();
 		date_default_timezone_set('America/Bogota');
 
 		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="" ) {
-			redirect(base_url());			
+			redirect(base_url());
 		} else {
 			$this->load->database();
 			$this->db->query('USE '.$this->session->userdata('C_basedatos').'; ');
@@ -18,9 +20,9 @@ class C_tarifas extends CI_Controller {
 
 	public function index() {
 		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="" ) {
-			redirect();			
+			redirect(base_url());
 		} else {
-			
+
 			$this->load->helper('funciones_select');
 			$this->load->helper('funciones_chk');
 
@@ -852,6 +854,156 @@ class C_tarifas extends CI_Controller {
 			}
 		}
 	}
+
+	public function cargar_excel_tarifas() {
+    if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="") {
+        echo json_encode(array('status' => 'error', 'message' => 'Sesión no válida'));
+        return;
+    }
+    
+    if(!$this->input->is_ajax_request()) {
+        echo json_encode(array('status' => 'error', 'message' => 'Acceso no permitido'));
+        return;
+    }
+    
+    // Verificar que se haya subido un archivo
+    if(empty($_FILES['archivo_excel']['name'])) {
+        echo json_encode(array('status' => 'error', 'message' => 'No se ha seleccionado ningún archivo'));
+        return;
+    }
+    
+    $id_tarifa = $this->input->post('id_tarifa');
+    if(empty($id_tarifa)) {
+        echo json_encode(array('status' => 'error', 'message' => 'ID de tarifa no válido'));
+        return;
+    }
+    
+    // Cargar la librería PHPExcel
+    require_once APPPATH . 'third_party/PHPExcel/PHPExcel.php';
+    require_once APPPATH . 'third_party/PHPExcel/PHPExcel/IOFactory.php';
+    
+    $archivo = $_FILES['archivo_excel']['tmp_name'];
+    $extension = pathinfo($_FILES['archivo_excel']['name'], PATHINFO_EXTENSION);
+    
+    try {
+        // Cargar el archivo según su extensión
+        if($extension == 'xlsx') {
+            $reader = PHPExcel_IOFactory::createReader('Excel2007');
+        } elseif($extension == 'xls') {
+            $reader = PHPExcel_IOFactory::createReader('Excel5');
+        } elseif($extension == 'csv') {
+            $reader = PHPExcel_IOFactory::createReader('CSV');
+        } else {
+            echo json_encode(array('status' => 'error', 'message' => 'Formato de archivo no soportado'));
+            return;
+        }
+        
+        $reader->setReadDataOnly(true);
+        $spreadsheet = $reader->load($archivo);
+        $worksheet = $spreadsheet->getActiveSheet();
+        $highestRow = $worksheet->getHighestRow();
+        $highestColumn = $worksheet->getHighestColumn();
+        
+        // Obtener encabezados (primera fila)
+        $headers = array();
+        $column = 'A';
+        while ($column <= $highestColumn) {
+            $cellValue = $worksheet->getCell($column . '1')->getValue();
+            if(!empty($cellValue)) {
+                $headers[] = trim($cellValue);
+            }
+            $column++;
+        }
+        
+        // Procesar datos desde la fila 2 hasta la última
+        $datos_importados = array();
+        $registros_guardados = 0;
+        $errores = array();
+        
+        for ($row = 2; $row <= $highestRow; $row++) {
+            $fila = array();
+            $column = 'A';
+            
+            while ($column <= $highestColumn) {
+                $cellValue = $worksheet->getCell($column . $row)->getValue();
+                
+                // Si es una fórmula, obtener el valor calculado
+                if ($cellValue instanceof PHPExcel_Cell_DataType::TYPE_FORMULA) {
+                    $cellValue = $worksheet->getCell($column . $row)->getCalculatedValue();
+                }
+                
+                $fila[] = $cellValue;
+                $column++;
+            }
+            
+            // Verificar que la fila no esté vacía
+            if(!empty(array_filter($fila))) {
+                // Mapear datos según la estructura del Excel
+                $datos = array(
+                    'id_tarifa' => $id_tarifa,
+                    'codigo_institucion' => isset($fila[0]) ? $fila[0] : '',
+                    'codigo_bh' => isset($fila[1]) ? $fila[1] : '',
+                    'concepto_adicional' => isset($fila[2]) ? $fila[2] : '',
+                    'descripcion' => isset($fila[3]) ? $fila[3] : '',
+                    'clase_tarifa' => isset($fila[4]) ? $fila[4] : '',
+                    'tarifa_convenida' => isset($fila[5]) ? $this->limpiar_numero($fila[5]) : 0,
+                    'cantidad_uvr' => isset($fila[6]) ? $this->limpiar_numero($fila[6]) : 0,
+                    'plan' => isset($fila[7]) ? $fila[7] : '',
+                    'paquete_evento' => isset($fila[8]) ? $fila[8] : '',
+                    'lugar_atencion' => isset($fila[9]) ? $fila[9] : '',
+                    'fecha_registro' => date('Y-m-d H:i:s'),
+                    'id_usuario' => $this->session->userdata('C_id_usuario'),
+                    'estado' => '1'
+                );
+                
+                // Guardar en la base de datos
+                $query = $this->general_model->insert('tarifas_detalle', $datos);
+                
+                if($query >= 1) {
+                    $registros_guardados++;
+                    $datos_importados[] = $datos;
+                } else {
+                    $errores[] = "Error en fila $row: No se pudo guardar";
+                }
+            }
+        }
+        
+        if($registros_guardados > 0) {
+            echo json_encode(array(
+                'status' => 'success',
+                'message' => "Se cargaron exitosamente $registros_guardados registros",
+                'data' => $datos_importados,
+                'total' => $registros_guardados,
+                'errores' => $errores
+            ));
+        } else {
+            echo json_encode(array(
+                'status' => 'error',
+                'message' => 'No se pudo cargar ningún registro',
+                'errores' => $errores
+            ));
+        }
+        
+    } catch (Exception $e) {
+        echo json_encode(array(
+            'status' => 'error',
+            'message' => 'Error al procesar el archivo: ' . $e->getMessage()
+        ));
+    }
+}
+
+/**
+ * Función auxiliar para limpiar números
+ */
+private function limpiar_numero($valor) {
+    if(empty($valor)) return 0;
+    
+    // Eliminar caracteres no numéricos excepto punto y coma
+    $valor = str_replace(',', '', $valor);
+    $valor = preg_replace('/[^0-9.]/', '', $valor);
+    
+    return floatval($valor);
+}
 }
 
 

@@ -5,13 +5,12 @@
     '1'   => 'Vigente'
   );
 
-   $opcredondeo = array(
+  $opcredondeo = array(
     '0'   => 'Unidad',
     '1'   => 'Decena',
     '2'   => 'Centena'
   );
- 
- 
+
 ?>
 
     <input type="hidden" name="opc_pag" id="opc_pag" value="modificar">
@@ -115,8 +114,36 @@
                       <?= form_input(array('type'=>'text', 'name'=>'quimio_mod', 'id'=>'quimio_mod', 'placeholder'=>'', 'class'=>'form-control col-sm-9 col-md-12 UpperCase','disabled'=>true,'value'=>$c_quimio_mod));?>
                     </div>  
                   </div>  
+
+                  <!-- Reemplaza la sección del input file con este código -->
+                  <div class="form-group row">
+                      <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                          <?= form_label('Cargar Tarifa *','cargarT', array('class'=>'mb-0')); ?>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="input-group">
+                              <?= form_upload(array(
+                                  'type' => 'file', 
+                                  'name' => 'archivo_evidencia', 
+                                  'id' => 'archivo_evidencia', 
+                                  'class' => 'form-control ace-file-input col-sm-8 col-md-10',
+                                  'accept' => '.xlsx,.xls,.csv'
+                              ));?>
+                              <div class="input-group-append">
+                                  <button type="button" class="btn btn-success" id="btn_cargar_excel">
+                                      <i class="fa fa-upload"></i> Cargar
+                                  </button>
+                              </div>
+                          </div>
+                          <small class="form-text text-muted">
+                              Formatos permitidos: Excel (.xlsx, .xls) o CSV. 
+                              El archivo debe tener la estructura de la matriz de ejemplo.
+                          </small>
+                      </div>
+                  </div>
+
                   <div class="form-group row" id="div_sesion5">
-                                       
+                    
                   </div> 
 
                   <div class="form-group row" id="div_sesion6">
