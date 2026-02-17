@@ -951,7 +951,7 @@ class C_tarifas extends CI_Controller {
                     'modalidad' => isset($fila[8]) ? $fila[8] : '',
                     'lugar_atencion' => isset($fila[9]) ? $fila[9] : '',
                     'fecha_registro' => date('Y-m-d H:i:s'),
-                    'id_usuario' => $this->session->userdata('C_id_usuario'),
+                    'id_usuario_registra' => $this->session->userdata('C_id_usuario'),
                     'estado' => '1'
                 );
                 
