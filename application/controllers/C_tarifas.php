@@ -924,17 +924,18 @@ class C_tarifas extends CI_Controller {
             $fila = array();
             $column = 'A';
             
-            while ($column <= $highestColumn) {
-                $cellValue = $worksheet->getCell($column . $row)->getValue();
-                
-                // Si es una fórmula, obtener el valor calculado
-                if ($cellValue instanceof PHPExcel_Cell_DataType::TYPE_FORMULA) {
-                    $cellValue = $worksheet->getCell($column . $row)->getCalculatedValue();
-                }
-                
-                $fila[] = $cellValue;
-                $column++;
-            }
+			while ($column <= $highestColumn) {
+				$cell = $worksheet->getCell($column . $row);
+				$cellValue = $cell->getValue();
+				
+				// Si es una fórmula, obtener el valor calculado
+				if ($cell->getDataType() == 'f') {
+					$cellValue = $cell->getCalculatedValue();
+				}
+				
+				$fila[] = $cellValue;
+				$column++;
+			}
             
             // Verificar que la fila no esté vacía
             if(!empty(array_filter($fila))) {
