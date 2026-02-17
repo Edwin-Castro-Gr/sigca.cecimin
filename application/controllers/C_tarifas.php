@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-use CI_Controller;
-
 class C_tarifas extends CI_Controller {
 
 	//Constructor de la clase
