@@ -606,8 +606,8 @@ $(function () {
 
         $.each(datos, function (index, item) {
             html += '<tr>';
-            html += '<td>' + (item.codigo_institucion || '') + '</td>';
-            html += '<td>' + (item.descripcion || '') + '</td>';
+            html += '<td>' + (item.codigo_inst || '') + '</td>';
+            html += '<td>' + (item.descripción_bh || '') + '</td>';
             html += '<td>' + (item.clase_tarifa || '') + '</td>';
             html += '<td>' + (item.tarifa_convenida || '') + '</td>';
             html += '<td>' + (item.cantidad_uvr || '') + '</td>';
