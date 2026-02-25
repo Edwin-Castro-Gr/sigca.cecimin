@@ -149,7 +149,24 @@ $opctipo = array(
                                                 <?= form_label('Suceso *', 'txtsuceso', array('class' => 'mb-0')); ?>
                                             </div>
                                             <div class="col-sm-10">
-                                                <?= form_input(array('type' => 'text', 'name' => 'txtsuceso', 'id' => 'txtsuceso', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $c_suceso)); ?>
+                                                <?php
+                                                    $suceso_value = 'Otro';
+                                                    switch ($c_suceso) {
+                                                        case '1':
+                                                            $suceso_value = 'Uso de Medicamentos';
+                                                            break;
+                                                        case '2':
+                                                            $suceso_value = 'Uso de Dispositivos/equipos biomedicos';
+                                                            break;
+                                                        case '3':
+                                                            $suceso_value = 'Uso de Reactivos';
+                                                            break;
+                                                        case '4':
+                                                            $suceso_value = 'Uso de Tejidos';
+                                                            break;
+                                                    }
+                                                    echo form_input(array('type' => 'text', 'name' => 'txtsuceso', 'id' => 'txtsuceso', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $suceso_value));
+                                                ?>
                                             </div>
                                         </div>
 
