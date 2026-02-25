@@ -124,7 +124,7 @@ class Plan_mejora extends CI_Controller
             $data_usua['c_id_mejora'] = $id;
             $data_usua['c_idtipoF'] = $idfuente;
             $data_usua['c_idtipoAccion'] = '';
-            $data_usua['c_IdFuente'] = '';
+            $data_usua['c_idFuente'] = '';
             $data_usua['c_suceso'] = '';
             $data_usua['c_id_responsable'] = '';
             $data_usua['c_id_ronda'] = '';
@@ -180,7 +180,7 @@ class Plan_mejora extends CI_Controller
 
                 $data_usua['c_idtipoF'] = $row['tipo_fuente'];
                 $data_usua['c_idtipoAccion'] = $row['tipo_mejora'];
-                $data_usua['c_IdFuente'] = $idfuente;
+                $data_usua['c_idFuente'] = $row['Id_fuente'];
                 $data_usua['c_id_responsable'] = $row['Id_responsable'];
                 $data_usua['c_nom_responsable'] = $row['Responsable'];
                 $data_usua['c_accion'] = $row['Accion'];
@@ -205,7 +205,6 @@ class Plan_mejora extends CI_Controller
                     case '2':
                         // code...
                         $data_usua['c_idsuceso'] = $row['Id_suceso'];
-                        $data_usua['c_suceso'] = $row['Suceso'];
                         $data_usua['c_descrip'] = $row['Descripción'];
                         $data_usua['c_idServicio'] = $row['Id_Servicio'];
                         $data_usua['c_nom_servicio'] = $row['Servicio'];
