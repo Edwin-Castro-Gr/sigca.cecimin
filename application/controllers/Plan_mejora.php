@@ -122,9 +122,9 @@ class Plan_mejora extends CI_Controller
             $idfuente = $this->input->get('idfuente');
 
             $data_usua['c_id_mejora'] = $id;
-            $data_usua['c_idtipoF'] = '';
+            $data_usua['c_idtipoF'] = $idfuente;
             $data_usua['c_idtipoAccion'] = '';
-            $data_usua['c_IdFuente'] = $idfuente;
+            $data_usua['c_IdFuente'] = '';
             $data_usua['c_suceso'] = '';
             $data_usua['c_id_responsable'] = '';
             $data_usua['c_id_ronda'] = '';
@@ -141,12 +141,12 @@ class Plan_mejora extends CI_Controller
             $data_usua['c_usuario_a'] = $this->session->userdata('C_id_usuario');            
 
             if($idfuente == "0"){//Fuente Rondas de Seguridad
-                $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
+                $campos = 'pm.id_plan AS "Id", pm.id_fuente AS "Id_fuente", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta and pm.tipo_fuente ="0" INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
     
             }else if($idfuente == "1"){//Fuente Quejas 
-                $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
+                $campos = 'pm.id_plan AS "Id", pm.id_fuente AS "Id_fuente", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
     

@@ -149,7 +149,7 @@ $opctipo = array(
                                                 <?= form_label('Suceso *', 'txtsuceso', array('class' => 'mb-0')); ?>
                                             </div>
                                             <div class="col-sm-10">
-                                                <?= form_input(array('type' => 'text', 'name' => 'txtsuceso', 'id' => 'txtsuceso', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $c_suceso)); ?>
+                                                <?= form_input(array('type' => 'text', 'name' => 'txtsuceso', 'id' => 'txtsuceso', 'class' => 'form-control col-sm-12 col-md-10', 'value' => '')); ?>
                                             </div>
                                         </div>
 
