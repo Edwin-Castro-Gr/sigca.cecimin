@@ -151,7 +151,7 @@ class Plan_mejora extends CI_Controller
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
     
             }else if($idfuente == "2"){//Fuente Sucesos de Seguridad
-                $campos = 'pm.id_plan AS "Id", pm.id_fuente AS "Id_fuente", ss.id_suceso_seguridad AS "Id_suceso", ss.servicio AS "Id_Servicio", ss.descripcion_novedad AS "Descripción",IF(ss.servicio !="99", se.nombre, ss.Otro_Servicio) AS "Servicio", pm.tipo_fuente AS "tipo_fuente", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado"';
+                $campos = 'pm.id_plan AS "Id", ss.novedad_asociada AS "Suceso", pm.id_fuente AS "Id_fuente", ss.id_suceso_seguridad AS "Id_suceso", ss.servicio AS "Id_Servicio", ss.descripcion_novedad AS "Descripción",IF(ss.servicio !="99", se.nombre, ss.Otro_Servicio) AS "Servicio", pm.tipo_fuente AS "tipo_fuente", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado"';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'suceso_seguridad ss INNER JOIN planes_mejoras pm ON ss.id_suceso_seguridad = pm.id_fuente and pm.tipo_fuente ="2" INNER JOIN servicios se ON ss.servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
     
@@ -205,6 +205,7 @@ class Plan_mejora extends CI_Controller
                     case '2':
                         // code...
                         $data_usua['c_idsuceso'] = $row['Id_suceso'];
+                        $data_usua['c_suceso'] = $row['Suceso'];
                         $data_usua['c_descrip'] = $row['Descripción'];
                         $data_usua['c_idServicio'] = $row['Id_Servicio'];
                         $data_usua['c_nom_servicio'] = $row['Servicio'];
