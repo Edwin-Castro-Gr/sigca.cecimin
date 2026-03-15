@@ -138,44 +138,44 @@ class Plan_mejora extends CI_Controller
             $data_usua['c_evidencias'] = '';
             $data_usua['c_estado'] = '';
             $data_usua['c_id_usuario'] = '';
-            $data_usua['c_usuario_a'] = $this->session->userdata('C_id_usuario');            
+            $data_usua['c_usuario_a'] = $this->session->userdata('C_id_usuario');
 
-            if($idfuente == "0"){//Fuente Rondas de Seguridad
+            if ($idfuente == "0") {//Fuente Rondas de Seguridad
                 $campos = 'pm.id_plan AS "Id", pm.id_fuente AS "Id_fuente", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta and pm.tipo_fuente ="0" INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "1"){//Fuente Quejas 
+
+            } else if ($idfuente == "1") {//Fuente Quejas 
                 $campos = 'pm.id_plan AS "Id", pm.id_fuente AS "Id_fuente", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "2"){//Fuente Sucesos de Seguridad
+
+            } else if ($idfuente == "2") {//Fuente Sucesos de Seguridad
                 $campos = 'pm.id_plan AS "Id", ss.novedad_asociada AS "Suceso", pm.id_fuente AS "Id_fuente", ss.id_suceso_seguridad AS "Id_suceso", ss.servicio AS "Id_Servicio", ss.descripcion_novedad AS "Descripción",IF(ss.servicio !="99", se.nombre, ss.Otro_Servicio) AS "Servicio", pm.tipo_fuente AS "tipo_fuente", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado"';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'suceso_seguridad ss INNER JOIN planes_mejoras pm ON ss.id_suceso_seguridad = pm.id_fuente and pm.tipo_fuente ="2" INNER JOIN servicios se ON ss.servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "3"){
+
+            } else if ($idfuente == "3") {
                 $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "4"){
+
+            } else if ($idfuente == "4") {
                 $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "5"){
+
+            } else if ($idfuente == "5") {
                 $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
                 $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
-    
-            }else if($idfuente == "6"){
+
+            } else if ($idfuente == "6") {
                 $campos = 'pm.id_plan AS "Id", rg.id_ronda AS "Id_ronda", rg.id_servicio AS "Id_Servicio", rp.id_seccion AS "Id_Seccion", ro.nombre AS "Ronda", se.nombre AS "Servicio", rs.nombre AS "Seccion", pm.tipo_fuente AS "tipo_fuente", re.id_pregunta AS "Id_fuente", rp.nombre AS "Item", re.hallazgo AS "Hallazgo", pm.tipo_mejora AS "tipo_mejora", pm.accion_mejora AS "Accion", pm.responsable AS "Id_responsable" , IFNULL(CONCAT(e.nombres, " ", e.apellidos), "") AS "Responsable", pm.estado AS "Estado" ';
 
-                $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);    
+                $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras pm INNER JOIN rondas_gestion_resp re ON pm.id_fuente = re.id_respuesta INNER JOIN rondas_gestion rg ON re.id_gestion = rg.id_gestion INNER JOIN rondas ro ON rg.id_ronda = ro.id_ronda INNER JOIN rondas_preguntas rp ON re.id_pregunta = rp.id_items INNER JOIN rondas_seccion rs ON rp.id_seccion = rs.id_seccion INNER JOIN servicios se ON rg.id_servicio = se.id_servicio INNER JOIN empleados e ON pm.responsable = e.id_empleado', 'pm.id_plan="' . $id . '" ', '', 0, 0);
             }
-           
+
             foreach ($query->result_array() as $row) {
 
                 $data_usua['c_idtipoF'] = $row['tipo_fuente'];
@@ -209,7 +209,7 @@ class Plan_mejora extends CI_Controller
                         $data_usua['c_descrip'] = $row['Descripción'];
                         $data_usua['c_idServicio'] = $row['Id_Servicio'];
                         $data_usua['c_nom_servicio'] = $row['Servicio'];
-                        break;    
+                        break;
                     case '3':
                         // code...
                         break;
@@ -221,17 +221,17 @@ class Plan_mejora extends CI_Controller
                         break;
                     case '6':
                         // code...
-                        break;    
+                        break;
                     default:
                         // code...
                         break;
                 }
 
-                
 
-               
+
+
             }
-            
+
             $this->load->helper('funciones_select');
             $this->load->helper('funciones_chk');
 
@@ -293,9 +293,9 @@ class Plan_mejora extends CI_Controller
                 redirect(base_url());
             } else {
                 $id_ronda = $this->input->post('id_ronda');
-                $id_servicio = $this->input->post('id_servicio');               
-                $fechaini = $this->input->post('fechaIniI');    
-                $fechafin = $this->input->post('fechaFinI');    
+                $id_servicio = $this->input->post('id_servicio');
+                $fechaini = $this->input->post('fechaIniI');
+                $fechafin = $this->input->post('fechaFinI');
                 $fecha = $this->input->post('fecha');
                 $tabla = '';
 
@@ -303,37 +303,37 @@ class Plan_mejora extends CI_Controller
                 $campos = 'rp.id_respuesta AS "Id", DATE(rg.fecha_insp) AS "Fecha Inspección", r.nombre AS "Ronda", s.nombre AS "Servicio", rs.nombre AS "Sección", rq.nombre AS "Pregunta", IFNULL(rer.imagen, " ") AS "Evidencia",IFNULL(pm.id_fuente,"")AS "plan"';
 
                 //Consulta cuando todos los campos rondas, servicios, fecha inicio y fecha final son diferentes a vacio
-                if ($fechaini != "" && $fechafin != "" && $id_ronda != "00" && $id_servicio != "00"){
-                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '" AND rg.id_servicio = "' . $id_servicio . '" AND DATE(rg.fecha_insp) BETWEEN "'.$fechaini.'" AND "'.$fechafin.'"', 'rg.fecha_insp', 0, 0);
+                if ($fechaini != "" && $fechafin != "" && $id_ronda != "00" && $id_servicio != "00") {
+                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '" AND rg.id_servicio = "' . $id_servicio . '" AND DATE(rg.fecha_insp) BETWEEN "' . $fechaini . '" AND "' . $fechafin . '"', 'rg.fecha_insp', 0, 0);
 
-                //Consulta cuando todos los campos rondas, fecha inicio y fecha final son diferentes a 00 o vacio y servicios es igual a 00 
-                }elseif ($fechaini != "" && $fechafin != "" && $id_ronda != "00" && $id_servicio == "00"){
-                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '" AND DATE(rg.fecha_insp) BETWEEN "'.$fechaini.'" AND "'.$fechafin.'"', 'rg.fecha_insp', 0, 0);
+                    //Consulta cuando todos los campos rondas, fecha inicio y fecha final son diferentes a 00 o vacio y servicios es igual a 00 
+                } elseif ($fechaini != "" && $fechafin != "" && $id_ronda != "00" && $id_servicio == "00") {
+                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '" AND DATE(rg.fecha_insp) BETWEEN "' . $fechaini . '" AND "' . $fechafin . '"', 'rg.fecha_insp', 0, 0);
 
-                //Consulta cuando fecha inicio y fecha final son diferentes a 00 o vacio y los campos rondas y servicios son igual 00 
-                }elseif ($fechaini != "" && $fechafin != "" && $id_ronda == "00" && $id_servicio == "00"){
-                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND DATE(rg.fecha_insp) BETWEEN "'.$fechaini.'" AND "'.$fechafin.'"', 'rg.fecha_insp', 0, 0);
+                    //Consulta cuando fecha inicio y fecha final son diferentes a 00 o vacio y los campos rondas y servicios son igual 00 
+                } elseif ($fechaini != "" && $fechafin != "" && $id_ronda == "00" && $id_servicio == "00") {
+                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND DATE(rg.fecha_insp) BETWEEN "' . $fechaini . '" AND "' . $fechafin . '"', 'rg.fecha_insp', 0, 0);
 
-                //Consulta cuando todos los campos rondas y servicios son diferentes a 00 y fecha inicio y fecha final es igual a vacio 
-                }else if ($id_ronda != "00" && $id_servicio != "00" && $fechaini == "" && $fechafin == ""){
+                    //Consulta cuando todos los campos rondas y servicios son diferentes a 00 y fecha inicio y fecha final es igual a vacio 
+                } else if ($id_ronda != "00" && $id_servicio != "00" && $fechaini == "" && $fechafin == "") {
                     $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '" AND rg.id_servicio = "' . $id_servicio . '"', 'rg.fecha_insp', 0, 0);
 
-                //Consulta cuando todos el campo rondas es son diferentes a 00 y servicios, fecha inicio, fecha final es igual a vacio  
-                }else if($id_ronda != "00" && $id_servicio == "00" && $fechaini == "" && $fechafin == ""){
-                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '"', 'rg.id_ronda', 0, 0);   
+                    //Consulta cuando todos el campo rondas es son diferentes a 00 y servicios, fecha inicio, fecha final es igual a vacio  
+                } else if ($id_ronda != "00" && $id_servicio == "00" && $fechaini == "" && $fechafin == "") {
+                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_ronda = "' . $id_ronda . '"', 'rg.id_ronda', 0, 0);
 
-                //Consulta cuando todos el campo rondas es igual a 00, servicios, fecha inicio y fecha final son diferentes a 00 o vacio    
-                }else if ($id_servicio != "00" && $id_ronda == "00" && $fechaini == "" && $fechafin == ""){
+                    //Consulta cuando todos el campo rondas es igual a 00, servicios, fecha inicio y fecha final son diferentes a 00 o vacio    
+                } else if ($id_servicio != "00" && $id_ronda == "00" && $fechaini == "" && $fechafin == "") {
                     $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0 AND rg.id_servicio = "' . $id_servicio . '"', 'rg.id_servicio', 0, 0);
-                        
-                //Consulta cuando todos el campo rondas y servicios son igual a 00, y fecha inicio y fecha final son diferentes a 00 o vacio
-                }else {
-                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0', 'rg.id_ronda', 0, 0); 
-                    
+
+                    //Consulta cuando todos el campo rondas y servicios son igual a 00, y fecha inicio y fecha final son diferentes a 00 o vacio
+                } else {
+                    $query = $this->general_model->consulta_personalizada($campos, 'rondas_gestion_resp rp INNER JOIN rondas_gestion rg ON rg.id_gestion = rp.id_gestion INNER JOIN rondas r ON rg.id_ronda = r.id_ronda INNER JOIN servicios s ON rg.id_servicio = s.id_servicio INNER JOIN rondas_preguntas rq ON rp.id_pregunta = rq.id_items INNER JOIN rondas_seccion rs ON rq.id_seccion = rs.id_seccion LEFT JOIN rondas_evidencia_resp rer ON rp.id_respuesta = rer.id_respuesta LEFT JOIN planes_mejoras pm ON pm.tipo_fuente = "0" and pm.id_fuente = rp.id_respuesta', 'rp.respuesta = 0', 'rg.id_ronda', 0, 0);
+
                 }
 
                 $tabla = ' <thead class="sticky-nav text-secondary-m1 text-uppercase text-85"><tr>';
-                
+
                 $tabla .= ' <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Id</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Inspección</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Ronda</th>
@@ -341,30 +341,29 @@ class Plan_mejora extends CI_Controller
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Sección</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Pregunta</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción</th>
-                            ';  
-                
+                            ';
+
                 $tabla .= '</tr></thead><tbody class="post-rel">';
-                
-                foreach ($query->result_array() as $row)
-                {
-                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>'.$row['Id'].'</td><td>'.$row['Fecha Inspección'].'</td><td>'.$row['Ronda'].'</td><td>'.$row['Servicio'].'</td><td>'.$row['Sección'].'</td><td>'.$row['Pregunta'].'</td>';
-                    
+
+                foreach ($query->result_array() as $row) {
+                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>' . $row['Id'] . '</td><td>' . $row['Fecha Inspección'] . '</td><td>' . $row['Ronda'] . '</td><td>' . $row['Servicio'] . '</td><td>' . $row['Sección'] . '</td><td>' . $row['Pregunta'] . '</td>';
+
 
                     $tabla .= '<td class="text-nowrap"><div class="action-buttons">
                             <a href="#" class="text-green-m1 mx-1" data-toggle="tooltip" data-placement="top" title="Detalle" id="btndetalle_' . $row['Id'] . '"> <i id="btndetalle_' . $row['Id'] . '" class="fa fa-book-open text-105"></i> </a>';
-                    if($row['Evidencia']!= " "){
-                        $tabla .=  '<a href="#" class="text-blue mx-1" data-toggle="tooltip" data-placement="top" title="P_Mejora" aria-describedby="tooltip' . $row['Id'] . '" id="btnPlan_Mejora' . $row['plan'] . '"> <i  id="btnPlan_Mejora' . $row['plan'] . '" class="fa fa-list text-105"></i> </a>';
-                    }           
+                    if ($row['Evidencia'] != " ") {
+                        $tabla .= '<a href="#" class="text-blue mx-1" data-toggle="tooltip" data-placement="top" title="P_Mejora" aria-describedby="tooltip' . $row['Id'] . '" id="btnPlan_Mejora' . $row['plan'] . '"> <i  id="btnPlan_Mejora' . $row['plan'] . '" class="fa fa-list text-105"></i> </a>';
+                    }
 
-                    if($row['Evidencia']!= " "){
-                        $tabla .=  '<a href="#" class="text-blue mx-1" data-toggle="tooltip" data-placement="top" title="Evidencia" aria-describedby="tooltip' . $row['Id'] . '" id="btnEvidencia_' . $row['Evidencia'] . '"> <i  id="btnEvidencia_' . $row['Evidencia'] . '" class="fa fa-file-image text-105"></i> </a>';
-                    }           
+                    if ($row['Evidencia'] != " ") {
+                        $tabla .= '<a href="#" class="text-blue mx-1" data-toggle="tooltip" data-placement="top" title="Evidencia" aria-describedby="tooltip' . $row['Id'] . '" id="btnEvidencia_' . $row['Evidencia'] . '"> <i  id="btnEvidencia_' . $row['Evidencia'] . '" class="fa fa-file-image text-105"></i> </a>';
+                    }
 
-                    $tabla .=  '<a href="#" class="text-danger mx-1" data-toggle="tooltip" data-placement="top" title="Acción Mejora" aria-describedby="tooltip' . $row['Id'] . '" id="btnMejora_' . $row['Id'] . '"> <i  id="btnMejora_' . $row['Id'] . '" class="fa fa-edit text-105"></i> </a>';
+                    $tabla .= '<a href="#" class="text-danger mx-1" data-toggle="tooltip" data-placement="top" title="Acción Mejora" aria-describedby="tooltip' . $row['Id'] . '" id="btnMejora_' . $row['Id'] . '"> <i  id="btnMejora_' . $row['Id'] . '" class="fa fa-edit text-105"></i> </a>';
 
-                 $tabla .= '</div></td></tr>'; 
+                    $tabla .= '</div></td></tr>';
                 }
-                $tabla .= '</tbody>';   
+                $tabla .= '</tbody>';
                 echo $tabla;
             }
         }
@@ -379,55 +378,54 @@ class Plan_mejora extends CI_Controller
                 redirect(base_url());
             } else {
 
-                $id_plan = $this->input->post('idreg');   
+                $id_plan = $this->input->post('idreg');
                 $count = 0;
                 $tabla = '';
-                $evidencia='';
+                $evidencia = '';
 
-               $campos = 'pmg.fecha_registro AS "Id", pmg.acciones_realizadas AS "Descripción", pma.ruta_archivo AS "Evidencias"';
+                $campos = 'pmg.fecha_registro AS "Id", pmg.acciones_realizadas AS "Descripción", pma.ruta_archivo AS "Evidencias"';
 
-               $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_gestion pmg INNER JOIN planes_mejoras_anexos pma ON pma.id_gestion= pmg.id_gestion', 'pmg.id_plan = "' . $id_plan . '"', 'pmg.fecha_registro', 0, 0); 
+                $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_gestion pmg INNER JOIN planes_mejoras_anexos pma ON pma.id_gestion= pmg.id_gestion', 'pmg.id_plan = "' . $id_plan . '"', 'pmg.fecha_registro', 0, 0);
 
                 $tabla = ' <thead class="sticky-nav text-secondary-m1 text-uppercase text-85"><tr>';
-                
+
                 $tabla .= ' 
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Ejecución</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción Realizada</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Evidencias</th>                           
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción</th>
-                            ';  
-                
-                $tabla .= '</tr></thead><tbody class="post-acciones">';
-                
-                foreach ($query->result_array() as $row)
-                {
+                            ';
 
-                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>'.$row['Id'].'</td><td>'.$row['Descripción'].'</td>';
-        
-                    $evidencias = explode(",", $row['Evidencias']) ;
+                $tabla .= '</tr></thead><tbody class="post-acciones">';
+
+                foreach ($query->result_array() as $row) {
+
+                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>' . $row['Id'] . '</td><td>' . $row['Descripción'] . '</td>';
+
+                    $evidencias = explode(",", $row['Evidencias']);
                     $tabla .= '<td class="text-nowrap"><div class="action-buttons">';
-                    if (is_array($evidencias)){
+                    if (is_array($evidencias)) {
                         foreach ($evidencias as $value) {
-                            $count ++;
+                            $count++;
                             $evidencia = $value;
                             $tabla .= '
-                            '.anchor(base_url().$evidencia, '<i class="fa fa-file"></i>', array('class'=>'btn btn-circle btn-outline-success','style'=>'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;','target'=>'_blank')).'
+                            ' . anchor(base_url() . $evidencia, '<i class="fa fa-file"></i>', array('class' => 'btn btn-circle btn-outline-success', 'style' => 'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;', 'target' => '_blank')) . '
                           
                             ';
                         }
-                        
-                    }else{
-                        foreach ((array)$evidencias as $value) {
+
+                    } else {
+                        foreach ((array) $evidencias as $value) {
                             $evidencia = $value;
                             $tabla .= '
-                            '.anchor(base_url().$evidencia, '<i class="fa fa-file"></i>', array('class'=>'btn btn-circle btn-outline-success','style'=>'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;','target'=>'_blank')).'';
-                        }                 
-                    }        
+                            ' . anchor(base_url() . $evidencia, '<i class="fa fa-file"></i>', array('class' => 'btn btn-circle btn-outline-success', 'style' => 'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;', 'target' => '_blank')) . '';
+                        }
+                    }
 
-                 $tabla .= '</div></td></tr>'; 
+                    $tabla .= '</div></td></tr>';
                 }
 
-                $tabla .= '</tbody>';   
+                $tabla .= '</tbody>';
                 echo $tabla;
             }
         }
@@ -442,32 +440,31 @@ class Plan_mejora extends CI_Controller
                 redirect(base_url());
             } else {
 
-                $id_plan = $this->input->post('idreg');   
+                $id_plan = $this->input->post('idreg');
                 $count = 0;
                 $tabla = '';
-                $evidencia='';
+                $evidencia = '';
 
-               $campos = 'pmg.fecha_registro AS "Id", pmg.acciones_realizadas AS "Descripción", pma.ruta_archivo AS "Evidencias"';
+                $campos = 'pmg.fecha_registro AS "Id", pmg.acciones_realizadas AS "Descripción", pma.ruta_archivo AS "Evidencias"';
 
-               $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_gestion pmg INNER JOIN planes_mejoras_anexos pma ON pma.id_gestion= pmg.id_gestion', 'pmg.id_plan = "' . $id_plan . '"', 'pmg.fecha_registro', 0, 0); 
+                $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_gestion pmg INNER JOIN planes_mejoras_anexos pma ON pma.id_gestion= pmg.id_gestion', 'pmg.id_plan = "' . $id_plan . '"', 'pmg.fecha_registro', 0, 0);
 
                 $tabla = ' <thead class="sticky-nav text-secondary-m1 text-uppercase text-85"><tr>';
-                
+
                 $tabla .= ' 
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Ejecución</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción Realizada</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Evidencias</th>
                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción</th>
-                            ';  
-                
-                $tabla .= '</tr></thead><tbody class="post-acciones">';
-                
-                foreach ($query->result_array() as $row)
-                {
+                            ';
 
-                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>'.$row['Id'].'</td><td>'.$row['Descripción'].'</td><td></td>';
-        
-                    
+                $tabla .= '</tr></thead><tbody class="post-acciones">';
+
+                foreach ($query->result_array() as $row) {
+
+                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>' . $row['Id'] . '</td><td>' . $row['Descripción'] . '</td><td></td>';
+
+
                     $tabla .= '<td class="text-nowrap"><div class="action-buttons">';
                     // if (is_array($evidencias)){
                     //     foreach ($evidencias as $value) {
@@ -475,10 +472,10 @@ class Plan_mejora extends CI_Controller
                     //         $evidencia = $value;
                     //         $tabla .= '
                     //         '.anchor(base_url().$evidencia, '<i class="fa fa-file"></i>', array('class'=>'btn btn-circle btn-outline-success','style'=>'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;','target'=>'_blank')).'
-                          
+
                     //         ';
                     //     }
-                        
+
                     // }else{
                     //     foreach ((array)$evidencias as $value) {
                     //         $evidencia = $value;
@@ -487,10 +484,10 @@ class Plan_mejora extends CI_Controller
                     //     }                 
                     // }        
 
-                 $tabla .= '</div></td></tr>'; 
+                    $tabla .= '</div></td></tr>';
                 }
 
-                $tabla .= '</tbody>';   
+                $tabla .= '</tbody>';
                 echo $tabla;
             }
         }
@@ -671,9 +668,9 @@ class Plan_mejora extends CI_Controller
     }
 
     //ASIGNACION DEL CODIGO DEL DOCUMENTO
-   
 
-    public function guardar_gestion()
+
+    public function guardar_gestion1()
     {
         if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
             redirect();
@@ -689,92 +686,92 @@ class Plan_mejora extends CI_Controller
                 $nomservicio = $this->input->post('nomservicio');
                 $archivo = '';
 
-            // ################################## SECCION PARA GUARDAR LA GESTION ##################################
+                // ################################## SECCION PARA GUARDAR LA GESTION ##################################
 
-                 $registro = array(
+                $registro = array(
 
                     'id_plan' => $idplan,
                     'acciones_realizadas' => $this->input->post('accionR'),
-                    'fecha_registro'=>$fecha, 
-                    'usuario_registro' => $this->session->userdata('C_id_usuario'),                    
+                    'fecha_registro' => $fecha,
+                    'usuario_registro' => $this->session->userdata('C_id_usuario'),
                     'estado' => '1'
                 );
 
-               $query = $this->general_model->insert('planes_mejoras_gestion', $registro);
-               
-            // ################################## SECCION PARA EL CARGUE DE ANEXOS ##################################
-               
+                $query = $this->general_model->insert('planes_mejoras_gestion', $registro);
+
+                // ################################## SECCION PARA EL CARGUE DE ANEXOS ##################################
+
                 if (!file_exists('archivos/')) {
                     mkdir('archivos/', 0777, true);
-                    if (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/')) {
-                        mkdir('archivos/'.$this->session->userdata('C_basedatos').'/', 0777, true);
-                        if (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/')) {
-                            mkdir('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/', 0777, true);
-                            if (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/')) {
-                                mkdir('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/', 0777, true);
+                    if (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/')) {
+                        mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/', 0777, true);
+                        if (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/')) {
+                            mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/', 0777, true);
+                            if (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/')) {
+                                mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/', 0777, true);
                             }
                         }
                     }
-                } elseif (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/')) {
-                    mkdir('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/', 0777, true); 
-                    if (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/')){
-                        mkdir('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/', 0777, true);
-                    }   
-                }elseif (!file_exists('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/')){
-                    mkdir('archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/', 0777, true);
+                } elseif (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/')) {
+                    mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/', 0777, true);
+                    if (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/')) {
+                        mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/', 0777, true);
+                    }
+                } elseif (!file_exists('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/')) {
+                    mkdir('archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/', 0777, true);
                 }
 
-                $ruta = './archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/'; 
-                $rutag='archivos/'.$this->session->userdata('C_basedatos').'/acciones_mejoras/'.$idplan.'/';
-                        
-                
+                $ruta = './archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/';
+                $rutag = 'archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $idplan . '/';
+
+
                 // $config = [
                 //     "upload_path" => $ruta,
                 //     "allowed_types" => "*"
                 // ];
 
-                $this->session->set_userdata('archivo_origen',"");
+                $this->session->set_userdata('archivo_origen', "");
                 $mensage = '';
 
-            // ################################## SECCION RECORRER EL CONTENIDO DEL INPUT FILE Y GUARDAR LOS DATOS EN BD ##################################    
+                // ################################## SECCION RECORRER EL CONTENIDO DEL INPUT FILE Y GUARDAR LOS DATOS EN BD ##################################    
                 $config = [
                     "upload_path" => $ruta,
                     "allowed_types" => "*"
                 ];
 
-                if(!empty($_FILES['evidencia2']['name']) && count(array_filter($_FILES['evidencia2']['name'])) > 0){ 
-                    $filesCount = count($_FILES['evidencia2']['name']); 
-                    $this->load->library('upload',$config);
+                if (!empty($_FILES['evidencia2']['name']) && count(array_filter($_FILES['evidencia2']['name'])) > 0) {
+                    $filesCount = count($_FILES['evidencia2']['name']);
+                    $this->load->library('upload', $config);
                     $this->upload->initialize($config);
-                    $var_file = $_FILES; 
-                    for($i = 0; $i < $filesCount; $i++){
-                        
+                    $var_file = $_FILES;
+                    for ($i = 0; $i < $filesCount; $i++) {
+
                         $_FILES['evidencia2']['name'] = $var_file['evidencia2']['name'][$i];
                         $_FILES['evidencia2']['type'] = $var_file['evidencia2']['type'][$i];
                         $_FILES['evidencia2']['tmp_name'] = $var_file['evidencia2']['tmp_name'][$i];
                         $_FILES['evidencia2']['error'] = $var_file['evidencia2']['error'][$i];
                         $_FILES['evidencia2']['size'] = $var_file['evidencia2']['size'][$i];
-                        
-                        if ($this->upload->do_upload('evidencia2')){                           
+
+                        if ($this->upload->do_upload('evidencia2')) {
                             $data = array('upload_data' => $this->upload->data());
-                            $filename = $rutag.$data['upload_data']['file_name'];   
-                           
-                           $registro1 = array(                 
-                            'id_gestion'=>$query, 
-                            'ruta_archivo'=>$filename,     
+                            $filename = $rutag . $data['upload_data']['file_name'];
+
+                            $registro1 = array(
+                                'id_gestion' => $query,
+                                'ruta_archivo' => $filename,
                             );
                             //echo print_r($registro1);
-                            $query1 = $this->general_model->insert('planes_mejoras_anexos',$registro1); 
-                        }else{
-                            $query ="error_file";
+                            $query1 = $this->general_model->insert('planes_mejoras_anexos', $registro1);
+                        } else {
+                            $query = "error_file";
                         }
                     }
-                    
-                } 
 
-                 // ################################## SECCION PARA GUARDAR LA GESTION ##################################
-                 
-                              
+                }
+
+                // ################################## SECCION PARA GUARDAR LA GESTION ##################################
+
+
                 if ($query >= 1) {
                     echo '1';
                 } else {
@@ -786,7 +783,9 @@ class Plan_mejora extends CI_Controller
                         case "-998":
                             echo $this->upload->display_errors($ruta);
                             break;
-                        case "error_file": echo $this->upload->display_errors(); break;
+                        case "error_file":
+                            echo $this->upload->display_errors();
+                            break;
                         default:
                             echo "Error: " . $query . " => " . $this->db->_error_message();
                             break;
@@ -797,7 +796,170 @@ class Plan_mejora extends CI_Controller
         }
     }
 
+   // =========================================================
+    // FUNCIÓN cargar_acciones (Actualizada para General_model)
+    // =========================================================
+    public function cargar_acciones()
+    {
+        if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
+            redirect(base_url());
+        else {
+            if (!$this->input->is_ajax_request()) {
+                redirect(base_url());
+            } else {
 
+                $id_plan = $this->input->post('idreg');
+                
+                $campos = 's.fecha_registro, a.descripcion AS actividad, s.avance_descripcion, s.cumplio_objetivo, s.observaciones_seguimiento, GROUP_CONCAT(an.ruta_archivo) AS anexos';
+                $tabla = 'planes_mejoras_seguimiento s INNER JOIN planes_mejoras_actividades a ON s.id_actividad = a.id_actividad LEFT JOIN planes_mejoras_anexos an ON an.id_gestion = s.id_seguimiento';
+                $condicion = 'a.id_plan = "' . $id_plan . '" GROUP BY s.id_seguimiento';
+                $orden = 's.fecha_registro DESC';
+                
+                // Usando tu General_model
+                $query = $this->general_model->consulta_personalizada($campos, $tabla, $condicion, $orden, 0, 0);
+
+                $tabla_html = '<thead class="sticky-nav text-secondary-m1 text-uppercase text-85"><tr>';
+                $tabla_html .= '<th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Reg.</th>
+                                <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Actividad y Avance</th>
+                                <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Evidencias</th>
+                                <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Cumplió</th>                           
+                                <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Obs</th>';
+                $tabla_html .= '</tr></thead><tbody class="post-acciones">';
+
+                if ($query->num_rows() > 0) {
+                    foreach ($query->result() as $row) {
+                        $color_cumplimiento = ($row->cumplio_objetivo == 'SI') ? 'badge-success' : (($row->cumplio_objetivo == 'NO') ? 'badge-danger' : 'badge-warning');
+                        
+                        $tabla_html .= '<tr class="d-style bgc-h-default-l4">';
+                        $tabla_html .= '<td>' . date('Y-m-d', strtotime($row->fecha_registro)) . '</td>';
+                        $tabla_html .= '<td><strong>' . $row->actividad . '</strong><br><small class="text-muted">' . $row->avance_descripcion . '</small></td>';
+                        
+                        $tabla_html .= '<td class="text-nowrap">';
+                        if ($row->anexos) {
+                            foreach (explode(',', $row->anexos) as $file) {
+                                $tabla_html .= anchor(base_url() . $file, '<i class="fa fa-file"></i>', array('class' => 'btn btn-xs btn-outline-success mr-1', 'target' => '_blank'));
+                            }
+                        }
+                        $tabla_html .= '</td>';
+                        
+                        $tabla_html .= '<td><span class="badge ' . $color_cumplimiento . '">' . $row->cumplio_objetivo . '</span></td>';
+                        
+                        // Botón para ver observación nativa de Bootstrap/Sweetalert
+                        $tabla_html .= '<td><button type="button" class="btn btn-xs btn-info" onclick="Swal.fire(\'Observación\', \''.$row->observaciones_seguimiento.'\', \'info\')"><i class="fa fa-search"></i></button></td>';
+                        $tabla_html .= '</tr>';
+                    }
+                } else {
+                    $tabla_html .= '<tr><td colspan="5" class="text-center">No hay gestiones registradas aún.</td></tr>';
+                }
+
+                $tabla_html .= '</tbody>';
+                echo $tabla_html;
+            }
+        }
+    }
+
+
+    // =========================================================
+    // FUNCIÓN guardar_gestion (Actualizada para General_model)
+    // =========================================================
+    public function guardar_gestion()
+    {
+        if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
+            redirect();
+        else {
+            if (!$this->input->is_ajax_request()) {
+                redirect();
+            } else {
+                
+                $id_plan = $this->input->post('idreg');
+                $estado = $this->input->post('estado');
+                $actividades_json = json_decode($this->input->post('actividades_data'));
+                
+                // Iniciar Transacción de BD
+                $this->db->trans_begin();
+
+                // 1. Actualizar estado general del plan usando tu modelo
+                $this->general_model->update('planes_mejoras', 'id_plan', $id_plan, ['estado' => $estado]);
+
+                if (is_array($actividades_json)) {
+                    foreach ($actividades_json as $act) {
+                        
+                        // 2. Insertar la actividad propuesta
+                        $data_actividad = [
+                            'id_plan'          => $id_plan,
+                            'descripcion'      => $act->descripcion,
+                            'id_responsable'   => $act->responsable,
+                            'fecha_compromiso' => $act->fecha,
+                            'estado_actividad' => ($act->gestion && $act->gestion->descripcion != "") ? 'Terminada' : 'Pendiente'
+                        ];
+                        
+                        // Usamos tu modelo que retorna el ID insertado
+                        $id_act_nueva = $this->general_model->insert('planes_mejoras_actividades', $data_actividad);
+
+                        // 3. Insertar Seguimiento si existe
+                        if ($act->gestion && $act->gestion->descripcion != "") {
+                            $data_seguimiento = [
+                                'id_actividad'              => $id_act_nueva,
+                                'avance_descripcion'        => $act->gestion->descripcion,
+                                'observaciones_seguimiento' => $act->gestion->observacion,
+                                'cumplio_objetivo'          => $act->gestion->cumplimiento,
+                                'fecha_registro'            => date('Y-m-d H:i:s'),
+                                'usuario_registro'          => $this->session->userdata('C_id_usuario')
+                            ];
+                            
+                            $id_seg_nuevo = $this->general_model->insert('planes_mejoras_seguimiento', $data_seguimiento);
+
+                            // 4. Subir y procesar archivos
+                            $campo_archivo = 'file_act_' . $act->temp_id;
+                            if (!empty($_FILES[$campo_archivo]['name'][0])) {
+                                
+                                $ruta_carpeta = './archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
+                                $rutag = 'archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
+
+                                if (!file_exists($ruta_carpeta)) {
+                                    mkdir($ruta_carpeta, 0777, true);
+                                }
+
+                                $config['upload_path'] = $ruta_carpeta;
+                                $config['allowed_types'] = '*';
+                                $this->load->library('upload', $config);
+                                
+                                $filesCount = count($_FILES[$campo_archivo]['name']);
+                                $var_file = $_FILES;
+
+                                for ($i = 0; $i < $filesCount; $i++) {
+                                    $_FILES['temp_file']['name'] = $var_file[$campo_archivo]['name'][$i];
+                                    $_FILES['temp_file']['type'] = $var_file[$campo_archivo]['type'][$i];
+                                    $_FILES['temp_file']['tmp_name'] = $var_file[$campo_archivo]['tmp_name'][$i];
+                                    $_FILES['temp_file']['error'] = $var_file[$campo_archivo]['error'][$i];
+                                    $_FILES['temp_file']['size'] = $var_file[$campo_archivo]['size'][$i];
+
+                                    if ($this->upload->do_upload('temp_file')) {
+                                        $data = $this->upload->data();
+                                        $filename = $rutag . $data['file_name'];
+
+                                        $this->general_model->insert('planes_mejoras_anexos', [
+                                            'id_gestion' => $id_seg_nuevo,
+                                            'ruta_archivo' => $filename
+                                        ]);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // Evaluar la transacción
+                if ($this->db->trans_status() === FALSE) {
+                    $this->db->trans_rollback();
+                    echo "Error en la base de datos al procesar el plan.";
+                } else {
+                    $this->db->trans_commit();
+                    echo "1";
+                }
+            }
+        }
+    }
     public function pdf()
     {
         if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
@@ -905,7 +1067,6 @@ class Plan_mejora extends CI_Controller
             } //-Valida Envio por ajax
         } //-Valida Inicio de Session
     }
-
     public function actualizar()
     {
         if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
@@ -1030,7 +1191,7 @@ class Plan_mejora extends CI_Controller
                                     $query = $this->general_model->insert('documentos_empleados', $registro);
                                 }
                             } else {
-                                foreach ((array)$id_empleado as $value) {
+                                foreach ((array) $id_empleado as $value) {
                                     $idempleado = $value;
                                     $registro = array(
                                         'id_documento' => $iddocumento,
@@ -1060,7 +1221,7 @@ class Plan_mejora extends CI_Controller
                                     $query = $this->general_model->insert('documentos_cargos', $registro);
                                 }
                             } else {
-                                foreach ((array)$id_cargo as $value) {
+                                foreach ((array) $id_cargo as $value) {
                                     $idcargo = $value;
                                     $registro = array(
                                         'id_documento' => $iddocumento,
@@ -1091,7 +1252,7 @@ class Plan_mejora extends CI_Controller
                                     $query = $this->general_model->insert('documentos_areas', $registro);
                                 }
                             } else {
-                                foreach ((array)$id_departamento as $value) {
+                                foreach ((array) $id_departamento as $value) {
                                     $iddepartamento = $value;
                                     $registro = array(
                                         'id_documento' => $iddocumento,
@@ -1162,7 +1323,6 @@ class Plan_mejora extends CI_Controller
         }
     }
 
-
     public function cargarEmpleados()
     {
         if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
@@ -1185,7 +1345,6 @@ class Plan_mejora extends CI_Controller
             echo json_encode($arrjson);
         }
     }
-
 
 
     public function sendEmail($Para, $Asunto, $cuerpo, $Cabeceras)

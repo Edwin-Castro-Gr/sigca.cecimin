@@ -57,7 +57,6 @@ $opctipo = array(
                             <section id="sec_Rondas">
                                 <div class="card ccard h-100">
                                     <div class="card-header border-0 text-dark-m2">
-                                        <!-- Header content for Rondas -->
                                     </div>
                                     <div class="card-body px-1 px-md-3">
                                         <div class="form-group row" id="div_servicio">
@@ -133,7 +132,6 @@ $opctipo = array(
 
                         <?php if($c_idtipoF == '1'): ?>
                             <section id="sec_Quejas">
-                                <!-- Contenido para Quejas -->
                             </section>
                         <?php endif; ?>
                         
@@ -141,7 +139,6 @@ $opctipo = array(
                             <section id="sec_SucesosS">
                                 <div class="card ccard h-100">
                                     <div class="card-header border-0 text-dark-m2">
-                                        <!-- Header content for Sucesos -->
                                     </div>
                                     <div class="card-body px-1 px-md-3">
                                         <div class="form-group row" id="div_servicio">
@@ -223,27 +220,11 @@ $opctipo = array(
                             </section>
                         <?php endif; ?>
 
-                        <!-- Secciones adicionales (vacías por ahora) -->
-                        <?php if($c_idtipoF == '3'): ?>
-                            <section id="sec_Por_Auditorias"></section>
-                        <?php endif; ?>
-                        <?php if($c_idtipoF == '4'): ?>
-                            <section id="sec_Por_Indicadores"></section>
-                        <?php endif; ?>
-
-                        <?php if($c_idtipoF == '5'): ?>
-                            <section id="sec_Por_Comites"></section>
-                        <?php endif; ?>
-
-                        <?php if($c_idtipoF == '6'): ?>
-                            <section id="sec_Accidente_de_Trabajo"></section>
-                        <?php endif; ?>
-                        <!-- IDENTIFICACIÓN DE LAS CAUSAS ( No se aplica para acción de mejora) -->
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
                                     <i class="far fa-edit text-dark-l3 mr-1"></i>
-                                    IDENTIFICACIÓN DE LAS CAUSAS ( No se aplica para acción de mejora)
+                                    IDENTIFICACIÓN DE LAS CAUSAS
                                 </h3>
                             </div>
                             <div class="card-body px-3 pb-1">
@@ -252,7 +233,6 @@ $opctipo = array(
                                         <tr>
                                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm " width="10%" style="text-align: center;">#</th>
                                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm" width="100%" style="text-align: center;">IDENTIFICACIÓN DE LAS CAUSAS</th> 
-                                            
                                         </tr>
                                     </thead>
                                     <tbody class="pos-causas">
@@ -282,7 +262,6 @@ $opctipo = array(
                             </div>
                         </div>
 
-                        <!-- Actividades a Realizar -->
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
@@ -323,7 +302,6 @@ $opctipo = array(
                             </div>
                         </div>
 
-                        <!-- Gestión de Actividades -->
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
@@ -332,7 +310,7 @@ $opctipo = array(
                                 </h3>
                             </div>
                             <div class="card-body px-3 pb-1">
-                                <table id="actividades-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:80%">
+                                <table id="actividades-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:100%">
                                     <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                         <tr>
                                             <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">#</th>
@@ -343,13 +321,11 @@ $opctipo = array(
                                         </tr>
                                     </thead>
                                     <tbody class="pos-actividades">
-                                        <!-- Las actividades se insertarán aquí dinámicamente -->
-                                    </tbody>
+                                        </tbody>
                                 </table>
                             </div>
                         </div>
 
-                        <!-- Seguimiento de Actividades -->
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
@@ -360,25 +336,24 @@ $opctipo = array(
                             <div class="card-body px-3 pb-1">
                                 <div class="row">
                                     <div class="col-12">
-                                        <table id="acciones-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:80%">
+                                        <table id="acciones-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:100%">
                                             <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                                 <tr>
-                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha</th>
-                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción Realizada</th>
+                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Reg.</th>
+                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Actividad y Avance</th>
                                                     <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Evidencia</th>
-                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Estado</th>
+                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Cumplió</th>
+                                                    <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción</th>
                                                 </tr>
                                             </thead>
                                             <tbody class="pos-acciones">
-                                                <!-- Las acciones de seguimiento se insertarán aquí dinámicamente -->
-                                            </tbody>
+                                                </tbody>
                                         </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Estado -->
                         <div class="form-group row" id="div_estado">
                             <div class="col-sm-2 col-form-label text-sm-right pr-0">
                                 <?= form_label('Estado', 'estado', array('class' => 'mb-0')); ?>
@@ -388,10 +363,9 @@ $opctipo = array(
                             </div>
                         </div>
 
-                        <!-- Botones de acción -->
                         <div class="mt-5 border-t-1 bgc-secondary-l4 brc-secondary-l2 py-35 mx-n25">
                             <div class="offset-md-3 col-md-9 text-nowrap">
-                                <?= form_button(array('type' => 'button', 'id' => 'btn_guardar_gest', 'name' => 'btn_guardar_gest', 'content' => '<i class="fa fa-check mr-1"></i>Guardar', 'class' => 'btn btn-info btn-bold px-4')); ?>
+                                <?= form_button(array('type' => 'button', 'id' => 'btn_guardar_gest', 'name' => 'btn_guardar_gest', 'content' => '<i class="fa fa-check mr-1"></i>Guardar Gestión', 'class' => 'btn btn-info btn-bold px-4')); ?>
                                 <?= anchor(base_url('plan_mejora/index'), '<i class="fa fa-undo mr-1"></i> Cancelar', array('class' => 'btn btn-danger btn-rounded m-t-10')); ?>
                             </div>
                         </div>
@@ -403,37 +377,66 @@ $opctipo = array(
     </div>
 </div>
 
-<!-- Modal Ver Registro -->
-<div id="view-registro" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div id="modalGestionActividad" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            <div class="modal-header card-success">
-                <h4 class="modal-title text-blue" id="myModalLabel">Gestión de Actividades</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-header bgc-info-tp1">
+                <h4 class="modal-title text-white">Registrar Avance de Actividad</h4>
+                <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
             </div>
-            <div class="modal-body" id="modalFormBody">
-                <form class="form-horizontal m-t-20" id="modalForm1">
-                    <div class="card dcard">
-                        <div class="form-group row" id="div_accionRealizada">
-                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
-                                <?= form_label('Acciones realizadas *', 'accionR', array('class' => 'mb-0')); ?>
-                            </div>
-                            <div class="col-sm-10">
-                                <?= form_textarea(array('rows' => '4', 'name' => 'accionR', 'id' => 'accionR', 'class' => 'form-control col-sm-12 col-md-10 UpperCase', 'value' => '')); ?>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-sm-2 col-form-label text-sm-right pr-0"></div>
-                            <div class="col-sm-8 text-center">
-                                <?= form_upload(array('type' => 'file', 'name' => 'evidencia2[]', 'id' => 'evidencia2', 'class' => 'form-control ace-file-input', 'multiple' => 'multiple')); ?>
-                            </div>
-                        </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <div class="col-sm-3 text-sm-right">Descripción del Avance:</div>
+                    <div class="col-sm-9">
+                        <textarea id="modal_avance_desc" class="form-control" rows="3"></textarea>
                     </div>
-                </form>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-3 text-sm-right">Evidencias:</div>
+                    <div class="col-sm-9">
+                        <input type="file" id="modal_evidencia_act" class="ace-file-input" multiple />
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal" id="btn_cancelar_modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-info" id="btnGuardarAvanceTemporal">Guardar Temporal</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modalObservacionSeguimiento" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow radius-1">
+            <div class="modal-header bgc-primary-tp1">
+                <h5 class="modal-title text-white">
+                    <i class="fa fa-clipboard-check mr-2"></i>
+                    Evaluación de Actividad
+                </h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body bgc-white">
+                <div class="form-group">
+                    <label class="text-600 text-primary-d1">Observaciones de Seguimiento:</label>
+                    <textarea id="obs_seguimiento_txt" class="form-control brc-primary-m3" rows="4" placeholder="Escriba aquí los detalles del cumplimiento o motivos del retraso..."></textarea>
+                </div>
+
+                <div class="form-group mt-3">
+                    <label class="text-600 text-primary-d1">¿Cumplió con el objetivo?</label>
+                    <select id="evaluacion_objetivo" class="form-control brc-primary-m3">
+                        <option value="">Seleccione una evaluación</option>
+                        <option value="SI">SÍ - Objetivo alcanzado</option>
+                        <option value="NO">NO - No se evidencian mejoras</option>
+                        <option value="PARCIAL">PARCIAL - En proceso de mejora</option>
+                    </select>
+                </div>
+            </div>
+            <div class="modal-footer bgc-grey-l4">
+                <button type="button" class="btn btn-secondary px-4" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary px-4" id="btnAceptarObservacion">Aceptar</button>
             </div>
         </div>
     </div>
