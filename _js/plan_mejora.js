@@ -348,6 +348,209 @@ $(function () {
             const ruta = $(event.target).closest('.btn-ver-evidencia').data('ruta');
             window.open(ruta, '_blank');
         }
+        
+        if (datos[0] == "btnMejora") {
+
+            var id_resp = datos[1];
+            $.post("/r_gestion/datos_respuestas", {
+                idreg: "" + id_resp + ""
+            }, function (data_preg) {
+
+                $("#idregistro").val(id_resp);
+                $("#txtservicio").val(data_preg['datos_resp'].servicio);
+                $("#txtronda").val(data_preg['datos_resp'].ronda);
+                $("#txtseccion").val(data_preg['datos_resp'].seccion);
+                $("#txtpregunta").val(data_preg['datos_resp'].pregunta);
+                $("#txthallazgo").val(data_preg['datos_resp'].hallazgo);
+                $("#txtservicio").css('disabled', true);
+
+                $("#txtservicio").prop("disabled", true);
+                $("#txtronda").prop("disabled", true);
+                $("#txtseccion").prop("disabled", true);
+                $("#txtpregunta").prop("disabled", true);
+
+                $('#btn_guardar_accion').css("display", "block");
+                $('#btn_actualizar_accion').css("display", "none");
+
+                $('#ModalAccionM').modal({
+                    show: true,
+                    keyboard: false
+                });
+
+            });
+        }
+
+        if (dato == "btn_guardar_accion") {
+            var ban = 0;
+            var texto = '';
+            if (($('#nombre').val() == "")) {
+                $('#nombre').addClass("brc-danger");
+                texto = texto + "* El nombre es obligatorio!<br>";
+                ban = 1;
+            }
+            if ($('#empleados_rondas').val() == "") {
+                $('#empleados_rondas').addClass("brc-danger");
+                texto = texto + "* El Macroproceso es obligatorio!";
+                ban = 1;
+            }
+
+            if ($('#periocidad').val() == "") {
+                $('#periocidad').addClass("brc-danger");
+                texto = texto + "* La Periocidad es obligatoria!<br>";
+                ban = 1;
+            }
+
+            if ($('#veces').val() == "") {
+                $('#veces').addClass("brc-danger");
+                texto = texto + "* NÃºmero de veces es obligatorio!<br>";
+                ban = 1;
+            }
+
+            if (ban == 1) {
+                Swal.fire("¡Atención!", texto, "warning");
+            } else {
+                //alert("Datos: "+datos_form);
+                Swal.fire({
+                    title: "Por favor espere!",
+                    text: "Actualizando la información.",
+                    showConfirmButton: false
+                });
+                var datos_form = $("#form_Accion").serialize();
+                $.post("/r_gestion/guardar_accion", datos_form, function (data_form) {
+                    Swal.close();
+                    if (data_form == "1") {
+                        //jQuery(function(){
+                        Swal.fire({
+                            title: "¡Correcto!",
+                            text: "Registro guardado correctamente!",
+                            icon: "success"
+                        })
+                            .then((willDelete) => {
+                                $('#form_Accion')[0].reset();
+
+                                $('#ModalAccionM').modal('hide');
+                            });
+
+                    } else {
+                        Swal.fire("¡Error!", data_form, "error");
+                    }
+                });
+                return false;
+            }
+            return false;
+        }
+
+        if (datos[0] == "btndetalle") {
+            idreg = datos[1];
+            $.post("/r_gestion/cargar_detalle", { idfuente: "" + idreg + "" }, function (data_form) {
+                $('#pos-det').html(data_form);
+            });
+
+            $('#Modaldetalle').modal({
+                show: true,
+                keyboard: false
+            });
+            return false;
+        }
+
+        if (datos[0] == "btnEvidencia") {
+            imgEvidencia = datos[1];
+
+            $('#imgEvidencia').attr('src', '' + imgEvidencia + '');
+
+            $('#ModalEvidencia').modal({
+                show: true,
+                keyboard: false
+            });
+        }
+
+        if (datos[0] == "btngestionar") {
+            idreg = datos[1];
+            idfuente = datos[2];
+
+            window.open(`/plan_mejora/gestionar/?idreg=${idreg}&idfuente=${idfuente}`, '_parent');
+
+        }
+
+        if (datos[0] == "btninactivar") {
+            //jQuery(function(){
+            var id_reg = datos[1];
+            var nom_reg = $('#nombre_' + id_reg).val();
+
+        }
+
+        
+        if (dato == "btn_consultar") {
+
+            var texto = "";
+            var ban = 0;
+            var conI = 1;
+
+            var id_ronda = $('#rondas_informes').val();
+
+            var id_servicio = $('#servicio').val();
+
+
+
+            if (id_ronda == "" || id_ronda == null) {
+                $('#rondas_informesIII').addClass("brc-danger");
+                texto = texto + "* La Ronda es obligatoria!<br>";
+                ban = 1;
+            }
+
+            if (id_servicio == "" || id_servicio == null) {
+                $('#servicioIII').addClass("brc-danger");
+                texto = texto + "* El Servicio es obligatorio!<br>";
+                ban = 1;
+            }
+
+            if (ban == 1) {
+                Swal.fire("¡Atención!", texto, "warning");
+            } else {
+                //alert("Datos: "+datos_form);
+                Swal.fire({
+                    title: "Por favor espere!",
+                    text: "Cargando la información de la consulta.",
+                    showConfirmButton: false
+                });
+
+                $.post("/plan_mejora/cargar_inf_nocumple", {
+                    id_ronda: "" + id_ronda + "",
+                    id_servicio: "" + id_servicio + "",
+                    fechaIniI: "" + fechaIni + "",
+                    fechaFinI: "" + fechaFin + "",
+
+
+                }, function (data_preg) {
+
+                    $("#HallazgoRondas-table").DataTable().destroy();
+                    $("#HallazgoRondas-table").empty();
+                    $("#HallazgoRondas-table").append(data_preg);
+                    $('#HallazgoRondas-table').DataTable({
+                        "language": {
+                            "lengthMenu": "Mostrar _MENU_ registros por pagina",
+                            "zeroRecords": "No se encontraron resultados en su busqueda",
+                            "searchPlaceholder": "Buscar registros",
+                            "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                            "infoEmpty": "No existen registros",
+                            "infoFiltered": "(filtrado de _MAX_ registros)",
+                            "search": "Buscar:",
+                            "paginate": {
+                                "first": "Primero",
+                                "last": "Último",
+                                "next": "Siguiente",
+                                "previous": "Anterior"
+                            },
+                        },
+                        responsive: true
+                    });
+                    $('[data-toggle="tooltip"]').tooltip();
+                });
+                Swal.close();
+            }
+
+        }
+
 
         // ... resto de tus eventos (btndetalle, btnMejora, etc) ...
     });
@@ -356,6 +559,48 @@ $(function () {
         let dato = event.target.id;
         if (dato == "tipo_fuente") {
             cargar_listado($("#tipo_fuente").val());
+        }
+        
+        if (dato == "tipo_fuenteN") {
+            var tipo_fuenteN = $("#tipo_fuenteN").val();
+
+            switch (tipo_fuenteN) {
+                case '0':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE RONDAS DE SEGURIDAD
+                    ocultar_secciones();
+                    $("#sec_Rondas").css('display', 'block');
+                    break;
+                case '1':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE QUEJAS
+                    ocultar_secciones();
+                    $("#sec_Quejas").css('display', 'block');
+                    break;
+
+                case '2':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE INCIDENTES
+                    ocultar_secciones();
+                    $("#sec_SucesosS").css('display', 'block');
+                    break;
+
+                case '3':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE EVENTOS ADVERSOS
+                    ocultar_secciones();
+                    $("#sec_Por_Auditorias").css('display', 'block');
+                    break;
+
+                case '4':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE ACTOS INSEGUROS
+                    ocultar_secciones();
+                    $("#sec_Por_Indicadores").css('display', 'block');
+                    break;
+
+                case '5':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE AUDITORIAS 
+                    ocultar_secciones();
+                    $("#sec_Por_Comites").css('display', 'block');
+                    break;
+
+                case '6':   // CARGAR FORMULARIO DE CAPTURA DE DATOS FUENTE INDICADORES
+                    ocultar_secciones();
+                    $("#sec_Accidente_de_Trabajo").css('display', 'block');
+                    break;
+                default:
+                    ocultar_secciones();
+            }
         }
     });
 
@@ -386,4 +631,8 @@ $(function () {
     function ocultar_secciones() {
         $("#sec_Rondas, #sec_Quejas, #sec_SucesosS, #sec_Por_Auditorias, #sec_Por_Indicadores, #sec_Por_Comites, #sec_Accidente_de_Trabajo").css('display', 'none');
     }
+    
+    $('input[type=text], input[type=email], input[type=password], select, select2, input[type=number]').on("change", function (event) {
+        $('#' + event.target.id).removeClass("brc-danger");
+    });
 });
