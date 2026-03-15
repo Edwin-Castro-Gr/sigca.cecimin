@@ -89,6 +89,19 @@ $(function () {
             $("#acciones-table").empty();
             $("#acciones-table").append(data_carg1);
         }); 
+        
+        var id_plan = $('#idreg').val();
+        
+        // 1. Cargar Actividades que ya estén en la base de datos
+        $.post("/plan_mejora/cargar_actividades_plan", { idreg: id_plan }, function (data_act) {
+            $("#actividades-table tbody").empty().append(data_act);
+        });
+
+        // 2. Cargar Seguimiento
+        $.post("/plan_mejora/cargar_acciones", { idreg: id_plan }, function (data_carg1) {
+            $("#acciones-table tbody").empty().append(data_carg1);
+        });
+
 
         let contador = 1;
 
@@ -127,6 +140,7 @@ $(function () {
         function agregarFilaActividad(id, descripcion, idresponsable, responsable, fechaComp) {
             const fila = document.createElement('tr');
             fila.dataset.id = id;
+            fila.dataset.db = "0"; // NUEVO: Indica que es nueva y aún no está en la BD
 
             const colNum = document.createElement('td');
             colNum.textContent = id;
@@ -248,6 +262,20 @@ $(function () {
         let mensaje = "";
         let error = false;
 
+        // Validar los 5 porqués si no están bloqueados (readonly)
+        if (!$('#porque1').prop('readonly')) {
+            let causasVacias = false;
+            for (let i = 1; i <= 5; i++) {
+                if ($('#porque' + i).val().trim() === "") {
+                    causasVacias = true;
+                }
+            }
+            if (causasVacias) {
+                mensaje += "* Debe completar todos los 5 'Por qué' en el análisis de causas.<br>";
+                error = true;
+            }
+        }
+
         if ($('#estado').val() === "") {
             mensaje += "* Debe seleccionar un estado general para el plan.<br>";
             error = true;
@@ -292,8 +320,11 @@ $(function () {
         let listaActividades = [];
         $('#actividades-table tbody tr').each(function () {
             const id = $(this).data('id');
+            const isDb = $(this).data('db') == "1" ? 1 : 0; // RECOLECTA EL DATO DE SI ESTÁ EN BD O ES NUEVO
+
             listaActividades.push({
                 temp_id: id,
+                is_db: isDb, // ENVÍA AL PHP
                 descripcion: $(this).find('.desc').text(),
                 responsable: $(this).find('input[type="hidden"]').val(),
                 fecha: $(this).find('.fecha').text(),

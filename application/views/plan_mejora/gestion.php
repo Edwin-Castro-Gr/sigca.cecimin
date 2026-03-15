@@ -219,7 +219,6 @@ $opctipo = array(
                                 </div>
                             </section>
                         <?php endif; ?>
-
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
@@ -228,6 +227,7 @@ $opctipo = array(
                                 </h3>
                             </div>
                             <div class="card-body px-3 pb-1">
+                                <?php $readonly = ($tiene_causas) ? 'readonly' : ''; ?>
                                 <table id="causas-table" class="table border-0 table-bordered brc-black-tp11 bgc-white" style="width:100%">
                                     <thead class="sticky-nav text-secondary-m1 text-uppercase text-85">
                                         <tr>
@@ -238,30 +238,28 @@ $opctipo = array(
                                     <tbody class="pos-causas">
                                         <tr>
                                             <td>PORQUE 1</td>
-                                             <td><?= form_input(array('type' => 'text', 'name' => 'porque1', 'id' => 'porque1', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?>
-                                           </td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque1', 'id' => 'porque1', 'class' => 'form-control col-sm-12 col-md-12 UpperCase', 'value' => $c_causa_1, $readonly => $readonly)); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 2</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque2', 'id' => 'porque2', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque2', 'id' => 'porque2', 'class' => 'form-control col-sm-12 col-md-12 UpperCase', 'value' => $c_causa_2, $readonly => $readonly)); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 3</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque3', 'id' => 'porque3', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque3', 'id' => 'porque3', 'class' => 'form-control col-sm-12 col-md-12 UpperCase', 'value' => $c_causa_3, $readonly => $readonly)); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 4</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque4', 'id' => 'porque4', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque4', 'id' => 'porque4', 'class' => 'form-control col-sm-12 col-md-12 UpperCase', 'value' => $c_causa_4, $readonly => $readonly)); ?></td>
                                         </tr>
                                         <tr>
                                             <td>PORQUE 5</td>
-                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque5', 'id' => 'porque5', 'class' => 'form-control col-sm-12 col-md-12', 'value' => '')); ?></td>
+                                            <td><?= form_input(array('type' => 'text', 'name' => 'porque5', 'id' => 'porque5', 'class' => 'form-control col-sm-12 col-md-12 UpperCase', 'value' => $c_causa_5, $readonly => $readonly)); ?></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
-
                         <div class="card dcard">
                             <div class="card-header">
                                 <h3 class="card-title text-125 text-primary-d2">
