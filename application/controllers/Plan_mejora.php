@@ -369,68 +369,6 @@ class Plan_mejora extends CI_Controller
         }
     }
 
-    public function cargar_acciones()
-    {
-        if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
-            redirect(base_url());
-        else {
-            if (!$this->input->is_ajax_request()) {
-                redirect(base_url());
-            } else {
-
-                $id_plan = $this->input->post('idreg');
-                $count = 0;
-                $tabla = '';
-                $evidencia = '';
-
-                $campos = 'pmg.fecha_registro AS "Id", pmg.acciones_realizadas AS "Descripción", pma.ruta_archivo AS "Evidencias"';
-
-                $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_gestion pmg INNER JOIN planes_mejoras_anexos pma ON pma.id_gestion= pmg.id_gestion', 'pmg.id_plan = "' . $id_plan . '"', 'pmg.fecha_registro', 0, 0);
-
-                $tabla = ' <thead class="sticky-nav text-secondary-m1 text-uppercase text-85"><tr>';
-
-                $tabla .= ' 
-                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Fecha Ejecución</th>
-                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción Realizada</th>
-                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Evidencias</th>                           
-                            <th class="border-0 bgc-white bgc-h-yellow-l3 shadow-sm">Acción</th>
-                            ';
-
-                $tabla .= '</tr></thead><tbody class="post-acciones">';
-
-                foreach ($query->result_array() as $row) {
-
-                    $tabla .= '<tr class="d-style bgc-h-default-l4"><td>' . $row['Id'] . '</td><td>' . $row['Descripción'] . '</td>';
-
-                    $evidencias = explode(",", $row['Evidencias']);
-                    $tabla .= '<td class="text-nowrap"><div class="action-buttons">';
-                    if (is_array($evidencias)) {
-                        foreach ($evidencias as $value) {
-                            $count++;
-                            $evidencia = $value;
-                            $tabla .= '
-                            ' . anchor(base_url() . $evidencia, '<i class="fa fa-file"></i>', array('class' => 'btn btn-circle btn-outline-success', 'style' => 'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;', 'target' => '_blank')) . '
-                          
-                            ';
-                        }
-
-                    } else {
-                        foreach ((array) $evidencias as $value) {
-                            $evidencia = $value;
-                            $tabla .= '
-                            ' . anchor(base_url() . $evidencia, '<i class="fa fa-file"></i>', array('class' => 'btn btn-circle btn-outline-success', 'style' => 'width: 30px; height: 30px; padding: 2px 1px;font-size: 18px;', 'target' => '_blank')) . '';
-                        }
-                    }
-
-                    $tabla .= '</div></td></tr>';
-                }
-
-                $tabla .= '</tbody>';
-                echo $tabla;
-            }
-        }
-    }
-
     public function cargar_actividades()
     {
         if (!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario') == "")
