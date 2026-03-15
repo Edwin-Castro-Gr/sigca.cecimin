@@ -121,6 +121,11 @@ class Plan_mejora extends CI_Controller
             $id = $this->input->get('idreg');
             $idfuente = $this->input->get('idfuente');
 
+            
+
+            // (Aquí continúan tus helpers y la carga de la vista...)
+            $this->load->helper('funciones_select');
+
             $data_usua['c_id_mejora'] = $id;
             $data_usua['c_idtipoF'] = $idfuente;
             $data_usua['c_idtipoAccion'] = '';
@@ -226,10 +231,24 @@ class Plan_mejora extends CI_Controller
                         // code...
                         break;
                 }
+                // NUEVO: Verificar si ya existen causas (Los 5 porqués) en planes_mejora_analisis
+                $data_usua['c_causa_1'] = '';
+                $data_usua['c_causa_2'] = '';
+                $data_usua['c_causa_3'] = '';
+                $data_usua['c_causa_4'] = '';
+                $data_usua['c_causa_5'] = '';
+                $data_usua['tiene_causas'] = false;
 
-
-
-
+                $causas_query = $this->general_model->consulta_personalizada('*', 'planes_mejora_analisis', 'id_plan = "'.$id.'"', '', 0, 0);
+                if ($causas_query->num_rows() > 0) {
+                    $row_c = $causas_query->row();
+                    $data_usua['c_causa_1'] = $row_c->causa_1;
+                    $data_usua['c_causa_2'] = $row_c->causa_2;
+                    $data_usua['c_causa_3'] = $row_c->causa_3;
+                    $data_usua['c_causa_4'] = $row_c->causa_4;
+                    $data_usua['c_causa_5'] = $row_c->causa_5;
+                    $data_usua['tiene_causas'] = true; // Bandera para la vista
+                }  
             }
 
             $this->load->helper('funciones_select');
@@ -809,82 +828,105 @@ class Plan_mejora extends CI_Controller
                 redirect();
             } else {
                 
-                $id_plan = $this->input->post('idreg');
-                $estado = $this->input->post('estado');
-                $actividades_json = json_decode($this->input->post('actividades_data'));
+                $$id_plan = $this->input->post('idreg');
+        $estado = $this->input->post('estado');
+        $actividades_json = json_decode($this->input->post('actividades_data'));
+        
+        $this->db->trans_begin();
+
+        $this->general_model->update('planes_mejoras', 'id_plan', $id_plan, ['estado' => $estado]);
+
+        // 1. Guardar Causas si NO existen
+        $query_causas = $this->general_model->consulta_personalizada('id_pm_causas', 'planes_mejora_analisis', 'id_plan = "'.$id_plan.'"', '', 0, 0);
+        if ($query_causas->num_rows() == 0) {
+            $data_causas = [
+                'id_plan' => $id_plan,
+                'causa_1' => $this->input->post('porque1'),
+                'causa_2' => $this->input->post('porque2'),
+                'causa_3' => $this->input->post('porque3'),
+                'causa_4' => $this->input->post('porque4'),
+                'causa_5' => $this->input->post('porque5')
+            ];
+            $this->general_model->insert('planes_mejora_analisis', $data_causas);
+        }
+
+        // 2. Procesar Actividades y Seguimientos
+        if (is_array($actividades_json)) {
+            foreach ($actividades_json as $act) {
                 
-                // Iniciar Transacción de BD
-                $this->db->trans_begin();
+                if (isset($act->is_db) && $act->is_db == 1) {
+                    // LA ACTIVIDAD YA EXISTE EN BD. Solo actualizamos estado a terminada si le hicieron gestión
+                    $id_act_nueva = $act->temp_id; 
+                    if ($act->gestion && $act->gestion->descripcion != "") {
+                        $this->general_model->update('planes_mejoras_actividades', 'id_actividad', $id_act_nueva, ['estado_actividad' => 'Terminada']);
+                    }
+                } else {
+                    // ES UNA ACTIVIDAD NUEVA. Se inserta primero
+                    $data_actividad = [
+                        'id_plan'          => $id_plan,
+                        'descripcion'      => $act->descripcion,
+                        'id_responsable'   => $act->responsable,
+                        'fecha_compromiso' => $act->fecha,
+                        'estado_actividad' => ($act->gestion && $act->gestion->descripcion != "") ? 'Terminada' : 'Pendiente'
+                    ];
+                    $id_act_nueva = $this->general_model->insert('planes_mejoras_actividades', $data_actividad);
+                }
 
-                // 1. Actualizar estado general del plan usando tu modelo
-                $this->general_model->update('planes_mejoras', 'id_plan', $id_plan, ['estado' => $estado]);
+                // 3. Insertar Seguimiento si hay datos del modal
+                if ($act->gestion && $act->gestion->descripcion != "") {
+                    $data_seguimiento = [
+                        'id_actividad'              => $id_act_nueva,
+                        'avance_descripcion'        => $act->gestion->descripcion,
+                        'observaciones_seguimiento' => $act->gestion->observacion,
+                        'cumplio_objetivo'          => $act->gestion->cumplimiento,
+                        'fecha_registro'            => date('Y-m-d H:i:s'),
+                        'usuario_registro'          => $this->session->userdata('C_id_usuario')
+                    ];
+                    
+                    $id_seg_nuevo = $this->general_model->insert('planes_mejoras_seguimiento', $data_seguimiento);
 
-                if (is_array($actividades_json)) {
-                    foreach ($actividades_json as $act) {
+                    // Subir Archivos asociados
+                    $campo_archivo = 'file_act_' . $act->temp_id;
+                    if (!empty($_FILES[$campo_archivo]['name'][0])) {
+                        $ruta_carpeta = './archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
+                        $rutag = 'archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
+                        if (!file_exists($ruta_carpeta)) mkdir($ruta_carpeta, 0777, true);
+
+                        $config['upload_path'] = $ruta_carpeta;
+                        $config['allowed_types'] = '*';
+                        $this->load->library('upload', $config);
                         
-                        // 2. Insertar la actividad propuesta
-                        $data_actividad = [
-                            'id_plan'          => $id_plan,
-                            'descripcion'      => $act->descripcion,
-                            'id_responsable'   => $act->responsable,
-                            'fecha_compromiso' => $act->fecha,
-                            'estado_actividad' => ($act->gestion && $act->gestion->descripcion != "") ? 'Terminada' : 'Pendiente'
-                        ];
-                        
-                        // Usamos tu modelo que retorna el ID insertado
-                        $id_act_nueva = $this->general_model->insert('planes_mejoras_actividades', $data_actividad);
+                        $filesCount = count($_FILES[$campo_archivo]['name']);
+                        $var_file = $_FILES;
 
-                        // 3. Insertar Seguimiento si existe
-                        if ($act->gestion && $act->gestion->descripcion != "") {
-                            $data_seguimiento = [
-                                'id_actividad'              => $id_act_nueva,
-                                'avance_descripcion'        => $act->gestion->descripcion,
-                                'observaciones_seguimiento' => $act->gestion->observacion,
-                                'cumplio_objetivo'          => $act->gestion->cumplimiento,
-                                'fecha_registro'            => date('Y-m-d H:i:s'),
-                                'usuario_registro'          => $this->session->userdata('C_id_usuario')
-                            ];
-                            
-                            $id_seg_nuevo = $this->general_model->insert('planes_mejoras_seguimiento', $data_seguimiento);
+                        for ($i = 0; $i < $filesCount; $i++) {
+                            $_FILES['temp_file']['name'] = $var_file[$campo_archivo]['name'][$i];
+                            $_FILES['temp_file']['type'] = $var_file[$campo_archivo]['type'][$i];
+                            $_FILES['temp_file']['tmp_name'] = $var_file[$campo_archivo]['tmp_name'][$i];
+                            $_FILES['temp_file']['error'] = $var_file[$campo_archivo]['error'][$i];
+                            $_FILES['temp_file']['size'] = $var_file[$campo_archivo]['size'][$i];
 
-                            // 4. Subir y procesar archivos
-                            $campo_archivo = 'file_act_' . $act->temp_id;
-                            if (!empty($_FILES[$campo_archivo]['name'][0])) {
-                                
-                                $ruta_carpeta = './archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
-                                $rutag = 'archivos/' . $this->session->userdata('C_basedatos') . '/acciones_mejoras/' . $id_plan . '/';
-
-                                if (!file_exists($ruta_carpeta)) {
-                                    mkdir($ruta_carpeta, 0777, true);
-                                }
-
-                                $config['upload_path'] = $ruta_carpeta;
-                                $config['allowed_types'] = '*';
-                                $this->load->library('upload', $config);
-                                
-                                $filesCount = count($_FILES[$campo_archivo]['name']);
-                                $var_file = $_FILES;
-
-                                for ($i = 0; $i < $filesCount; $i++) {
-                                    $_FILES['temp_file']['name'] = $var_file[$campo_archivo]['name'][$i];
-                                    $_FILES['temp_file']['type'] = $var_file[$campo_archivo]['type'][$i];
-                                    $_FILES['temp_file']['tmp_name'] = $var_file[$campo_archivo]['tmp_name'][$i];
-                                    $_FILES['temp_file']['error'] = $var_file[$campo_archivo]['error'][$i];
-                                    $_FILES['temp_file']['size'] = $var_file[$campo_archivo]['size'][$i];
-
-                                    if ($this->upload->do_upload('temp_file')) {
-                                        $data = $this->upload->data();
-                                        $filename = $rutag . $data['file_name'];
-
-                                        $this->general_model->insert('planes_mejoras_anexos', [
-                                            'id_gestion' => $id_seg_nuevo,
-                                            'ruta_archivo' => $filename
-                                        ]);
-                                    }
-                                }
+                            if ($this->upload->do_upload('temp_file')) {
+                                $data = $this->upload->data();
+                                $this->general_model->insert('planes_mejoras_anexos', [
+                                    'id_gestion' => $id_seg_nuevo,
+                                    'ruta_archivo' => $rutag . $data['file_name']
+                                ]);
                             }
                         }
                     }
+                }
+            }
+        }
+
+        if ($this->db->trans_status() === FALSE) {
+            $this->db->trans_rollback();
+            echo "Error en la base de datos al procesar el plan.";
+        } else {
+            $this->db->trans_commit();
+            echo "1";
+        }
+    
                 }
 
                 // Evaluar la transacción
@@ -1283,7 +1325,34 @@ class Plan_mejora extends CI_Controller
             echo json_encode($arrjson);
         }
     }
+    public function cargar_actividades_plan() {
+        if (!$this->input->is_ajax_request()) redirect(base_url());
+        
+        $id_plan = $this->input->post('idreg');
+        $campos = 'a.id_actividad, a.descripcion, a.id_responsable, a.fecha_compromiso, a.estado_actividad, CONCAT(e.nombres, " ", e.apellidos) AS responsable_nombre';
+        
+        $query = $this->general_model->consulta_personalizada($campos, 'planes_mejoras_actividades a LEFT JOIN empleados e ON a.id_responsable = e.id_empleado', 'a.id_plan = "'.$id_plan.'"', 'a.id_actividad ASC', 0, 0);
 
+        $html = '';
+        foreach ($query->result() as $row) {
+            $html .= '<tr data-id="'.$row->id_actividad.'" data-db="1">'; // data-db="1" indica que viene de BD
+            $html .= '<td>'.$row->id_actividad.'</td>';
+            $html .= '<td class="desc"><input type="hidden" value="'.$row->id_responsable.'">'.$row->descripcion.'</td>';
+            $html .= '<td class="respo">'.$row->responsable_nombre.'</td>';
+            $html .= '<td class="fecha">'.$row->fecha_compromiso.'</td>';
+            
+            $html .= '<td class="text-nowrap">';
+            if ($row->estado_actividad == 'Terminada') {
+                $html .= '<span class="badge badge-success"><i class="fa fa-check"></i> Terminada</span>'; // No permite más gestión
+            } else {
+                $html .= '<button type="button" class="btn btn-xs btn-outline-info btn-gestionar-act mr-1" title="Cargar Avance"><i class="fa fa-upload"></i></button>';
+                $html .= '<button type="button" class="btn btn-xs btn-outline-primary btn-observacion mr-1" title="Evaluar cumplimiento"><i class="fa fa-check-square"></i></button>';
+            }
+            $html .= '</td>';
+            $html .= '</tr>';
+        }
+        echo $html;
+    }
 
     public function sendEmail($Para, $Asunto, $cuerpo, $Cabeceras)
     {
