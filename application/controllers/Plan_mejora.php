@@ -828,7 +828,7 @@ class Plan_mejora extends CI_Controller
                 redirect();
             } else {
                 
-                $$id_plan = $this->input->post('idreg');
+                $id_plan = $this->input->post('idreg');
                 $estado = $this->input->post('estado');
                 $actividades_json = json_decode($this->input->post('actividades_data'));
                 
