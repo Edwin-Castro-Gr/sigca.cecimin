@@ -131,12 +131,75 @@ $opctipo = array(
                         <?php endif; ?>
 
                         <?php if($c_idtipoF == '1'): ?>
-                            <section id="sec_Quejas">
+                            <section id="sec_Quejas h-100">
+                                <div class="card ccard h-100">
+                                    <div class="card-header border-0 text-dark-m2">
+                                    </div>
+                                    <div class="card-body px-1 px-md-3">
+                                        <div class="form-group row" id="div_servicio">
+                                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Queja *', 'txtqueja', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <?= form_input(array('type' => 'text', 'name' => 'txtqueja', 'id' => 'txtqueja', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $c_nom_queja)); ?>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" id="div_servicio">
+                                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Servicio *', 'servicio', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <?= form_input(array('type' => 'text', 'name' => 'nombreservicio', 'id' => 'nombreservicio', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $c_nom_servicio)); ?>
+                                            </div>
+                                            <div class="col-sm-1 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Responsable Area*', 'empleados_plan_mejora', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <?= form_input(array('type' => 'text', 'name' => 'responsable', 'id' => 'responsable', 'class' => 'form-control col-sm-12 col-md-10', 'value' => $c_nom_responsable)); ?>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" id="div_empleado">
+                                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Hallazgos  *', 'hallazgos', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <?= form_textarea(array('rows' => '2', 'name' => 'hallazgos', 'id' => 'hallazgos', 'class' => 'form-control col-sm-12 col-md-10 UpperCase', 'value' => $c_hallazgos)); ?>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" id="div_tipoFuente">
+                                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Tipo de Fuente*', 'tipo_fuente', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <?= form_dropdown('tipo_fuente', $opctipf, $c_idtipoF, 'class="form-control col-sm-12 col-md-10" id="tipo_fuente"'); ?>
+                                            </div>
+
+                                            <div class="col-sm-1 col-form-label text-sm-right pr-0">
+                                                <?= form_label('TipoAccion*', 'tipo_accion', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <?= form_dropdown('tipo_accion', $opctipo, $c_idtipoAccion, 'class="form-control col-sm-12 col-md-10" id="tipo_accion"'); ?>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row" id="div_accionMejora">
+                                            <div class="col-sm-2 col-form-label text-sm-right pr-0">
+                                                <?= form_label('Accion de Mejora *', 'accionM', array('class' => 'mb-0')); ?>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <?= form_textarea(array('rows' => '4', 'name' => 'accionM', 'id' => 'accionM', 'class' => 'form-control col-sm-12 col-md-10 UpperCase', 'value' => $c_accion)); ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </section>
                         <?php endif; ?>
                         
                         <?php if($c_idtipoF == '2'): ?>
-                            <section id="sec_SucesosS">
+                            <section id="sec_SucesosS h-100">
                                 <div class="card ccard h-100">
                                     <div class="card-header border-0 text-dark-m2">
                                     </div>
