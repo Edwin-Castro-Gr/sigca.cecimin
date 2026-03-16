@@ -54,7 +54,7 @@ $opctipo = array(
                         <?= form_input(array('type' => 'hidden', 'name' => 'estadoactual', 'id' => 'estadoactual', 'value' => $c_estado)); ?>
                         
                         <?php if($c_idtipoF == '0'): ?>
-                            <section id="sec_Rondas">
+                            <section id="sec_Rondas h-100">
                                 <div class="card ccard h-100">
                                     <div class="card-header border-0 text-dark-m2">
                                     </div>
