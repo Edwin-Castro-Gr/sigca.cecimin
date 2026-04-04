@@ -462,45 +462,105 @@ if ( ! function_exists('cargar_menu_principal')){
       }
     }
 
+    // Agregar secciones faltantes del menú
+    if($perfil == 0 || $perfil == 1) {
+      // Gestión de Registros
+      if ($es_visible('encuesta') || $es_visible('contactenos') || $es_visible('pqrs') || $es_visible('inf2') || $es_visible('citas_medicamentos') || $es_visible('sucesos_seguridad') || $es_visible('plan_mejora') || $es_visible('actas') || $es_visible('resultados_dx')) {
+        $salida .= '
+          <li class="nav-item '.$men_pri[8].'">
+            <a href="#" class="nav-link dropdown-toggle '.$men_cua[8].'">
+              <i class="nav-icon fa fa-table"></i>
+              <span class="nav-text fadeable"><span>Gestión de Registros</span></span>
+              <b class="caret fa fa-angle-left rt-n90"></b>
+            </a>
+            <div class="hideable submenu collapse '.$men_ter[8].'">
+              <ul class="submenu-inner">';
+        if ($es_visible('encuesta')) {
+          $salida .= '<li class="nav-item '.$men_sub[39].'">'.anchor(('contactenos/reporte'),'<span class="nav-text"><span>Gestión PQRS</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('contactenos')) {
+          $salida .= '<li class="nav-item '.$men_sub[40].'">'.anchor(('encuesta/reportes'),'<span class="nav-text"><span>Encuestas de Satisfacción</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('citas_medicamentos')) {
+          $salida .= '<li class="nav-item '.$men_sub[47].'">'.anchor(('citas_medicamentos/listado'),'<span class="nav-text"><span>Citas Medicamentos</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('pqrs')) {
+          $salida .= '<li class="nav-item '.$men_sub[41].'">'.anchor(('contactenos/pqrs'),'<span class="nav-text"><span>PQRS</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('resultados_dx')) {
+          $salida .= '<li class="nav-item '.$men_sub[54].'">'.anchor(('r_resultadosDx/index'),'<span class="nav-text"><span>Resultados Apoyo Dx</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('sucesos_seguridad')) {
+          $salida .= '<li class="nav-item '.$men_sub[51].'">'.anchor(('rep_suceso_seguridad/reportes'),'<span class="nav-text"><span>Sucesos de Seguridad</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('plan_mejora')) {
+          $salida .= '<li class="nav-item '.$men_sub[52].'">'.anchor(('plan_mejora/index'),'<span class="nav-text"><span>Plan de Mejora</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('actas')) {
+          $salida .= '<li class="nav-item '.$men_sub[53].'">'.anchor(('r_actas/index'),'<span class="nav-text"><span>Actas</span></span>','class="nav-link"').'</li>';
+        }
+        $salida .= '
+              </ul>
+            </div>
+            <b class="sub-arrow"></b>
+          </li>';
+      }
+
+      // Rondas de Seguridad
+      if ($es_visible('rondas_gestion') || $es_visible('rondas_admin') || $es_visible('rondas_reporte')) {
+        $salida .= '
+          <li class="nav-item '.$men_pri[9].'">
+            <a href="#" class="nav-link dropdown-toggle '.$men_cua[9].'">
+              <i class="nav-icon fa fa-tasks"></i>
+              <span class="nav-text fadeable"><span>Rondas de Seguridad</span></span>
+              <b class="caret fa fa-angle-left rt-n90"></b>
+            </a>
+            <div class="hideable submenu collapse '.$men_ter[9].'">
+              <ul class="submenu-inner">';
+        if ($es_visible('rondas_gestion')) {
+          $salida .= '<li class="nav-item '.$men_sub[44].'">'.anchor(('r_gestion/index'),'<span class="nav-text"><span>Gestión</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('rondas_admin')) {
+          $salida .= '<li class="nav-item '.$men_sub[45].'">'.anchor(('r_gestion/administracion'),'<span class="nav-text"><span>Configuración</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('rondas_reporte')) {
+          $salida .= '<li class="nav-item '.$men_sub[46].'">'.anchor(('r_gestion/informes'),'<span class="nav-text"><span>Informe Rondas</span></span>','class="nav-link"').'</li>';
+        }
+        $salida .= '
+              </ul>
+            </div>
+            <b class="sub-arrow"></b>
+          </li>';
+      }
+
+      // Gestión Mantenimientos
+      if ($es_visible('m_solicitud') || $es_visible('m_gestion') || $es_visible('m_calendario')) {
+        $salida .= '
+          <li class="nav-item '.$men_pri[10].'">
+            <a href="#" class="nav-link dropdown-toggle '.$men_cua[10].'">
+              <i class="nav-icon fa fa-wrench"></i>
+              <span class="nav-text fadeable"><span>Gestión Mantenimientos</span></span>
+              <b class="caret fa fa-angle-left rt-n90"></b>
+            </a>
+            <div class="hideable submenu collapse '.$men_ter[10].'">
+              <ul class="submenu-inner">';
+        if ($es_visible('m_solicitud')) {
+          $salida .= '<li class="nav-item '.$men_sub[48].'">'.anchor(('m_solicitud/index'),'<span class="nav-text"><span>Solicitud</span></span>','class="nav-link"').'</li>';
+        }
+        if ($es_visible('m_calendario')) {
+          $salida .= '<li class="nav-item '.$men_sub[50].'">'.anchor(('m_calendario/index'),'<span class="nav-text"><span>Calendario</span></span>','class="nav-link"').'</li>';
+        }
+        $salida .= '
+              </ul>
+            </div>
+            <b class="sub-arrow"></b>
+          </li>';
+      }
+    }
+
     return $salida;
   }
 }
-      </li>';
-
-      // $salida .= '
-      //   <li class="nav-item '.$men_pri[6].'">'.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-      //   </li>';
-
-      // $salida .= '
-      //   <li class="nav-item '.$men_pri[7].'">'.anchor(('eventos/index'),'<i class="nav-icon far fa-calendar-alt"></i><span class="nav-text fadeable"><span>Eventos</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
-      //   </li>';
-
-        $salida .= '
-        <li class="nav-item '.$men_pri[8].'">
-          <a href="#" class="nav-link dropdown-toggle '.$men_cua[8].'">
-            <i class="nav-icon fa fa-table"></i>
-            <span class="nav-text fadeable"><span>Gestión de Registros</span></span>
-            <b class="caret fa fa-angle-left rt-n90"></b>
-          </a>
-          <div class="hideable submenu collapse '.$men_ter[8].'">
-            <ul class="submenu-inner">
-              <li class="nav-item '.$men_sub[39].'">'.anchor(('contactenos/reporte'),'<span class="nav-text"><span>Gestión PQRS</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[40].'">'.anchor(('encuesta/reportes'),'<span class="nav-text"><span>Encuestas de Satisfaccion</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[47].'">'.anchor(('citas_medicamentos/listado'),'<span class="nav-text"><span>Citas Medicamentos</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[41].'">'.anchor(('contactenos/pqrs'),'<span class="nav-text"><span>PQRS</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[54].'">'.anchor(('r_resultadosDx/index'),'<span class="nav-text"><span>Resultados Apoyo Dx</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[51].'">'.anchor(('rep_suceso_seguridad/reportes'),'<span class="nav-text"><span>Sucesos de Seguridad</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[43].'">'.anchor(('c_seguimientocx/index'),'<span class="nav-text"><span>Seguimiento a Pacientes</span></span>','class="nav-link"').'</li>
-            </ul>
-          </div>
-          <b class="sub-arrow"></b>
-        </li>';
-        
-        $salida .= '
-        <li class="nav-item '.$men_pri[10].'">
-          <a href="#" class="nav-link dropdown-toggle '.$men_cua[10].'">
-            <i class="nav-icon fa fa-wrench"></i>
-            <span class="nav-text fadeable"><span>Gestión Mantenimientos</span></span>
             <b class="caret fa fa-angle-left rt-n90"></b>
           </a>
           <div class="hideable submenu collapse '.$men_ter[10].'">
