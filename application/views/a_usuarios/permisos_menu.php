@@ -41,24 +41,24 @@
         $usuarios_js[] = [
             'id_usuario' => $usuario->id_usuario,
             'perfil' => $usuario->perfil,
-            'label' => trim($usuario->nombre . ' ' . $usuario->apellido . ' (' . $usuario->usuario . ')')
+            'label' => htmlspecialchars(trim($usuario->nombre . ' ' . $usuario->apellido . ' (' . $usuario->usuario . ')'), ENT_QUOTES, 'UTF-8')
         ];
     }
     $perfiles_js = [];
     foreach ($perfiles as $perfil) {
         $perfiles_js[] = [
             'id_tipo_usuario' => $perfil->id_tipo_usuario,
-            'nombre' => $perfil->nombre
+            'nombre' => htmlspecialchars($perfil->nombre, ENT_QUOTES, 'UTF-8')
         ];
     }
     $modulos_js = [];
     foreach ($modulos as $modulo) {
         $modulos_js[] = [
             'id_modulo' => $modulo->id_modulo,
-            'nombre' => $modulo->nombre
+            'nombre' => htmlspecialchars($modulo->nombre, ENT_QUOTES, 'UTF-8')
         ];
     }
 ?>
-window.BASE_URL = '<?= base_url(); ?>';
-window.PERMISOS_MENU = <?= json_encode(['usuarios' => $usuarios_js, 'perfiles' => $perfiles_js, 'modulos' => $modulos_js], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>;
+window.BASE_URL = '<?= htmlspecialchars(base_url(), ENT_QUOTES, 'UTF-8'); ?>';
+window.PERMISOS_MENU = <?= json_encode(['usuarios' => $usuarios_js, 'perfiles' => $perfiles_js, 'modulos' => $modulos_js], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE); ?>;
 </script>
