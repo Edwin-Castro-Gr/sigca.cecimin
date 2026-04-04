@@ -465,39 +465,6 @@ if ( ! function_exists('cargar_menu_principal')){
     return $salida;
   }
 }
-        </li>';
-
-      $salida .= '
-        <li class="nav-item '.$men_pri[2].'">
-          <a href="#" class="nav-link dropdown-toggle '.$men_cua[2].'">
-            <i class="nav-icon fa fa-cube"></i>
-            <span class="nav-text fadeable"><span>Documentos</span></span>
-            <b class="caret fa fa-angle-left rt-n90"></b>
-          </a>
-          <div class="hideable submenu collapse '.$men_ter[2].'">
-            <ul class="submenu-inner">
-              <li class="nav-item '.$men_sub[20].'">'.anchor(('d_solicitud/index'),'<span class="nav-text"><span>Solicitud</span></span>','class="nav-link"').'</li>              
-              <li class="nav-item '.$men_sub[22].'">'.anchor(('d_doc_institucionales/index'),'<span class="nav-text"><span>Documentos Institucionales</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[23].'">'.anchor(('d_consultas/index'),'<span class="nav-text"><span>Consultas</span></span>','class="nav-link"').'</li> 
-            </ul>
-          </div>
-          <b class="sub-arrow"></b>
-        </li>';
-
-      $salida .= '
-        <li class="nav-item '.$men_pri[5].'">
-          <a href="#" class="nav-link dropdown-toggle '.$men_cua[5].'">
-            <i class="nav-icon fas fa-edit"></i>
-            <span class="nav-text fadeable"><span>Registros</span></span>
-            <b class="caret fa fa-angle-left rt-n90"></b>
-          </a>
-          <div class="hideable submenu collapse '.$men_ter[5].'">
-            <ul class="submenu-inner">
-              <li class="nav-item '.$men_sub[37].'">'.anchor(('capacitaciones/index'),'<span class="nav-text"><span>Capacitaciones</span></span>','class="nav-link"').'</li>
-              <li class="nav-item '.$men_sub[38].'">'.anchor(('evaluaciones/index'),'<span class="nav-text"><span>Evaluaciones</span></span>','class="nav-link"').'</li>
-            </ul>
-          </div>
-        <b class="sub-arrow"></b>
       </li>';
 
       // $salida .= '
