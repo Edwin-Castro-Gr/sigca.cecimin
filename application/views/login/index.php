@@ -156,6 +156,7 @@
 		                              </label>
 		                              <!-- Campo oculto para el token -->
         								          <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+        								          <input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" id="csrf_token" value="<?=$this->security->get_csrf_hash();?>">
 		                            </div>
 		                          </div>
 

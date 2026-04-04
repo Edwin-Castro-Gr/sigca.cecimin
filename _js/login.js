@@ -148,7 +148,8 @@ $(function () {
                     $.post('/login/verificar', {
                         recaptchaToken: token, 
                         usuario: usuario, 
-                        contrasena: $("#contrasena").val() 
+                        contrasena: $("#contrasena").val(),
+                        csrf_token: $('#csrf_token').val()
                     }, function (data_preg) {
                         $('#btn_ingresar').prop('disabled', false).html(originalText);
                         
