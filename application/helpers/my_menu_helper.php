@@ -11,11 +11,24 @@ if ( ! function_exists('cargar_menu_principal')){
     $id_usuario = $CI->session->userdata('C_id_usuario');
     $id_perfil = $perfil;
 
-    // Obtener permisos del usuario
-    $permisos = $CI->general_model->get_menu_permisos_usuario($id_usuario, $id_perfil);
+    // Verificar si las tablas de menú existen
+    $tables_exist = $CI->db->table_exists('menu_modulos') && $CI->db->table_exists('menu_permisos');
 
-    // Obtener módulos activos
-    $modulos = $CI->general_model->get_modulos_activos();
+    if (!$tables_exist) {
+      // Si las tablas no existen, mostrar menú completo (modo compatibilidad)
+      return cargar_menu_completo($perfil);
+    }
+
+    try {
+      // Obtener permisos del usuario
+      $permisos = $CI->general_model->get_menu_permisos_usuario($id_usuario, $id_perfil);
+
+      // Obtener módulos activos
+      $modulos = $CI->general_model->get_modulos_activos();
+    } catch (Exception $e) {
+      // En caso de error, mostrar menú completo
+      return cargar_menu_completo($perfil);
+    }
 
     // Parsear URL actual
     $url = explode("/", $_SERVER['REQUEST_URI']);
@@ -557,6 +570,86 @@ if ( ! function_exists('cargar_menu_principal')){
           </li>';
       }
     }
+
+    return $salida;
+  }
+}
+
+if ( ! function_exists('cargar_menu_completo')){
+  function cargar_menu_completo($perfil) {
+    // Esta función muestra el menú completo cuando las tablas de permisos no existen
+    // Es una versión simplificada del menú original sin parametrización
+
+    $salida = '';
+
+    // Parsear URL actual
+    $url = explode("/", $_SERVER['REQUEST_URI']);
+    $pag = ($url[1] != "index.php") ? $url[1] : $url[2];
+
+    // Arrays para clases CSS
+    $men_pri = array_fill(0, 21, '');
+    $men_cua = array_fill(0, 21, '');
+    $men_ter = array_fill(0, 21, '');
+    $men_sub = array_fill(0, 60, '');
+
+    // Función auxiliar para verificar visibilidad (siempre true en modo compatibilidad)
+    $es_visible = function($modulo) { return true; };
+
+    // Lógica del menú según perfil (versión simplificada)
+    if($perfil == 0 || $perfil == 1) { // Admin y Super Admin
+      // Menú completo para administradores
+      $salida .= '
+        <li class="nav-item">
+          <a href="#" class="nav-link dropdown-toggle">
+            <i class="nav-icon fa fa-tachometer-alt"></i>
+            <span class="nav-text fadeable"><span>Administración</span></span>
+            <b class="caret fa fa-angle-left rt-n90"></b>
+          </a>
+          <div class="hideable submenu collapse">
+            <ul class="submenu-inner">
+              <li class="nav-item">'.anchor(('a_empresa/index'),'<span class="nav-text"><span>Empresa</span></span>','class="nav-link"').'</li>
+              <li class="nav-item">'.anchor(('a_areas/index'),'<span class="nav-text"><span>Áreas</span></span>','class="nav-link"').'</li>
+              <li class="nav-item">'.anchor(('a_centros/index'),'<span class="nav-text"><span>Centros</span></span>','class="nav-link"').'</li>
+              <li class="nav-item">'.anchor(('a_usuarios/index'),'<span class="nav-text"><span>Usuarios</span></span>','class="nav-link"').'</li>
+            </ul>
+          </div>
+          <b class="sub-arrow"></b>
+        </li>';
+
+      $salida .= '
+        <li class="nav-item">
+          <a href="#" class="nav-link dropdown-toggle">
+            <i class="nav-icon fas fa-file-medical"></i>
+            <span class="nav-text fadeable"><span>Documentos</span></span>
+            <b class="caret fa fa-angle-left rt-n90"></b>
+          </a>
+          <div class="hideable submenu collapse">
+            <ul class="submenu-inner">
+              <li class="nav-item">'.anchor(('d_doc_institucionales/index'),'<span class="nav-text"><span>Documentos Institucionales</span></span>','class="nav-link"').'</li>
+              <li class="nav-item">'.anchor(('d_consultas/index'),'<span class="nav-text"><span>Consultas</span></span>','class="nav-link"').'</li>
+            </ul>
+          </div>
+          <b class="sub-arrow"></b>
+        </li>';
+
+    } elseif($perfil == 2) { // Perfil básico
+      $salida .= '
+        <li class="nav-item">
+          <a href="#" class="nav-link dropdown-toggle">
+            <i class="nav-icon fas fa-file-medical"></i>
+            <span class="nav-text fadeable"><span>Documentos</span></span>
+            <b class="caret fa fa-angle-left rt-n90"></b>
+          </a>
+          <div class="hideable submenu collapse">
+            <ul class="submenu-inner">
+              <li class="nav-item">'.anchor(('d_consultas/index'),'<span class="nav-text"><span>Consultas</span></span>','class="nav-link"').'</li>
+            </ul>
+          </div>
+          <b class="sub-arrow"></b>
+        </li>';
+    }
+
+    // Agregar más perfiles según sea necesario...
 
     return $salida;
   }
