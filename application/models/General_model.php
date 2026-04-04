@@ -1,9 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 class General_model extends CI_Model {
+    private $encryption_key;
+
     function __construct() {
         // parent::__construct();
         date_default_timezone_set('America/Bogota');
+        $this->encryption_key = getenv('ENCRYPTION_KEY') ?: '-Qsc.725943!';
     }
 
     // ======================
@@ -11,12 +14,21 @@ class General_model extends CI_Model {
     // ======================
     
     function select_recuperar($email) {
-        $query = $this->db->query('SELECT u.usuario, AES_DECRYPT(u.clave, "-Qsc.725943!") AS clave, e.origen FROM usuarios u INNER JOIN empresas e ON u.id_empresa = e.id_empresa WHERE u.estado<="1" AND u.email="'.$email.'" ');
+        $this->db->select('u.usuario, AES_DECRYPT(u.clave, "'.$this->encryption_key.'") AS clave, e.origen');
+        $this->db->from('usuarios u');
+        $this->db->join('empresas e', 'u.id_empresa = e.id_empresa');
+        $this->db->where('u.estado <=', 1);
+        $this->db->where('u.email', $email);
+        $query = $this->db->get();
         return $query->result();
     }
 
     function select_verificarEmail($email) {
-        $query = $this->db->query('SELECT * FROM usuarios WHERE estado<="1" AND email="'.$email.'" ');
+        $this->db->select('*');
+        $this->db->from('usuarios');
+        $this->db->where('estado <=', 1);
+        $this->db->where('email', $email);
+        $query = $this->db->get();
         if($query->num_rows()==1){
             return $query->row();
         }else{
@@ -128,7 +140,7 @@ class General_model extends CI_Model {
             SELECT 
                 u.id_usuario, 
                 u.usuario, 
-                AES_DECRYPT(u.clave, '-Qsc.725943!') AS clave, 
+                AES_DECRYPT(u.clave, '".$this->encryption_key."') AS clave, 
                 CONCAT(u.nombre, ' ', u.apellido) AS nombre_usuario, 
                 u.nombre AS nom_usuario, 
                 u.apellido AS ape_usuario, 

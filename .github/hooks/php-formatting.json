@@ -1,0 +1,7 @@
+{
+  "lifecycle": "PostToolUse",
+  "tool": "replace_string_in_file",
+  "command": "php-cs-fixer fix --rules=@PSR12 $file",
+  "when": "$file =~ **/*.php",
+  "description": "Automatically format PHP files after editing to maintain PSR-12 standards"
+}
