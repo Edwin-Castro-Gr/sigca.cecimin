@@ -465,7 +465,7 @@ if ( ! function_exists('cargar_menu_principal')){
     return $salida;
   }
 }
-      </li>';
+     
 
       // $salida .= '
       //   <li class="nav-item '.$men_pri[6].'">'.anchor(('indicadores/index'),'<i class="nav-icon fa fa-flask"></i><span class="nav-text fadeable"><span>Indicadores</span></span>','class="nav-link"').'<b class="sub-arrow"></b>
