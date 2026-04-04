@@ -1,5 +1,9 @@
 $(document).ready(function() {
     function renderEntidadOptions(tipo) {
+        if (!window.PERMISOS_MENU) {
+            console.error('PERMISOS_MENU no está definido. Esperando carga...');
+            return;
+        }
         var lista = $('#seleccion_entidad');
         lista.empty();
         lista.append('<option value="">Seleccione...</option>');
@@ -20,6 +24,10 @@ $(document).ready(function() {
     }
 
     function renderModulos(permisos) {
+        if (!window.PERMISOS_MENU) {
+            console.error('PERMISOS_MENU no está definido en renderModulos');
+            return;
+        }
         var contenedor = $('#modulos_list');
         contenedor.empty();
 
@@ -136,5 +144,13 @@ $(document).ready(function() {
 
     $('#guardar_permisos').on('click', guardarPermisos);
 
-    renderEntidadOptions($('#tipo_permiso').val());
+    // Inicializar opciones de entidad, esperando a que PERMISOS_MENU esté definido
+    function initPermisosMenu() {
+        if (window.PERMISOS_MENU) {
+            renderEntidadOptions($('#tipo_permiso').val());
+        } else {
+            setTimeout(initPermisosMenu, 50); // Reintentar en 50ms
+        }
+    }
+    initPermisosMenu();
 });
