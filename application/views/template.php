@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/solid.min.css">
 
     <!-- include vendor stylesheets used -->
-    <?PHP if($librerias_css!="") {echo $librerias_css; } ?>
+    <?PHP if(isset($librerias_css) && $librerias_css != "") { echo $librerias_css; } ?>
 
     <!-- include fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap">
@@ -955,9 +955,9 @@
 
     <!-- demo.js is only for Ace's demo and you shouldn't use it -->
     <script src="<?= base_url('dist/js/demo.min.js'); ?>"></script>
-    <?PHP if($librerias_js!="") {echo $librerias_js; } ?>
+    <?PHP if(isset($librerias_js) && $librerias_js != "") { echo $librerias_js; } ?>
 
-    <?PHP if($entrada_js!="") { ?>
+    <?PHP if(isset($entrada_js) && $entrada_js != "") { ?>
     <script src="<?= base_url($entrada_js);?>" type="text/javascript"></script>
     <?PHP } ?>
     

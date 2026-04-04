@@ -322,6 +322,8 @@ class A_usuarios extends CI_Controller {
 			$data_usua['origen']="Administración";
 			$data_usua['contenido']='a_usuarios/permisos_menu';
 			$data_usua['entrada_js']='_js/a_usuarios_permisos.js';
+			$data_usua['librerias_css']='';
+			$data_usua['librerias_js']='';
 
 			// Obtener usuarios y módulos
 			$data_usua['usuarios'] = $this->general_model->consulta_select("SELECT id_usuario, usuario, nombre, apellido, perfil FROM usuarios WHERE estado = 1 ORDER BY nombre");
