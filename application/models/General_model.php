@@ -259,4 +259,92 @@ class General_model extends CI_Model {
         }
         return $secret;
     }
+
+    // ====================
+    // MÉTODOS PARA MENÚ PARAMETRIZABLE
+    // ====================
+
+    function get_modulos_activos() {
+        return $this->db->select('*')
+                       ->from('menu_modulos')
+                       ->where('activo', 1)
+                       ->order_by('orden')
+                       ->get()
+                       ->result();
+    }
+
+    function get_menu_permisos_usuario($id_usuario, $id_perfil) {
+        // Primero buscar permisos individuales del usuario
+        $permisos_usuario = $this->db->select('mp.*, mm.modulo')
+                                    ->from('menu_permisos mp')
+                                    ->join('menu_modulos mm', 'mp.id_modulo = mm.id_modulo')
+                                    ->where('mp.id_usuario', $id_usuario)
+                                    ->get()
+                                    ->result_array();
+
+        // Crear array indexado por módulo
+        $permisos = [];
+        foreach ($permisos_usuario as $permiso) {
+            $permisos[$permiso['modulo']] = $permiso['visible'];
+        }
+
+        // Si no hay permisos individuales, buscar por perfil
+        if (empty($permisos) && $id_perfil) {
+            $permisos_perfil = $this->db->select('mp.*, mm.modulo')
+                                       ->from('menu_permisos mp')
+                                       ->join('menu_modulos mm', 'mp.id_modulo = mm.id_modulo')
+                                       ->where('mp.id_perfil', $id_perfil)
+                                       ->get()
+                                       ->result_array();
+
+            foreach ($permisos_perfil as $permiso) {
+                $permisos[$permiso['modulo']] = $permiso['visible'];
+            }
+        }
+
+        return $permisos;
+    }
+
+    function guardar_permiso_menu($id_usuario, $id_perfil, $id_modulo, $visible) {
+        // Verificar si ya existe permiso individual
+        $existe = $this->db->where('id_usuario', $id_usuario)
+                          ->where('id_modulo', $id_modulo)
+                          ->get('menu_permisos')
+                          ->row();
+
+        if ($existe) {
+            // Actualizar
+            return $this->db->where('id_permiso', $existe->id_permiso)
+                           ->update('menu_permisos', ['visible' => $visible]);
+        } else {
+            // Insertar
+            return $this->db->insert('menu_permisos', [
+                'id_usuario' => $id_usuario,
+                'id_perfil' => $id_perfil,
+                'id_modulo' => $id_modulo,
+                'visible' => $visible
+            ]);
+        }
+    }
+
+    function guardar_permisos_perfil($id_perfil, $permisos) {
+        // Primero eliminar permisos existentes del perfil
+        $this->db->where('id_perfil', $id_perfil)->delete('menu_permisos');
+
+        // Insertar nuevos permisos
+        $data = [];
+        foreach ($permisos as $id_modulo => $visible) {
+            $data[] = [
+                'id_perfil' => $id_perfil,
+                'id_modulo' => $id_modulo,
+                'visible' => $visible
+            ];
+        }
+
+        if (!empty($data)) {
+            return $this->db->insert_batch('menu_permisos', $data);
+        }
+
+        return true;
+    }
 }

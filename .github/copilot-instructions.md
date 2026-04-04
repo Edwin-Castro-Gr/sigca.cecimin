@@ -60,6 +60,32 @@ SIGCA is a healthcare management system built with CodeIgniter 3.x, featuring mu
 - **Agent**: [Senior PHP Architect](.github/agents/senior-php-architect.agent.md) - For expert CodeIgniter development
 - **Skill**: [skill-fullstack](.github/skills/skill-fullstack/SKILL.md) - Workflow for debugging, implementation, and code review
 
+## Menu System
+
+SIGCA now features a parameterized menu system that allows administrators to control module visibility per user or profile:
+
+### Database Tables
+- `menu_modulos`: Stores all available modules with their names and descriptions
+- `menu_permisos`: Stores permissions (0=hidden, 1=visible) for each user/profile combination
+
+### Key Components
+- **Controller**: `A_usuarios/permisos_menu` - Manages permission CRUD operations
+- **Model Methods**: `get_menu_permisos_usuario()`, `guardar_menu_permisos()`, `get_modulos_activos()`
+- **Helper**: `my_menu_helper.php/cargar_menu_principal()` - Dynamically generates menu HTML based on permissions
+- **View**: `a_usuarios/permisos_menu.php` - Interface for managing permissions
+
+### Usage
+1. Access via "Permisos Menú" button in users module
+2. Select user or profile to configure
+3. Check/uncheck modules to show/hide
+4. Save changes to apply immediately
+
+### Security Notes
+- Permissions are checked on every page load
+- Users without permissions won't see restricted modules
+- Backward compatible - shows all modules if no permissions configured
+- Admin profiles (0,1) have access to permission management
+
 ## Common Pitfalls
 
 - Multi-tenant data leaks via improper session validation

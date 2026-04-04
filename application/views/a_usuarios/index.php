@@ -37,6 +37,10 @@
 
               <div class="mb-2 mb-sm-0">
                 <div class="row mr-1">
+                  <button type="button" class="btn btn-purple px-3 d-block text-95 radius-round border-2 brc-black-tp10 mr-1" onclick="window.location.href='<?php echo base_url('a_usuarios/permisos_menu'); ?>'">
+                    <i class="fa fa-key mr-1"></i>
+                    <span class="d-sm-none d-md-inline">Permisos Menú</span>
+                  </button>
                   <button type="button" class="btn btn-green px-3 d-block text-95 radius-round border-2 brc-black-tp10 mr-1" id="btn_excel">
                     <i class="fa fa-database mr-1"></i>
                     <span class="d-sm-none d-md-inline" id="btn_excel">Excel</span>

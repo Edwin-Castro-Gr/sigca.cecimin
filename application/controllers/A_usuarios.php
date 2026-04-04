@@ -362,6 +362,50 @@ class A_usuarios extends CI_Controller {
 		}//-Valida Inicio de Session
 	}
 
+	public function permisos_menu() {
+		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="")
+			redirect(base_url());
+		else {
+			$data_usua['titulo']="Permisos de Menú";
+			$data_usua['origen']="Administración";
+			$data_usua['contenido']='a_usuarios/permisos_menu';
+			$data_usua['entrada_js']='_js/a_usuarios_permisos.js';
+
+			// Obtener usuarios y módulos
+			$data_usua['usuarios'] = $this->general_model->consulta_select("SELECT id_usuario, usuario, nombre, apellido, perfil FROM usuarios WHERE estado = 1 ORDER BY nombre");
+			$data_usua['modulos'] = $this->general_model->get_modulos_activos();
+			$data_usua['perfiles'] = $this->general_model->consulta_select("SELECT id_tipo_usuario, nombre FROM tipos_usuarios ORDER BY nombre");
+
+			$this->load->view('template', $data_usua);
+		}
+	}
+
+	public function guardar_permisos_menu() {
+		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="")
+			redirect(base_url());
+		else {
+			if(!$this->input->is_ajax_request()) {
+				redirect();
+			} else {
+				$id_usuario = $this->input->post('id_usuario');
+				$id_perfil = $this->input->post('id_perfil');
+				$permisos = $this->input->post('permisos'); // Array de id_modulo => visible
+
+				if ($id_usuario) {
+					// Guardar permisos individuales
+					foreach ($permisos as $id_modulo => $visible) {
+						$this->general_model->guardar_permiso_menu($id_usuario, $id_perfil, $id_modulo, $visible);
+					}
+				} elseif ($id_perfil) {
+					// Guardar permisos por perfil
+					$this->general_model->guardar_permisos_perfil($id_perfil, $permisos);
+				}
+
+				echo json_encode(['status' => 'success', 'message' => 'Permisos guardados correctamente']);
+			}
+		}
+	}
+
 	public function excel() {
 		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="" ) 
 			redirect(base_url());
