@@ -144,13 +144,6 @@ $(document).ready(function() {
 
     $('#guardar_permisos').on('click', guardarPermisos);
 
-    // Inicializar opciones de entidad, esperando a que PERMISOS_MENU esté definido
-    function initPermisosMenu() {
-        if (window.PERMISOS_MENU) {
-            renderEntidadOptions($('#tipo_permiso').val());
-        } else {
-            setTimeout(initPermisosMenu, 50); // Reintentar en 50ms
-        }
-    }
-    initPermisosMenu();
+    // Inicializar disparando el evento change
+    $('#tipo_permiso').trigger('change');
 });
