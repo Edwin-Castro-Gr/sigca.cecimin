@@ -305,6 +305,36 @@ class General_model extends CI_Model {
         return $permisos;
     }
 
+    function get_menu_permisos_usuario_ids($id_usuario, $id_perfil) {
+        $permisos = [];
+
+        if ($id_usuario) {
+            $permisos_usuario = $this->db->select('mp.id_modulo, mp.visible')
+                                        ->from('menu_permisos mp')
+                                        ->where('mp.id_usuario', $id_usuario)
+                                        ->get()
+                                        ->result_array();
+
+            foreach ($permisos_usuario as $permiso) {
+                $permisos[$permiso['id_modulo']] = (int) $permiso['visible'];
+            }
+        }
+
+        if (empty($permisos) && $id_perfil) {
+            $permisos_perfil = $this->db->select('mp.id_modulo, mp.visible')
+                                       ->from('menu_permisos mp')
+                                       ->where('mp.id_perfil', $id_perfil)
+                                       ->get()
+                                       ->result_array();
+
+            foreach ($permisos_perfil as $permiso) {
+                $permisos[$permiso['id_modulo']] = (int) $permiso['visible'];
+            }
+        }
+
+        return $permisos;
+    }
+
     function guardar_permiso_menu($id_usuario, $id_perfil, $id_modulo, $visible) {
         // Verificar si ya existe permiso individual
         $existe = $this->db->where('id_usuario', $id_usuario)

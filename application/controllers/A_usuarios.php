@@ -360,6 +360,38 @@ class A_usuarios extends CI_Controller {
 		}
 	}
 
+	public function obtener_permisos_menu() {
+		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="")
+			redirect(base_url());
+		else {
+			if(!$this->input->is_ajax_request()) {
+				redirect();
+			} else {
+				$tipo = $this->input->post('tipo');
+				$id_usuario = $this->input->post('id_usuario');
+				$id_perfil = $this->input->post('id_perfil');
+				$permisos = [];
+
+				if ($tipo === 'usuario' && $id_usuario) {
+					$usuario = $this->db->select('perfil')
+							->from('usuarios')
+							->where('id_usuario', $id_usuario)
+							->get()
+							->row();
+					$perfilUsuario = $usuario ? $usuario->perfil : null;
+					$permisos = $this->general_model->get_menu_permisos_usuario_ids($id_usuario, $perfilUsuario);
+				} elseif ($tipo === 'perfil' && $id_perfil) {
+					$permisos = $this->general_model->get_menu_permisos_usuario_ids(null, $id_perfil);
+				} else {
+					echo json_encode(['status' => 'error', 'message' => 'Seleccione un usuario o perfil válido.']);
+					return;
+				}
+
+				echo json_encode(['status' => 'success', 'permisos' => $permisos]);
+			}
+		}
+	}
+
 	public function excel() {
 		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="" ) 
 			redirect(base_url());
