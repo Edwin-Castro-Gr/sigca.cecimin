@@ -324,12 +324,11 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
-
-/*
-|--------------------------------------------------------------------------
-| Session Variables
-|--------------------------------------------------------------------------
+$config['encryption_key'] = '@C3c1m1n0s1gca2024';
+|
+| 'sess_cookie_name'
+|
+|	The session cookie name, must contain only [
 |
 | 'sess_driver'
 |
