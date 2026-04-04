@@ -207,57 +207,9 @@ class A_usuarios extends CI_Controller {
 				}
 			}
 		}
-	}
-						$Cabeceras .= "MIME-Version: 1.0\r\n";					
-						$Cabeceras .= "Content-type: text/html; charset=utf-8\n"; 
-							
-						$cuerpo = "<div><font size='3'>Estimado(a) Funcionario,</font></div>\r\n";				
-						$cuerpo .= "<div><font size='3'>".$funcionario.",</font></div>\r\n";
-						$cuerpo .= "<br>\r\n";
-						$cuerpo .= "<br>\r\n";
-						$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
-						$cuerpo .= "<br>\r\n";
-						$cuerpo .= "<br>\r\n";
-						$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar Usuario y Contraseña de Acceso a SIGCA:</font></div>\r\n";									
-					    $cuerpo .= "<br>\r\n";	
-					    $cuerpo .= "<div><font size='3'>Usuario y Contraseña es su documento de identidad:".$this->input->post('cedula')."</font></div>\r\n";	
-					    $cuerpo .= "<br>\r\n";
-					    $cuerpo .= "<br>\r\n";
-					    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
-					    $cuerpo .= "<br>\r\n";		
-					    $cuerpo .= "<br>\r\n";
-					    $cuerpo .= "<div><font size='3'>Atentamente, </font></div>\r\n";
-					    $cuerpo .= "<br>\r\n";		
-					    $cuerpo .= "<br>\r\n";
-					    $cuerpo .= "<div><font size='3'>Samantha Rodriguez Pacheco</font></div>\r\n";
-					    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
-					    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
-						$cuerpo .= "<br>\r\n";
-						$cuerpo .= "<br>\r\n";		
-					    $cuerpo .= "<br>\r\n";
-					    $cuerpo .= "<div><font size='1' color:'#20A491' >MEDIO AMBIENTE: ¿Necesita realmente imprimir este correo? CONFIDENCIALIDAD: La información transmitida a través de este correo electrónico es confidencial y dirigida única y exclusivamente para uso de su destinatario. </font></div>\r\n";									
-						
-						$msg = $this->sendEmail($Para, $Asunto, $cuerpo, $Cabeceras);
-						if($msg=1){
-							$query = 1;
-						}else{
-							$query =-999;						
-						}
-					
-					echo '1';
-				}else {
-					echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
-					switch($query) {
-						case "1062": echo "la identificacion ingresada, ya se encuentra registrado; Por favor verifique los datos!"; break;
-						default: echo "Error: ".$query." => ".$this->db->_error_message(); break;	
-					}
-					echo '</div>';
-				}
-			}
-		} //-Valida Envio por ajax
 	}//-Valida Inicio de Session
-	
-	
+
+
 	public function cargar_registro() {
 		if(!defined('CON_id_usuario') && $this->session->userdata('C_id_usuario')=="" ) 
 			redirect(base_url());
