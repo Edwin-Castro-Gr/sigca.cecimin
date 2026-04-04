@@ -324,11 +324,12 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '@C3c1m1n0s1gca2024';
-|
-| 'sess_cookie_name'
-|
-|	The session cookie name, must contain only [
+$config['encryption_key'] = '@C3c1m1n2024*';
+
+/*
+|--------------------------------------------------------------------------
+| Session Variables
+|--------------------------------------------------------------------------
 |
 | 'sess_driver'
 |
@@ -385,13 +386,12 @@ $config['encryption_key'] = '@C3c1m1n0s1gca2024';
 // $config['sess_regenerate_destroy'] = FALSE;
 // 
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'sigca_session';
-$config['sess_samesite'] = 'Lax';
+$config['sess_cookie_name'] = 'ci_session';
+$config['sess_samesite'] = 'None';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = FCPATH . 'application/cache/sessions/';
-$config['sess_match_ip'] = TRUE;
+$config['sess_save_path'] = NULL;
+$config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
-$config['sess_regenerate_destroy'] = TRUE;
 $config['sess_regenerate_destroy'] = TRUE;
 
 /*
@@ -457,11 +457,11 @@ $config['global_xss_filtering'] = FALSE;
 | 'csrf_regenerate' = Regenerate token on every submission
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
-$config['csrf_protection'] = TRUE;
-$config['csrf_token_name'] = 'csrf_token';
-$config['csrf_cookie_name'] = 'csrf_cookie';
+$config['csrf_protection'] = FALSE;
+$config['csrf_token_name'] = 'csrf_test_name';
+$config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
-$config['csrf_regenerate'] = TRUE;
+$config['csrf_regenerate'] = FALSE;
 $config['csrf_exclude_uris'] = array();
 
 /*
