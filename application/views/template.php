@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <base href="../" />
 
-    <title>SIGCA | <?=  $this->session->userdata('C_nombre_usuario'); ?></title>
+    <title>SIGCA | <?= html_escape($this->session->userdata('C_nombre_usuario')); ?></title>
 
     <!-- include common vendor stylesheets & fontawesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -56,10 +56,10 @@
             <span class="pos-rel">
                 <?php if($this->session->userdata('C_foto') == '') { ?>
                   <img class="border-2 brc-white-tp1 radius-round" width="36" src="<?= base_url('assets/image/avatar/escritorio.jpg'); ?>" alt="
-                  <?=$this->session->userdata('C_nom_usuario')?>">
+                  <?php echo html_escape($this->session->userdata('C_nom_usuario')); ?>">
                 <?php }else{ ?>
                   <img class="border-2 brc-white-tp1 radius-round" width="36" src="<?= base_url($this->session->userdata('C_foto')); ?>" alt="
-                  <?=ucwrods($this->session->userdata('C_nom_usuario'));?>">
+                  <?php echo html_escape(ucwords($this->session->userdata('C_nom_usuario'))); ?>">
                 <?php } ?>
                 <!-- PUNTO PARA INDICAR QUE HAY NOTIFICACION -->
                 <span class="bgc-warning radius-round border-2 brc-white p-1 position-tr mr-n1px mt-n1px"></span>
@@ -219,14 +219,14 @@
                 <li class="nav-item dropdown order-first order-lg-last">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <?php if($this->session->userdata('C_foto') == '') { ?>
-                      <img id="id-navbar-user-image" class="d-none d-lg-inline-block radius-round border-2 brc-white-tp1 mr-2 w-6" src="<?= base_url('assets/image/avatar/escritorio.jpg'); ?>" alt="<?=$this->session->userdata('C_nom_usuario');?>">
+                      <img id="id-navbar-user-image" class="d-none d-lg-inline-block radius-round border-2 brc-white-tp1 mr-2 w-6" src="<?= base_url('assets/image/avatar/escritorio.jpg'); ?>" alt="<?php echo html_escape($this->session->userdata('C_nom_usuario')); ?>">
                     <?php }else{ ?>
-                      <img id="id-navbar-user-image" class="d-none d-lg-inline-block radius-round border-2 brc-white-tp1 mr-2 w-6" src="<?= base_url($this->session->userdata('C_foto')); ?>" alt="<?=$this->session->userdata('C_nom_usuario');?>">
+                      <img id="id-navbar-user-image" class="d-none d-lg-inline-block radius-round border-2 brc-white-tp1 mr-2 w-6" src="<?= base_url($this->session->userdata('C_foto')); ?>" alt="<?php echo html_escape($this->session->userdata('C_nom_usuario')); ?>">
                     <?php } ?>
                     <?php $nombre = explode(" ", $this->session->userdata('C_nombre_usuario'),2); ?>
                     <span class="d-inline-block d-lg-none d-xl-inline-block">
-                              <span class="text-90" id="id-user-welcome"><?=$nombre[0];?>,</span>
-                    <span class="nav-user-name"><?=$nombre[1];?></span>
+                              <span class="text-90" id="id-user-welcome"><?php echo html_escape($nombre[0]); ?>,</span>
+                    <span class="nav-user-name"><?php echo html_escape($nombre[1]); ?></span>
                     </span>
 
                     <i class="caret fa fa-angle-down d-none d-xl-block"></i>
@@ -236,7 +236,7 @@
                   <div class="dropdown-menu dropdown-caret dropdown-menu-right dropdown-animated brc-primary-m3 py-1">
                     <div class="d-none d-lg-block d-xl-none">
                       <div class="dropdown-header">
-                        <?php echo $this->session->userdata('C_nom_usuario');?>
+                        <?php echo html_escape($this->session->userdata('C_nom_usuario'));?>
                       </div>
                       <div class="dropdown-divider"></div>
                     </div>

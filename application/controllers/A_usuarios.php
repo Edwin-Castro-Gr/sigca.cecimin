@@ -123,31 +123,91 @@ class A_usuarios extends CI_Controller {
 			if(!$this->input->is_ajax_request()) {
 				redirect();
 			}else{
+				$this->load->library('form_validation');
+				$this->form_validation->set_rules('usuario', 'Usuario', 'required|alpha_numeric');
+				$this->form_validation->set_rules('clave', 'Clave', 'required|min_length[6]');
+				$this->form_validation->set_rules('nombres', 'Nombres', 'required');
+				$this->form_validation->set_rules('apellidos', 'Apellidos', 'required');
+				$this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+				$this->form_validation->set_rules('telefono', 'Teléfono', 'required');
+				$this->form_validation->set_rules('perfil', 'Perfil', 'required|integer');
 
-				//'AES_ENCRYPT('.$this->input->post('clave').'), "-Qsc.725943!")';
-				$clave_cod = 'AES_ENCRYPT('.$this->db->escape($this->input->post('clave')).', "-Qsc.725943!")';
-				$fecha = date('Y-m-d H:i:s');
+				if ($this->form_validation->run() == FALSE) {
+					echo json_encode(array('status' => 'error', 'message' => validation_errors()));
+					return;
+				}
 
-				
-				$sql_inser="INSERT INTO usuarios VALUES ('".$this->input->post('empleados_usuarios')."','".$this->input->post('usuario')."',$clave_cod,'".$this->input->post('nombres')."','".$this->input->post('apellidos')."','".$this->input->post('telefono')."','".$this->input->post('email')."','".$this->input->post('empleados_usuarios')."','".$this->input->post('perfil')."',NULL,NULL,NULL,'0','0','".$fecha."', '1')";
-				
-				$query = $this->general_model->consulta_select($sql_inser);
+				$data = array(
+					'id_usuario' => $this->input->post('empleados_usuarios'),
+					'usuario' => $this->input->post('usuario'),
+					'clave' => 'AES_ENCRYPT(' . $this->db->escape($this->input->post('clave')) . ', "' . $this->general_model->encryption_key . '")',
+					'nombre' => $this->input->post('nombres'),
+					'apellido' => $this->input->post('apellidos'),
+					'telefono' => $this->input->post('telefono'),
+					'email' => $this->input->post('email'),
+					'id_empleado' => $this->input->post('empleados_usuarios'),
+					'perfil' => $this->input->post('perfil'),
+					'fecha_creacion' => date('Y-m-d H:i:s'),
+					'estado' => 1
+				);
 
-					if($query){
-						$msg='';
-						$usuario = '';
+				$this->db->insert('usuarios', $data);
+				if($this->db->affected_rows() > 0){
+					$msg='';
+					$usuario = '';
 
-						$funcionario = $this->input->post('nombres')." ".$this->input->post('apellidos') ;
-						$correo_funcionario = $this->input->post('email');
+					$funcionario = $this->input->post('nombres')." ".$this->input->post('apellidos') ;
+					$correo_funcionario = $this->input->post('email');
 
-						$de="Calidad CECIMIN <calidad.cecimin@saludinteligente.com>";
-					    
-						$Para ="".$funcionario." <".$correo_funcionario.">";
-						// $Para ="Edwin Castro <edwincas_17@hotmail.com>";
-						$Asunto ="Socialización de acceso a SIGCA";
+					$de="Calidad CECIMIN <calidad.cecimin@saludinteligente.com>";
+				    
+					$Para ="".$funcionario." <".$correo_funcionario.">";
+					// $Para ="Edwin Castro <edwincas_17@hotmail.com>";
+					$Asunto ="Socialización de acceso a SIGCA";
 
-						$Cabeceras = "From:".$de."\r\n"; 
-						$Cabeceras = "CC:Ana samantha Rodriguez pacheco <asrodriguez@saludinteligente.com>\r\n";
+					$Cabeceras = "From:".$de."\r\n"; 
+					$Cabeceras = "CC:Ana samantha Rodriguez pacheco <asrodriguez@saludinteligente.com>\r\n";
+					$Cabeceras .= "MIME-Version: 1.0\r\n";					
+					$Cabeceras .= "Content-type: text/html; charset=utf-8\n"; 
+						
+					$cuerpo = "<div><font size='3'>Estimado(a) Funcionario,</font></div>\r\n";				
+					$cuerpo .= "<div><font size='3'>".$funcionario.",</font></div>\r\n";
+					$cuerpo .= "<br>\r\n";
+					$cuerpo .= "<br>\r\n";
+					$cuerpo .= "<div><font size='3'>Cordial saludo,</font></div>\r\n";
+					$cuerpo .= "<br>\r\n";
+					$cuerpo .= "<br>\r\n";
+					$cuerpo .= "<div><font size='3'>La presente es con el fin de socializar Usuario y Contraseña de Acceso a SIGCA:</font></div>\r\n";									
+				    $cuerpo .= "<br>\r\n";	
+				    $cuerpo .= "<div><font size='3'>Usuario y Contraseña es su documento de identidad:".$this->input->post('cedula')."</font></div>\r\n";	
+				    $cuerpo .= "<br>\r\n";
+				    $cuerpo .= "<br>\r\n";
+				    $cuerpo .= "<div><font size='3'>Agradeciendo su atención, </font></div>\r\n";
+				    $cuerpo .= "<br>\r\n";		
+				    $cuerpo .= "<br>\r\n";
+				    $cuerpo .= "<div><font size='3'>Atentamente, </font></div>\r\n";
+				    $cuerpo .= "<br>\r\n";		
+				    $cuerpo .= "<br>\r\n";
+				    $cuerpo .= "<div><font size='3'>Samantha Rodriguez Pacheco</font></div>\r\n";
+				    $cuerpo .= "<div><font size='3'>Coordinadora de Calidad</font></div>\r\n";
+				    $cuerpo .= "<div><img style='display:flex;margin-left:5; width:180px'  src='https://sigca.cecimin.com.co/assets/image/logo-cecimin.png'/>";				
+					$cuerpo .= "<br>\r\n";
+					$cuerpo .= "<br>\r\n";		
+				    $cuerpo .= "<br>\r\n";
+				    $cuerpo .= "<div><font size='1' color:'#20A491' >MEDIO AMBIENTE: ¿Necesita realmente imprimir este correo? CONFIDENCIALIDAD: La información transmitida a través de este correo electrónico es confidencial y dirigida única y exclusivamente para uso de su destinatario. </font></div>\r\n";									
+					
+					$msg = $this->sendEmail($Para, $Asunto, $cuerpo, $Cabeceras);
+					if($msg=1){
+						echo json_encode(array('status' => 'success', 'message' => 'Usuario creado y email enviado'));
+					}else{
+						echo json_encode(array('status' => 'success', 'message' => 'Usuario creado, error en email'));
+					}
+				} else {
+					echo json_encode(array('status' => 'error', 'message' => 'Error al crear usuario'));
+				}
+			}
+		}
+	}
 						$Cabeceras .= "MIME-Version: 1.0\r\n";					
 						$Cabeceras .= "Content-type: text/html; charset=utf-8\n"; 
 							

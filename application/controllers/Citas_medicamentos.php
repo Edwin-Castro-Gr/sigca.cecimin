@@ -520,7 +520,8 @@ class Citas_medicamentos extends CI_Controller {
 	private function uploadFile($ruta) {
 	    $config = [
 	        "upload_path" => $ruta,
-	        "allowed_types" => "*"
+	        "allowed_types" => "pdf|jpg|png|jpeg",
+	        "max_size" => 2048
 	    ];
 
 	    $this->load->library("upload", $config);
@@ -731,7 +732,8 @@ class Citas_medicamentos extends CI_Controller {
 				//CARGAR ARCHIVO VISUAL
 				$config = [
 					"upload_path" => $ruta,
-					"allowed_types" => "*"
+					"allowed_types" => "pdf|jpg|png|jpeg",
+					"max_size" => 2048
 				];
 				
 				
