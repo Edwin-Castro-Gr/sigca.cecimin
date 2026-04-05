@@ -692,7 +692,7 @@ class R_gestion extends CI_Controller
 				// 	}												
 				// }
 				
-				if ($query1 == "OK")
+				if ($query1 == "OK") {
 
 					// ------------------- GUARDAR ACTUALIZACION DE LAS NOTICACIONES Y TAREAS ------------- //		
 					
@@ -746,8 +746,7 @@ class R_gestion extends CI_Controller
 					// }
 
 					echo '1';
-				}
-				else {
+				} else {
 					echo '<div class="alert alert-danger"><i class="fa fa-ban"></i><strong>¡Error!</strong><br>';
 					switch ($query1) {
 						case "1062":
